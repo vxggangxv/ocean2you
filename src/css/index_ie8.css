@@ -1,0 +1,70 @@
+#wrap {min-width: 1430px;}
+
+.header {}
+.header {position: relative; width: 100%; height: 98px; 
+	border-bottom: 1px solid rgba(255,255,255, 0.5);}
+.header:before {content: ""; display: block; position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: url(../img/main_ptBg.png) repeat;}
+.header .logo-box .mg-l {display: inline-block; margin: 0 5px; width: 1px; height: 48px;
+	background: rgba(255,255,255, 0.5); vertical-align: middle;
+}
+.header .logo-box {position: absolute; left: 5%; top: 30px; width: 302px;}
+
+.header .nav-bar {position: absolute; right: 0;}
+.header .nav-bar .nav {}
+.header .nav-bar .nav > li {float: left; height: 97px; padding: 50px 40px 0;}
+.header .nav-bar .nav > li > a {position: relative; font-size: 20px; display: block; color: #fff;}
+.header .nav-bar .nav > li > a:hover {color: #00c6ff;}
+.header .nav-bar .nav > li.lst {background: #44a8ff; padding-left: 15px; padding-right: 15px;}
+.header .nav-bar .nav > li.lst > a:before {position: absolute; content: "";
+display: block; width: 22px; height: 20px; background: url(../img/i_cal.png) no-repeat;
+left: 50%; margin-left: -11px; top: -23px;}
+.header .nav-bar .nav > li.lst > a:hover {color: #fff;}
+
+.vid-wrap {position: relative; width: 100%; height: 100%; background: url('../img/main_bg.jpg') no-repeat center center; background-size: cover;}
+
+.vid {position: absolute; width: 100%; height: 100%;}
+
+.main {position: relative;}
+.main:before {content: ""; display: block; position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: url(../img/main_ptBg.png) repeat;}
+
+.ie8 .vid {display: none;}
+
+.main > * {position: relative;}
+
+.main .txt-box {position: absolute; display: block; width: 100%; text-align: center;
+	top: 50%; margin-top: -168px;}
+.main .txt-box {color: #fff;}
+.main .txt-box .p0 {font-size: 26px; line-height: 1.5;}
+.main .txt-box .mg- {display: block; height: 1px; width: 98px; margin: 35px auto; background: #fff;}
+.main .txt-box .p1 {margin: 45px auto 50px;}
+.main .txt-box .more-a {display: block; margin: 0 auto; 
+	font-size: 24px; border: 4px solid #fff; line-height: 45px;
+	width: 208px; height: 54px;}
+
+.main #scr-box {position: absolute; left: 50%; margin-left: -23px; bottom: 30px;}
+.main #scr-box > img {position: relative; top: 0; display: block; margin: 3px auto;}
+/*.main #scr-box > img.nth-2, .main #scr-box > img.nth-3 {opacity: 0;}*/
+.main #scr-box > img.nth-1 {margin-bottom: 12px;
+	-webkit-animation: scrAni-01 2s infinite; /* Safari 4.0 - 8.0 */
+	animation: scrAni-01 2s infinite;}
+.main #scr-box > img.nth-2 {margin-bottom: 5px;
+	-webkit-animation: scrAni-02 2s infinite; /* Safari 4.0 - 8.0 */
+	animation: scrAni-02 2s 0.5s infinite;}
+.main #scr-box > img.nth-3 {
+	-webkit-animation: scrAni-03 2s infinite; /* Safari 4.0 - 8.0 */
+	animation: scrAni-03 2s 0.6s infinite;}
+@keyframes scrAni-01 {
+	0% {top: 0;}
+	50% {top: 3px;}
+	100% {top: 0px;}
+}
+@keyframes scrAni-02 {
+	0% {top: 0; opacity: 0;}
+	50% {top: 4px; opacity: 1;}
+	100% {top: 0px; opacity: 0;}
+}
+@keyframes scrAni-03 {
+	0% {top: 0; opacity: 0;}
+	50% {top: 3px; opacity: 1;}
+	100% {top: 0px; opacity: 0;}
+}
