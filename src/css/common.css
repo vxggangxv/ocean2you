@@ -1,3 +1,4 @@
+@charset 'utf-8';
 @import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
 @import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
 
@@ -10,14 +11,25 @@ a {color: inherit;}
 #wrap {width: 100%; position: relative;}
 
 
+/*--- bxSlider 재정의 ---*/
+.bx-wrapper {position: relative; margin: 0 auto; border: none; width: 1000px; box-shadow: none;}
+.bx-wrapper .bx-viewport {border: none; box-shadow: none; left: 0; background: none;}
+.bx-controls {position: absolute; width: 100%; left: 0; top: 50%; margin-top: -22.5px;}
+.bx-wrapper .bx-controls-direction {position: absolute; width: 100%;}
+.bx-wrapper .bx-controls-direction a {background: none; width: 45px; height: 45px; top: 0; margin-top: 0;}
+.bx-wrapper .bx-prev {left: 20px;}
+.bx-wrapper .bx-next {right: 20px;}
+.bx-wrapper .bx-controls.bx-has-controls-auto.bx-has-pager .bx-controls-auto
+, .bx-wrapper .bx-controls.bx-has-controls-auto.bx-has-pager .bx-pager {display: none;}
+
+
 
 /*반응형 너비*/
 .container {width: 100%; margin: 0 auto; position: relative;}
 
 @media (max-width: 767px) {
 	.header {}
-	.header {position: relative; width: 100%; height: 98px;}
-	.header:before {content: ""; display: block; position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: url(../img/main_ptBg.png) repeat;}
+	.header {position: absolute; z-index: 1; top:0; width: 100%; height: 98px;}
 	.header .logo-box .mg-l {display: inline-block; margin: 0 5px; width: 1px; height: 48px;
 		background: rgba(255,255,255, 0.5); vertical-align: middle;
 	}
@@ -82,8 +94,7 @@ a {color: inherit;}
 
 @media (min-width: 768px) and (max-width: 991px) {
 	.header {}
-	.header {position: relative; width: 100%; height: 98px;}
-	.header:before {content: ""; display: block; position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: url(../img/main_ptBg.png) repeat;}
+	.header {position: absolute; z-index: 1; top:0; width: 100%; height: 98px;}
 	.header .logo-box .mg-l {display: inline-block; margin: 0 5px; width: 1px; height: 48px;
 		background: rgba(255,255,255, 0.5); vertical-align: middle;
 	}
@@ -142,9 +153,8 @@ a {color: inherit;}
 
 @media (min-width: 992px) {
 	.header {}
-	.header {position: relative; width: 100%; height: 98px; 
+	.header {position: absolute; z-index: 1; top:0; width: 100%; height: 98px; 
 		border-bottom: 1px solid rgba(255,255,255, 0.5);}
-	.header:before {content: ""; display: block; position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: url(../img/main_ptBg.png) repeat;}
 	.header .logo-box .mg-l {display: inline-block; margin: 0 5px; width: 1px; height: 48px;
 		background: rgba(255,255,255, 0.5); vertical-align: middle;
 	}
