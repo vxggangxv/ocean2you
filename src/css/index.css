@@ -1,5 +1,7 @@
 @charset 'utf-8';
 
+.header {position: absolute;}
+
 @media (max-width: 767px) {
 	.vid-wrap {position: relative; width: 100%; height: 100%; background: url('../img/main_bg.jpg') no-repeat center center; background-size: cover;}
 
@@ -13,26 +15,25 @@
 	.main > * {position: relative;}
 	
 	.main .txt-box {position: absolute; display: block; width: 100%; text-align: center;
-		top: 50%; margin-top: -200px;}
-	.main .txt-box {color: #fff;}
+		top: 50%; margin-top: -114px; color: #fff;}
 	.main .txt-box .p0 {font-size: 20px; line-height: 1.5;}
 	.main .txt-box .mg- {display: block; height: 1px; width: 78px; margin: 15px auto 0; background: #fff;}
 	.main .txt-box .p1 {margin: 25px auto 35px;}
 	.main .txt-box .p1 img {width: 400px;}
 	.main .txt-box .more-a {display: block; margin: 0 auto; 
-		font-size: 20px; border: 4px solid #fff; line-height: 38px;
+		font-size: 20px; border: 4px solid #fff; line-height: 40px;
 		width: 178px; height: 48px;}
 	
-	.main #scr-box {position: absolute; left: 50%; margin-left: -23px; bottom: 25px;}
+	.main #scr-box {position: absolute; left: 50%; margin-left: -23px; bottom: 10px;}
 	.main #scr-box > img {position: relative; top: 0; display: block; margin: 3px auto;}
 	.main #scr-box > img.nth-1 {margin-bottom: 8px;}
 	.main #scr-box > img.nth-2 {margin-bottom: 5px;
-		-webkit-animation: scrAni-02 2s 1.1s infinite;
-    	animation: scrAni-02 2s 1.1s infinite;
+		-webkit-animation: scrAni-02 1.5s 1.1s infinite;
+    	animation: scrAni-02 1.5s 1.1s infinite;
 	}
 	.main #scr-box > img.nth-3 {
-		-webkit-animation: scrAni-03 2s 1.2s infinite;
-    	animation: scrAni-03 2s 1.2s infinite;
+		-webkit-animation: scrAni-03 1.5s 1.2s infinite;
+    	animation: scrAni-03 1.5s 1.2s infinite;
 	}
 	@keyframes scrAni-02 {
 		0% {opacity: 0;}
@@ -54,14 +55,13 @@
 		background: url(../img/intro_bg.jpg) no-repeat ; padding: 50px 0;
 		background-size: 100% 100%;
 	}
-	.intro .container {position: relative; width: 320px;}
-	.intro [class*=colth-] {width: 100%; float: left;}
-	.intro .colth-1 {padding-left: 25px;}
+	.intro .container {position: relative; width: 90%;}
+	.intro [class*=colth-] {width: 100%; float: left; padding-left: 5%;}
 	.intro .colth-1 .mg- {position: relative; left: 2px; 
 		width: 50px; height: 1px; background: #fff;}
 	.intro .colth-1 h2 {font-size: 32px; font-family: "Nanum gothic", sans-serif; 
 		line-height: 1.4; margin-top: 10px;}
-	.intro .colth-1 .p0 {font-size: 16px; line-height: 1.4; margin-top: 10px; letter-spacing: -0.5px; word-break: keep-all;}
+	.intro .colth-1 .p0 {font-size: 16px; line-height: 1.4; margin-top: 10px; word-break: keep-all; padding-right: 4%;}
 	.intro .colth-1 .more-a {display: block; position: relative; 
 		width: 140px; height: 50px; padding-left: 5px; margin: 10px 0 0 -5px;
 		line-height: 48px; font-size: 15px;
@@ -77,10 +77,9 @@
 		box-sizing: border-box;
 	}
 	
-	.intro .colth-2 {padding-left: 25px; margin-top: 30px;}
-	.intro .colth-2 > div > * {letter-spacing: -0.5px;}
+	.intro .colth-2 {margin-top: 30px;}
 	.intro .colth-2 > div > .p0 {font-size: 16px; line-height: 1.4; margin-top: 5px;}
-	.intro .colth-2 > div.nth-1 > .img-1, .intro .colth-2 > div.nth-2 > .img-1 {width: 240px;}
+	.intro .colth-2 > div.nth-1 > .img-1, .intro .colth-2 > div.nth-2 > .img-1 {width: 95%;}
 	.intro .colth-2 > div.nth-1 > .p0 {width: 240px;}
 	.intro .colth-2 > div.nth-2 {margin-top: 30px;}
 	.intro .colth-2 > div.nth-2 > .p0 {width: 280px;}
@@ -94,23 +93,20 @@
 	
 	.package {position: relative; width: 100%; padding: 60px 0 64px;}
 	.package .in-bg {position: relative; width: 100%;
-		background: url(../img/package_bg.jpg) no-repeat;
+		background: url(../img/package_bg.jpg) no-repeat top center;
 	}
-	.package .container {padding-top: 40px; width: 320px;}
+	.package .container {padding-top: 40px; width: 90%;}
 	.package .in-tit {text-align: center; word-break: keep-all;}
 	.package .in-tit .mg- {position: relative; width: 50px; height: 1px; background: #fff; margin: 0px auto 20px; background: #104c6a;}
 	.package .in-tit h2 {font-size: 32px; font-family: "Nanum Gothic", sans-serif; color: #104c6a;}
 	.package .in-tit .p0 {font-size: 16px; color: #282828; margin-top: 15px; line-height: 1.4;}
 	.package .pkg-list {margin: 36px auto 0;}
-	.package .pkg-list > li {position: relative; color: #fff; width: 280px; height: auto; margin: 20px auto 0;}
-	/*.package .pkg-list > li.nth-1, .package .pkg-list > li.nth-3 {margin: 0 3% 0 7%;}
-	.package .pkg-list > li.nth-2, .package .pkg-list > li.nth-4 {margin: 0 7% 0 3%;}
-	.package .pkg-list > li.nth-3, .package .pkg-list > li.nth-4 {margin-top: 20px;}*/
+	.package .pkg-list > li {position: relative; color: #fff; width: 90%; height: auto; margin: 20px auto 0;}
 	.package .pkg-list > li.nth-2 {}
 	.package .pkg-list > li.nth-3 {}
 	.package .pkg-list > li.nth-4 {}
 	.package .pkg-list > li .bgImg {width: 100%;}
-	.package .pkg-list > li .in-cont {position: absolute; top: 134px; left: 20px;}
+	.package .pkg-list > li .in-cont {position: absolute; bottom: 24px; left: 20px;}
 	.package .pkg-list .mg- {position: relative; width: 30px; height: 1px; background: #fff;}
 	.package .pkg-list h3 {font-size: 16px; font-family: "Nanum Gothic", sans-serif; margin-top: 10px;}
 	.package .pkg-list .p0 {font-size: 14px; margin-top: 15px; line-height: 1.3; letter-spacing: -1.5px;}
@@ -122,12 +118,13 @@
 	
 	
 	.tourist {position: relative; padding: 64px 0 70px; background: #5ec1fe;}
-	.tourist .container {width: 320px;}
+	.tourist .container {width: 90%;}
 	.tourist .in-tit {text-align: center; color: #fff;}
 	.tourist .in-tit h2 {font-size: 32px; font-weight: 600;}
-	.tourist .in-tit .p0 {font-size: 16px; margin-top: 20px; line-height: 1.4;}
-	.tourist .tour-list {position: relative; margin: 35px auto 0; width: 300px;}
+	.tourist .in-tit .p0 {font-size: 16px; margin-top: 20px; line-height: 1.4; word-break: keep-all;}
+	.tourist .tour-list {position: relative; margin: 35px auto 0; width: 100%;}
 	.tourist .tour-list > li {position: relative; width: 100%; height: auto; text-align: center; color: #fff; margin-top: 12px;}
+	.tourist .tour-list > li .bgImg {width: 100%;}
 	.tourist .tour-list > li a {position: absolute; top: 0; left: 0; width: 100%; height: 100%; display: block;}
 	.tourist .tour-list > li h3 {font-size: 16px; font-weight: 600; margin-top: 86px;}
 	.tourist .tour-list > li .mg- {position: relative; width: 30px; height: 1px; background: #fff; margin: 15px auto;}
@@ -135,28 +132,29 @@
 	.tourist .tour-list > li .p0 .s0 {display: block; margin-bottom: 14px;}
 	.tourist .tour-list > li:hover a {background: url(../img/bg_dim.png) repeat;}
 	.tourist .tour-list > li.lst:hover a {background: none;}
-	.tourist .tour-list > li:hover h3 {margin-top: 50px;}
+	.tourist .tour-list > li:hover h3 {margin-top: 35px;}
 	.tourist .tour-list > li:hover .p0 {display: block;}
 	
 	
 	.facil {position: relative; padding: 60px 0;
 		background: url(../img/facil_bg.jpg) repeat top center;
 	}
-	.facil .container {width: 320px;}
-	.facil .in-tit {text-align: center; color: #323232;}
+	.facil .container {width: 90%;}
+	.facil .in-tit {text-align: center; color: #323232; word-break: keep-all;}
 	.facil .in-tit h2 {font-size: 32px; font-weight: 600;}
-	.facil .in-tit .p0 {font-size: 16px; margin-top: 20px;}
+	.facil .in-tit .p0 {font-size: 16px; margin-top: 20px; line-height: 1.4;}
 	
 	.facil .bxList.nth-1 {margin-top: 35px;}
-	.facil .bxList .bxBox {position: relative; width: 300px; margin: 20px auto 0;}
+	.facil .bxList .bxBox {position: relative; width: 100%; margin: 20px auto 0;}
+	.facil .bxList .bxBox [class*=bxS-] img, .facil .bxList .bxBox .bgImg {width: 100%;}
 	
 	
-	.facil .bxList .bxBox .txt-box {position: absolute; bottom: 0; width: 100%; padding: 5px 12px 8px; color: #fff;
+	.facil .bxList .bxBox .txt-box {position: absolute; bottom: 0; width: 100%; padding: 6px 12px 7px; color: #fff;
 		background: url(../img/bg_dim.png) repeat;
 	}
 	.facil .bxList .bxBox .txt-box .p0 {font-size: 13px;}
 	.facil .bxList .bxBox .txt-box .more-a
-	, .facil .bxList .bxBox .in-txt .more-a {display: inline-block; font-size: 12px; margin-top: 5px; padding: 3px 6px 5px; border: 1px solid #fff;
+	, .facil .bxList .bxBox .in-txt .more-a {display: inline-block; font-size: 12px; margin-top: 5px; padding: 4px 6px 4px; border: 1px solid #fff;
 		-webkit-transition: all 0.5s; -o-transition: all 0.5s; transition: all 0.5s;
 	}
 	.facil .bxList .bxBox .txt-box .more-a:hover
@@ -175,14 +173,14 @@
 	
 	
 	.wayto {position: relative; padding: 60px 0 70px; background: #f1f1f1;}
-	.wayto .container {width: 320px;}
+	.wayto .container {width: 90%;}
 	.wayto .in-tit {text-align: center; color: #323232;}
 	.wayto .in-tit h2 {font-size: 32px; font-weight: 600;}
 	.wayto .in-tit .p0 {font-size: 16px; margin-top: 20px; line-height: 1.2; word-break: keep-all;}
 	
-	.wayto .map-box {position: relative; width: 300px; margin: 35px auto 0; border: 1px solid #bdbdbd; background: #e6e6e6;}
+	.wayto .map-box {position: relative; width: 100%; margin: 35px auto 0; border: 1px solid #bdbdbd; background: #e6e6e6;}
 	.wayto .map-box > div {width: 100%; margin: 0 auto;}
-	.wayto .map-box .map {height: 210px;}
+	.wayto .map-box .map {height: 240px;}
 	.wayto .map-box .map iframe {width: 100%; height: 100%;}
 	.wayto .map-box .mapExp {padding: 15px 10px 15px 10px; height: auto;}
 	.wayto .map-box .mapExp > p {font-family: "Nanum gothic", sans-serif; word-break: keep-all;}
@@ -216,16 +214,16 @@
 		font-size: 24px; border: 4px solid #fff; line-height: 45px;
 		width: 208px; height: 54px;}
 	
-	.main #scr-box {position: absolute; left: 50%; margin-left: -23px; bottom: 25px;}
+	.main #scr-box {position: absolute; left: 50%; margin-left: -23px; bottom: 10px;}
 	.main #scr-box > img {position: relative; top: 0; display: block; margin: 3px auto;}
 	.main #scr-box > img.nth-1 {margin-bottom: 8px;}
 	.main #scr-box > img.nth-2 {margin-bottom: 5px;
-		-webkit-animation: scrAni-02 2s 1.1s infinite;
-    	animation: scrAni-02 2s 1.1s infinite;
+		-webkit-animation: scrAni-02 1.5s 1.1s infinite;
+    	animation: scrAni-02 1.5s 1.1s infinite;
 	}
 	.main #scr-box > img.nth-3 {
-		-webkit-animation: scrAni-03 2s 1.2s infinite;
-    	animation: scrAni-03 2s 1.2s infinite;
+		-webkit-animation: scrAni-03 1.5s 1.2s infinite;
+    	animation: scrAni-03 1.5s 1.2s infinite;
 	}
 	@keyframes scrAni-02 {
 		0% {opacity: 0;}
@@ -320,11 +318,11 @@
 	.tourist .tour-list > li a {position: absolute; top: 0; left: 0; width: 100%; height: 100%; display: block;}
 	.tourist .tour-list > li h3 {font-size: 20px; font-weight: 600; margin-top: 70px;}
 	.tourist .tour-list > li .mg- {position: relative; width: 46px; height: 1px; background: #fff; margin: 15px auto;}
-	.tourist .tour-list > li .p0 {display: none; font-size: 13px; font-weight: 400; line-height: 1.3; letter-spacing: -1px;}
+	.tourist .tour-list > li .p0 {display: none; font-size: 13px; font-weight: 400; line-height: 1.3; letter-spacing: -1.5px;}
 	.tourist .tour-list > li .p0 .s0 {display: block; margin-bottom: 14px;}
 	.tourist .tour-list > li:hover a {background: url(../img/bg_dim.png) repeat;}
 	.tourist .tour-list > li.lst:hover a {background: none;}
-	.tourist .tour-list > li:hover h3 {margin-top: 30px;}
+	.tourist .tour-list > li:hover h3 {margin-top: 20px;}
 	.tourist .tour-list > li:hover .p0 {display: block;}
 	
 	
@@ -407,16 +405,16 @@
 		font-size: 24px; border: 4px solid #fff; line-height: 45px;
 		width: 208px; height: 54px;}
 	
-	.main #scr-box {position: absolute; left: 50%; margin-left: -23px; bottom: 25px;}
+	.main #scr-box {position: absolute; left: 50%; margin-left: -23px; bottom: 10px;}
 	.main #scr-box > img {position: relative; top: 0; display: block; margin: 3px auto;}
 	.main #scr-box > img.nth-1 {margin-bottom: 8px;}
 	.main #scr-box > img.nth-2 {margin-bottom: 5px;
-		-webkit-animation: scrAni-02 2s 1.1s infinite;
-    	animation: scrAni-02 2s 1.1s infinite;
+		-webkit-animation: scrAni-02 1.5s 1.1s infinite;
+    	animation: scrAni-02 1.5s 1.1s infinite;
 	}
 	.main #scr-box > img.nth-3 {
-		-webkit-animation: scrAni-03 2s 1.2s infinite;
-    	animation: scrAni-03 2s 1.2s infinite;
+		-webkit-animation: scrAni-03 1.5s 1.2s infinite;
+    	animation: scrAni-03 1.5s 1.2s infinite;
 	}
 	@keyframes scrAni-02 {
 		0% {opacity: 0;}
@@ -505,11 +503,11 @@
 	.tourist .tour-list > li a {position: absolute; top: 0; left: 0; width: 100%; height: 100%; display: block;}
 	.tourist .tour-list > li h3 {font-size: 20px; font-weight: 600; margin-top: 70px;}
 	.tourist .tour-list > li .mg- {position: relative; width: 46px; height: 1px; background: #fff; margin: 15px auto;}
-	.tourist .tour-list > li .p0 {display: none; font-size: 13px; font-weight: 400; line-height: 1.3; letter-spacing: -1px;}
+	.tourist .tour-list > li .p0 {display: none; font-size: 13px; font-weight: 400; line-height: 1.3; letter-spacing: -1.5px;}
 	.tourist .tour-list > li .p0 .s0 {display: block; margin-bottom: 14px;}
 	.tourist .tour-list > li:hover a {background: url(../img/bg_dim.png) repeat;}
 	.tourist .tour-list > li.lst:hover a {background: none;}
-	.tourist .tour-list > li:hover h3 {margin-top: 30px;}
+	.tourist .tour-list > li:hover h3 {margin-top: 20px;}
 	.tourist .tour-list > li:hover .p0 {display: block;}
 	
 	
@@ -588,16 +586,16 @@
 		font-size: 24px; border: 4px solid #fff; line-height: 45px;
 		width: 208px; height: 54px;}
 	
-	.main #scr-box {position: absolute; left: 50%; margin-left: -23px; bottom: 25px;}
+	.main #scr-box {position: absolute; left: 50%; margin-left: -23px; bottom: 10px;}
 	.main #scr-box > img {position: relative; top: 0; display: block; margin: 3px auto;}
 	.main #scr-box > img.nth-1 {margin-bottom: 8px;}
 	.main #scr-box > img.nth-2 {margin-bottom: 5px;
-		-webkit-animation: scrAni-02 2s 1.1s infinite;
-    	animation: scrAni-02 2s 1.1s infinite;
+		-webkit-animation: scrAni-02 1.5s 1.1s infinite;
+    	animation: scrAni-02 1.5s 1.1s infinite;
 	}
 	.main #scr-box > img.nth-3 {
-		-webkit-animation: scrAni-03 2s 1.2s infinite;
-    	animation: scrAni-03 2s 1.2s infinite;
+		-webkit-animation: scrAni-03 1.5s 1.2s infinite;
+    	animation: scrAni-03 1.5s 1.2s infinite;
 	}
 	@keyframes scrAni-02 {
 		0% {opacity: 0;}
@@ -654,7 +652,7 @@
 	
 	.package {position: relative; width: 100%; padding: 110px 0 294px;}	
 	.package .in-bg {position: relative; width: 100%; height: 549px;
-		background: url(../img/package_bg.jpg) no-repeat;
+		background: url(../img/package_bg.jpg) no-repeat top center;
 	}
 	.package .container {padding-top: 120px;}
 	.package .in-tit {text-align: center;}
@@ -685,7 +683,7 @@
 	.tourist .tour-list > li a {position: absolute; top: 0; left: 0; width: 100%; height: 100%; display: block;}
 	.tourist .tour-list > li h3 {font-size: 25px; font-weight: 600; margin-top: 116px;}
 	.tourist .tour-list > li .mg- {position: relative; width: 46px; height: 1px; background: #fff; margin: 15px auto;}
-	.tourist .tour-list > li .p0 {display: none; font-size: 17px; font-weight: 600; line-height: 1.4;}
+	.tourist .tour-list > li .p0 {display: none; font-size: 17px; font-weight: 600; line-height: 1.4; letter-spacing: -1px;}
 	.tourist .tour-list > li .p0 .s0 {display: block; margin-bottom: 14px;}
 	.tourist .tour-list > li:hover a {background: url(../img/bg_dim.png) repeat;}
 	.tourist .tour-list > li.lst:hover a {background: none;}
@@ -710,7 +708,7 @@
 	
 	.facil .bxList .bxBox.nth-1 {margin-left: 0px;}
 	
-	.facil .bxList .bxBox .txt-box {position: absolute; bottom: 0; width: 100%; padding: 18px 22px 24px; color: #fff;
+	.facil .bxList .bxBox .txt-box {position: absolute; bottom: 0; width: 100%; padding: 18px 22px 22px; color: #fff;
 		background: url(../img/bg_dim.png) repeat;
 	}
 	.facil .bxList .bxBox .txt-box .p0 {font-size: 22px;}

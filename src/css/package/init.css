@@ -1,0 +1,20 @@
+@charset 'utf-8';
+
+@media (max-width: 767px) {
+	
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+	
+}
+
+@media (min-width: 992px) and (max-width: 1431px) {
+	
+}
+
+@media (min-width: 1432px) {
+	.vid-wrap {background: url(../../img/intro/title_bg.jpg) no-repeat top center; height: 400px;}
+
+	.header {}
+	.title {position: relative; width: 100%;}
+}

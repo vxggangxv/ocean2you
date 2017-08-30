@@ -1,0 +1,53 @@
+@charset 'utf-8';
+
+@media (max-width: 767px) {
+	
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+	
+}
+
+@media (min-width: 992px) and (max-width: 1431px) {
+	
+}
+
+@media (min-width: 1432px) {
+	.vid-wrap {background: url(../../img/intro/title_bg.jpg) no-repeat top center;}
+
+	.header {}
+	.title {position: relative;}
+	.title .tit-box {text-align: center; padding: 75px 0 76px; color: #fff;}
+	.title .tit-box h2 {font-size: 27px;}
+	.title .tit-box .mg- {display: block; height: 1px; width: 60px; margin: 18px auto 22px; background: #fff;}
+	.title .tit-box .p0 {font-size: 20px; margin-top: 10px;}
+	
+	.resort {position: relative; border: 1px solid #e0e0e0; padding-bottom: 65px;}
+	.resort .container {width: 1368px;}
+	.resort .resortImg {margin-top: 100px;}
+	.resort h3 {font-size: 22px; margin-top: 50px; color: #373737;}
+	.resort .p1, .resort .p2 {font-size: 18px; color: #7c7c7c; line-height: 1.5;}
+	.resort .mg- {position: relative; left: 2px; width: 38px; height: 1px; background: #44a8ff; margin: 20px 0 24px;}
+	.resort .p1 {}
+	.resort .p2 {margin-top: 14px;}
+	.resort .rv-a {display: block; margin: 65px auto 0; width: 306px; height: 64px; font-size: 24px; font-family: "Nanum Gothic", sans-serif; text-align: center; background: #44a8ff; color: #fff; line-height: 62px; border-radius: 4px;}
+	.resort .rv-a > * {vertical-align: middle;}
+	.resort .rv-a .gt {position: relative; left: 80px;}
+	
+	.oc2point {position: relative; padding: 130px 0 178px;}
+	.oc2point .container {width: 1368px;}
+	.oc2point .ul0 {}
+	.oc2point .ul0 > li {position: relative; float: left; height: 475px;}
+	.oc2point .ul0 > li.nth-1, .oc2point .ul0 > li.nth-3 {width: 700px;}
+	.oc2point .ul0 > li.nth-2, .oc2point .ul0 > li.nth-4 {width: 664px;}
+	.oc2point .ul0 .l-1 .txt-box {position: absolute; background: #f5f5f5; padding: 80px 20px 40px 45px;}
+	.oc2point .ul0 > li.nth-2 .txt-box {width: 621px; height: 100%; top: 0; left: 0;}
+	.oc2point .ul0 > li.nth-3 .txt-box {width: 667px; height: 443px; top: 0; right: 0;}
+	.oc2point .ul0 > li.nth-4 {}
+	.oc2point .ul0 > li .p0 {color: #a9a9a9; font-size: 20px;}
+	.oc2point .ul0 > li h3 {font-size: 26px; color: #373737; margin-top: 14px;}
+	.oc2point .ul0 > li .p1 {font-size: 18px; line-height: 1.5; margin-top: 10px; color: #7c7c7c;}
+	.oc2point .ul0 > li h3 + .p1 {margin-top: 40px;}
+	
+	
+}

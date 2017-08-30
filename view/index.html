@@ -34,6 +34,8 @@
 	
 	<script type="text/javascript" src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+	<script src="../src/js/jquery.easing.min.js"></script>
+	<script src="../src/js/common.js"></script>
 	<script src="../src/js/index.js"></script>
 	<!--[if gte IE 9]><!--> 
 		<script src="../src/js/jquery.mb.YTPlayer.min.js"></script>
@@ -55,13 +57,13 @@
 			<section class="vid" data-property="{videoURL:'3sUzvwZXH-8',containment:'self', showControls:false, autoPlay:true, loop:false, mute:true, startAt:0, opacity:1, addRaster:true, quality:'default'}">
 			</section>
 			
-			<header class="header">
+			<header class="header" id="header">
 				<div class="container">
-					<div class="logo-box">
-						<img class="logo" src="../src/img/logo.png" alt="오션투유리조트">
+					<a href="" class="logo-box">
+						<img class="logo" src="http://img.ocean2you.co.kr/renewal/logo.png" alt="오션투유리조트">
 						<span class="mg-l"></span>
-						<img class="gcLogo" src="../src/img/oc2_gcLogo.png" alt="고코투어">
-					</div>
+						<img class="gcLogo" src="http://img.ocean2you.co.kr/renewal/oc2_gcLogo.png" alt="고코투어">
+					</a>
 					
 					<button class="mNav-btn" id="mNav-btn" type="button">
 						<span></span>
@@ -79,20 +81,20 @@
 						</ul>
 					</nav>
 				</div>
+				<nav class="mNav-box" id="mNav-box">
+					<h2><a href="">HOME</a></h2>
+					<ul class="mNav">
+						<li class="fst"><a href="">오션투유소개</a></li>
+						<li><a href="">패키지안내</a></li>
+						<li><a href="">시설안내</a></li>
+						<li><a href="">주변관광지</a></li>
+						<li><a href="">오시는길</a></li>
+						<li class="lst"><a href="">예약/예약조회</a></li>
+					</ul>
+				</nav>
 			</header>
-			<nav class="mNav-box" id="mNav-box">
-				<h2><a href="">HOME</a></h2>
-				<ul class="mNav">
-					<li class="fst"><a href="">오션투유소개</a></li>
-					<li><a href="">패키지안내</a></li>
-					<li><a href="">시설안내</a></li>
-					<li><a href="">주변관광지</a></li>
-					<li><a href="">오시는길</a></li>
-					<li class="lst"><a href="">예약/예약조회</a></li>
-				</ul>
-			</nav>
 			
-			<section class="main">
+			<section class="main" id="main">
 				
 				<div class="txt-box" id="txt-box">
 					<p class="p0">
@@ -101,7 +103,7 @@
 					</p>
 					<div class="mg-"></div>
 					<p class="p1"><img src="../src/img/main_tit.png" alt="오션투유리조트"></p>
-					<a href="" class="more-a">자세히보기</a>
+					<a href="javascript:;" class="more-a">자세히보기</a>
 				</div>
 				
 				<div id="scr-box">
@@ -113,8 +115,8 @@
 			</section>
 		</div>
 
-		<section class="intro">
-			<div class="container clr">
+		<section class="intro" id="setTop">
+			<div class="container">
 				<div class="colth-1">
 					<div class="mg-"></div>
 					<h2>
@@ -150,7 +152,7 @@
 
 		<section class="package">
 			<div class="in-bg">
-				<div class="container clr">
+				<div class="container">
 					<div class="in-tit">
 						<div class="mg-"></div>
 						<h2>OCEAN2YOU <span class="f-bd">PACKAGE</span></h2>
@@ -221,39 +223,64 @@
 				<ul class="tour-list clr">
 					<li class="nth-1">
 						<img src="../src/img/tourist_01.jpg" alt="건봉사" class="bgImg">
-						<a href="">
+						<a href="javascript:;">
 							<h3>건봉사</h3>
 							<div class="mg-"></div>
-							<p class="p0"></p>
+							<p class="p0">
+								<span class="s0">
+									 부처님 진신치아사리 모셔진,<br>
+									호국불교의 본산
+								</span>
+								설악산 신흥사, 백담사등 9개 말사(末寺)를<br>
+								거느렸던 전국 4대 사찰 중 한곳으로<br>
+								신라 법흥왕(서기520년)때 지어진<br>
+								오랜 사찰입니다
+							</p>
 						</a>
 					</li>
 					<li class="nth-2">
 						<img src="../src/img/tourist_02.jpg" alt="삼포해수욕장" class="bgImg">
-						<a href="">
+						<a href="javascript:;">
 							<h3>삼포해수욕장</h3>
 							<div class="mg-"></div>
-							<p class="p0"></p>
+							<p class="p0">
+								<span class="s0">은빛 백사장이 아름다운 해수욕장</span>
+								강원도고성군에 위치한 삼포 해수욕장은<br>
+								깨끗한 백사장, 울창한 송림을 지닌<br>
+								국민관광지로 유명한 곳입니다
+							</p>
 						</a>
 					</li>
 					<li class="nth-3">
 						<img src="../src/img/tourist_03.jpg" alt="화암사" class="bgImg">
-						<a href="">
+						<a href="javascript:;">
 							<h3>화암사</h3>
 							<div class="mg-"></div>
-							<p class="p0"></p>
+							<p class="p0">
+								<span class="s0">신선봉 아래, 벼에 관한 전설 얽힌 화암사</span>
+								미시령의 울산바위, 수바위 신선봉이<br>
+								어우러져 빚어내는 화암사 주변의<br>
+								가을단풍은 아름다움의 극치를 이룹니다
+							</p>
 						</a>
 					</li>
 					<li class="nth-4">
 						<img src="../src/img/tourist_04.jpg" alt="송지호" class="bgImg">
-						<a href="">
+						<a href="javascript:;">
 							<h3>송지호</h3>
 							<div class="mg-"></div>
-							<p class="p0"></p>
+							<p class="p0">
+								<span class="s0">둘레길 따라 걸으며 호수의 여유를 만끽!</span>
+								둘레가 4km에 약 20만평 넓이의<br>
+								대자연호수로 울창한 송림과 함께 물빛이<br>
+								청명하고 수심이 일정하며 많은 어족들이<br>
+								서식하기에 적합한 곳으로 유명합니다.
+							</p>
 						</a>
 					</li>
 					<li class="nth-5">
 						<img src="../src/img/tourist_05.jpg" alt="청초호" class="bgImg">
-						<a href="">
+						<a href="javascript:;">
 							<h3>청초호</h3>
 							<div class="mg-"></div>
 							<p class="p0">
@@ -267,18 +294,32 @@
 					</li>
 					<li class="nth-6">
 						<img src="../src/img/tourist_06.jpg" alt="천학정" class="bgImg">
-						<a href="">
+						<a href="javascript:;">
 							<h3>천학정</h3>
 							<div class="mg-"></div>
-							<p class="p0"></p>
+							<p class="p0">
+								<span class="s0">노송과 깍아지른 듯한 해안절벽위의 선경</span>
+								동해바다의 신비를 고스란히 간직하고 있는<br>
+								천혜의 기암괴석과 깍아지른 듯한 해안 절벽위에<br>
+								건립되어 경치가 아름다운 곳입니다
+							</p>
 						</a>
 					</li>
 					<li class="nth-7">
 						<img src="../src/img/tourist_07.jpg" alt="설악산" class="bgImg">
-						<a href="">
-							<h3>설악산</h3>
+						<a href="javascript:;">
+							<h3>설악산 비선대</h3>
 							<div class="mg-"></div>
-							<p class="p0"></p>
+							<p class="p0">
+								<span class="s0">
+									선녀가 하늘로 올라갔다는 비선대에서<br>
+									바라보는 금강굴 절경
+								</span>
+								비선대코스는 선녀가 하늘로 올라갔다하여<br>
+								그만큼 아름다운 전경을 탐방할 수 있는<br>
+								약 3.0km 구간으로 시간은<br>
+								편도 약 1시간 정도 소요됩니다.
+							</p>
 						</a>
 					</li>
 					<li class="lst">
@@ -348,16 +389,8 @@
 					</div>
 					<div class="bxBox nth-2">
 						<img class="bgImg" src="../src/img/facil_06.jpg" alt="오션투유 콘도" />
-						<div class="in-txt">
+						<div class="txt-box">
 							<p class="p0">바베큐장</p>
-							<p class="p1">
-								바베큐장 타임별 이용 요금은 30,000원 이며,<br>
-								반드시 예약후 이용해주셔야합니다.
-							</p>
-							<p class="p1">
-								바베큐장 이용시 테이블+그릴+숯+집게+가위가<br>
-								제공되며, 별도 음식은 제공되지 않습니다
-							</p>
 							<a href="" class="more-a">자세히보기</a>
 						</div>
 					</div>
@@ -393,9 +426,40 @@
 					</div>
 				</div>
 			</div>
-		</sectioin>
+		</section>
 
-		<footer class="footer"></footer>
+		<footer class="footer">
+			<div class="container">
+				<div class="flt-1 clr"><img class="f-logo" src="../src/img/f_logo.png" alt="오션투유리조트"></div>
+				<div class="flt-2 clr">
+					<address>
+						<p class="nth-1">
+							오션투유리조트 설악비치 호탤앤콘도<br>
+							주소 : 강원 고성군 죽왕면 삼포해변길 9, 1<br>
+							사업자등록번호 : 332-85-00016<br>
+							통신판매업 : 제 2009-4290040-30-2-0033호
+						</p>
+						<p class="nth-2">
+							Copyright 2016 OCEAN2YOU CONE. ALL RIGHTS RESERVED
+						</p>
+					</address>
+				</div>
+				<div class="flt-3 clr">
+					<div class="d-1">
+						<span class="s0"><img src="../src/img/i_phone.png" alt="전화"></span>
+						<span class="s1">고객상담</span>
+						<span class="s2">1666-1243</span>
+					</div>
+					<div class="d-2">
+						<span class="s0"><img src="../src/img/i_mail.png" alt="이메일"></span>
+						<span class="s1">E-mail 문의</span>
+						<span class="s2">help@go.co.kr</span>
+					</div>
+				</div>
+			</div>
+		</footer>
+		
+		<a href="javascript:;" id="goTop"><img src="../src/img/goTop.jpg" alt="위로"></a>
 	</div>
 	
 	
