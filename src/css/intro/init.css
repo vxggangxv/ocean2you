@@ -1,43 +1,143 @@
 @charset 'utf-8';
 
+.vid-wrap {background: url(../../img/intro/intro_titBg.jpg) no-repeat top center; padding-top: 98px; position: relative; width: 100%; height: 400px;}
+
+.xs-inline {display: block;}
+.xs-visible {display: none;}
+.xs-hidden {display: block;}
 @media (max-width: 767px) {
+	.xs-inline {display: inline;}
+	.xs-visible {display: block;}
+	.xs-hidden {display: none;}
 	
+	.title {position: relative;}
+	.title .tit-box {text-align: center; padding-top: 76px; color: #fff; width: 320px;}
+	.title .tit-box h2 {font-size: 20px;}
+	.title .tit-box .mg- {display: block; height: 1px; width: 30px; margin: 15px auto; background: #fff;}
+	.title .titTxt img {width: 310px;}
+	.title .tit-box .p0 {font-size: 16px; margin-top: 5px; line-height: 1.4; word-break: keep-all; letter-spacing: -1px;}
+	
+	.resort {position: relative; padding: 30px 0 0px;}
+	.resort .container {width: 90%; padding-bottom: 35px; border-bottom: 1px solid #e0e0e0;}
+	.resort .resortImg {}
+	.resort h3 {font-size: 16px; margin-top: 15px; color: #373737; line-height: 1.3; word-break: keep-all; letter-spacing: -1px;}
+	.resort .p1, .resort .p2 {font-size: 13px; color: #7c7c7c; line-height: 1.5; word-break: keep-all;}
+	.resort .mg- {position: relative; left: 2px; width: 28px; height: 1px; background: #44a8ff; margin: 10px 0 15px;}
+	.resort .p1 {}
+	.resort .p2 {margin-top: 10px;}
+	.resort .rv-a {display: block; margin: 35px auto 0; width: 156px; height: 46px; font-size: 16px; font-family: "Nanum Gothic", sans-serif; text-align: center; background: #44a8ff; color: #fff; line-height: 46px; border-radius: 4px;}
+	.resort .rv-a > * {vertical-align: middle;}
+	.resort .rv-a .gt {position: relative; left: 28px; width: 7px;}
+	
+	.oc2point {position: relative; padding: 35px 0 45px;}
+	.oc2point .container {width: 90%;}
+	.oc2point .ul0 {}
+	.oc2point .ul0 > li {position: relative; overflow: hidden; width: 100%;}
+	.oc2point .ul0 .l-1 .txt-box {position: relative; background: #f5f5f5; padding: 25px 5px 15px 15px; word-break: keep-all;}
+	.oc2point .ul0 > li.xs-visible {margin-top: 15px;}
+	.oc2point .ul0 > li .p0 {color: #a9a9a9; font-size: 16px;}
+	.oc2point .ul0 > li h3 {font-size: 17px; color: #373737; margin-top: 14px; letter-spacing: -1px;}
+	.oc2point .ul0 > li .p1 {font-size: 13px; line-height: 1.5; margin-top: 5px; color: #7c7c7c; letter-spacing: -1.5px;}
+	.oc2point .ul0 > li h3 + .p1 {margin-top: 15px;}
 }
 
 @media (min-width: 768px) and (max-width: 992px) {
+	.title {position: relative;}
+	.title .tit-box {text-align: center; padding-top: 76px; color: #fff;}
+	.title .tit-box h2 {font-size: 24px;}
+	.title .tit-box .mg- {display: block; height: 1px; width: 60px; margin: 18px auto 20px; background: #fff;}
+	.title .titTxt img {width: 500px;}
+	.title .tit-box .p0 {font-size: 18px; margin-top: 10px;}
 	
+	.resort {position: relative; padding: 50px 0 0px;}
+	.resort .container {width: 768px; padding-bottom: 65px; border-bottom: 1px solid #e0e0e0;}
+	.resort .resortImg {}
+	.resort h3 {font-size: 17px; margin-top: 30px; color: #373737;}
+	.resort .p1, .resort .p2 {font-size: 15px; color: #7c7c7c; line-height: 1.5; word-break: keep-all;}
+	.resort .mg- {position: relative; left: 2px; width: 28px; height: 1px; background: #44a8ff; margin: 15px 0 20px;}
+	.resort .p1 {}
+	.resort .p2 {margin-top: 10px;}
+	.resort .rv-a {display: block; margin: 35px auto 0; width: 206px; height: 46px; font-size: 16px; font-family: "Nanum Gothic", sans-serif; text-align: center; background: #44a8ff; color: #fff; line-height: 46px; border-radius: 4px;}
+	.resort .rv-a > * {vertical-align: middle;}
+	.resort .rv-a .gt {position: relative; left: 45px; width: 7px;}
+	
+	.oc2point {position: relative; padding: 60px 0 70px;}
+	.oc2point .container {width: 768px;}
+	.oc2point .ul0 {}
+	.oc2point .ul0 > li {position: relative; float: left; height: 267px; overflow: hidden;}
+	.oc2point .ul0 > li.nth-1, .oc2point .ul0 > li.nth-3 {width: 394px;}
+	.oc2point .ul0 > li.nth-2, .oc2point .ul0 > li.nth-4 {width: 373px;}
+	.oc2point .ul0 .l-1 .txt-box {position: absolute; background: #f5f5f5; padding: 25px 5px 20px 15px;}
+	.oc2point .ul0 > li.nth-2 .txt-box {width: 349px; height: 100%; top: 0; left: 0;}
+	.oc2point .ul0 > li.nth-3 .txt-box {width: 375px; height: 249px; top: 0; right: 0;}
+	.oc2point .ul0 > li.nth-4 {}
+	.oc2point .ul0 > li .p0 {color: #a9a9a9; font-size: 16px;}
+	.oc2point .ul0 > li h3 {font-size: 17px; color: #373737; margin-top: 14px;}
+	.oc2point .ul0 > li .p1 {font-size: 13px; line-height: 1.5; margin-top: 5px; color: #7c7c7c; letter-spacing: -1.5px;}
+	.oc2point .ul0 > li h3 + .p1 {margin-top: 15px;}
 }
 
 @media (min-width: 992px) and (max-width: 1431px) {
-	
-}
-
-@media (min-width: 1432px) {
-	.vid-wrap {background: url(../../img/intro/title_bg.jpg) no-repeat top center;}
-
-	.header {}
 	.title {position: relative;}
-	.title .tit-box {text-align: center; padding: 75px 0 76px; color: #fff;}
-	.title .tit-box h2 {font-size: 27px;}
-	.title .tit-box .mg- {display: block; height: 1px; width: 60px; margin: 18px auto 22px; background: #fff;}
-	.title .tit-box .p0 {font-size: 20px; margin-top: 10px;}
+	.title .tit-box {text-align: center; padding-top: 76px; color: #fff;}
+	.title .tit-box h2 {font-size: 24px;}
+	.title .tit-box .mg- {display: block; height: 1px; width: 60px; margin: 18px auto 20px; background: #fff;}
+	.title .titTxt img {width: 500px;}
+	.title .tit-box .p0 {font-size: 18px; margin-top: 10px;}
 	
-	.resort {position: relative; border: 1px solid #e0e0e0; padding-bottom: 65px;}
-	.resort .container {width: 1368px;}
-	.resort .resortImg {margin-top: 100px;}
-	.resort h3 {font-size: 22px; margin-top: 50px; color: #373737;}
-	.resort .p1, .resort .p2 {font-size: 18px; color: #7c7c7c; line-height: 1.5;}
+	.resort {position: relative; padding: 100px 0 0px;}
+	.resort .container {width: 992px; padding-bottom: 65px; border-bottom: 1px solid #e0e0e0;}
+	.resort .resortImg {}
+	.resort h3 {font-size: 20px; margin-top: 50px; color: #373737;}
+	.resort .p1, .resort .p2 {font-size: 16px; color: #7c7c7c; line-height: 1.5; word-break: keep-all;}
 	.resort .mg- {position: relative; left: 2px; width: 38px; height: 1px; background: #44a8ff; margin: 20px 0 24px;}
 	.resort .p1 {}
 	.resort .p2 {margin-top: 14px;}
-	.resort .rv-a {display: block; margin: 65px auto 0; width: 306px; height: 64px; font-size: 24px; font-family: "Nanum Gothic", sans-serif; text-align: center; background: #44a8ff; color: #fff; line-height: 62px; border-radius: 4px;}
+	.resort .rv-a {display: block; margin: 65px auto 0; width: 306px; height: 64px; font-size: 20px; font-family: "Nanum Gothic", sans-serif; text-align: center; background: #44a8ff; color: #fff; line-height: 65px; border-radius: 4px;}
+	.resort .rv-a > * {vertical-align: middle;}
+	.resort .rv-a .gt {position: relative; left: 80px; width: 9px;}
+	
+	.oc2point {position: relative; padding: 130px 0 178px;}
+	.oc2point .container {width: 992px;}
+	.oc2point .ul0 {}
+	.oc2point .ul0 > li {position: relative; float: left; height: 334px; overflow: hidden;}
+	.oc2point .ul0 > li.nth-1, .oc2point .ul0 > li.nth-3 {width: 508px;}
+	.oc2point .ul0 > li.nth-2, .oc2point .ul0 > li.nth-4 {width: 482px;}
+	.oc2point .ul0 .l-1 .txt-box {position: absolute; background: #f5f5f5; padding: 30px 20px 20px;}
+	.oc2point .ul0 > li.nth-2 .txt-box {width: 451px; height: 100%; top: 0; left: 0;}
+	.oc2point .ul0 > li.nth-3 .txt-box {width: 484px; height: 321px; top: 0; right: 0;}
+	.oc2point .ul0 > li.nth-4 {}
+	.oc2point .ul0 > li .p0 {color: #a9a9a9; font-size: 18px;}
+	.oc2point .ul0 > li h3 {font-size: 20px; color: #373737; margin-top: 14px;}
+	.oc2point .ul0 > li .p1 {font-size: 15px; line-height: 1.5; margin-top: 10px; color: #7c7c7c; letter-spacing: -1px;}
+	.oc2point .ul0 > li h3 + .p1 {margin-top: 25px;}
+}
+
+@media (min-width: 1432px) {
+	
+
+	.title {position: relative;}
+	.title .tit-box {text-align: center; padding-top: 76px; color: #fff;}
+	.title .tit-box h2 {font-size: 27px;}
+	.title .tit-box .mg- {display: block; height: 1px; width: 60px; margin: 18px auto 20px; background: #fff;}
+	.title .tit-box .p0 {font-size: 20px; margin-top: 10px;}
+	
+	.resort {position: relative; padding: 100px 0 0px;}
+	.resort .container {width: 1368px; padding-bottom: 65px; border-bottom: 1px solid #e0e0e0;}
+	.resort .resortImg {}
+	.resort h3 {font-size: 22px; margin-top: 50px; color: #373737;}
+	.resort .p1, .resort .p2 {font-size: 18px; color: #7c7c7c; line-height: 1.5; word-break: keep-all;}
+	.resort .mg- {position: relative; left: 2px; width: 38px; height: 1px; background: #44a8ff; margin: 20px 0 24px;}
+	.resort .p1 {}
+	.resort .p2 {margin-top: 14px;}
+	.resort .rv-a {display: block; margin: 65px auto 0; width: 306px; height: 64px; font-size: 24px; font-weight: 600; font-family: "Nanum Gothic", sans-serif; text-align: center; background: #44a8ff; color: #fff; line-height: 62px; border-radius: 4px;}
 	.resort .rv-a > * {vertical-align: middle;}
 	.resort .rv-a .gt {position: relative; left: 80px;}
 	
 	.oc2point {position: relative; padding: 130px 0 178px;}
 	.oc2point .container {width: 1368px;}
 	.oc2point .ul0 {}
-	.oc2point .ul0 > li {position: relative; float: left; height: 475px;}
+	.oc2point .ul0 > li {position: relative; float: left; height: 475px; word-break: keep-all;}
 	.oc2point .ul0 > li.nth-1, .oc2point .ul0 > li.nth-3 {width: 700px;}
 	.oc2point .ul0 > li.nth-2, .oc2point .ul0 > li.nth-4 {width: 664px;}
 	.oc2point .ul0 .l-1 .txt-box {position: absolute; background: #f5f5f5; padding: 80px 20px 40px 45px;}
