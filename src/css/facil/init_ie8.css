@@ -45,7 +45,7 @@
 .facil-wrap .facil-2 .fc-list .txt-box {top: 130px;}
 
 
-.bx-wrapper .bx-controls.bx-has-controls-auto.bx-has-pager .bx-pager {position: absolute; width: 100%; top: 230px; display: block; text-align: center;}
+.bx-wrapper .bx-controls.bx-has-controls-auto.bx-has-pager .bx-pager {position: absolute; width: 100%; bottom: -30px; display: block; text-align: center;}
 .bx-wrapper .bx-pager.bx-default-pager a {background: #fff; width: 11px; height: 11px; margin: 0 2.5px;
 	border-radius: 50%; -moz-border-radius: 50%; -webkit-border-radius: 50%; border: 1px solid #8d8d8b;
 }

@@ -3,24 +3,23 @@
 @media (max-width: 767px) {
 	.vid-wrap {position: relative; width: 100%; height: 100%; background: url('../img/main_bg.jpg') no-repeat center center; background-size: cover;}
 
-	.vid {position: absolute; width: 100%; height: 100%;}
+	.vid {position: absolute; width: 100%; height: 100%; display: none;}
 
 	.main {position: relative;}
 	.main:before {content: ""; display: block; position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: url(../img/main_ptBg.png) repeat;}
 
-	.ie8 .vid {display: none;}
-	
 	.main > * {position: relative;}
 	
 	.main .txt-box {position: absolute; display: block; width: 100%; text-align: center;
 		top: 50%; margin-top: -114px; color: #fff;}
-	.main .txt-box .p0 {font-size: 20px; line-height: 1.5;}
+	.main .txt-box .p0 {font-size: 16px; line-height: 1.5;}
 	.main .txt-box .mg- {display: block; height: 1px; width: 78px; margin: 15px auto 0; background: #fff;}
 	.main .txt-box .p1 {margin: 25px auto 35px;}
-	.main .txt-box .p1 img {width: 400px;}
+	.main .txt-box .p1 img {width: 260px;}
 	.main .txt-box .more-a {display: block; margin: 0 auto; 
-		font-size: 20px; border: 4px solid #fff; line-height: 40px;
+		font-size: 20px; border: 4px solid #fff;
 		width: 178px; height: 48px;}
+	.main .txt-box .more-a:after {content: ""; height: 110%; display: inline-block; vertical-align: middle;}
 	
 	.main #scr-box {position: absolute; left: 50%; margin-left: -23px; bottom: 10px;}
 	.main #scr-box > img {position: relative; top: 0; display: block; margin: 3px auto;}
@@ -43,10 +42,6 @@
 		50% {opacity: 0.5;}
 		100% {opacity: 1;}
 	}
-	
-	.vid {display: none;}
-	.main .txt-box .p0 {font-size: 16px;}
-	.main .txt-box .p1 img {width: 260px;}
 	
 	
 	.intro {position: relative; width: 100%; color: #fff;
@@ -82,10 +77,11 @@
 	.intro .colth-2 > div.nth-2 {margin-top: 30px;}
 	.intro .colth-2 > div.nth-2 > .p0 {width: 280px;}
 	.intro .colth-2 > div > .more-a {font-size: 15px; width: 100px; height: 28px;
-		display: block; text-align: center; line-height: 26px; border: 1px solid #fff;
+		display: block; text-align: center; border: 1px solid #fff;
 		margin-top: 10px;
 		-webkit-transition: all 0.5s; -o-transition: all 0.5s; transition: all 0.5s;
 	}
+	.intro .colth-2 > div > .more-a:after {content: ""; height: 115%; display: inline-block; vertical-align: middle;}
 	.intro .colth-2 > div > .more-a:hover {color: #00c6ff; border-color: #00c6ff;}
 	
 	
@@ -108,9 +104,10 @@
 	.package .pkg-list .mg- {position: relative; width: 30px; height: 1px; background: #fff;}
 	.package .pkg-list h3 {font-size: 16px; font-family: "Nanum Gothic", sans-serif; margin-top: 10px;}
 	.package .pkg-list .p0 {font-size: 14px; margin-top: 15px; line-height: 1.3; letter-spacing: -1.5px;}
-	.package .pkg-list .more-a {font-size: 13px; display: inline-block; padding: 3px 8px 4px; border: 1px solid #fff; margin-top: 10px;
+	.package .pkg-list .more-a {font-size: 13px; display: inline-block; padding: 0px 8px; height: 26px; border: 1px solid #fff; margin-top: 10px;
 		-webkit-transition: all 0.5s; -o-transition: all 0.5s; transition: all 0.5s;
 	}
+	.package .pkg-list .more-a:after {content: ""; height: 115%; display: inline-block; vertical-align: middle;}
 	.package .pkg-list .more-a:hover {color: #00c6ff; border-color: #00c6ff;}
 	
 	
@@ -152,9 +149,11 @@
 	}
 	.facil .bxList .bxBox .txt-box .p0 {font-size: 13px;}
 	.facil .bxList .bxBox .txt-box .more-a
-	, .facil .bxList .bxBox .in-txt .more-a {display: inline-block; font-size: 12px; margin-top: 5px; padding: 4px 6px 4px; border: 1px solid #fff;
+	, .facil .bxList .bxBox .in-txt .more-a {display: inline-block; font-size: 12px; margin-top: 5px; padding: 0px 6px; height: 22px; border: 1px solid #fff;
 		-webkit-transition: all 0.5s; -o-transition: all 0.5s; transition: all 0.5s;
 	}
+	.facil .bxList .bxBox .txt-box .more-a:after
+	, .facil .bxList .bxBox .in-txt .more-a:after {content: ""; height: 114%; display: inline-block; vertical-align: middle;}
 	.facil .bxList .bxBox .txt-box .more-a:hover
 	,.facil .bxList .bxBox .in-txt .more-a:hover {border: 1px solid #00c6ff; color: #00c6ff;}
 	
@@ -163,7 +162,7 @@
 	.facil .bxList .bxBox .in-txt .p1 {font-size: 12px; line-height: 1.3; margin-top: 10px; word-break: keep-all; letter-spacing: -1px;}
 	.facil .bxList .bxBox .in-txt .more-a {border: 1px solid #00c6ff; color: #00c6ff; margin-top: 10px;}
 	
-	.bx-controls {margin-top: -12.5px;}
+	.bx-wrapper .bx-controls-direction {margin-top: -12.5px;}
 	.bx-wrapper .bx-controls-direction a {width: 25px; height: 25px;}
 	.bx-wrapper .bx-prev {left: 10px;}
 	.bx-wrapper .bx-next {right: 10px;}
@@ -192,12 +191,10 @@
 @media (min-width: 768px) and (max-width: 991px) {
 	.vid-wrap {position: relative; width: 100%; height: 100%; background: url('../img/main_bg.jpg') no-repeat center center; background-size: cover;}
 
-	.vid {position: absolute; width: 100%; height: 100%;}
+	.vid {position: absolute; width: 100%; height: 100%; display: none;}
 
 	.main {position: relative;}
 	.main:before {content: ""; display: block; position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: url(../img/main_ptBg.png) repeat;}
-
-	.ie8 .vid {display: none;}
 	
 	.main > * {position: relative;}
 	
@@ -209,8 +206,10 @@
 	.main .txt-box .p1 {margin: 35px auto 50px;}
 	.main .txt-box .p1 img {width: 400px;}
 	.main .txt-box .more-a {display: block; margin: 0 auto; 
-		font-size: 24px; border: 4px solid #fff; line-height: 45px;
+		font-size: 24px; border: 4px solid #fff;
 		width: 208px; height: 54px;}
+	.main .txt-box .more-a:after {content: ""; height: 110%; display: inline-block; vertical-align: middle;}
+	
 	
 	.main #scr-box {position: absolute; left: 50%; margin-left: -23px; bottom: 10px;}
 	.main #scr-box > img {position: relative; top: 0; display: block; margin: 3px auto;}
@@ -242,7 +241,7 @@
 	.intro [class*=colth-] {width: 50%; float: left;}
 	.intro .colth-1 {width: 60%;}
 	.intro .colth-2 {width: 40%;}
-	.intro .colth-1 {padding-left: 60px;}
+	.intro .colth-1 {padding-left: 65px;}
 	.intro .colth-1 .mg- {position: relative; left: 5px; 
 		width: 109px; height: 1px; background: #fff;}
 	.intro .colth-1 h2 {font-size: 50px; font-family: "Nanum gothic", sans-serif; 
@@ -263,18 +262,19 @@
 		box-sizing: border-box;
 	}
 	
-	.intro .colth-2 {padding-left: 50px;}
+	.intro .colth-2 {padding-left: 15px;}
 	.intro .colth-2 > div > * {letter-spacing: -0.5px;}
 	.intro .colth-2 > div > .p0 {font-size: 17px; line-height: 1.6; margin-top: 0px;}
 	.intro .colth-2 > div.nth-1 > .img-1, .intro .colth-2 > div.nth-2 > .img-1 {width: 240px;}
-	.intro .colth-2 > div.nth-1 > .p0 {width: 240px;}
+	.intro .colth-2 > div.nth-1 > .p0 {width: 240px; margin-top: 5px;}
 	.intro .colth-2 > div.nth-2 {margin-top: 30px;}
 	.intro .colth-2 > div.nth-2 > .p0 {width: 280px;}
 	.intro .colth-2 > div > .more-a {font-size: 16px; width: 102px; height: 30px;
-		display: block; text-align: center; line-height: 26px; border: 1px solid #fff;
-		margin-top: 14px;
+		display: block; text-align: center; border: 1px solid #fff;
+		margin-top: 10px;
 		-webkit-transition: all 0.5s; -o-transition: all 0.5s; transition: all 0.5s;
 	}
+	.intro .colth-2 > div > .more-a:after {content: ""; height: 110%; display: inline-block; vertical-align: middle;}
 	.intro .colth-2 > div > .more-a:hover {color: #00c6ff; border-color: #00c6ff;}
 	
 	
@@ -300,9 +300,10 @@
 	.package .pkg-list .mg- {position: relative; width: 46px; height: 1px; background: #fff;}
 	.package .pkg-list h3 {font-size: 20px; font-family: "Nanum Gothic", sans-serif; margin-top: 10px;}
 	.package .pkg-list .p0 {font-size: 16px; margin-top: 15px; line-height: 1.3; letter-spacing: -1.5px;}
-	.package .pkg-list .more-a {font-size: 16px; display: inline-block; padding: 4px 10px 5px; border: 1px solid #fff; margin-top: 10px;
+	.package .pkg-list .more-a {font-size: 16px; display: inline-block; padding: 0px 10px; height: 28px; border: 1px solid #fff; margin-top: 10px;
 		-webkit-transition: all 0.5s; -o-transition: all 0.5s; transition: all 0.5s;
 	}
+	.package .pkg-list .more-a:after {content: ""; height: 110%; display: inline-block; vertical-align: middle;}
 	.package .pkg-list .more-a:hover {color: #00c6ff; border-color: #00c6ff;}
 	
 	
@@ -348,9 +349,12 @@
 	}
 	.facil .bxList .bxBox .txt-box .p0 {font-size: 16px;}
 	.facil .bxList .bxBox .txt-box .more-a
-	, .facil .bxList .bxBox .in-txt .more-a {display: inline-block; font-size: 14px; margin-top: 8px; padding: 4px 8px 6px; border: 1px solid #fff;
+	, .facil .bxList .bxBox .in-txt .more-a {display: inline-block; font-size: 14px; margin-top: 8px; padding: 0px 8px; height: 26px; border: 1px solid #fff;
 		-webkit-transition: all 0.5s; -o-transition: all 0.5s; transition: all 0.5s;
 	}
+	.facil .bxList .bxBox .txt-box .more-a:after
+	, .facil .bxList .bxBox .in-txt .more-a:after {content: ""; height: 114%; display: inline-block; vertical-align: middle;}
+	
 	.facil .bxList .bxBox .txt-box .more-a:hover
 	,.facil .bxList .bxBox .in-txt .more-a:hover {border: 1px solid #00c6ff; color: #00c6ff;}
 	
@@ -359,8 +363,8 @@
 	.facil .bxList .bxBox .in-txt .p1 {font-size: 12px; line-height: 1.3; margin-top: 10px; word-break: keep-all; letter-spacing: -1px;}
 	.facil .bxList .bxBox .in-txt .more-a {border: 1px solid #00c6ff; color: #00c6ff;}
 	
+	.bx-wrapper .bx-controls-direction {margin-top: -15px;}
 	.bx-wrapper .bx-controls-direction a {width: 30px; height: 30px;}
-	.bx-controls {margin-top: -15px;}
 	
 	
 	.wayto {position: relative; padding: 70px 0 80px; background: #f1f1f1;}
@@ -400,8 +404,9 @@
 	.main .txt-box .mg- {display: block; height: 1px; width: 98px; margin: 35px auto; background: #fff;}
 	.main .txt-box .p1 {margin: 45px auto 50px;}
 	.main .txt-box .more-a {display: block; margin: 0 auto; 
-		font-size: 24px; border: 4px solid #fff; line-height: 45px;
+		font-size: 24px; border: 4px solid #fff;
 		width: 208px; height: 54px;}
+	.main .txt-box .more-a:after {content: ""; height: 110%; display: inline-block; vertical-align: middle;}
 	
 	.main #scr-box {position: absolute; left: 50%; margin-left: -23px; bottom: 10px;}
 	.main #scr-box > img {position: relative; top: 0; display: block; margin: 3px auto;}
@@ -459,10 +464,11 @@
 	.intro .colth-2 > div.nth-2 {margin-top: 30px;}
 	.intro .colth-2 > div.nth-2 > .p0 {width: 280px;}
 	.intro .colth-2 > div > .more-a {font-size: 16px; width: 102px; height: 30px;
-		display: block; text-align: center; line-height: 26px; border: 1px solid #fff;
+		display: block; text-align: center; border: 1px solid #fff;
 		margin-top: 14px;
 		-webkit-transition: all 0.5s; -o-transition: all 0.5s; transition: all 0.5s;
 	}
+	.intro .colth-2 > div > .more-a:after {content: ""; height: 110%; display: inline-block; vertical-align: middle;}
 	.intro .colth-2 > div > .more-a:hover {color: #00c6ff; border-color: #00c6ff;}
 	
 	
@@ -485,9 +491,10 @@
 	.package .pkg-list .mg- {position: relative; width: 46px; height: 1px; background: #fff;}
 	.package .pkg-list h3 {font-size: 20px; font-family: "Nanum Gothic", sans-serif; margin-top: 10px;}
 	.package .pkg-list .p0 {font-size: 16px; margin-top: 15px; line-height: 1.3; letter-spacing: -1.5px;}
-	.package .pkg-list .more-a {font-size: 16px; display: inline-block; padding: 4px 10px 5px; border: 1px solid #fff; margin-top: 10px;
+	.package .pkg-list .more-a {font-size: 16px; display: inline-block; padding: 0px 10px; height: 28px; border: 1px solid #fff; margin-top: 10px;
 		-webkit-transition: all 0.5s; -o-transition: all 0.5s; transition: all 0.5s;
 	}
+	.package .pkg-list .more-a:after {content: ""; height: 110%; display: inline-block; vertical-align: middle;}
 	.package .pkg-list .more-a:hover {color: #00c6ff; border-color: #00c6ff;}
 	
 	
@@ -533,9 +540,11 @@
 	}
 	.facil .bxList .bxBox .txt-box .p0 {font-size: 17px;}
 	.facil .bxList .bxBox .txt-box .more-a
-	, .facil .bxList .bxBox .in-txt .more-a {display: inline-block; font-size: 15px; margin-top: 10px; padding: 4px 8px 5px; border: 1px solid #fff;
+	, .facil .bxList .bxBox .in-txt .more-a {display: inline-block; font-size: 15px; margin-top: 10px; padding: 0px 8px; height: 26px; border: 1px solid #fff;
 		-webkit-transition: all 0.5s; -o-transition: all 0.5s; transition: all 0.5s;
 	}
+	.facil .bxList .bxBox .txt-box .more-a:after
+	, .facil .bxList .bxBox .in-txt .more-a:after {content: ""; height: 110%; display: inline-block; vertical-align: middle;}
 	.facil .bxList .bxBox .txt-box .more-a:hover
 	,.facil .bxList .bxBox .in-txt .more-a:hover {border: 1px solid #00c6ff; color: #00c6ff;}
 	
@@ -570,8 +579,6 @@
 	.main {position: relative;}
 	.main:before {content: ""; display: block; position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: url(../img/main_ptBg.png) repeat;}
 
-	.ie8 .vid {display: none;}
-	
 	.main > * {position: relative;}
 	
 	.main .txt-box {position: absolute; display: block; width: 100%; text-align: center;
@@ -581,8 +588,9 @@
 	.main .txt-box .mg- {display: block; height: 1px; width: 98px; margin: 35px auto; background: #fff;}
 	.main .txt-box .p1 {margin: 45px auto 50px;}
 	.main .txt-box .more-a {display: block; margin: 0 auto; 
-		font-size: 24px; border: 4px solid #fff; line-height: 45px;
+		font-size: 24px; border: 4px solid #fff;
 		width: 208px; height: 54px;}
+	.main .txt-box .more-a:after {content: ""; height: 110%; display: inline-block; vertical-align: middle;}
 	
 	.main #scr-box {position: absolute; left: 50%; margin-left: -23px; bottom: 10px;}
 	.main #scr-box > img {position: relative; top: 0; display: block; margin: 3px auto;}
@@ -641,10 +649,11 @@
 	.intro .colth-2 > div.nth-2 {margin-top: 50px;}
 	.intro .colth-2 > div.nth-2 > .p0 {width: 280px;}
 	.intro .colth-2 > div > .more-a {font-size: 17px; width: 102px; height: 30px;
-		display: block; text-align: center; line-height: 26px; border: 1px solid #fff;
+		display: block; text-align: center; border: 1px solid #fff;
 		margin-top: 14px;
 		-webkit-transition: all 0.5s; -o-transition: all 0.5s; transition: all 0.5s;
 	}
+	.intro .colth-2 > div > .more-a:after {content: ""; height: 110%; display: inline-block; vertical-align: middle;}
 	.intro .colth-2 > div > .more-a:hover {color: #00c6ff; border-color: #00c6ff;}
 	
 	
@@ -667,9 +676,10 @@
 	.package .pkg-list .mg- {position: relative; width: 46px; height: 1px; background: #fff;}
 	.package .pkg-list h3 {font-size: 25px; font-family: "Nanum Gothic", sans-serif; margin-top: 10px;}
 	.package .pkg-list .p0 {font-size: 18px; margin-top: 25px; line-height: 1.3;}
-	.package .pkg-list .more-a {font-size: 17px; display: inline-block; padding: 3px 10px 6px; border: 1px solid #fff; margin-top: 20px;
+	.package .pkg-list .more-a {font-size: 17px; display: inline-block; padding: 0px 10px; height: 28px; border: 1px solid #fff; margin-top: 20px;
 		-webkit-transition: all 0.5s; -o-transition: all 0.5s; transition: all 0.5s;
 	}
+	.package .pkg-list .more-a:after {content: ""; height: 110%; display: inline-block; vertical-align: middle;}
 	.package .pkg-list .more-a:hover {color: #00c6ff; border-color: #00c6ff;}
 	
 	.tourist {position: relative; padding: 84px 0 100px; background: #5ec1fe;}
@@ -711,9 +721,11 @@
 	}
 	.facil .bxList .bxBox .txt-box .p0 {font-size: 22px;}
 	.facil .bxList .bxBox .txt-box .more-a
-	, .facil .bxList .bxBox .in-txt .more-a {display: inline-block;font-size: 17px; margin-top: 12px; padding: 3px 10px 6px; border: 1px solid #fff;
+	, .facil .bxList .bxBox .in-txt .more-a {display: inline-block;font-size: 17px; margin-top: 12px; padding: 0px 10px; height: 30px; border: 1px solid #fff;
 		-webkit-transition: all 0.5s; -o-transition: all 0.5s; transition: all 0.5s;
 	}
+	.facil .bxList .bxBox .txt-box .more-a:after
+	, .facil .bxList .bxBox .in-txt .more-a:after {content: ""; height: 110%; display: inline-block; vertical-align: middle;}
 	.facil .bxList .bxBox .txt-box .more-a:hover
 	,.facil .bxList .bxBox .in-txt .more-a:hover {border: 1px solid #00c6ff; color: #00c6ff;}
 	

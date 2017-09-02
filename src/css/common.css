@@ -2,7 +2,7 @@
 @import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
 @import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
 
-body {position: relative; color: #2b2b2b; letter-spacing: -0.2px;}
+body {position: relative; color: #2b2b2b; letter-spacing: -0.2px; -moz-text-size-adjust: none; -ms-text-size-adjust: none; text-size-adjust: none;}
 * {box-sizing: border-box; font-family: "Nanum Barun Gothic", "Nanum Gothic", "Malgun Gothic", sans-serif;}
 a {color: inherit;}
 .thColor {color: #00c6ff;}
@@ -14,8 +14,8 @@ a {color: inherit;}
 /*--- bxSlider 재정의 ---*/
 .bx-wrapper {position: relative; margin: 0 auto; border: none; width: 1000px; box-shadow: none;}
 .bx-wrapper .bx-viewport {border: none; box-shadow: none; left: 0; background: none;}
-.bx-controls {position: absolute; width: 100%; left: 0; top: 50%; margin-top: -22.5px;}
-.bx-wrapper .bx-controls-direction {position: absolute; width: 100%;}
+.bx-controls {}
+.bx-wrapper .bx-controls-direction {position: absolute; width: 100%; width: 100%; left: 0; top: 50%; margin-top: -22.5px;}
 .bx-wrapper .bx-controls-direction a {background: none; width: 45px; height: 45px; top: 0; margin-top: 0;}
 .bx-wrapper .bx-prev {left: 20px;}
 .bx-wrapper .bx-next {right: 20px;}
@@ -184,15 +184,16 @@ a {color: inherit;}
 	.mNav-box h2 a:hover, .mNav-box .mNav > li a:hover {color: #44a8ff;}
 	
 	
-	.footer {background: #323232; padding: 35px 0 45px;}
+	.footer {background: #323232; padding: 35px 0 45px 20px;}
 	.footer .container {position: relative; width: 768px;}
 	.footer .container > div {position: relative; float: left; color: #cdcdcd;}
 	.footer .flt-1 {top: 25px; margin-right: 50px;}
+	.footer .flt-1 .f-logo {width: 130px;}
 	.footer .flt-2 {top: 10px;}
 	.footer .flt-2 address {line-height: 1.4; font-size: 15px;}
 	.footer .container .flt-3 {float: left;}
 	.footer .flt-3 > div {margin-top: 20px; float: left;}
-	.footer .flt-3 .d-1 {margin-left: 220px;}
+	.footer .flt-3 .d-1 {margin-left: 180px;}
 	.footer .flt-3 .d-2 {margin-left: 12px;}
 	.footer .flt-3 > div > span {display: inline-block; position: relative; vertical-align: middle;}
 	.footer .flt-3 > div .s0 {height: 100%;}

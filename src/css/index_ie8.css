@@ -2,7 +2,7 @@
 
 .vid-wrap {position: relative; width: 100%; height: 100%; background: url('../img/main_bg.jpg') no-repeat center center; background-size: cover;}
 
-.vid {position: absolute; width: 100%; height: 100%;}
+.vid {position: absolute; width: 100%; height: 100%; display: none;}
 
 .main {position: relative;}
 .main:before {content: ""; display: block; position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: url(../img/main_ptBg.png) repeat;}
@@ -18,8 +18,9 @@
 .main .txt-box .mg- {display: block; height: 1px; width: 98px; margin: 35px auto; background: #fff;}
 .main .txt-box .p1 {margin: 45px auto 50px;}
 .main .txt-box .more-a {display: block; margin: 0 auto; 
-	font-size: 24px; border: 4px solid #fff; line-height: 45px;
+	font-size: 24px; border: 4px solid #fff;
 	width: 208px; height: 54px;}
+.main .txt-box .more-a:after {content: ""; height: 110%; display: inline-block; vertical-align: middle;}
 
 .main #scr-box {position: absolute; left: 50%; margin-left: -23px; bottom: 25px;}
 .main #scr-box > img {position: relative; top: 0; display: block; margin: 3px auto;}
@@ -65,7 +66,7 @@
 .intro .colth-1 .more-a:hover {padding-left: 10px;}
 .intro .colth-1 .more-a:after {position: absolute; right: 0; top: 0;
 	content: ""; display: block;
-	width: 70px; height: 70px; border: 8px solid rgba(255,255,255,0.25);
+	width: 70px; height: 70px; border: 8px solid rgb(255,255,255);
 	box-sizing: border-box;
 }
 
@@ -78,10 +79,11 @@
 .intro .colth-2 > div.nth-2 {margin-top: 50px;}
 .intro .colth-2 > div.nth-2 > .p0 {width: 280px;}
 .intro .colth-2 > div > .more-a {font-size: 17px; width: 102px; height: 30px;
-	display: block; text-align: center; line-height: 26px; border: 1px solid #fff;
+	display: block; text-align: center; border: 1px solid #fff;
 	margin-top: 14px;
 	-webkit-transition: all 0.5s; -o-transition: all 0.5s; transition: all 0.5s;
 }
+.intro .colth-2 > div > .more-a:after {content: ""; height: 110%; display: inline-block; vertical-align: middle;}
 .intro .colth-2 > div > .more-a:hover {color: #00c6ff; border-color: #00c6ff;}
 
 
@@ -104,9 +106,10 @@
 .package .pkg-list .mg- {position: relative; width: 46px; height: 1px; background: #fff;}
 .package .pkg-list h3 {font-size: 25px; font-family: "Nanum Gothic", sans-serif; margin-top: 10px;}
 .package .pkg-list .p0 {font-size: 18px; margin-top: 25px; line-height: 1.3;}
-.package .pkg-list .more-a {font-size: 17px; display: inline-block; padding: 3px 10px 6px; border: 1px solid #fff; margin-top: 20px;
+.package .pkg-list .more-a {font-size: 17px; display: inline-block; padding: 0px 10px; height: 28px; border: 1px solid #fff; margin-top: 20px;
 	-webkit-transition: all 0.5s; -o-transition: all 0.5s; transition: all 0.5s;
 }
+.package .pkg-list .more-a:after {content: ""; height: 110%; display: inline-block; vertical-align: middle;}
 .package .pkg-list .more-a:hover {color: #00c6ff; border-color: #00c6ff;}
 
 .tourist {position: relative; padding: 84px 0 100px; background: #5ec1fe;}
@@ -148,9 +151,11 @@
 }
 .facil .bxList .bxBox .txt-box .p0 {font-size: 22px;}
 .facil .bxList .bxBox .txt-box .more-a
-, .facil .bxList .bxBox .in-txt .more-a {display: inline-block;font-size: 17px; margin-top: 12px; padding: 3px 10px 6px; border: 1px solid #fff;
+, .facil .bxList .bxBox .in-txt .more-a {display: inline-block;font-size: 17px; margin-top: 12px; padding: 0px 10px; height: 30px; border: 1px solid #fff;
 	-webkit-transition: all 0.5s; -o-transition: all 0.5s; transition: all 0.5s;
 }
+.facil .bxList .bxBox .txt-box .more-a:after
+, .facil .bxList .bxBox .in-txt .more-a:after {content: ""; height: 110%; display: inline-block; vertical-align: middle;}
 .facil .bxList .bxBox .txt-box .more-a:hover
 ,.facil .bxList .bxBox .in-txt .more-a:hover {border: 1px solid #00c6ff; color: #00c6ff;}
 
