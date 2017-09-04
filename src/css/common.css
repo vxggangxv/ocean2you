@@ -2,21 +2,32 @@
 @import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
 @import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
 
-body {position: relative; color: #2b2b2b; letter-spacing: -0.2px; -moz-text-size-adjust: none; -ms-text-size-adjust: none; text-size-adjust: none;}
-* {box-sizing: border-box; font-family: "Nanum Barun Gothic", "Nanum Gothic", "Malgun Gothic", sans-serif;}
-a {color: inherit;}
+
+#wrap {	
+	width: 100%; position: relative;
+	position: relative; color: #2b2b2b; letter-spacing: -0.2px; -moz-text-size-adjust: none; -ms-text-size-adjust: none; text-size-adjust: none;
+	font-family: "Nanum Barun Gothic", "Nanum Gothic", "Malgun Gothic", sans-serif;
+	
+	font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+	line-height: 1;
+}
+#wrap * {box-sizing: border-box;}
+/*#wrap section a {color: inherit;}*/
+.header, .footer {line-height: 1; font-family: "Nanum Barun Gothic", "Nanum Gothic", "Malgun Gothic", sans-serif;}
+
 .thColor {color: #00c6ff;}
 .f-bd {font-weight: bold;}
 
-#wrap {width: 100%; position: relative;}
-
+.vid-wrap {z-index: 10;}
 
 /*--- bxSlider 재정의 ---*/
 .bx-wrapper {position: relative; margin: 0 auto; border: none; width: 1000px; box-shadow: none;}
 .bx-wrapper .bx-viewport {border: none; box-shadow: none; left: 0; background: none;}
 .bx-controls {}
 .bx-wrapper .bx-controls-direction {position: absolute; width: 100%; width: 100%; left: 0; top: 50%; margin-top: -22.5px;}
-.bx-wrapper .bx-controls-direction a {background: none; width: 45px; height: 45px; top: 0; margin-top: 0;}
+.bx-wrapper .bx-controls-direction a {background: none; width: 45px; height: 45px; top: 0; margin-top: 0; z-index: 1;}
 .bx-wrapper .bx-prev {left: 20px;}
 .bx-wrapper .bx-next {right: 20px;}
 .bx-wrapper .bx-controls.bx-has-controls-auto.bx-has-pager .bx-controls-auto
@@ -57,7 +68,7 @@ a {color: inherit;}
 	.header .nav-bar .nav > li > a:hover {color: #00c6ff;}
 	.header .nav-bar .nav > li.lst {background: #44a8ff; padding-left: 15px; padding-right: 15px; letter-spacing: 0;}
 	.header .nav-bar .nav > li.lst > a:before {position: absolute; content: "";
-	display: block; width: 22px; height: 20px; background: url(../img/i_cal.png) no-repeat;
+	display: block; width: 22px; height: 20px; background: url(http://img.ocean2you.b.go.co.kr/i_cal.png) no-repeat;
 	left: 50%; margin-left: -11px; top: -27px;}
 	.header .nav-bar .nav > li.lst > a:hover {color: #fff;}
 
@@ -86,7 +97,7 @@ a {color: inherit;}
 
 	.mNav-box {
 		position: fixed; right: -260px; top: 0;
-		height: 100%; width: 260px; background: url(../img/intro_bg.jpg) right;
+		height: 100%; width: 260px; background: url(http://img.ocean2you.b.go.co.kr/intro_bg.jpg) right;
 		z-index: 10; 
 		color: #fff;
 		-webkit-transition: right 0.7s; -o-transition: right 0.7s; transition: right 0.7s;
@@ -96,6 +107,7 @@ a {color: inherit;}
 	.mNav-box .mNav {}
 	.mNav-box .mNav > li {padding: 10px 20px;}
 	.mNav-box .mNav > li:first-child {padding-top: 20px;}
+	.mNav-box h2 a, .mNav-box .mNav > li a {color: #fff; font-size: 16px;}
 	.mNav-box h2 a:hover, .mNav-box .mNav > li a:hover {color: #44a8ff;}
 	
 	
@@ -107,7 +119,7 @@ a {color: inherit;}
 	.header .mNav-btn.on span {top: 10px; left: 9px;}
 	
 	
-	.footer {background: #323232; padding: 35px 0 45px;}
+	.footer {background: #323232; padding: 35px 0 45px 0px;}
 	.footer .container {position: relative; width: 90%;}
 	.footer .container > div {position: relative; color: #cdcdcd;}
 	.footer .flt-1 {margin-right: 50px;}
@@ -141,7 +153,7 @@ a {color: inherit;}
 	.header .nav-bar .nav > li > a:hover {color: #00c6ff;}
 	.header .nav-bar .nav > li.lst {background: #44a8ff; padding-left: 15px; padding-right: 15px; letter-spacing: 0;}
 	.header .nav-bar .nav > li.lst > a:before {position: absolute; content: "";
-	display: block; width: 22px; height: 20px; background: url(../img/i_cal.png) no-repeat;
+	display: block; width: 22px; height: 20px; background: url(http://img.ocean2you.b.go.co.kr/i_cal.png) no-repeat;
 	left: 50%; margin-left: -11px; top: -27px;}
 	.header .nav-bar .nav > li.lst > a:hover {color: #fff;}
 
@@ -170,7 +182,7 @@ a {color: inherit;}
 
 	.mNav-box {
 		position: fixed; right: -260px; top: 0;
-		height: 100%; width: 260px; background: url(../img/intro_bg.jpg) right;
+		height: 100%; width: 260px; background: url(http://img.ocean2you.b.go.co.kr/intro_bg.jpg) right;
 		z-index: 1;
 		color: #fff;
 		-webkit-transition: right 0.7s; -o-transition: right 0.7s; transition: right 0.7s;
@@ -181,6 +193,7 @@ a {color: inherit;}
 	.mNav-box .mNav {}
 	.mNav-box .mNav > li {padding: 10px 20px;}
 	.mNav-box .mNav > li:first-child {padding-top: 20px;}
+	.mNav-box h2 a, .mNav-box .mNav > li a {color: #fff; font-size: 16px;}
 	.mNav-box h2 a:hover, .mNav-box .mNav > li a:hover {color: #44a8ff;}
 	
 	
@@ -220,7 +233,7 @@ a {color: inherit;}
 	.header .nav-bar .nav > li > a:hover {color: #00c6ff;}
 	.header .nav-bar .nav > li.lst {background: #44a8ff; padding-left: 15px; padding-right: 15px; letter-spacing: 0;}
 	.header .nav-bar .nav > li.lst > a:before {position: absolute; content: "";
-	display: block; width: 22px; height: 20px; background: url(../img/i_cal.png) no-repeat;
+	display: block; width: 22px; height: 20px; background: url(http://img.ocean2you.b.go.co.kr/i_cal.png) no-repeat;
 	left: 50%; margin-left: -11px; top: -27px;}
 	.header .nav-bar .nav > li.lst > a:hover {color: #fff;}
 
@@ -250,7 +263,7 @@ a {color: inherit;}
 
 	.mNav-box {
 		position: fixed; right: -260px; top: 0;
-		height: 100%; width: 260px; background: url(../img/intro_bg.jpg) right;
+		height: 100%; width: 260px; background: url(http://img.ocean2you.b.go.co.kr/intro_bg.jpg) right;
 		z-index: 1;
 		color: #fff;
 		-webkit-transition: right 0.7s; -o-transition: right 0.7s; transition: right 0.7s;
@@ -260,6 +273,7 @@ a {color: inherit;}
 	.mNav-box .mNav {}
 	.mNav-box .mNav > li {padding: 10px 20px;}
 	.mNav-box .mNav > li:first-child {padding-top: 20px;}
+	.mNav-box h2 a, .mNav-box .mNav > li a {color: #fff; font-size: 16px;}
 	.mNav-box h2 a:hover, .mNav-box .mNav > li a:hover {color: #44a8ff;}
 
 	.header .mNav-btn, .mNav-box {display: none;}
@@ -298,7 +312,7 @@ a {color: inherit;}
 	.header .nav-bar .nav > li > a:hover {color: #00c6ff;}
 	.header .nav-bar .nav > li.lst {background: #44a8ff; padding-left: 15px; padding-right: 15px; letter-spacing: 0;}
 	.header .nav-bar .nav > li.lst > a:before {position: absolute; content: "";
-	display: block; width: 22px; height: 20px; background: url(../img/i_cal.png) no-repeat;
+	display: block; width: 22px; height: 20px; background: url(http://img.ocean2you.b.go.co.kr/i_cal.png) no-repeat;
 	left: 50%; margin-left: -11px; top: -27px;}
 	.header .nav-bar .nav > li.lst > a:hover {color: #fff;}
 
@@ -328,7 +342,7 @@ a {color: inherit;}
 
 	.mNav-box {
 		position: fixed; right: -260px; top: 0;
-		height: 100%; width: 260px; background: url(../img/intro_bg.jpg) right;
+		height: 100%; width: 260px; background: url(http://img.ocean2you.b.go.co.kr/intro_bg.jpg) right;
 		z-index: 1;
 		color: #fff;
 		-webkit-transition: right 0.7s; -o-transition: right 0.7s; transition: right 0.7s;
@@ -338,6 +352,7 @@ a {color: inherit;}
 	.mNav-box .mNav {}
 	.mNav-box .mNav > li {padding: 10px 20px;}
 	.mNav-box .mNav > li:first-child {padding-top: 20px;}
+	.mNav-box h2 a, .mNav-box .mNav > li a {color: #fff; font-size: 16px;}
 	.mNav-box h2 a:hover, .mNav-box .mNav > li a:hover {color: #44a8ff;}
 
 	.header .mNav-btn, .mNav-box {display: none;}
@@ -351,7 +366,7 @@ a {color: inherit;}
 	.footer .flt-2 address {line-height: 1.4; font-size: 15px;}
 	.footer .flt-3 > div {width: 265px; height: 68px; background: #4b4b4b; margin-top: 10px;}
 	.footer .flt-3 > div > span {display: inline-block; position: relative; float: left;}
-	.footer .flt-3 > div .s0 {padding: 13px 18px 0; height: 100%;}
+	.footer .flt-3 > div .s0 {padding: 13px 18px 0;}
 	.footer .flt-3 > div .s1 {font-size: 15px; color: #cacaca; margin-top: 11px; width: 180px;}
 	.footer .flt-3 > div .s2 {font-size: 28px; font-weight: 600; color: #ababab; margin-top: 5px;}
 	.footer .flt-3 .d-1 {margin-top: 0;}

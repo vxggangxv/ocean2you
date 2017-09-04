@@ -18,20 +18,20 @@ $(function() {
 		
 		if (scr < setTop) {
 			$("#goTop").fadeOut();
-			$("#header").removeClass('on');
+			$("#gnb-header").removeClass('on');
 			$("body").removeClass('on');
 			
-			$("#header .logo").attr('src', 'http://img.ocean2you.co.kr/renewal/logo.png');
-			$("#header .gcLogo").attr('src', 'http://img.ocean2you.co.kr/renewal/oc2_gcLogo.png');
+			$("#gnb-header .logo").attr('src', 'http://img.ocean2you.co.kr/renewal/logo.png');
+			$("#gnb-header .gcLogo").attr('src', 'http://img.ocean2you.co.kr/renewal/oc2_gcLogo.png');
 		}
 		if (scr >= setTop) {
 			$("#goTop").fadeIn();
-			$("#header").addClass('on');
+			$("#gnb-header").addClass('on');
 			$("body").addClass('on');
 			
 			
-			$("#header .logo").attr('src', 'http://img.ocean2you.co.kr/renewal/logo_fixed.png');
-			$("#header .gcLogo").attr('src', 'http://img.go.co.kr/logo.png');
+			$("#gnb-header .logo").attr('src', 'http://img.ocean2you.co.kr/renewal/logo_fixed.png');
+			$("#gnb-header .gcLogo").attr('src', 'http://img.go.co.kr/logo.png');
 		}
 	});
 	

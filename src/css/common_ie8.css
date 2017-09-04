@@ -21,7 +21,7 @@ background: rgb(255,255,255); vertical-align: middle;
 .header .nav-bar .nav > li > a:hover {color: #00c6ff;}
 .header .nav-bar .nav > li.lst {background: #44a8ff; padding-left: 15px; padding-right: 15px; letter-spacing: 0;}
 .header .nav-bar .nav > li.lst > a:before {position: absolute; content: "";
-display: block; width: 22px; height: 20px; background: url(../img/i_cal.png) no-repeat;
+display: block; width: 22px; height: 20px; background: url(http://img.ocean2you.b.go.co.kr/i_cal.png) no-repeat;
 left: 50%; margin-left: -11px; top: -27px;}
 .header .nav-bar .nav > li.lst > a:hover {color: #fff;}
 
@@ -51,7 +51,7 @@ transform-origin: center;
 
 .mNav-box {
 position: fixed; right: -260px; top: 0;
-height: 100%; width: 260px; background: url(../img/intro_bg.jpg) right;
+height: 100%; width: 260px; background: url(http://img.ocean2you.b.go.co.kr/intro_bg.jpg) right;
 z-index: 1;
 color: #fff;
 -webkit-transition: right 0.7s; -o-transition: right 0.7s; transition: right 0.7s;

@@ -1,12 +1,21 @@
 @charset 'utf-8';
+.main .txt-box .more-a
+, .intro .colth-1 .more-a
+, .intro .colth-2 > div > .more-a
+, .package .pkg-list .more-a
+, .tourist .tour-list > li h3
+, .tourist .tour-list > li .p0
+, .facil .bxList .bxBox .txt-box .more-a
+, .facil .bxList .bxBox .in-txt .more-a
+{color: #fff;}
 
 @media (max-width: 767px) {
-	.vid-wrap {position: relative; width: 100%; height: 100%; background: url('../img/main_bg.jpg') no-repeat center center; background-size: cover;}
+	.vid-wrap {position: relative; width: 100%; height: 100%; background: url('http://img.ocean2you.b.go.co.kr/main_bg.jpg') no-repeat center center; background-size: cover;}
 
 	.vid {position: absolute; width: 100%; height: 100%; display: none;}
 
 	.main {position: relative;}
-	.main:before {content: ""; display: block; position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: url(../img/main_ptBg.png) repeat;}
+	.main:before {content: ""; display: block; position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: url(http://img.ocean2you.b.go.co.kr/main_ptBg.png) repeat;}
 
 	.main > * {position: relative;}
 	
@@ -45,7 +54,7 @@
 	
 	
 	.intro {position: relative; width: 100%; color: #fff;
-		background: url(../img/intro_bg.jpg) no-repeat ; padding: 50px 0;
+		background: url(http://img.ocean2you.b.go.co.kr/intro_bg.jpg) no-repeat ; padding: 50px 0;
 		background-size: 100% 100%;
 	}
 	.intro .container {position: relative; width: 90%;}
@@ -87,7 +96,7 @@
 	
 	.package {position: relative; width: 100%; padding: 60px 0 64px;}
 	.package .in-bg {position: relative; width: 100%;
-		background: url(../img/package_bg.jpg) no-repeat top center;
+		background: url(http://img.ocean2you.b.go.co.kr/package_bg.jpg) no-repeat top center;
 	}
 	.package .container {padding-top: 40px; width: 90%;}
 	.package .in-tit {text-align: center; word-break: keep-all;}
@@ -125,14 +134,14 @@
 	.tourist .tour-list > li .mg- {position: relative; width: 30px; height: 1px; background: #fff; margin: 15px auto;}
 	.tourist .tour-list > li .p0 {display: none; font-size: 13px; font-weight: 400; line-height: 1.3; letter-spacing: -1px;}
 	.tourist .tour-list > li .p0 .s0 {display: block; margin-bottom: 14px;}
-	.tourist .tour-list > li:hover a {background: url(../img/bg_dim.png) repeat;}
+	.tourist .tour-list > li:hover a {background: url(http://img.ocean2you.b.go.co.kr/bg_dim.png) repeat;}
 	.tourist .tour-list > li.lst:hover a {background: none;}
 	.tourist .tour-list > li:hover h3 {margin-top: 35px;}
 	.tourist .tour-list > li:hover .p0 {display: block;}
 	
 	
 	.facil {position: relative; padding: 60px 0;
-		background: url(../img/facil_bg.jpg) repeat top center;
+		background: url(http://img.ocean2you.b.go.co.kr/facil_bg.jpg) repeat top center;
 	}
 	.facil .container {width: 90%;}
 	.facil .in-tit {text-align: center; color: #323232; word-break: keep-all;}
@@ -145,7 +154,7 @@
 	
 	
 	.facil .bxList .bxBox .txt-box {position: absolute; bottom: 0; width: 100%; padding: 6px 12px 7px; color: #fff;
-		background: url(../img/bg_dim.png) repeat;
+		background: url(http://img.ocean2you.b.go.co.kr/bg_dim.png) repeat;
 	}
 	.facil .bxList .bxBox .txt-box .p0 {font-size: 13px;}
 	.facil .bxList .bxBox .txt-box .more-a
@@ -189,12 +198,12 @@
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-	.vid-wrap {position: relative; width: 100%; height: 100%; background: url('../img/main_bg.jpg') no-repeat center center; background-size: cover;}
+	.vid-wrap {position: relative; width: 100%; height: 100%; background: url('http://img.ocean2you.b.go.co.kr/main_bg.jpg') no-repeat center center; background-size: cover;}
 
 	.vid {position: absolute; width: 100%; height: 100%; display: none;}
 
 	.main {position: relative;}
-	.main:before {content: ""; display: block; position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: url(../img/main_ptBg.png) repeat;}
+	.main:before {content: ""; display: block; position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: url(http://img.ocean2you.b.go.co.kr/main_ptBg.png) repeat;}
 	
 	.main > * {position: relative;}
 	
@@ -235,7 +244,7 @@
 	
 	
 	.intro {position: relative; width: 100%; color: #fff;
-		background: url(../img/intro_bg.jpg) no-repeat ; padding: 100px 0 90px;
+		background: url(http://img.ocean2you.b.go.co.kr/intro_bg.jpg) no-repeat ; padding: 100px 0 90px;
 	}
 	.intro .container {position: relative; width: 768px;}
 	.intro [class*=colth-] {width: 50%; float: left;}
@@ -280,7 +289,7 @@
 	
 	.package {position: relative; width: 100%; padding: 60px 0 94px;}	
 	.package .in-bg {position: relative; width: 100%; 
-		background: url(../img/package_bg.jpg) no-repeat top center;
+		background: url(http://img.ocean2you.b.go.co.kr/package_bg.jpg) no-repeat top center;
 	}
 	.package .container {padding-top: 50px;}
 	.package .in-tit {text-align: center;}
@@ -319,14 +328,14 @@
 	.tourist .tour-list > li .mg- {position: relative; width: 46px; height: 1px; background: #fff; margin: 15px auto;}
 	.tourist .tour-list > li .p0 {display: none; font-size: 13px; font-weight: 400; line-height: 1.3; letter-spacing: -1.5px;}
 	.tourist .tour-list > li .p0 .s0 {display: block; margin-bottom: 14px;}
-	.tourist .tour-list > li:hover a {background: url(../img/bg_dim.png) repeat;}
+	.tourist .tour-list > li:hover a {background: url(http://img.ocean2you.b.go.co.kr/bg_dim.png) repeat;}
 	.tourist .tour-list > li.lst:hover a {background: none;}
 	.tourist .tour-list > li:hover h3 {margin-top: 20px;}
 	.tourist .tour-list > li:hover .p0 {display: block;}
 	
 	
 	.facil {position: relative; padding: 70px 0;
-		background: url(../img/facil_bg.jpg) no-repeat top center;
+		background: url(http://img.ocean2you.b.go.co.kr/facil_bg.jpg) no-repeat top center;
 	}
 	.facil .container {width: 768px;}
 	.facil .in-tit {text-align: center; color: #323232;}
@@ -345,7 +354,7 @@
 	.facil .bxList .bxBox.nth-1 {margin-left: 0px;}
 	
 	.facil .bxList .bxBox .txt-box {position: absolute; bottom: 0; width: 100%; padding: 10px 22px 14px; color: #fff;
-		background: url(../img/bg_dim.png) repeat;
+		background: url(http://img.ocean2you.b.go.co.kr/bg_dim.png) repeat;
 	}
 	.facil .bxList .bxBox .txt-box .p0 {font-size: 16px;}
 	.facil .bxList .bxBox .txt-box .more-a
@@ -386,12 +395,12 @@
 
 
 @media (min-width: 992px) and (max-width: 1431px) {
-	.vid-wrap {position: relative; width: 100%; height: 100%; background: url('../img/main_bg.jpg') no-repeat center center; background-size: cover;}
+	.vid-wrap {position: relative; width: 100%; height: 100%; background: url('http://img.ocean2you.b.go.co.kr/main_bg.jpg') no-repeat center center; background-size: cover;}
 
 	.vid {position: absolute; width: 100%; height: 100%;}
 
 	.main {position: relative;}
-	.main:before {content: ""; display: block; position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: url(../img/main_ptBg.png) repeat;}
+	.main:before {content: ""; display: block; position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: url(http://img.ocean2you.b.go.co.kr/main_ptBg.png) repeat;}
 
 	.ie8 .vid {display: none;}
 	
@@ -431,7 +440,7 @@
 	}
 	
 	.intro {position: relative; width: 100%; color: #fff;
-		background: url(../img/intro_bg.jpg) no-repeat ; padding: 100px 0 90px;
+		background: url(http://img.ocean2you.b.go.co.kr/intro_bg.jpg) no-repeat ; padding: 100px 0 90px;
 	}
 	.intro .container {position: relative; width: 992px;}
 	.intro [class*=colth-] {width: 50%; float: left;}
@@ -474,7 +483,7 @@
 	
 	.package {position: relative; width: 100%; padding: 90px 0 240px;}	
 	.package .in-bg {position: relative; width: 100%; height: 549px;
-		background: url(../img/package_bg.jpg) no-repeat top center;
+		background: url(http://img.ocean2you.b.go.co.kr/package_bg.jpg) no-repeat top center;
 	}
 	.package .container {padding-top: 120px;}
 	.package .in-tit {text-align: center;}
@@ -510,14 +519,14 @@
 	.tourist .tour-list > li .mg- {position: relative; width: 46px; height: 1px; background: #fff; margin: 15px auto;}
 	.tourist .tour-list > li .p0 {display: none; font-size: 13px; font-weight: 400; line-height: 1.3; letter-spacing: -1.5px;}
 	.tourist .tour-list > li .p0 .s0 {display: block; margin-bottom: 14px;}
-	.tourist .tour-list > li:hover a {background: url(../img/bg_dim.png) repeat;}
+	.tourist .tour-list > li:hover a {background: url(http://img.ocean2you.b.go.co.kr/bg_dim.png) repeat;}
 	.tourist .tour-list > li.lst:hover a {background: none;}
 	.tourist .tour-list > li:hover h3 {margin-top: 20px;}
 	.tourist .tour-list > li:hover .p0 {display: block;}
 	
 	
 	.facil {position: relative; padding: 90px 0;
-		background: url(../img/facil_bg.jpg) no-repeat top center;
+		background: url(http://img.ocean2you.b.go.co.kr/facil_bg.jpg) no-repeat top center;
 	}
 	.facil .container {width: 992px;}
 	.facil .in-tit {text-align: center; color: #323232;}
@@ -536,7 +545,7 @@
 	.facil .bxList .bxBox.nth-1 {margin-left: 0px;}
 	
 	.facil .bxList .bxBox .txt-box {position: absolute; bottom: 0; width: 100%; padding: 10px 22px 14px; color: #fff;
-		background: url(../img/bg_dim.png) repeat;
+		background: url(http://img.ocean2you.b.go.co.kr/bg_dim.png) repeat;
 	}
 	.facil .bxList .bxBox .txt-box .p0 {font-size: 17px;}
 	.facil .bxList .bxBox .txt-box .more-a
@@ -572,12 +581,12 @@
 	
 }
 @media (min-width: 1432px) {
-	.vid-wrap {position: relative; width: 100%; height: 100%; background: url('../img/main_bg.jpg') no-repeat center center; background-size: cover;}
+	.vid-wrap {position: relative; width: 100%; height: 100%; background: url('http://img.ocean2you.b.go.co.kr/main_bg.jpg') no-repeat center center; background-size: cover;}
 
 	.vid {position: absolute; width: 100%; height: 100%;}
 
 	.main {position: relative;}
-	.main:before {content: ""; display: block; position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: url(../img/main_ptBg.png) repeat;}
+	.main:before {content: ""; display: block; position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: url(http://img.ocean2you.b.go.co.kr/main_ptBg.png) repeat;}
 
 	.main > * {position: relative;}
 	
@@ -615,7 +624,7 @@
 	}
 	
 	.intro {position: relative; width: 100%; color: #fff;
-		background: url(../img/intro_bg.jpg) no-repeat ; padding: 160px 0 90px;
+		background: url(http://img.ocean2you.b.go.co.kr/intro_bg.jpg) no-repeat ; padding: 160px 0 90px;
 	}
 	.intro .container {position: relative;}
 	.intro [class*=colth-] {width: 50%; float: left;}
@@ -659,7 +668,7 @@
 	
 	.package {position: relative; width: 100%; padding: 110px 0 294px;}	
 	.package .in-bg {position: relative; width: 100%; height: 549px;
-		background: url(../img/package_bg.jpg) no-repeat top center;
+		background: url(http://img.ocean2you.b.go.co.kr/package_bg.jpg) no-repeat top center;
 	}
 	.package .container {padding-top: 120px;}
 	.package .in-tit {text-align: center;}
@@ -693,14 +702,14 @@
 	.tourist .tour-list > li .mg- {position: relative; width: 46px; height: 1px; background: #fff; margin: 15px auto;}
 	.tourist .tour-list > li .p0 {display: none; font-size: 17px; font-weight: 600; line-height: 1.4; letter-spacing: -1px;}
 	.tourist .tour-list > li .p0 .s0 {display: block; margin-bottom: 14px;}
-	.tourist .tour-list > li:hover a {background: url(../img/bg_dim.png) repeat;}
+	.tourist .tour-list > li:hover a {background: url(http://img.ocean2you.b.go.co.kr/bg_dim.png) repeat;}
 	.tourist .tour-list > li.lst:hover a {background: none;}
 	.tourist .tour-list > li:hover h3 {margin-top: 40px;}
 	.tourist .tour-list > li:hover .p0 {display: block;}
 	
 	
 	.facil {position: relative; padding: 90px 0;
-		background: url(../img/facil_bg.jpg) no-repeat top center;
+		background: url(http://img.ocean2you.b.go.co.kr/facil_bg.jpg) no-repeat top center;
 	}
 	.facil .in-tit {text-align: center; color: #323232;}
 	.facil .in-tit h2 {font-size: 37px; font-weight: 600;}
@@ -717,7 +726,7 @@
 	.facil .bxList .bxBox.nth-1 {margin-left: 0px;}
 	
 	.facil .bxList .bxBox .txt-box {position: absolute; bottom: 0; width: 100%; padding: 18px 22px 22px; color: #fff;
-		background: url(../img/bg_dim.png) repeat;
+		background: url(http://img.ocean2you.b.go.co.kr/bg_dim.png) repeat;
 	}
 	.facil .bxList .bxBox .txt-box .p0 {font-size: 22px;}
 	.facil .bxList .bxBox .txt-box .more-a

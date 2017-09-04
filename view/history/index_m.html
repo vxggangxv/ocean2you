@@ -26,19 +26,23 @@
 	<link href="https://cdn.rawgit.com/openhiun/hangul/14c0f6faa2941116bb53001d6a7dcd5e82300c3f/nanumbarungothic.css" rel="stylesheet" type="text/css">
 	
 	
-	<link rel="stylesheet" href="../../src/css/reset_custom.css">
+	<link rel="stylesheet" href="http://static.go.co.kr/css/moblie_reset.css" type="text/css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.12/jquery.bxslider.css">
+	<link rel="stylesheet" href="http://static.go.co.kr/css/mobile_layout3.css" type="text/css">
+	<link rel="stylesheet" href="http://static.go.co.kr/css/totalmobile.css" type="text/css">
+	<link rel="stylesheet" href="http://static.go.co.kr/css/m/history/history_m.css">
 	<link rel="stylesheet" href="../../src/css/common.css">
-	<link rel="stylesheet" href="../../src/css/member/init.css">
+	<link rel="stylesheet" href="../../src/css/history/init_m.css">
 	
 	<script type="text/javascript" src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
 	<script src="../../src/js/jquery.easing.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.12/jquery.bxslider.min.js"></script>
 	<script src="../../src/js/common.js"></script>
+	<script src="../../src/js/history/init_m.js"></script>
 	
 	<!--[if lt IE 9]>
 		<link rel="stylesheet" href="../../src/css/common_ie8.css">
-		<link rel="stylesheet" href="../../src/css/member/init_ie8.css">
+		<link rel="stylesheet" href="../../src/css/history/init_ie8.css">
 		<script type="text/javascript" src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
 	<![endif]-->
 	
@@ -90,38 +94,78 @@
 			<section class="title">
 			
 				<div class="container tit-box">
-					<h2>로그인</h2>
+					<h2>예약내역조회</h2>
 					<div class="mg-"></div>
-					<div class="titTxt"><img src="../../src/img/member/login_title.png" alt="로그인"></div>
-					<p class="p0"><span class="xs-block">내 소셜 아이디로 간편하게 오션투유리조트</span> 설악비치 호탤앤콘도 가입과 로그인이 가능합니다.</p>
-					<p class="p0 under">신규가입시 2,000원 적립금 지급, 결제금액 1% 적립</p>
+					<div class="titTxt"><img src="../../src/img/history/history_title.png" alt="예약내역조회"></div>
+					<p class="p0">예약하신 내역을 확인하실수 있습니다.</p>
 					
 				</div>
 								
 			</section>
 		</div>
 		
-		<section class="login" id="setTop">
+		<section class="history" id="setTop">
 			<div class="container">
-				<h3>간단하게 로그인</h3>
-				<div class="mg-"></div>
-				
-				<div class="lgn-box">
-					<ul class="lgnBtn-list clr">
-						<li class="f"><a href="" class="btn-a"><img class="i-logo" src="http://img.go.co.kr/mobile/f_logo.jpg" alt="페이스북">페이스북 아이디로 로그인</a></li>
-						<li class="k"><a href="" class="btn-a"><img class="i-logo" src="http://img.go.co.kr/mobile/k_logo.jpg" alt="카카오톡">카카오톡 아이디로 로그인</a></li>
-						<li class="n"><a href="" class="btn-a"><img class="i-logo" src="http://img.go.co.kr/mobile/n_logo.jpg" alt="네이버">네이버 아이디로 로그인</a></li>
-						<li class="d"><a href="" class="btn-a"><img class="i-logo" src="http://img.go.co.kr/mobile/d_logo.jpg" alt="다음">다음 아이디로 로그인</a></li>
-						<li class="g"><a href="" class="btn-a"><img class="i-logo" src="http://img.go.co.kr/mobile/g_logo.jpg" alt="구글">구글 아이디로 로그인</a></li>
-					</ul>
+				<ul class="his-tab clr" id="his-tab">
+					<li class="on"><a href="javascript:;" class="btn-a">전체</a></li>
+					<li><a href="javascript:;" class="btn-a">예약 진행중</a></li>
+					<li><a href="javascript:;" class="btn-a">예약불가 및 취소</a></li>
+				</ul>
+			</div>
+			
+			<div class="clr"></div>
+			<!--별도 고코 PC/모바일 예약하기 위치-->
+			<div id="wrapper">
+				<div id="scroll_box">			
+					<div class="history01-list" id="order_layout" style="min-height:150px"><ul>
+				<li class="item-2" style="background:url('http://cache.go.co.kr/media/220/file.go.co.kr/tour/img3/') no-repeat center;background-size:cover">
+					<div class="black-a60 a-bg"></div>
 					
-					<p class="p0">
-						로그인/회원가입 시 이용약관, 개인정보취급방침에 동의하게 됩니다.<br>
-					    회원가입시 SMS/메일링 수신에 동의합니다.<br>
-					    오션투유리조트 설악비치 호탤앤콘도 의 온라인 공식 대행 여행사 [고코투어]로 로그인됩니다. 
+						<p class="p-state">
+							<span class="s1"><span class="black-a46 a-bg"></span><span class="s1-1">입장권</span></span>
+							
+							<span class="s0"><span class="orange-a70 a-bg"></span><span class="s0-1">예약<br>완료</span></span>
+						</p>
+					<p class="p1">
+						<strong>서울대공원(스카이리프트)</strong><br>서울대공원(스카이리프트)
 					</p>
+					<p class="p2">2017.08.29 (화)</p>
+					<a href="/home/member/?dd=RgwkRix5KEolCQ==&amp;rnum=GExyG20eag==" class="h-link-a"></a>
+				</li>
+				<li class="item-2" style="background:url('http://cache.go.co.kr/media/220/file.go.co.kr/tour/img3/') no-repeat center;background-size:cover">
+					<div class="black-a60 a-bg"></div>
+					
+						<p class="p-state">
+							<span class="s1"><span class="black-a46 a-bg"></span><span class="s1-1">입장권</span></span>
+							
+							<span class="s0"><span class="orange-a70 a-bg"></span><span class="s0-1">예약<br>완료</span></span>
+						</p>
+					<p class="p1">
+						<strong>서울대공원(스카이리프트)</strong><br>서울대공원(스카이리프트)
+					</p>
+					<p class="p2">2017.08.29 (화)</p>
+					<a href="/home/member/?dd=RgwkRix5KEolCQ==&amp;rnum=GExyG2sSbQ==" class="h-link-a"></a>
+				</li>
+				<li class="item-2" style="background:url('http://cache.go.co.kr/media/220/file.go.co.kr/tour/img3/') no-repeat center;background-size:cover">
+					<div class="black-a60 a-bg"></div>
+					
+						<p class="p-state">
+							<span class="s1"><span class="black-a46 a-bg"></span><span class="s1-1">입장권</span></span>
+							
+							<span class="s0"><span class="orange-a70 a-bg"></span><span class="s0-1">예약<br>완료</span></span>
+						</p>
+					<p class="p1">
+						<strong>서울대공원(스카이리프트)</strong><br>서울대공원(스카이리프트)
+					</p>
+					<p class="p2">2017.08.29 (화)</p>
+					<a href="/home/member/?dd=RgwkRix5KEolCQ==&amp;rnum=GExyG2sSZw==" class="h-link-a"></a>
+				</li></ul><div class="pagenation" id="pagenation"><a class="prev" href="javascript:alert('첫 페이지입니다.');">&lt;</a> <a class="on" href="#">1</a> <a class="next" href="javascript:alert('마지막 페이지입니다.');">&gt;</a> </div></div>	
+			
 				</div>
 			</div>
+			
+			<div class="clr"></div>
+			
 		</section>
 
 

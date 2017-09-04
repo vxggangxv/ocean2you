@@ -2,6 +2,8 @@
 
 .vid-wrap {background: url(http://img.ocean2you.b.go.co.kr/package/pkg_titBg.jpg) no-repeat top center; padding-top: 98px; position: relative; width: 100%; height: 400px;}
 
+.title .tit-box h2 {font-weight: 400;}
+
 .title {position: relative;}
 .title .tit-box {text-align: center; padding-top: 76px; color: #fff;}
 .title .tit-box h2 {font-size: 27px;}

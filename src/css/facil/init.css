@@ -1,11 +1,14 @@
 @charset 'utf-8';
 
-.vid-wrap {background: url(../../img/intro/intro_titBg.jpg) no-repeat top center; padding-top: 98px; position: relative; width: 100%; height: 400px;}
+.vid-wrap {background: url(http://img.ocean2you.b.go.co.kr/intro/intro_titBg.jpg) no-repeat top center; padding-top: 98px; position: relative; width: 100%; height: 400px;}
 
 .bx-wrapper .bx-controls-direction {margin-top: -22.15px;}
 .bx-wrapper .bx-controls-direction a {width: 22px; height: 43px;}
 .bx-wrapper .bx-prev {left: 30px;}
 .bx-wrapper .bx-next {right: 30px;}
+
+.facil-wrap .fc-list .txt-box .more-a
+{color: #fff;}
 
 @media (max-width: 767px) {
 	.xs-block {display: block;}
@@ -18,7 +21,7 @@
 	.title .facil-tab {position: relative; margin: 22px auto 0; width: 310px; left: 1.5px;}
 	.title .facil-tab > li {position: relative; float: left; top: 0; width: 50%; border: 2px solid transparent;}
 	.title .facil-tab > li.on {border: 2px solid #fff;}
-	.title .facil-tab > li a {display: block; width: 100%; height: 45px; font-size: 16px;}
+	.title .facil-tab > li a {display: block; width: 100%; height: 45px; font-size: 16px; font-weight: 400; color: #fff;}
 	.title .facil-tab > li a:after {content: ""; display: inline-block; height: 108%; vertical-align: middle;}
 	
 	.facil-wrap {padding: 40px 0 100px;}
@@ -89,7 +92,7 @@
 	.title .facil-tab > li.nth-1 {border-left: none; margin-left: 0;}
 	.title .facil-tab > li.on {border: 2px solid #fff; z-index: 1; padding-left: 0;}
 	.title .facil-tab > li.nth-1.on {padding-right: 1px;}
-	.title .facil-tab > li a {display: block; width: 100%; height: 45px;}
+	.title .facil-tab > li a {display: block; width: 100%; height: 45px; font-size: 16px; font-weight: 400; color: #fff;}
 	.title .facil-tab > li a:after {content: ""; display: inline-block; height: 108%; vertical-align: middle;}
 	
 	.facil-wrap {padding: 60px 0 170px;}
@@ -154,7 +157,7 @@
 	.title .facil-tab > li.nth-1 {border-left: none; margin-left: 0;}
 	.title .facil-tab > li.on {border: 2px solid #fff; z-index: 1; padding-left: 0;}
 	.title .facil-tab > li.nth-1.on {padding-right: 1px;}
-	.title .facil-tab > li a {display: block; width: 100%; height: 45px;}
+	.title .facil-tab > li a {display: block; width: 100%; height: 45px; font-size: 16px; font-weight: 400; color: #fff;}
 	.title .facil-tab > li a:after {content: ""; display: inline-block; height: 108%; vertical-align: middle;}
 	
 	.facil-wrap {padding: 60px 0 170px;}
@@ -213,7 +216,7 @@
 	.title .facil-tab > li.nth-1 {border-left: none; margin-left: 0;}
 	.title .facil-tab > li.on {border: 2px solid #fff; z-index: 1; padding-left: 0;}
 	.title .facil-tab > li.nth-1.on {padding-right: 1px;}
-	.title .facil-tab > li a {display: block; width: 100%; height: 45px;}
+	.title .facil-tab > li a {display: block; width: 100%; height: 45px; font-size: 16px; font-weight: 400; color: #fff;}
 	.title .facil-tab > li a:after {content: ""; display: inline-block; height: 108%; vertical-align: middle;}
 	
 	.facil-wrap {padding: 60px 0 170px;}

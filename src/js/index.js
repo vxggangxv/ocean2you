@@ -11,7 +11,7 @@ $(function () {
 	
 	// 자세히보기 클릭시
 	$("#txt-box .more-a").on('click', function() {
-		var setTop =	$("#intro").offset().top;
+		var setTop =	$("#setTop").offset().top;
 		$('html, body').stop().animate({
 			scrollTop: setTop
 		}, 1300, 'easeInOutQuart');
