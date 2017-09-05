@@ -1,7 +1,10 @@
 @charset 'utf-8';
 
+
 .vid-wrap {background: url(http://img.ocean2you.b.go.co.kr/intro/intro_titBg.jpg) no-repeat top center; padding-top: 98px; position: relative; width: 100%; height: 400px;}
-#wrapper * {box-sizing: none;}
+#wrapper {line-height: 1.5;}
+
+#contents {margin-top: 0; border-top: 3px solid #717171;}
 
 
 @media (max-width: 767px) {
@@ -25,7 +28,7 @@
 	
 	.reservation {padding: 45px 0 84px;}
 	.reservation .container {width: 310px;}
-	.reservation h3 {font-size: 28px; color: #44a8ff; text-align: center; font-weight: 600; font-family: "Nanum Gothic", sans-serif;}
+	.reservation .container > h3 {font-size: 28px; color: #44a8ff; text-align: center; font-weight: 600; font-family: "Nanum Gothic", sans-serif;}
 	.reservation .p0 {font-size: 15px; text-align: center; margin-top: 12px; line-height: 1.3;}
 	.reservation .mg- {display: block; height: 1px; width: 60px; margin: 20px auto 48px; background: #44a8ff;}
 }
@@ -51,7 +54,7 @@
 	
 	.reservation {padding: 75px 0 114px;}
 	.reservation .container {width: 768px;}
-	.reservation h3 {font-size: 32px; color: #44a8ff; text-align: center; font-weight: 600; font-family: "Nanum Gothic", sans-serif;}
+	.reservation .container > h3 {font-size: 32px; color: #44a8ff; text-align: center; font-weight: 600; font-family: "Nanum Gothic", sans-serif;}
 	.reservation .p0 {font-weight: 17px; text-align: center; margin-top: 12px;}
 	.reservation .mg- {display: block; height: 1px; width: 60px; margin: 20px auto 48px; background: #44a8ff;}
 }
@@ -75,7 +78,7 @@
 	
 	.reservation {padding: 75px 0 114px;}
 	.reservation .container {width: 992px;}
-	.reservation h3 {font-size: 32px; color: #44a8ff; text-align: center; font-weight: 600; font-family: "Nanum Gothic", sans-serif;}
+	.reservation .container > h3 {font-size: 32px; color: #44a8ff; text-align: center; font-weight: 600; font-family: "Nanum Gothic", sans-serif;}
 	.reservation .p0 {font-weight: 18px; text-align: center; margin-top: 12px;}
 	.reservation .mg- {display: block; height: 1px; width: 60px; margin: 20px auto 48px; background: #44a8ff;}
 	
@@ -100,7 +103,7 @@
 	
 	.reservation {padding: 75px 0 114px;}
 	.reservation .container {width: 1054px;}
-	.reservation h3 {font-size: 34px; color: #44a8ff; text-align: center; font-weight: 600; font-family: "Nanum Gothic", sans-serif;}
+	.reservation .container > h3 {font-size: 34px; color: #44a8ff; text-align: center; font-weight: 600; font-family: "Nanum Gothic", sans-serif;}
 	.reservation .p0 {font-weight: 18px; text-align: center; margin-top: 12px;}
 	.reservation .mg- {display: block; height: 1px; width: 60px; margin: 20px auto 48px; background: #44a8ff;}
 		

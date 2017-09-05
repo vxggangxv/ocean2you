@@ -13,8 +13,8 @@
     vertical-align: baseline;
 	line-height: 1;
 }
-#wrap * {box-sizing: border-box;}
-/*#wrap section a {color: inherit;}*/
+
+.vid-wrap, .vid-wrap *, #wrap > .footer {box-sizing: border-box;}
 .header, .footer {line-height: 1; font-family: "Nanum Barun Gothic", "Nanum Gothic", "Malgun Gothic", sans-serif;}
 
 .thColor {color: #00c6ff;}

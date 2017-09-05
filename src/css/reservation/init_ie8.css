@@ -17,6 +17,6 @@
 
 .reservation {padding: 75px 0 114px;}
 .reservation .container {width: 1054px;}
-.reservation h3 {font-size: 34px; color: #44a8ff; text-align: center; font-weight: 600; font-family: "Nanum Gothic", sans-serif;}
+.reservation .container > h3 {font-size: 34px; color: #44a8ff; text-align: center; font-weight: 600; font-family: "Nanum Gothic", sans-serif;}
 .reservation .p0 {font-weight: 18px; text-align: center; margin-top: 12px;}
 .reservation .mg- {display: block; height: 1px; width: 60px; margin: 20px auto 48px; background: #44a8ff;}

@@ -1,4 +1,7 @@
 @charset 'utf-8';
+
+#wrap * {box-sizing: border-box;}
+
 .main .txt-box .more-a
 , .intro .colth-1 .more-a
 , .intro .colth-2 > div > .more-a
@@ -30,7 +33,7 @@
 		width: 178px; height: 48px;}
 	.main .txt-box .more-a:after {content: ""; height: 110%; display: inline-block; vertical-align: middle;}
 	
-	.main #scr-box {position: absolute; left: 50%; margin-left: -23px; bottom: 10px;}
+	.main #scr-box {position: absolute; left: 50%; margin-left: -14px; bottom: 10px;}
 	.main #scr-box > img {position: relative; top: 0; display: block; margin: 3px auto;}
 	.main #scr-box > img.nth-1 {margin-bottom: 8px;}
 	.main #scr-box > img.nth-2 {margin-bottom: 5px;
@@ -220,7 +223,7 @@
 	.main .txt-box .more-a:after {content: ""; height: 110%; display: inline-block; vertical-align: middle;}
 	
 	
-	.main #scr-box {position: absolute; left: 50%; margin-left: -23px; bottom: 10px;}
+	.main #scr-box {position: absolute; left: 50%; margin-left: -14px; bottom: 10px;}
 	.main #scr-box > img {position: relative; top: 0; display: block; margin: 3px auto;}
 	.main #scr-box > img.nth-1 {margin-bottom: 8px;}
 	.main #scr-box > img.nth-2 {margin-bottom: 5px;
@@ -417,7 +420,7 @@
 		width: 208px; height: 54px;}
 	.main .txt-box .more-a:after {content: ""; height: 110%; display: inline-block; vertical-align: middle;}
 	
-	.main #scr-box {position: absolute; left: 50%; margin-left: -23px; bottom: 10px;}
+	.main #scr-box {position: absolute; left: 50%; margin-left: -14px; bottom: 10px;}
 	.main #scr-box > img {position: relative; top: 0; display: block; margin: 3px auto;}
 	.main #scr-box > img.nth-1 {margin-bottom: 8px;}
 	.main #scr-box > img.nth-2 {margin-bottom: 5px;
@@ -601,7 +604,7 @@
 		width: 208px; height: 54px;}
 	.main .txt-box .more-a:after {content: ""; height: 110%; display: inline-block; vertical-align: middle;}
 	
-	.main #scr-box {position: absolute; left: 50%; margin-left: -23px; bottom: 10px;}
+	.main #scr-box {position: absolute; left: 50%; margin-left: -14px; bottom: 10px;}
 	.main #scr-box > img {position: relative; top: 0; display: block; margin: 3px auto;}
 	.main #scr-box > img.nth-1 {margin-bottom: 8px;}
 	.main #scr-box > img.nth-2 {margin-bottom: 5px;

@@ -22,7 +22,7 @@
 	width: 208px; height: 54px;}
 .main .txt-box .more-a:after {content: ""; height: 110%; display: inline-block; vertical-align: middle;}
 
-.main #scr-box {position: absolute; left: 50%; margin-left: -23px; bottom: 25px;}
+.main #scr-box {position: absolute; left: 50%; margin-left: -14px; bottom: 25px;}
 .main #scr-box > img {position: relative; top: 0; display: block; margin: 3px auto;}
 .main #scr-box > img.nth-1 {margin-bottom: 8px;}
 .main #scr-box > img.nth-2 {margin-bottom: 5px;

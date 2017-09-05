@@ -2,7 +2,6 @@
 
 .vid-wrap {background: url(http://img.ocean2you.b.go.co.kr/intro/intro_titBg.jpg) no-repeat top center; padding-top: 98px; position: relative; width: 100%; height: 400px;}
 
-#wrapper, #wrapper * {box-sizing: content-box;}
 #wrapper #membership {float: none; margin: 30px auto;}
 #wrapper #membership {}
 
