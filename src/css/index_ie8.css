@@ -1,11 +1,11 @@
 @charset 'utf-8';
 
-.vid-wrap {position: relative; width: 100%; height: 100%; background: url('http://img.ocean2you.b.go.co.kr/main_bg.jpg') no-repeat center center; background-size: cover;}
+.vid-wrap {position: relative; width: 100%; height: 100%; background: url('http://img.ocean2you.co.kr/renew/main_bg.jpg') no-repeat center center; background-size: cover;}
 
 .vid {position: absolute; width: 100%; height: 100%; display: none;}
 
 .main {position: relative;}
-.main:before {content: ""; display: block; position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: url(http://img.ocean2you.b.go.co.kr/main_ptBg.png) repeat;}
+.main:before {content: ""; display: block; position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: url(http://img.ocean2you.co.kr/renew/main_ptBg.png) repeat;}
 
 .ie8 .vid {display: none;}
 
@@ -45,7 +45,7 @@
 }
 
 .intro {position: relative; width: 100%; color: #fff;
-	background: url(http://img.ocean2you.b.go.co.kr/intro_bg.jpg) no-repeat ; padding: 160px 0 90px;
+	background: url(http://img.ocean2you.co.kr/renew/intro_bg.jpg) no-repeat ; padding: 160px 0 90px;
 }
 .intro .container {position: relative;}
 .intro [class*=colth-] {width: 50%; float: left;}
@@ -89,7 +89,7 @@
 
 .package {position: relative; width: 100%; padding: 110px 0 294px;}	
 .package .in-bg {position: relative; width: 100%; height: 549px;
-	background: url(http://img.ocean2you.b.go.co.kr/package_bg.jpg) no-repeat top center;
+	background: url(http://img.ocean2you.co.kr/renew/package_bg.jpg) no-repeat top center;
 }
 .package .container {padding-top: 120px;}
 .package .in-tit {text-align: center;}
@@ -123,14 +123,14 @@
 .tourist .tour-list > li .mg- {position: relative; width: 46px; height: 1px; background: #fff; margin: 15px auto;}
 .tourist .tour-list > li .p0 {display: none; font-size: 17px; font-weight: 600; line-height: 1.4; letter-spacing: -1px;}
 .tourist .tour-list > li .p0 .s0 {display: block; margin-bottom: 14px;}
-.tourist .tour-list > li:hover a {background: url(http://img.ocean2you.b.go.co.kr/bg_dim.png) repeat;}
+.tourist .tour-list > li:hover a {background: url(http://img.ocean2you.co.kr/renew/bg_dim.png) repeat;}
 .tourist .tour-list > li.lst:hover a {background: none;}
 .tourist .tour-list > li:hover h3 {margin-top: 40px;}
 .tourist .tour-list > li:hover .p0 {display: block;}
 
 
 .facil {position: relative; padding: 90px 0;
-	background: url(http://img.ocean2you.b.go.co.kr/facil_bg.jpg) no-repeat top center;
+	background: url(http://img.ocean2you.co.kr/renew/facil_bg.jpg) no-repeat top center;
 }
 .facil .in-tit {text-align: center; color: #323232;}
 .facil .in-tit h2 {font-size: 37px; font-weight: 600;}
@@ -147,7 +147,7 @@
 .facil .bxList .bxBox.nth-1 {margin-left: 0px;}
 
 .facil .bxList .bxBox .txt-box {position: absolute; bottom: 0; width: 100%; padding: 18px 22px 24px; color: #fff;
-	background: url(http://img.ocean2you.b.go.co.kr/bg_dim.png) repeat;
+	background: url(http://img.ocean2you.co.kr/renew/bg_dim.png) repeat;
 }
 .facil .bxList .bxBox .txt-box .p0 {font-size: 22px;}
 .facil .bxList .bxBox .txt-box .more-a
