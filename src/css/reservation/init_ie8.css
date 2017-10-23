@@ -1,9 +1,9 @@
 @charset 'utf-8';
 
-.vid-wrap {background: url(http://img.ocean2you.co.kr/renew/intro/intro_titBg.jpg) no-repeat top center; padding-top: 98px; position: relative; width: 100%; height: 400px;}
+.vid-wrap {background: url(http://img.ocean2you.co.kr/renew/intro/intro_titBg.jpg) no-repeat top center; padding-top: 98px; position: relative; width: 100%; height: 326px;}
 
 .title {position: relative;}
-.title .tit-box {text-align: center; padding-top: 76px; color: #fff;}
+.title .tit-box {text-align: center; padding-top: 36px; color: #fff;}
 .title .tit-box h2 {font-size: 27px; font-weight: 400;}
 .title .tit-box .mg- {display: block; height: 1px; width: 60px; margin: 18px auto 20px; background: #fff;}
 .title .facil-tab {position: relative; margin: 22px auto 0; width: 462px; left: 1.5px;}

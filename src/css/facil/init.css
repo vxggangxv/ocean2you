@@ -1,7 +1,8 @@
 @charset 'utf-8';
 #wrap * {box-sizing: border-box;}
 
-.vid-wrap {background: url(http://img.ocean2you.co.kr/renew/intro/intro_titBg.jpg) no-repeat top center; padding-top: 98px; position: relative; width: 100%; height: 400px;}
+.vid-wrap {background: url(http://img.ocean2you.co.kr/renew/intro/intro_titBg.jpg) no-repeat top center; padding-top: 98px; position: relative; width: 100%; height: 400px; 
+	-webkit-background-size: cover; background-size: cover;}
 
 .bx-wrapper .bx-controls-direction {margin-top: -22.15px;}
 .bx-wrapper .bx-controls-direction a {width: 22px; height: 43px;}
@@ -13,9 +14,10 @@
 
 @media (max-width: 767px) {
 	.xs-block {display: block;}
+	.vid-wrap {height: 300px;}
 	
 	.title {position: relative;}
-	.title .tit-box {text-align: center; padding-top: 96px; color: #fff;}
+	.title .tit-box {text-align: center; padding-top: 16px; color: #fff;}
 	.title .tit-box h2 {font-size: 20px;}
 	.title .tit-box .mg- {display: block; height: 1px; width: 30px; margin: 18px auto 20px; background: #fff;}
 	.title .tit-box .titTxt img {width: 310px;}
@@ -45,7 +47,8 @@
 	.facil-wrap .fc-list .txt-box .more-a:after {content: " "; display: inline-block; height: 100%; vertical-align: middle;}
 	.facil-wrap .fc-list .txt-box .more-a .gt {position: relative; width: 6px; margin-left: 2px; left: 5px; top: -1px;}
 	
-	.facil-wrap .facil-1 .fc-list li.nth-2 .bxBox .txt-box {margin-top: -22px;}
+	.facil-wrap .facil-1 .fc-list li.nth-2 .bxBox .txt-box
+	, .facil-wrap .facil-1 .fc-list li.nth-4 .bxBox .txt-box {margin-top: -22px;}
 	.facil-wrap .facil-1 .fc-list li.nth-3 .bxBox .txt-box {margin-top: -38px;}
 	.facil-wrap .facil-1 .fc-list li.nth-3 .bxBox .txt-box .p2 {font-size: 12px;}
 	
@@ -54,6 +57,7 @@
 	.facil-wrap .facil-1 .flt-box > div img {position: relative; top: -30px;}
 	.facil-wrap .facil-1 .flt-box > .d1 {}
 	.facil-wrap .facil-1 .flt-box, .facil-wrap .facil-1 .flt-box > .d2 {margin-top: 15px;}
+	.facil-wrap .facil-1 .flt-box, .facil-wrap .facil-1 .flt-box > .d3 {margin-top: 15px;}
 	.facil-wrap .facil-1 .flt-box > div .txt-box {text-align: center; letter-spacing: -1px; margin-top: -15px;}
 	.facil-wrap .facil-1 .flt-box > div .txt-box .p2 {line-height: 1.3;}
 	
@@ -114,16 +118,20 @@
 	.facil-wrap .fc-list .txt-box .more-a {width: 142px; height: 35px; font-size: 16px; display: inline-block; padding-top: 2px; margin-top: 20px; border: 1px solid #44a8ff;}
 	.facil-wrap .fc-list .txt-box .more-a:after {content: ""; display: inline-block; height: 100%; vertical-align: middle;}
 	.facil-wrap .fc-list .txt-box .more-a .gt {position: relative; width: 7px; margin-left: 2px; left: 10px; top: -1px;}
-	.facil-wrap .facil-1 .fc-list li.nth-2 .bxBox .txt-box {top: 92px;}
+	.facil-wrap .facil-1 .fc-list li.nth-2 .bxBox .txt-box
+	, .facil-wrap .facil-1 .fc-list li.nth-4 .bxBox .txt-box {top: 92px;}
 	
 	.facil-wrap .facil-1 .flt-box {position: relative; margin-top: 10px;}
 	.facil-wrap .facil-1 .flt-box > div {position: relative; float: left; width: 50%;}
 	.facil-wrap .facil-1 .flt-box > div img {}
-	.facil-wrap .facil-1 .flt-box > .d1 {text-align: left;}
+	.facil-wrap .facil-1 .flt-box > .d1, .facil-wrap .facil-1 .flt-box > .d3 {text-align: left;}
 	.facil-wrap .facil-1 .flt-box > .d2 {text-align: right;}
+	.facil-wrap .facil-1 .flt-box > .d3 {margin-top: 10px;}
 	.facil-wrap .facil-1 .flt-box > div .txt-box {text-align: center; top: 110px; letter-spacing: -1px;}
-	.facil-wrap .facil-1 .flt-box > .d1, .facil-wrap .facil-1 .flt-box .d1 .txt-box {padding-right: 5px;}
+	.facil-wrap .facil-1 .flt-box > .d1, .facil-wrap .facil-1 .flt-box .d1 .txt-box,
+	.facil-wrap .facil-1 .flt-box > .d3, .facil-wrap .facil-1 .flt-box .d3 .txt-box {padding-right: 5px;}
 	.facil-wrap .facil-1 .flt-box > .d2, .facil-wrap .facil-1 .flt-box .d2 .txt-box {padding-left: 5px;}
+
 	
 	.facil-wrap .facil-2 .fc-list > li.nth-3 .bxBox.nth-2 {margin-top: 85px;}
 	.facil-wrap .facil-2 .fc-list .txt-box {top: 130px;}
@@ -179,16 +187,21 @@
 	.facil-wrap .fc-list .txt-box .more-a {width: 142px; height: 35px; font-size: 17px; display: inline-block; margin-top: 20px; border: 1px solid #44a8ff;}
 	.facil-wrap .fc-list .txt-box .more-a:after {content: ""; display: inline-block; height: 91%; vertical-align: middle;}
 	.facil-wrap .fc-list .txt-box .more-a .gt {position: relative; top: 2px; width: 8px; margin-left: 2px; left: 10px;}
-	.facil-wrap .facil-1 .fc-list li.nth-2 .bxBox .txt-box {top: 155px;}
+	.facil-wrap .facil-1 .fc-list li.nth-2 .bxBox .txt-box
+	, .facil-wrap .facil-1 .fc-list li.nth-4 .bxBox .txt-box {top: 155px;}
 		
 	.facil-wrap .facil-1 .flt-box {position: relative; margin-top: 10px;}
 	.facil-wrap .facil-1 .flt-box > div {position: relative; float: left; width: 50%;}
 	.facil-wrap .facil-1 .flt-box > div img {}
-	.facil-wrap .facil-1 .flt-box > .d1 {text-align: left;}
+	.facil-wrap .facil-1 .flt-box > .d1, .facil-wrap .facil-1 .flt-box > .d3 {text-align: left;}
 	.facil-wrap .facil-1 .flt-box > .d2 {text-align: right;}
+
+
 	.facil-wrap .facil-1 .flt-box > div .txt-box {text-align: center; top: 180px;}
 	.facil-wrap .facil-1 .flt-box > .d1, .facil-wrap .facil-1 .flt-box .d1 .txt-box {padding-right: 5px;}
 	.facil-wrap .facil-1 .flt-box > .d2, .facil-wrap .facil-1 .flt-box .d2 .txt-box {padding-left: 5px;}
+	.facil-wrap .facil-1 .flt-box > .d3, .facil-wrap .facil-1 .flt-box .d3 .txt-box {padding-right: 5px; margin-top: 10px;}
+
 	
 	.facil-wrap .facil-2 .fc-list > li.nth-3 .bxBox.nth-2 {margin-top: 85px;}
 	.facil-wrap .facil-2 .fc-list .txt-box {top: 130px;}
@@ -238,18 +251,25 @@
 	.facil-wrap .fc-list .txt-box .more-a {width: 142px; height: 35px; font-size: 17px; display: inline-block; margin-top: 20px; border: 1px solid #44a8ff;}
 	.facil-wrap .fc-list .txt-box .more-a:after {content: ""; display: inline-block; height: 91%; vertical-align: middle;}
 	.facil-wrap .fc-list .txt-box .more-a .gt {position: relative; top: 2px; width: 8px; margin-left: 2px; left: 10px;}
-	.facil-wrap .facil-1 .fc-list li.nth-2 .bxBox .txt-box {top: 155px;}
+	.facil-wrap .facil-1 .fc-list li.nth-2 .bxBox .txt-box
+	, .facil-wrap .facil-1 .fc-list li.nth-4 .bxBox .txt-box {top: 155px;}
 	
 	.facil-wrap .facil-1 .flt-box {position: relative; margin-top: 20px;}
 	.facil-wrap .facil-1 .flt-box > div {position: relative; float: left; width: 50%;}
 	.facil-wrap .facil-1 .flt-box > div img {}
-	.facil-wrap .facil-1 .flt-box > .d1 {text-align: left;}
+	.facil-wrap .facil-1 .flt-box > .d1, .facil-wrap .facil-1 .flt-box > .d3 {text-align: left;}
 	.facil-wrap .facil-1 .flt-box > .d2 {text-align: right;}
+	.facil-wrap .facil-1 .flt-box > .d3 {margin-top: 20px;}
+
+
+
 	.facil-wrap .facil-1 .flt-box > div .txt-box {text-align: center; top: 180px;}
 	.facil-wrap .facil-1 .flt-box .d1 .txt-box {padding-right: 10px;}
 	.facil-wrap .facil-1 .flt-box .d2 .txt-box {padding-left: 10px;}
+
 	
 	.facil-wrap .facil-2 .fc-list > li.nth-3 .bxBox.nth-2 {margin-top: 85px;}
+
 	.facil-wrap .facil-2 .fc-list .txt-box {top: 130px;}
 	
 	

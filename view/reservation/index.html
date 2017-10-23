@@ -22,7 +22,6 @@
 	<meta name="twitter:title" content="오션투유리조트">
 	<!--<link rel="canonical" href="도메인">-->
 	
-	<link type="text/css" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700">
 	<link href="https://cdn.rawgit.com/openhiun/hangul/14c0f6faa2941116bb53001d6a7dcd5e82300c3f/nanumbarungothic.css" rel="stylesheet" type="text/css">
 	
 	
@@ -31,18 +30,25 @@
 	<link rel="stylesheet" type="text/css" href="http://static.hotelgangneung.kr/css/layout2.css">
 	<link rel="stylesheet" href="http://static.go.co.kr/css/totalweb.css" type="text/css">
 	<link rel="stylesheet" type="text/css" href="http://static.ocean2you.co.kr/css/layout_init.css?ver=20170904133210">
-	<link rel="stylesheet" href="../../src/css/common.css">
-	<link rel="stylesheet" href="../../src/css/reservation/init.css">
+	<link rel="stylesheet" href="http://static.ocean2you.co.kr/css/renew/common.css">
+	<link rel="stylesheet" href="http://static.ocean2you.co.kr/css/renew/reservation/init.css">
+	<!--<link rel="stylesheet" href="../../src/css/reservation/init.css">-->
 	
 	<script type="text/javascript" src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
-	<script src="../../src/js/jquery.easing.min.js"></script>
+	<script src="http://static.ocean2you.co.kr/js/renew/jquery.easing.min.js"></script>
 	<script type="text/javascript" src="http://static.go.co.kr/js/jwSlide_ver2.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.12/jquery.bxslider.min.js"></script>
-	<script src="../../src/js/common.js"></script>
+	<script src="http://static.ocean2you.co.kr/js/renew/common_ocean.js"></script>
+	
+	<style>
+		/*임시 값*/
+		#wrapper {height: 1000px;}
+	</style>
+	
 	
 	<!--[if lt IE 9]>
-		<link rel="stylesheet" href="../../src/css/common_ie8.css">
-		<link rel="stylesheet" href="../../src/css/reservation/init_ie8.css">
+		<link rel="stylesheet" href="http://static.ocean2you.co.kr/css/renew/common_ie8.css">
+		<link rel="stylesheet" href="http://static.ocean2you.co.kr/css/renew/reservation/init_ie8.css">
 		<script type="text/javascript" src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
 	<![endif]-->
 	
@@ -57,9 +63,7 @@
 			<header class="header" id="gnb-header">
 				<div class="container">
 					<a href="" class="logo-box">
-						<img class="logo" src="http://img.ocean2you.co.kr/renewal/logo.png" alt="오션투유리조트">
-						<span class="mg-l"></span>
-						<img class="gcLogo" src="http://img.ocean2you.co.kr/renewal/oc2_gcLogo.png" alt="고코투어">
+						<img class="logo" src="http://img.ocean2you.co.kr/renew/logo.png" alt="오션투유리조트">
 					</a>
 					
 					<button class="mNav-btn" id="mNav-btn" type="button">
@@ -96,11 +100,12 @@
 				<div class="container tit-box">
 					<h2>실시간 예약 / 예약조회</h2>
 					<div class="mg-"></div>
-					<div class="titTxt"><img src="../../src/img/reservation/res_title.png" alt="예약하기"></div>
-					<ul class="facil-tab clr" id="facil-tab">
-						<li class="nth-1 on"><a href="javascript:;"><img class="i-user" src="../../src/img/reservation/i-user.png" alt="유저">로그인</a></li>
-						<li class="nth-2"><a href="javascript:;"><img class="i-cal" src="../../src/img/reservation//i-cal.png" alt="달력">예약내역조회</a></li>
-					</ul>
+					<div class="titTxt"><img src="http://img.ocean2you.co.kr/renew/reservation/res_title.png" alt="예약하기"></div>
+					<!--변경내용170912 제거-->
+					<!--<ul class="facil-tab clr" id="facil-tab">
+						<li class="nth-1 on"><a href="javascript:;"><img class="i-user" src="http://img.ocean2you.co.kr/renew/reservation/i-user.png" alt="유저">로그인</a></li>
+						<li class="nth-2"><a href="javascript:;"><img class="i-cal" src="http://img.ocean2you.co.kr/renew/reservation//i-cal.png" alt="달력">예약내역조회</a></li>
+					</ul>-->
 					
 				</div>
 								
@@ -108,12 +113,12 @@
 		</div>
 		
 		<section class="reservation" id="setTop">
-			<div class="container">
+			<!--변경내용170912 제거-->
+			<!--<div class="container">
 				<h3>Reservation</h3>
 				<p class="p0"><span class="xs-block">오션투유 리조트만의 편안하고 아늑한 객실에서</span> 격이 다른 휴식과 여유를 경험해보세요.</p>
 				<div class="mg-"></div>
-				
-			</div>
+			</div>-->
 			
 			<div class="clr"></div>
 			<!--별도 고코 PC/모바일 예약하기 위치-->
@@ -128,11 +133,21 @@
 			
 			<div class="clr"></div>
 		</section>
-
+		
+		<!--변경내용170912 오른쪽 날개 배너 추가-->
+		<div class="rWing-wrap">
+			<ul class="rw-tab">
+				<li><a href="#"><img src="http://img.ocean2you.co.kr/renew/banner/rWing_bn01.jpg" alt=""></a></li>
+				<li><a href="#"><img src="http://img.ocean2you.co.kr/renew/banner/rWing_bn02.jpg" alt=""></a></li>
+				<li><a href="#"><img src="http://img.ocean2you.co.kr/renew/banner/rWing_bn03.jpg" alt=""></a></li>
+				<li><a href="#"><img src="http://img.ocean2you.co.kr/renew/banner/rWing_bn04.jpg" alt=""></a></li>
+			</ul>
+		</div>
+		
 
 		<footer class="footer">
 			<div class="container">
-				<div class="flt-1 clr"><img class="f-logo" src="../../src/img/f_logo.png" alt="오션투유리조트"></div>
+				<div class="flt-1 clr"><img class="f-logo" src="http://img.ocean2you.co.kr/renew/f_logo.png" alt="오션투유리조트"></div>
 				<div class="flt-2 clr">
 					<address>
 						<p class="nth-1">
@@ -148,12 +163,12 @@
 				</div>
 				<div class="flt-3 clr">
 					<div class="d-1">
-						<span class="s0"><img src="../../src/img/i_phone.png" alt="전화"></span>
+						<span class="s0"><img src="http://img.ocean2you.co.kr/renew/i_phone.png" alt="전화"></span>
 						<span class="s1">고객상담</span>
 						<span class="s2">1666-1243</span>
 					</div>
 					<div class="d-2">
-						<span class="s0"><img src="../../src/img/i_mail.png" alt="이메일"></span>
+						<span class="s0"><img src="http://img.ocean2you.co.kr/renew/i_mail.png" alt="이메일"></span>
 						<span class="s1">E-mail 문의</span>
 						<span class="s2">help@go.co.kr</span>
 					</div>
@@ -161,7 +176,23 @@
 			</div>
 		</footer>
 		
-		<a href="javascript:;" id="goTop"><img src="../../src/img/goTop.jpg" alt="위로"></a>
+		<a href="javascript:;" id="goTop"><img src="http://img.ocean2you.co.kr/renew/goTop.jpg" alt="위로"></a>
 	</div>
+	
+	
+<!--<div class="btn-resArea">
+	<a href="" class="btn-resA"><img src="http://img.go.co.kr/i_calChk.png" alt="조회">예약내역조회</a><a href="" class="btn-manyRes"><img src="http://img.go.co.kr/i_mUser.png" alt="단체예약문의">단체예약문의</a>
+</div>
+<style>
+	.btn-resArea {text-align: right;}
+	.btn-resArea > a {display: inline-block; text-align: center; color: #fff; width: 152px; height: 42px; letter-spacing: -1px; border-radius: 3px; line-height: 1;}
+	.btn-resArea > a img {vertical-align: middle; position: relative; margin-right: 5px;}
+	.btn-resArea > a:after {content: ""; display: inline-block; height: 104%; vertical-align: middle;}
+	.btn-resArea .btn-resA {background: #ff7a2d;}
+	.btn-resArea .btn-manyRes {background: #5e5e5e; width: 146px; margin-left: 20px;}
+	
+</style>-->
+	
+	
 </body>
 </html>

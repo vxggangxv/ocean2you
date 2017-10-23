@@ -1,5 +1,8 @@
 @charset 'utf-8';
 
+/* 퀵 메뉴, FAQ */
+.rWing, #faqWrap-back, .header .d1 .mFaq-a {display: none;}
+
 .header.on {background: rgb(255,255,255);}
 .header.on {border-bottom-color: #ddd;}
 
@@ -12,7 +15,7 @@ border-bottom: 1px solid rgb(255,255,255);}
 .header .logo-box .mg-l {display: inline-block; margin: 0 5px; width: 1px; height: 48px;
 background: rgb(255,255,255); vertical-align: middle;
 }
-.header .logo-box {position: absolute; left: 5%; top: 30px; width: 302px;}
+.header .logo-box {position: absolute; left: 5%; top: 7px; width: 302px;}
 
 .header .nav-bar {position: absolute; right: 0;}
 .header .nav-bar .nav {}
@@ -49,29 +52,19 @@ transform-origin: center;
 }
 .header .mNav-btn.on span:nth-child(3) {display: none;}
 
-.mNav-box {
-position: fixed; right: -260px; top: 0;
-height: 100%; width: 260px; background: url(http://img.ocean2you.co.kr/renew/intro_bg.jpg) right;
-z-index: 1;
-color: #fff;
--webkit-transition: right 0.7s; -o-transition: right 0.7s; transition: right 0.7s;
-}
-.mNav-box.on {right: 0;}
-.mNav-box h2 {padding: 40px 20px; font-size: 18px; border-bottom: 1px solid #fff;}
-.mNav-box .mNav {}
-.mNav-box .mNav > li {padding: 10px 20px;}
-.mNav-box .mNav > li:first-child {padding-top: 20px;}
-.mNav-box h2 a:hover, .mNav-box .mNav > li a:hover {color: #44a8ff;}
 
 .header .mNav-btn, .mNav-box {display: none;}
 
 
 .footer {background: #323232; padding: 35px 0 45px;}
 .footer .container {position: relative;}
-.footer .container > div {position: relative; float: left; color: #cdcdcd;}
-.footer .flt-1 {top: 25px; margin: 0 100px;}
-.footer .flt-2 {top: 10px; width: 650px;}
+.footer .container > div[class*=flt-] {position: relative; float: left; color: #cdcdcd;}
+.footer .flt-1 {top: 0px; margin: -5px 100px 0; width: 170px;}
+.footer .flt-1 img {position: relative; display: block;}
+.footer .flt-1 .f-gcLogo {left: 5px; margin-top: 30px;}
+.footer .flt-2 {top: 10px; width: 1060px;}
 .footer .flt-2 address {line-height: 1.4; font-size: 15px;}
+.footer .flt-2 address .i-l {position: relative; display: inline-block; top: 1px; width: 1px; height: 12px; background: #cdcdcd; margin: 0 11px;}
 .footer .flt-3 > div {width: 265px; height: 68px; background: #4b4b4b; margin-top: 10px;}
 .footer .flt-3 > div > span {display: inline-block; position: relative; float: left;}
 .footer .flt-3 > div .s0 {padding: 13px 18px 0; height: 100%;}
@@ -79,6 +72,13 @@ color: #fff;
 .footer .flt-3 > div .s2 {font-size: 28px; font-weight: 600; color: #ababab; margin-top: 5px;}
 .footer .flt-3 .d-1 {margin-top: 0;}
 .footer .flt-3 .d-2 .s2 {letter-spacing: -1.5px;}
+.footer .callFor {display: inline-block; width: 224px; height: 85px; position: absolute; right: 212px; top: 0; border: 1px solid #c5c5c5; padding: 18px 0px 0 17px; font-size: 18px; color: #fff; box-sizing: border-box;}
+.footer .callFor.cf2 {top: 100px;}
+.footer .callFor > * {float: left;}
+.footer .callFor .pic-call {position: relative; margin-right: 8px;}
+.footer .callFor .mgl {position: relative; display: none;}
+.footer .callFor .s1 {letter-spacing: 6px; margin-top: 4px;}
+.footer .callFor .s3 {margin-top: 6px; letter-spacing: 0px;}
 
 
 

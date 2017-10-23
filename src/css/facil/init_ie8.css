@@ -11,7 +11,8 @@
 .title .facil-tab > li.nth-1 {border-left: none; margin-left: 0;}
 .title .facil-tab > li.on {border: 2px solid #fff; z-index: 1; padding-left: 0;}
 .title .facil-tab > li.nth-1.on {padding-right: 1px;}
-.title .facil-tab > li a {display: block; width: 100%; padding-top: 14px; height: 45px;}
+.title .facil-tab > li a {display: block; width: 100%; height: 45px; font-size: 16px; font-weight: 400; color: #fff;}
+	.title .facil-tab > li a:after {content: ""; display: inline-block; height: 108%; vertical-align: middle;}
 
 .facil-wrap {padding: 60px 0 170px;}
 .bx-wrapper, .bx-wrapper, .facil-wrap .container {width: 1180px;}
@@ -30,15 +31,17 @@
 .facil-wrap .fc-list .txt-box .more-a > * {vertical-align: middle;}
 .facil-wrap .fc-list .txt-box .more-a {width: 142px; height: 35px; font-size: 17px; display: inline-block; margin-top: 20px; padding: 3px 10px 6px; border: 1px solid #44a8ff;}
 .facil-wrap .fc-list .txt-box .more-a .gt {position: relative; top: 2px; width: 8px; margin-left: 2px; left: 10px;}
-.facil-wrap .facil-1 .fc-list li.nth-2 .bxBox .txt-box {top: 155px;}
+.facil-wrap .facil-1 .fc-list li.nth-2 .bxBox .txt-box
+, .facil-wrap .facil-1 .fc-list li.nth-4 .bxBox .txt-box {top: 155px;}
 
 .facil-wrap .facil-1 .flt-box {position: relative; margin-top: 20px;}
 .facil-wrap .facil-1 .flt-box > div {position: relative; float: left; width: 50%;}
 .facil-wrap .facil-1 .flt-box > div img {}
 .facil-wrap .facil-1 .flt-box > .d1 {text-align: left;}
 .facil-wrap .facil-1 .flt-box > .d2 {text-align: right;}
+.facil-wrap .facil-1 .flt-box > .d3 {text-align: left; margin-top:20px;}
 .facil-wrap .facil-1 .flt-box > div .txt-box {text-align: center; top: 180px;}
-.facil-wrap .facil-1 .flt-box .d1 .txt-box {padding-right: 10px;}
+.facil-wrap .facil-1 .flt-box .d1 .txt-box, .facil-wrap .facil-1 .flt-box .d3 .txt-box {padding-right: 10px;}
 .facil-wrap .facil-1 .flt-box .d2 .txt-box {padding-left: 10px;}
 
 .facil-wrap .facil-2 .fc-list > li.nth-3 .bxBox.nth-2 {margin-top: 85px;}

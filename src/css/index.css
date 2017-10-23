@@ -504,7 +504,7 @@
 	.package .pkg-list > li .in-cont {position: absolute; top: 80px; left: 10px;}
 	.package .pkg-list .mg- {position: relative; width: 46px; height: 1px; background: #fff;}
 	.package .pkg-list h3 {font-size: 20px; font-family: "Nanum Gothic", sans-serif; margin-top: 10px;}
-	.package .pkg-list .p0 {font-size: 16px; margin-top: 15px; line-height: 1.3; letter-spacing: -1.5px;}
+	.package .pkg-list .p0 {font-size: 15px; margin-top: 15px; line-height: 1.3; letter-spacing: -1.5px;}
 	.package .pkg-list .more-a {font-size: 16px; display: inline-block; padding: 0px 10px; height: 28px; border: 1px solid #fff; margin-top: 10px;
 		-webkit-transition: all 0.5s; -o-transition: all 0.5s; transition: all 0.5s;
 	}
