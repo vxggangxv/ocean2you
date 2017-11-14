@@ -12,8 +12,10 @@
 @media (max-width: 767px) {
 	.xs-block {display: block;}
 	
+	.vid-wrap {height: 330px;}
+	
 	.title {position: relative;}
-	.title .tit-box {text-align: center; padding-top: 46px; color: #fff;}
+	.title .tit-box {text-align: center; padding-top: 0px; color: #fff;}
 	.title .tit-box h2 {font-size: 20px;}
 	.title .tit-box .mg- {display: block; height: 1px; width: 30px; margin: 18px auto 20px; background: #fff;}
 	.title .tit-box .titTxt img {width: 310px;}
@@ -234,7 +236,7 @@
 	.pkg-wrap .sltMenu-intro .ul1 > li > div {float: left;}
 	.pkg-wrap .sltMenu-intro .ul1 > li .d1 {width: 388px;}
 	.pkg-wrap .sltMenu-intro .ul1 > li .d2 {position: relative; margin-left: 22px; width: 540px;}
-	.pkg-wrap .sltMenu-intro .ul1 > li .d2 .s-w {display: inline-block; width: 22px; height: 22px; border-radius: 50%; background: #4e4e4e; color: #fff; text-align: center; font-size: 14px; vertical-align: middle; text-indent: 1px;}
+	.pkg-wrap .sltMenu-intro .ul1 > li .d2 .s-w {display: inline-block; width: 22px; height: 22px; border-radius: 50%; background: #4e4e4e; color: #fff; text-align: center; font-size: 14px; vertical-align: middle; text-indent: 1.2px;}
 	.pkg-wrap .sltMenu-intro .ul1 > li .d2 .usePrc {}
 	.pkg-wrap .sltMenu-intro .ul1 > li .d2 .usePrc .p-txt .s-txt {display: inline-block;}
 	.pkg-wrap .sltMenu-intro .ul1 > li .d2 .usePrc .p-txt .s-txt:before {content: " / ";}
@@ -314,7 +316,7 @@
 	.pkg-wrap .sltMenu-intro .ul1 > li > div {float: left;}
 	.pkg-wrap .sltMenu-intro .ul1 > li .d1 {width: 471px;}
 	.pkg-wrap .sltMenu-intro .ul1 > li .d2 {position: relative; margin-left: 50px; width: 716px; height: 254px;}
-	.pkg-wrap .sltMenu-intro .ul1 > li .d2 .s-w {display: inline-block; width: 22px; height: 22px; border-radius: 50%; background: #4e4e4e; color: #fff; text-align: center; font-size: 14px; vertical-align: middle;}
+	.pkg-wrap .sltMenu-intro .ul1 > li .d2 .s-w {display: inline-block; width: 22px; height: 22px; border-radius: 50%; background: #4e4e4e; color: #fff; text-align: center; font-size: 14px; vertical-align: middle; text-indent: 1.2px;}
 	.pkg-wrap .sltMenu-intro .ul1 > li .d2 .usePrc {position: absolute; bottom: 0;}
 	.pkg-wrap .sltMenu-intro .ul1 > li .d2 .usePrc .p-txt .s-txt {display: inline-block;}
 	.pkg-wrap .sltMenu-intro .ul1 > li .d2 .usePrc .p-txt .s-txt:before {content: " / ";}

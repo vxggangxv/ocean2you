@@ -16,8 +16,8 @@
 
 .facil-wrap {padding: 60px 0 170px;}
 .bx-wrapper, .bx-wrapper, .facil-wrap .container {width: 1180px;}
-#facil-box > section {opacity: 0; visibility: hidden; word-break: keep-all; text-align: center; height: 0; overflow: hidden;}
-#facil-box > section.on {opacity: 1; visibility: visible;  height: auto; overflow: visible;}
+#facil-box > section, #facil-box > section div.d-area-1 + section {word-break: keep-all; text-align: center; opacity: 0; visibility: hidden; height: 0; overflow: hidden;}
+#facil-box > section.on, #facil-box > section div.d-area-1.on + section {opacity: 1; visibility: visible;  height: auto; overflow: visible;}
 .facil-wrap [class*=facil-] h3 {font-size: 38px; color: #44a8ff;}
 .facil-wrap [class*=facil-] .p0 {margin-top: 15px; font-size: 18px; color: #373737;}
 .facil-wrap [class*=facil-] .mg- {display: block; height: 1px; width: 60px; margin: 18px auto 50px; background: #44a8ff;}
@@ -46,6 +46,16 @@
 
 .facil-wrap .facil-2 .fc-list > li.nth-3 .bxBox.nth-2 {margin-top: 85px;}
 .facil-wrap .facil-2 .fc-list .txt-box {top: 130px;}
+
+
+#facil-box > section div[class*=d-area-] {position: relative; margin-top: 90px;}
+#facil-box > section div.d-area-1 {margin-top: 100px;}
+#facil-box > section div.d-area-1.on + section {margin-top: 60px;}
+#facil-box > section div[class*=d-area-] a {position: relative; display: block; height: 77px; border: 1px solid #b4b4b4; background: #eee; color: #44a8ff; border-radius: 6px; font-size: 24px;}
+#facil-box > section div[class*=d-area-] a:before {content: ""; display: inline-block; height: 106%; vertical-align: middle;}
+#facil-box > section div[class*=d-area-].on a {background: #44a8ff; border-color: #44a8ff; color: #fff;}
+#facil-box > section .d-area-1 a:after, #facil-box > section .d-area-2 a:after {position: relative; left: 9px; top: -3px; content: "▶"; font-size: 16px;}
+#facil-box > section .d-area-1.on a:after {color: #fff;}
 
 
 .bx-wrapper .bx-controls.bx-has-controls-auto.bx-has-pager .bx-pager {position: absolute; width: 100%; bottom: -30px; display: block; text-align: center;}

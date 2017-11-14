@@ -11,9 +11,10 @@
 	.xs-inline {display: inline;}
 	.xs-visible {display: block;}
 	.xs-hidden {display: none;}
+	.vid-wrap {height: 260px;}
 	
 	.title {position: relative;}
-	.title .tit-box {text-align: center; padding-top: 96px; color: #fff; width: 320px;}
+	.title .tit-box {text-align: center; padding-top: 5px; color: #fff; width: 320px;}
 	.title .tit-box h2 {font-size: 20px;}
 	.title .tit-box .mg- {display: block; height: 1px; width: 30px; margin: 15px auto; background: #fff;}
 	.title .titTxt img {width: 310px;}
