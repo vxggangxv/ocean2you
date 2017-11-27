@@ -84,6 +84,7 @@
 /* 퀵 메뉴, FAQ */
 .rWing, #faqWrap-back, .header .d1 .mFaq-a {display: none;}
 @media (max-width: 767px) {
+	#faqWrap-back {display: none !important;}
 	#goTop {width: 40px; height: 40px; right: 10px; bottom: 10px;}
 	.header.on, .header.on .nav-bar .nav > li {height: 78px;}
 	
@@ -167,7 +168,7 @@
 	.footer .flt-3 > div .s0 > img {width: 20px;}
 	.footer .flt-3 > div .s1 {display: none;}
 	.footer .flt-3 > div .s2 {font-size: 13px; color: #ababab; margin-left: 3px;}
-	.footer .callFor {display: block; position: relative; margin-top: 8px; border: 1px solid #c5c5c5; padding: 9px 10px 7px; font-size: 14px; color: #fff; width: 245px;}
+	.footer .callFor {display: block; position: relative; margin-top: 8px; border: 1px solid #c5c5c5; padding: 9px 10px 7px; font-size: 14px; color: #fff; width: 252px;}
 	.footer .callFor .pic-call {position: relative; top: -1px; width: 24px;}
 	.footer .callFor .mgl {position: relative; top: -1px; display: inline-block; height: 13px; width: 1px; background: #c5c5c5; margin: 0 8px; vertical-align: middle;}
 	.footer .callFor .s3 {position: relative; top: 0px;}
@@ -214,11 +215,11 @@
 	#pop_wrap {width: 100%; position: relative;}
 	.ocean_pop {position: absolute; top: 195px; left: 50%; margin-left: -200px; z-index: 10001; background: #fff; border: 2px solid #44a8ff; border-radius: 5px;}
 	.ocean_pop_top {height: 55px; line-height: 55px; background: #44a8ff;}
-	.ocean_pop_top p {font-size: 22px; font-weight: bold; text-align: center;  color: #fff;}
+	.ocean_pop_top p {font-size: 22px; font-weight: bold; text-align: center;  color: #fff; line-height: 2.4;}
 	.ocean_pop_top > .close {position: absolute; top: 0; right: 20px;}
 	.ocean2_pop_up_contents .tel_txt span {display: inline-block; vertical-align: middle;}
-	.ocean2_pop_up_contents .tel_txt {color: #4c4c4c; font-size: 18px; text-align: center; border: 1px solid #4c4c4c; border-radius: 40px; width: 230px; margin: 18px auto 0; padding: 15px 5px; font-weight: 500;}
-	.ocean2_pop_up_contents .tel_txt .tel_icon {padding: 0 5px 0 0; position: relative; top: -1px;}
+	.ocean2_pop_up_contents .tel_txt {color: #4c4c4c; font-size: 18px; text-align: center; border: 1px solid #4c4c4c; border-radius: 40px; width: 230px; margin: 18px auto 0; padding: 11px 9px 16px; font-weight: 500;}
+	.ocean2_pop_up_contents .tel_txt .tel_icon {padding: 0 5px 0 0; position: relative;}
 	.ocean2_pop_up_contents .call_txt {font-size: 34px; font-weight: bold; color: #2a87d9; text-align: center; width: 300px; margin: 5px auto 0; padding: 10px 25px 20px 25px; }	
 	.ocean2_pop_up_contents .txt_s_wr {padding: 0 20px; margin: 0 auto; }
 	.ocean2_pop_up_contents .txt_s {text-align: center; font-size: 19px; padding: 15px 0; line-height: 1.5; border-top: 1px solid #dbdbdb;}
@@ -307,7 +308,7 @@
 	.footer .flt-1 .f-logo {width: 130px;}
 	.footer .flt-1 img {position: relative; display: block;}
 	.footer .flt-1 .f-gcLogo {margin-top: 50px; width: 130px;}
-	.footer .flt-2 {top: 10px;}
+	.footer .flt-2 {top: 10px; width: 588px; letter-spacing: -0.5px;}
 	.footer .flt-2 address {line-height: 1.4; font-size: 15px;}
 	.footer .flt-2 address .i-l {position: relative; display: inline-block; top: 1px; width: 1px; height: 12px; background: #cdcdcd; margin: 0 11px;}
 	.footer .container .flt-3 {float: left;}
@@ -338,7 +339,7 @@
 
 	.header .nav-bar {position: absolute; right: 0;}
 	.header .nav-bar .nav {}
-	.header .d1 {position: absolute; left: -186px; top: 42px;}
+	.header .d1 {position: absolute; left: -186px; top: 41px;}
 	.header .d1 .faq-a {display: inline-block; color: #fff; border: 1px solid #fff; font-size: 16px; text-align: center; line-height: 1.1; padding: 6px 10px 4px; word-break: keep-all; font-weight: 300; letter-spacing: -1px;}
 	.header .d1 .faq-a.on, .header.on .d1 .faq-a {color: #44a8ff; border: 1px solid #44a8ff;}
 	.header.on .d1 .faq-a {font-weight: 500; font-family: "Noto Sans KR", "Nanum Gothic", sans-serif;}

@@ -36,7 +36,7 @@
 	.facil-wrap [class*=facil-] .p0 {margin-top: 15px; font-size: 15px; line-height: 1.4; color: #373737;}
 	.facil-wrap [class*=facil-] .mg- {display: block; height: 1px; width: 30px; margin: 10px auto 0; 
 		background: #44a8ff;}
-	.facil-wrap [class*=facil-] .fc-list li.nth-1 h4 {margin-top: 35px;}
+	.facil-wrap [class*=facil-] .fc-list li:first-child h4 {margin-top: 35px;}
 	.facil-wrap [class*=facil-] h4 {font-size: 15px; margin: 50px auto 10px; color: #595959; font-weight: 600; letter-spacing: -1px;}
 	.facil-wrap .bxBox {position: relative;}
 	
@@ -128,7 +128,7 @@
 	.facil-wrap [class*=facil-] .p0 {margin-top: 15px; font-size: 17px; color: #373737;}
 	.facil-wrap [class*=facil-] .mg- {display: block; height: 1px; width: 30px; margin: 18px auto 0; 
 		background: #44a8ff;}
-	.facil-wrap [class*=facil-] .fc-list li.nth-1 h4 {margin-top: 35px;}
+	.facil-wrap [class*=facil-] .fc-list li:first-child h4 {margin-top: 35px;}
 	.facil-wrap [class*=facil-] h4 {font-size: 20px; margin: 70px auto 20px; color: #595959; font-weight: 600;}
 	.facil-wrap .bxBox {position: relative;}
 	
@@ -218,7 +218,7 @@
 	.facil-wrap [class*=facil-] h3 {font-size: 38px; color: #44a8ff;}
 	.facil-wrap [class*=facil-] .p0 {margin-top: 15px; font-size: 18px; color: #373737;}
 	.facil-wrap [class*=facil-] .mg- {display: block; height: 1px; width: 60px; margin: 18px auto 50px; background: #44a8ff;}
-	.facil-wrap [class*=facil-] .fc-list li.nth-1 h4 {margin-top: 50px;}
+	.facil-wrap [class*=facil-] .fc-list li:first-child h4 {margin-top: 50px;}
 	.facil-wrap [class*=facil-] h4 {font-size: 22px; margin: 80px auto 30px; color: #595959; font-weight: 600;}
 	.facil-wrap .bxBox {position: relative;}
 	
@@ -306,7 +306,7 @@
 	.facil-wrap [class*=facil-] h3 {font-size: 38px; color: #44a8ff;}
 	.facil-wrap [class*=facil-] .p0 {margin-top: 15px; font-size: 18px; color: #373737;}
 	.facil-wrap [class*=facil-] .mg- {display: block; height: 1px; width: 60px; margin: 18px auto 50px; background: #44a8ff;}
-	.facil-wrap [class*=facil-] .fc-list li.nth-1 h4 {margin-top: 50px;}
+	.facil-wrap [class*=facil-] .fc-list li:first-child h4 {margin-top: 50px;}
 	.facil-wrap [class*=facil-] h4 {font-size: 22px; margin: 80px auto 30px; color: #595959; font-weight: 600;}
 	.facil-wrap .bxBox {position: relative;}
 	

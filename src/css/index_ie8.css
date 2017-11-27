@@ -180,3 +180,4 @@
 .wayto .map-box .mapExp .p0:first-child {margin-top: 0;}
 .wayto .map-box .mapExp .p1 {position: relative; font-size: 20px; line-height: 1.6; margin-top: 14px; padding-left: 12px;}
 .wayto .map-box .mapExp .p1:before {content: '-'; display: inline-block; position: absolute; left: 0;}
+.wayto .map-box .mapExp .wayBtn {position: relative; top: -2px; margin-left: 4px;}

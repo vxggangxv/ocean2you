@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/        v2.0 | 20110126        License: none (public domain) */
+@charset 'utf-8';
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -50,6 +50,7 @@ table {width: 100%;}
 img{max-width: 100%;}/*ipad사이즈에서 userlogin 의 title등 %로 된  것을 위해*/
 img, input, label, select { vertical-align: middle; }
 input + span { vertical-align:middle; }
+label {cursor: pointer;}
 legend, caption {overflow: hidden; font-size:0; width:0; height:0; line-height:0; position:absolute; top: 0; left:-9999px;}
 .hidden {overflow: hidden; font-size:0; width:0; height:0; line-height:0; position:absolute; top: 0; left:-9999px; opacity: 0; filter: alpha(opacity=0);}
 .clr:before, .clr:after, .container:before, .container:after {content: ""; display: block;}
