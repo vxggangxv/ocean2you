@@ -31,8 +31,8 @@
 	<link rel="stylesheet" href="http://static.go.co.kr/css/totalweb.css" type="text/css">
 	<link rel="stylesheet" type="text/css" href="http://static.ocean2you.co.kr/css/layout_init.css?ver=20170904133210">
 	<link rel="stylesheet" href="http://static.ocean2you.co.kr/css/renew/common.css">
-	<link rel="stylesheet" href="http://static.ocean2you.co.kr/css/renew/reservation/init.css">
-	<!--<link rel="stylesheet" href="../../src/css/reservation/init.css">-->
+	<!--<link rel="stylesheet" href="http://static.ocean2you.co.kr/css/renew/reservation/init.css">-->
+	<link rel="stylesheet" href="../../src/css/reservation/init.css">
 	
 	<script type="text/javascript" src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
 	<script src="http://static.ocean2you.co.kr/js/renew/jquery.easing.min.js"></script>
@@ -42,7 +42,7 @@
 	
 	<style>
 		/*임시 값*/
-		#wrapper {height: 1000px;}
+		#wrapper {height: 2000px;}
 	</style>
 	
 	
@@ -60,7 +60,7 @@
 		
 
 		<!-- 팝업창 --> 
-		<div id="pop_wrap"> 
+		<div id="pop_wrap" style="display: none;"> 
 			<div class="pop_Bg_bk"></div> 
 			<div class="ocean_pop"> 
 				<div class="ocean_pop_top"> 
@@ -155,6 +155,35 @@
 					
 					
 				</div>-->
+				
+				<!--변경내용170912 오른쪽 날개 배너 추가-->
+				<div class="rWing-wrap" id="right_banner">
+					<ul class="rw-tab">
+						<li><a href="#"><img src="http://img.ocean2you.co.kr/renew/banner/rWing_bn01.jpg" alt=""></a></li>
+						<li><a href="#"><img src="http://img.ocean2you.co.kr/renew/banner/rWing_bn02.jpg" alt=""></a></li>
+						<li><a href="#"><img src="http://img.ocean2you.co.kr/renew/banner/rWing_bn03.jpg" alt=""></a></li>
+						<li><a href="#"><img src="http://img.ocean2you.co.kr/renew/banner/rWing_bn04.jpg" alt=""></a></li>
+					</ul>
+				</div>
+
+				<script type="text/javascript">
+				$(function() {
+					$(window).scroll(function() {
+						var scrollTop = $(window).scrollTop();
+						var f_scr = $('footer').offset().top - 850;
+						
+						if(scrollTop > 100) {																			
+							$("#right_banner").css({"position":"fixed", "top" : "180px"});
+						} 
+						if(scrollTop > f_scr) {
+							$("#right_banner").css({"position":"fixed", "top" : "-180px"});
+						}
+						if(scrollTop < 100) {																	
+							$("#right_banner").css({"position":"absolute", "top":"auto"});
+						}
+					});
+				});
+				</script>
 			</div>
 			
 			<div class="clr"></div>
@@ -163,44 +192,78 @@
 		<!--171107 단체문의 팝업-->
 		
 		
-		<!--변경내용170912 오른쪽 날개 배너 추가-->
-		<div class="rWing-wrap">
-			<ul class="rw-tab">
-				<li><a href="#"><img src="http://img.ocean2you.co.kr/renew/banner/rWing_bn01.jpg" alt=""></a></li>
-				<li><a href="#"><img src="http://img.ocean2you.co.kr/renew/banner/rWing_bn02.jpg" alt=""></a></li>
-				<li><a href="#"><img src="http://img.ocean2you.co.kr/renew/banner/rWing_bn03.jpg" alt=""></a></li>
-				<li><a href="#"><img src="http://img.ocean2you.co.kr/renew/banner/rWing_bn04.jpg" alt=""></a></li>
-			</ul>
-		</div>
 		
 
 		<footer class="footer">
 			<div class="container">
-				<div class="flt-1 clr"><img class="f-logo" src="http://img.ocean2you.co.kr/renew/f_logo.png" alt="오션투유리조트"></div>
+				
+				<div class="flt-1 clr">
+					<img class="f-logo" src="http://img.ocean2you.co.kr/renew/f_logo.png" alt="오션투유리조트">
+				</div>
 				<div class="flt-2 clr">
 					<address>
 						<p class="nth-1">
 							오션투유리조트 설악비치 호텔앤콘도<br>
-							주소 : 강원 고성군 죽왕면 삼포해변길 9, 1<br>
-							사업자등록번호 : 332-85-00016<br>
-							통신판매업 : 제 2009-4290040-30-2-0033호
+							주소 : 강원 고성군 죽왕면 삼포해변길 9<span class="i-l"></span>TEL. 070-7688-2438<br>
+							사업자등록번호 : 332-85-00016<span class="i-l"></span>통신판매업 : 제 2009-4290040-30-2-0033호						
 						</p>
+					</address>
+					<!-- 171127 예약문의 변경 -->
+					<div class="cf-box">
+						<p class="p-0">&lt;고객센터 안내&gt;</p>
+						<div class="cf-in">
+							<div class="callFor cf0">
+								<span class="f-bd">고객센터 안내</span>
+								문의에 따라 해당 고객센터로<br>
+								전화주시면,문의사항을<br>
+								해결해 드리겠습니다.
+							</div>
+							<a class="callFor cf1" href="tel:1666-1243">
+								<span class="s1">예약문의</span>
+								<span class="mg-"></span>
+								<span class="s1-2"><span class="xs-hidden">&#40;</span>확정, 변경, 취소<span class="xs-hidden">&#41;</span><span class="xs-block"></span>/이벤트 문의</span>
+								<span class="s3"><img src="http://img.ocean2you.co.kr/renew/i_call.png" alt="전화아이콘"> 1666-1243</span>
+								<span class="s1-2">연결가능시간 09:00~18:00</span>
+							</a>
+							<a class="callFor cf2" href="tel:010-8844-0409">
+								<span class="s1">프론트</span>
+								<span class="mg-"></span>
+								<span class="s1-2"><span class="xs-hidden">&#40;</span>체크인, 체크아웃<span class="xs-block"></span>시설이용문의<span class="xs-hidden">&#41;</span></span>
+								<span class="s3"><img src="http://img.ocean2you.co.kr/renew/i_call.png" alt="전화아이콘"> 033-631-3811</span>
+								<span class="s1-2">연결가능시간 06:00~02:00</span>
+							</a>
+							<a class="callFor cf3" href="tel:010-8844-0409">
+								<span class="s1">단체문의</span>
+								<span class="mg-"></span>
+								<span class="s1-2"><span class="xs-hidden">&#40;</span>워크샵, 학생단체,<span class="xs-block"></span> 산업단체 등<span class="xs-hidden">&#41;</span></span>
+								<span class="s3"><img src="http://img.ocean2you.co.kr/renew/i_call.png" alt="전화아이콘"> 010-8844-0409</span>
+								<span class="s1-2">연결가능시간 09:00~18:00</span>
+							</a>
+						</div>
+					</div>
+					
+					
+				</div>
+				
+				<div class="clr"></div>
+				<div class="flt-1 clr">
+					<img class="f-gcLogo" src="http://img.ocean2you.co.kr/renew/f_gcLogo.png" alt="오션투유리조트">
+				</div>
+				<div class="flt-2 clr">
+					<address>
+						<p class="nth-1 mt">
+							(주)바로네트웍스<br>
+							주소 : 서울특별시 강남구 테헤란로82길 15, 3층(대치동, 디아이타워)<br>
+							사업자등록번호 : 332-85-00016<span class="i-l"></span>통신판매업 : 제 2009-4290040-30-2-0033호<br>
+							여행업등록번호 : 제2015-02호<span class="i-l"></span>여행영업보증서 : 국내여행 제100-000-2015 0144 5816호<br>
+						</p>
+						* 바로네트웍스는 오션투유리조트의 공식 온라인 총판사 입니다. 
+						<br><br>
 						<p class="nth-2">
 							Copyright 2016 OCEAN2YOU CONE. ALL RIGHTS RESERVED
 						</p>
+
 					</address>
-				</div>
-				<div class="flt-3 clr">
-					<div class="d-1">
-						<span class="s0"><img src="http://img.ocean2you.co.kr/renew/i_phone.png" alt="전화"></span>
-						<span class="s1">고객상담</span>
-						<span class="s2">1666-1243</span>
-					</div>
-					<div class="d-2">
-						<span class="s0"><img src="http://img.ocean2you.co.kr/renew/i_mail.png" alt="이메일"></span>
-						<span class="s1">E-mail 문의</span>
-						<span class="s2">help@go.co.kr</span>
-					</div>
 				</div>
 			</div>
 		</footer>
