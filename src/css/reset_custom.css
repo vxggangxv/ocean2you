@@ -52,6 +52,7 @@ img, input, label, select { vertical-align: middle; }
 input + span { vertical-align:middle; }
 label {cursor: pointer;}
 legend, caption {overflow: hidden; font-size:0; width:0; height:0; line-height:0; position:absolute; top: 0; left:-9999px;}
+.hide {display: none !important;}
 .hidden {overflow: hidden; font-size:0; width:0; height:0; line-height:0; position:absolute; top: 0; left:-9999px; opacity: 0; filter: alpha(opacity=0);}
 .clr:before, .clr:after, .container:before, .container:after {content: ""; display: block;}
 .clr:after, .container:after {clear: both;}
