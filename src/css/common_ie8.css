@@ -89,26 +89,34 @@ transform-origin: center;
 .footer {background: #323232; padding: 35px 0 45px;}
 .footer .container {position: relative;}
 .footer .container div[class*=flt-] {position: relative; float: left; color: #cdcdcd;}
-.footer .flt-1 {top: 0px; margin: -5px 100px 0; width: 170px;}
+.footer .flt-1 {top: 0px; margin: -5px 44px 0 100px; width: 170px;}
 .footer .flt-1 img {position: relative; display: block;}
-.footer .flt-1 .f-gcLogo {left: 5px; margin-top: 30px;}
-.footer .flt-2 {top: 10px; width: 1060px;}
-.footer .flt-2 address {line-height: 1.4; font-size: 15px;}
+.footer .flt-1 .f-gcLogo {left: 5px; margin-top: 40px;}
+.footer .flt-2 {top: 10px; width: 1100px;}
+.footer .flt-2 address {line-height: 1.5; font-size: 15px;}
 .footer .flt-2 address .i-l {position: relative; display: inline-block; top: 1px; width: 1px; height: 12px; background: #cdcdcd; margin: 0 11px;}
-.footer .flt-3 > div {width: 265px; height: 68px; background: #4b4b4b; margin-top: 10px;}
-.footer .flt-3 > div > span {display: inline-block; position: relative; float: left;}
-.footer .flt-3 > div .s0 {padding: 13px 18px 0; height: 100%;}
-.footer .flt-3 > div .s1 {font-size: 15px; color: #cacaca; margin-top: 11px; width: 180px;}
-.footer .flt-3 > div .s2 {font-size: 28px; font-weight: 600; color: #ababab; margin-top: 5px;}
-.footer .flt-3 .d-1 {margin-top: 0;}
-.footer .flt-3 .d-2 .s2 {letter-spacing: -1.5px;}
-.footer .callFor {display: inline-block; width: 224px; height: 85px; position: absolute; right: 212px; top: 0; border: 1px solid #c5c5c5; padding: 18px 0px 0 17px; font-size: 18px; color: #fff; box-sizing: border-box;}
-.footer .callFor.cf2 {top: 100px;}
-.footer .callFor > * {float: left;}
-.footer .callFor .pic-call {position: relative; margin-right: 8px;}
-.footer .callFor .mgl {position: relative; display: none;}
-.footer .callFor .s1 {letter-spacing: 6px; margin-top: 4px;}
-.footer .callFor .s3 {margin-top: 6px; letter-spacing: 0px;}
+
+.footer .cf-box {font-family: "Nanum Gothic", sans-serif; color: #fff; width: 100%; margin-bottom: 5px; letter-spacing: -0.5px;}
+.footer .cf-box > .p-0 {display: none;}
+.footer .cf-in {position: relative; width: 100%; font-size: 0;}
+.footer .cf-in .callFor {text-align: center; display: inline-block; width: 174px; vertical-align: top; margin-top: 15px; margin-left: 4px; border: 1px solid #636363; border-radius: 2px; padding: 0; padding-top: 8px; width: 234px; height: 124px;}
+.footer .callFor {display: inline-block; width: 224px; height: 85px; position: absolute; right: 212px; top: 0; border: 1px solid #c5c5c5; padding: 18px 0px 0 17px; font-size: 18px; color: #fff; box-sizing: border-box; z-index: 1;}
+.footer .cf-in .callFor:first-child {margin-left: 0;}
+.footer .cf-in .callFor > span {display: block; width: 100%; line-height: 1.5;}
+.footer .cf-in .callFor.cf0, .footer .cf-in .callFor.cf1 {top: -80px;}
+.footer .cf-in .callFor.cf0, .footer .cf-in .callFor.cf2 {right: 235px;}
+.footer .cf-in .callFor.cf2, .footer .cf-in .callFor.cf3 {top: 49px;}
+.footer .cf-in .callFor.cf1, .footer .cf-in .callFor.cf3 {right: 0; width: 230px;}
+.footer .cf-in .s1, .footer .cf-in .s3  {font-size: 17px; font-weight: 700; letter-spacing: 0;}
+.footer .cf-in .s1 {margin-top: 2px;}
+.footer .cf-in .s3 {margin-top: 3px; font-size: 18px; font-family: "Noto Sans KR", "Nanum Gothic", sans-serif; font-weight: 500;}
+.footer .cf-in .s3 > img {width: auto; position: relative; top: -1px;}
+.footer .cf-in .mg- {}
+.footer .cf-in .s1-2  {font-size: 17px; margin-top: 1px;}
+.footer .cf-in .callFor > .s1-2:last-child {margin-top: 2px; margin-bottom: 6px; font-size: 14px; letter-spacing: 0;}
+.footer .cf-in .callFor.cf0 {font-size: 16px; line-height: 1.4; border: 0;}
+.footer .cf-in .callFor.cf0 .f-bd {font-size: 28px;}
+
 
 
 /* 퀵 매뉴 */

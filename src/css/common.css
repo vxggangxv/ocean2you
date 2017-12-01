@@ -2,11 +2,12 @@
 @import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
 @import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
 
+body {font-family: "Malgun Gothic", "Apple SD Gothic Neo", "Nanum Barun Gothic", "Nanum Gothic", sans-serif;}
 
 #wrap {	
 	width: 100%; position: relative;
 	position: relative; color: #2b2b2b; letter-spacing: -0.2px; -moz-text-size-adjust: none; -ms-text-size-adjust: none; text-size-adjust: none;
-	font-family: "Nanum Barun Gothic", "Nanum Gothic", "Malgun Gothic", "Apple SD Gothic Neo", sans-serif;
+	/* font-family: "Nanum Barun Gothic", "Nanum Gothic", "Malgun Gothic", "Apple SD Gothic Neo", sans-serif; */
 	
 	font-size: 100%;
     font: inherit;
@@ -28,6 +29,8 @@
 .thColor2 {color: #44a8ff;}
 .thColor2-2 {color: #319af6;}
 .f-bd {font-weight: bold;}
+
+.mg-, .mgl, .mg-l {position: relative; display: inline-block;}
 
 .layer-pop-bg {position: fixed; z-index: 200; top: 0; left: 0; width: 100%; height: 100%; background: url(http://img.go.co.kr/black_rgba58.png) repeat;}
 
@@ -170,14 +173,15 @@
 	.footer .cf-box .p-0 {font-size: 15px;}
 	.footer .cf-in {position: relative; width: 100%; font-size: 0;}
 	.footer .cf-in .callFor {position: relative; text-align: center; display: inline-block; width: 33%; vertical-align: top; margin-top: 10px; margin-left: 0.33%; border: 1px solid #636363; border-radius: 2px; padding: 0; color: #fff;}
-	.footer .cf-in .callFor.cf1 {margin-left: 0;}
+	.footer .cf-in .callFor.cf1 {margin-left: 0; width: 35%;}
+	.footer .cf-in .callFor.cf2 {width: 31%;}
 	.footer .cf-in .callFor.cf0 {display: none;}
 	.footer .cf-in .callFor > span {display: block; width: 100%;}
 	.footer .cf-in .s1, .footer .cf-in .s3  {font-size: 14px;  line-height: 28px; font-weight: 700;}
 	.footer .cf-in .s3 {margin-top: -2px; letter-spacing: -0.5px;}
 	.footer .cf-in .s3 > img {display: none;}
 	.footer .cf-in .mg- {width: 100%; height: 1px; background: #636363;}
-	.footer .cf-in .s1-2  {font-size: 12px; line-height: 16px; margin-top: 5px;}
+	.footer .cf-in .s1-2  {font-size: 12px; line-height: 16px; margin-top: 5px; word-break: keep-all;}
 	.footer .cf-in .callFor > .s1-2:last-child {margin-top: -2px; margin-bottom: 3px; letter-spacing: -2px; font-size: 11px; font-family: "Dotum", sans-serif;}
 
 	
@@ -438,15 +442,13 @@
 	.rWing .q-menu > a { display: block; text-align: center; color: #fff; font-size: 15px; background: #45a3bf; padding: 5px 0; text-indent: 10px;}
 	.rWing .q-menu > a .s-i {position: relative; top: -2px; left: 4px;font-size: 10px;}
 }
-@media (min-width: 992px) {
-	.md-block {display: block !important;}
-}
+
 @media (min-width: 768px) and (max-width: 1431px) {
 	.xs-hidden {display: inline-block !important;}
-	.footer .cf-box {font-family: "Nanum Gothic", sans-serif; color: #fff; width: 100%; margin-bottom: 5px; letter-spacing: -0.5px;}
+	.footer .cf-box {font-family: "Nanum Gothic", sans-serif; color: #fff; width: 100%; margin-bottom: 5px; letter-spacing: -0.5px; width: 700px;}
 	.footer .cf-box > .p-0 {display: none;}
 	.footer .cf-in {position: relative; width: 100%; font-size: 0;}
-	.footer .cf-in .callFor {position: relative; text-align: center; display: inline-block; width: 174px; vertical-align: top; margin-top: 15px; margin: 8px 0 20px; border: 1px solid #636363; border-radius: 2px; padding: 0; padding-top: 8px; color: #fff;}
+	.footer .cf-in .callFor {position: relative; text-align: center; display: inline-block; width: 176px; vertical-align: top; margin-top: 15px; margin: 8px 0 20px; border: 1px solid #636363; border-radius: 2px; padding: 0; padding-top: 8px; color: #fff; margin-left: 5px;}
 	.footer .cf-in .callFor.cf1 {margin-left: 0;}
 	.footer .cf-in .callFor.cf0 {display: none;}
 	.footer .cf-in .callFor > span {display: block; width: 100%; line-height: 1.5;}
@@ -454,7 +456,7 @@
 	.footer .cf-in .s3 {margin-top: 2px;}
 	.footer .cf-in .s3 > img {width: 13px; position: relative; top: -1px;}
 	.footer .cf-in .mg- {}
-	.footer .cf-in .s1-2  {font-size: 13px; margin-top: 1px;}
+	.footer .cf-in .s1-2  {font-size: 13px; margin-top: 1px; word-break: keep-all;}
 	.footer .cf-in .callFor > .s1-2:last-child {margin-top: 2px; margin-bottom: 6px; font-size: 11px;}
 }
 @media (min-width: 1432px) {
@@ -585,4 +587,15 @@
 	.rWing .q-menu > a .s-i {position: relative; top: -2px; left: 4px;font-size: 10px;}
 
 	
+}
+
+/* block 지정 */
+@media (min-width: 768px) {
+	.sm-block {display: block !important;}
+}
+@media (min-width: 992px) {
+	.md-block {display: block !important;}
+}
+@media (min-width: 1190px) {
+	.lg-block {display: block !important;}
 }
