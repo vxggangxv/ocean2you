@@ -100,49 +100,6 @@ a {color: #2b2b2b;}
 	.etc-sec .d-box-2 .area-btn .a-btn {font-size: 16px; cursor: default; letter-spacing: 0;}
 	.etc-sec .d-box-2 .area-btn .pic-call {position: relative; display: inline-block; width: 20px; height: 20px; background: url(http://img.ocean2you.co.kr/renew/group/pic_callW.png); background-size: 20px; vertical-align: middle; top: -2px;}
 	
-	/* 단체예약 문의 팝업 */
-	.contact-pop {position: absolute; top: 140px; top: 177px; background: #fff; padding-bottom: 18px;font-size: 14px; z-index: 100; width: 100%;}
-	.contact-pop > h2 {color: #fff; font-size: 26px;}
-	.contact-pop .cf {color: #191919; font-size: 20px;}
-	.contact-pop .d-top {position: relative; background: #f2f3f6; border-bottom: 1px solid #8e929b; color: #1c1c1c; height: 36px; line-height: 31px; padding: 0 10px; font-weight: 700;}
-	.contact-pop .i-chk-bef:before, .contact-pop .i-chk-aft:after {position: relative; content: ""; display: inline-block; width: 8px; height: 11px; background: url(http://img.ocean2you.co.kr/renew/i_chk.png) no-repeat; background-size: 8px; vertical-align: middle; margin-right: 4px;}
-	.contact-pop .i-chk-aft:after {margin-right: 0; margin-left: 2px; top: -1px;}
-	.contact-pop .ul-tb {position: relative; width: 100%;}
-	.contact-pop .nece {border-bottom: 1px solid #8e929b;}
-	.contact-pop .li-tr {position: relative; padding: 6px 0px; font-size: 0; border-top: 1px solid #dadada; letter-spacing: -0.5px;}
-	.contact-pop .li-tr:first-child {border-top: 0;}
-	.contact-pop .li-tr > span {position: relative; display: inline-block; font-size: 12.5px; vertical-align: middle;}
-	.contact-pop .li-tr > span.ver-t {vertical-align: top; top: 10px;}
-	.contact-pop .li-tr .mg- {width: 7px; height: 1px; background: #787878; margin: 0 5px;}
-	.contact-pop .li-tr .mg-l {width: 1px; height: 20px; background: #a0a0a0; margin: 0 7px 0 2px; top: 2px;}
-	.contact-pop .li-tr hr {margin: 6px auto; border-color: #dadada;}
-	
-	
-	.contact-pop .li-tr .s-lbl {width: 66px; margin-left: 10px;}
-	.contact-pop .li-tr input {-webkit-appearance: none; -moz-appearance: none; appearance: none; border-radius: 0; font-size: 12.5px;}
-	.contact-pop .li-tr input, .contact-pop .li-tr select {height: 30px; border: 1px solid #787878;}
-	.contact-pop .li-tr .wd-1, .contact-pop .li-tr .wd-3, .contact-pop .li-tr .wd-7 {text-indent: 3px;}
-	.contact-pop .li-tr .wd-2 {text-align: center;}
-	.contact-pop .li-tr .wd-1 {width: 135px;}
-	.contact-pop .li-tr .wd-2 {width: 58.5px;}
-	.contact-pop .li-tr .wd-3 {width: 210px;}
-	.contact-pop .li-tr .wd-4 {width: 121px;}
-	.contact-pop .li-tr .wd-5, .contact-pop .li-tr .wd-6 {text-align: center; margin-left: 5px;}
-	.contact-pop .li-tr .wd-5 {width: 32px;}
-	.contact-pop .li-tr .wd-6 {width: 34px;}
-	.contact-pop .li-tr .wd-7 {width: 100px; margin-right: 5px;}
-	.contact-pop .li-tr .wd-8 {width: 268px; height: 60px; padding: 3px; font-size: 12px; resize: none; border: 1px solid #787878;}
-	
-	.contact-pop .li-tr .wd-4 + select {top: 0px; position: relative; margin-left: 10px;}
-	.contact-pop .li-tr .wd-5 + span, .contact-pop .li-tr .wd-6 + span {margin-left: 3px; margin-right: 5px;}
-	
-	.contact-pop .area-btn {margin-top: 10px; padding: 0 10px;}
-	.contact-pop .area-btn > a {position: relative; display: block; width: 100%; margin: 0 auto; height: 44px; background: #319af6; color: #fff; font-size: 15px; text-align: center;}
-	.contact-pop .area-btn > a:after {content: ""; display: inline-block; height: 105%; vertical-align: middle;}
-	.contact-pop .area-btn > a .ic-rArrow:after {border-color: #fff; width: 7px; height: 7px; top: -1px; left: 6px;}
-	
-	
-	
 }
 @media (max-device-width: 320px) {
 	.bx-wrapper, .bx-wrapper, .group-wrap .container {width: 320px;}
@@ -314,7 +271,7 @@ a {color: #2b2b2b;}
 	.food-sec .ul-list .li-item figure > img {width: 100%;}
 	.food-sec .ul-list .li-item .d-cont {padding: 5px; padding-top: 14px; word-break: keep-all; line-height: 1.4;}
 	.food-sec .ul-list .li-item .d-cont .p-name {font-size: 19px; color: #4e4e4e; font-weight: 700;}
-	.food-sec .ul-list .li-item .d-cont .p-txt {font-size: 17px; color: #575757; letter-spacing: -1.2px; margin-top: 3px;}
+	.food-sec .ul-list .li-item .d-cont .p-txt {font-size: 17px; color: #575757; letter-spacing: -1.5px; margin-top: 3px;}
 	
 	.facil-sec {position: relative;}
 	.facil-sec .ul-list {margin-left: -28px; margin-top: 5px;}

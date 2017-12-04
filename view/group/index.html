@@ -40,10 +40,12 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.12/jquery.bxslider.min.js"></script>
 	<script src="http://static.ocean2you.co.kr/js/renew/common_ocean.js"></script>
 	<!--<script src="http://static.ocean2you.co.kr/js/renew/facil/init.js"></script>-->
+	<link rel="stylesheet" href="../../src/js/group/init.js">
 	
 		<!--<link rel="stylesheet" href="http://static.ocean2you.co.kr/css/renew/group/init_ie8.css">-->
+		<!--<link rel="stylesheet" href="http://static.ocean2you.co.kr/css/renew/common_ie8.css">-->
 	<!--[if lt IE 9]>
-		<link rel="stylesheet" href="http://static.ocean2you.co.kr/css/renew/common_ie8.css">
+		<link rel="stylesheet" href="../../src/css/common_ie8.css">
 		<link rel="stylesheet" href="../../src/css/group/init_ie8.css">
 		<script type="text/javascript" src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
 	<![endif]-->
@@ -118,7 +120,7 @@
 					<div class="d-row">
 						<p class="p-1 thColor2-2">
 							<strong>단체여행 및 행사를 계획하고있으신가요?</strong><br>
-							모든것이 완벽한 오션투유<span class="hidden-xs"> 리조트</span>에서<span class="lg-block"></span>
+							모든것이 완벽한 오션투유<span class="hidden-xs"> 리조트</span>에서<span class="show-lg"></span>
 							아름다운 추억을 만들어보세요!
 						</p>
 						<div class="d-map">
@@ -127,10 +129,10 @@
 						<p class="p-2">
 							오션투유리조트 속초설악비치 호탤앤콘도는<br>
 							천혜의 절경, 삼포해수욕장을 바로 눈앞에서 바라볼 수 있으며,<br>
-							설악산, 속초 및 통일 전망대까지 30분 이내에 이동이<span class="md-block"></span>
+							설악산, 속초 및 통일 전망대까지 30분 이내에 이동이<span class="show-md show-lg"></span>
 							가능합니다. 
 						</p>
-						<p class="area-btn"><a href="javascript">단체 문의하기 <span class="ic-rArrow"></span></a></p>
+						<p class="area-btn"><a href="javascript:;" onclick="$(window).scrollTop(0); $('#contact-pop, #contact-bg').show()">단체 문의하기 <span class="ic-rArrow"></span></a></p>
 					</div>
 				</section>
 				<hr>
@@ -141,7 +143,7 @@
 						<li class="li-item">
 							<figure><img src="http://img.ocean2you.co.kr/renew/group/room_1.jpg" alt="리노베이션오션뷰호텔사진"></figure>
 							<div class="d-row-1">
-								<span class="s-name">리노베이션 오션뷰<span class="sm-block"></span> 호텔</span>
+								<span class="s-name">리노베이션 오션뷰<span class="show-sm show-md show-lg"></span> 호텔</span>
 								<a href="#" class="a-btn">자세히<br>보기</a>
 							</div>
 							<div class="d-row-2">
@@ -152,7 +154,7 @@
 						<li class="li-item">
 							<figure><img src="http://img.ocean2you.co.kr/renew/group/room_2.jpg" alt="리노베이션오션뷰콘도사진"></figure>
 							<div class="d-row-1">
-								<span class="s-name">리노베이션 오션뷰<span class="sm-block"></span> 콘도</span>
+								<span class="s-name">리노베이션 오션뷰<span class="show-sm show-md show-lg"></span> 콘도</span>
 								<a href="#" class="a-btn">자세히<br>보기</a>
 							</div>
 							<div class="d-row-2">
@@ -184,7 +186,7 @@
 							<div class="d-cont">
 								<p class="p-name">아메리칸 조식 뷔페</p>
 								<p class="p-txt">
-									<span class="hide show-xs">
+									<span class="show-xs">
 										특급호텔 30년 경력의 셰프
 										가 신선하고 좋은제철 식재
 										료로 최고의 맛을 자랑합니다.
@@ -202,7 +204,7 @@
 							<div class="d-cont">
 								<p class="p-name">시카고 바베큐 플레이츠</p>
 								<p class="p-txt">
-									<span class="hide show-xs">
+									<span class="show-xs">
 										폭립, 삼겹살을 차콜 그릴에서
 										사과나무로 훈연하여 만들어
 										낸 전통 바베큐입니다
@@ -220,7 +222,7 @@
 							<div class="d-cont">
 								<p class="p-name">계절 모듬 회</p>
 								<p class="p-txt">
-									<span class="hide show-xs">
+									<span class="show-xs">
 										직접 활어회를 공수하여 제공
 										하는 회 메뉴로, 주문시에 
 										손질 하여 더욱 신선합니다.
@@ -238,7 +240,7 @@
 							<div class="d-cont">
 								<p class="p-name">계절 모듬 물회</p>
 								<p class="p-txt">
-									<span class="hide show-xs">
+									<span class="show-xs">
 										계절별 최고의 식감을 낼 수 
 										있는 어종으로 제공하여 신선
 										하고 감칠 맛을 선사합니다.
@@ -256,7 +258,7 @@
 							<div class="d-cont">
 								<p class="p-name">통 바베큐</p>
 								<p class="p-txt">
-									<span class="hide show-xs">
+									<span class="show-xs">
 										행사 목적에 따라, 고객님의 
 										취향에 맞추기 위하여 부가적
 										으로 준비되는 메뉴입니다.
@@ -287,7 +289,7 @@
 							<div class="d-cont">
 								<p class="p-name">단품 메뉴</p>
 								<p class="p-txt">
-									<span class="hide show-xs">
+									<span class="show-xs">
 										광어 미역국, 황태 해장국, 우
 										거지 갈비탕 등 구수하고 정갈
 										한 맛을 자랑합니다. 
@@ -439,7 +441,8 @@
 					<div class="d-box-1 d-cm">
 						<p class="p-0">오션투유 리조트가 <span class="f-bd">즐거움</span>을 <span class="f-bd">책임</span>집니다.</p>
 						<p class="p-1">모든 것이 완벽한 오션투유 리조트에서 아름다운 추억을 만들어보세요!</p>
-						<p class="area-btn"><a href="" class="a-btn">단체 문의하기 <span class="ic-rArrow"></span></a></p>
+						<!--<p class="area-btn"><a class="a-btn" href="javascript:;" onclick="$(window).scrollTop(0); $('#contact-pop, #contact-bg').show(); setPop();">단체 문의하기 <span class="ic-rArrow"></span></a></p>-->
+						<p class="area-btn"><a class="a-btn" href="javascript:;" onclick="setPop(this);">단체 문의하기 <span class="ic-rArrow"></span></a></p>
 					</div>
 					<hr>
 					<div class="d-box-2 d-cm">
@@ -453,28 +456,34 @@
 		
 		</div>
 		
-		<!-- 팝업 -->
-		<div class="dropDown-bg" id="contact-bg"></div>
-		<!-- 입력폼 -->
-		<div class="contact-pop">
-			<h2 class="hidden-xs">오션투유 리조트 단체 행사 문의하기</h2>
+		<!-- 팝업 배경-->
+		<div class="dropDown-bg" id="contact-bg" style="display: none;"></div>
+		<!-- 단체문의 입력폼 -->
+		<div class="contact-pop" id="contact-pop" style="display: none;">
+			<div class="d-tit hidden-xs">
+				<p><span class="hide show-sm-gte t-l"></span>오션투유<span class="hidden-xs"> 리조트</span> 단체 행사 문의<span class="hidden-xs">하기</span><span class="hide show-sm-gte t-r"></span></p>
+				<a href="#" class="close a-i-x a-x" onclick="$('#contact-pop, #contact-bg').hide();"></a>
+			</div>
 			<p class="p-cf hidden-xs">
-				<img src="http://img.ocean2you.co.kr/renew/common/pic_chk.png" alt="입력">
+				<img class="pic-chk" src="http://img.ocean2you.co.kr/renew/group/pic_chk.png" alt="입력">
 				기본 사항만 남겨주시면, 담당자가 빠르게 연락드리도록 하겠습니다.
 			</p>
-			<div class="d-top i-chk-bef">필수 입력 사항</div>
+			<div class="d-top i-chk-bef">
+				<span class="hidden-xs s-1">은 </span>필수 입력 사항<span class="hidden-xs">입니다.</span>
+				<a href="#" class="close a-i-x a-x show-xs" onclick="$('#contact-pop, #contact-bg').hide();"></a>
+			</div>
 			<ul class="ul-tb nece">
 				<li class="li-tr">
 					<span class="s-lbl i-chk-aft">예약자</span>
 					<input type="text" class="wd-1">
-					<hr class="show-xs hide">
-					<span class="s-lbl i-chk-aft">연락처</span>
+					<hr class="show-xs">
+					<span class="s-lbl i-chk-aft ml-1">연락처</span>
 					<input type="text" class="wd-2">
 					<span class="mg-"></span>
 					<input type="text" class="wd-2">
 					<span class="mg-"></span>
 					<input type="text" class="wd-2">
-					<div class="hide show-xs"></div>
+					<div class="show-xs"></div>
 				</li>
 				<li class="li-tr">
 					<span class="s-lbl i-chk-aft">이메일</span>
@@ -484,7 +493,7 @@
 			<ul class="ul-tb">
 				<li class="li-tr">
 					<span class="s-lbl">행사분류</span>
-					<select name="" id="" class="wd-1">
+					<select name="" id="" class="wd-1 wd-1-2">
 						<option value="">수련회</option>
 						<option value="">워크샵/오티</option>
 						<option value="">세미나/단체행사</option>
@@ -496,7 +505,7 @@
 				<li class="li-tr">
 					<span class="s-lbl">이용일</span>
 					<input type="text" class="wd-4">
-					<select name="" id="" class="wd-1">
+					<select name="" id="" class="wd-1 wd-1-2">
 						<option value="">1박 2일</option>
 						<option value="">2박 3일</option>
 						<option value="">3박 4일</option>
@@ -524,9 +533,34 @@
 				</li>
 			</ul>
 			<p class="area-btn"><a href="javascript">단체 문의하기 <span class="ic-rArrow"></span></a></p>
+			<div class="d-bottom hidden-xs">
+				<p class="p-1">
+					빠른 상담이 필요하신가요?<br>
+					<span class="hide show-lg-1190">연락주시면</span> 담당자가 빠르게 안내해 드리겠습니다.
+					<span class="fl-r"><img src="http://img.ocean2you.co.kr/renew/group/pic_callW.png" alt="전화">단체 예약문의 010-8844-0409</span>
+				</p>
+			</div>
 		</div>
-		<!-- 접수 완료 -->
 		
+		<!-- 접수 완료 -->
+		<div class="contact-pop2" id="contact-pop2" style="display: none;">
+			<div class="d-tit">
+				<p><span class="hide show-sm-gte t-l"></span>오션투유<span class="hidden-xs"> 리조트</span> 단체 행사 문의<span class="hidden-xs">하기</span><span class="hide show-sm-gte t-r"></span></p>
+				<a href="#" class="close a-i-x a-x" onclick="$('#contact-pop2, #contact-bg').hide();"></a>
+			</div>
+			<div class="d-cont">
+				<figure>
+					<span class="show-xs pic_chk2_w"></span>
+					<img class="hidden-xs" src="http://img.ocean2you.co.kr/renew/group/pic_chk2.png" alt="체크">
+				</figure>
+				<p class="p-1">
+					<span class="f-bd">단체문의가 접수 되었습니다</span><br>
+					<span class="hidden-xs">담당자가 </span>확인 후 빠르게 연락드리도록 하겠습니다.<br>
+					낭만 가득한 오션투유 리조트에서 뵙겠습니다.
+				</p>
+				<p class="area-btn hidden-xs"><a href="javascript:;" class="a-btn" onclick="$('#contact-pop2, #contact-bg').hide();">닫기</a></p>
+			</div>
+		</div>
 
 		<footer class="footer">
 			<div class="container">
