@@ -64,7 +64,7 @@ section[class*=-sec] h3 + p {font-size: 18px; color: #454545; text-align: center
 .facil-sec .ul-list .li-item figure > figcaption {text-align: right; padding-right: 15px; color: #fff;}
 .facil-sec .ul-list .li-item figure > figcaption:after {content: ""; display: inline-block; height: 105%; vertical-align: middle;}
 .facil-sec .ul-list .li-item figure > .s-bg {background: #000; opacity: 0.42; filter: alpha(opacity=42);}
-.facil-sec .p-ps {position: relative; padding-left: 23px; font-size: 17px; color: #848484; margin-top: 30px; line-height: 1.4;}
+.facil-sec .p-ps {position: relative; padding-left: 23px; font-size: 17px; color: #848484; margin-top: 30px; line-height: 1.4; letter-spacing: -0.5px;}
 .facil-sec .p-ps:before {position: absolute; left: 0;  content: ""; display: inline-block; width: 17px; height: 17px; background: url(http://img.ocean2you.co.kr/renew/group/pic_i.png); top: 4px;}
 
 .etc-sec {position: relative; margin-bottom: 50px;}
@@ -78,3 +78,12 @@ section[class*=-sec] h3 + p {font-size: 18px; color: #454545; text-align: center
 .etc-sec .d-box-2 .area-btn {margin-top: 20px;}
 .etc-sec .d-box-2 .area-btn .a-btn {display: inline; font-size: 34px; font-weight: 700; color: #00b2dd; background: 0; cursor: default;}
 .etc-sec .d-box-2 .area-btn .pic-call {position: relative; display: inline-block; width: 35px; height: 35px; background: url(http://img.ocean2you.co.kr/renew/group/pic_call.png); vertical-align: middle; top: -4px; margin-left: -20px; left: -4px;}
+
+/* 시설안내 표 */
+.facil-sec .facil-tb {margin-top: 15px;}
+.facil-sec .facil-tb + p {margin-top: 10px;}
+.facil-tb colgroup col.nth-1 {width: 30%;}
+.facil-tb colgroup col.nth-2 {width: 30%;}
+.facil-tb colgroup col.nth-3 {width: 40%;}
+.facil-tb th, .facil-tb td {border: 1px solid #d6d6d6; font-size: 17px; color: #5c5c5c; text-align: center; padding: 10px 0; font-family: 'Nanum Gothic', sans-serif; vertical-align: middle;}
+.facil-tb th {font-weight: 700; background: #f3f0f0;}
