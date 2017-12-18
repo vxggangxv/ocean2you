@@ -5,7 +5,6 @@ $(function() {
 		var thisObj = $(this);
 		//var popTop = thisObj.offset().top;
 		var popTop = $(window).scrollTop() + 100;
-		console.log(popTop);
 		
 		
 		$('#contact-pop').css("top",popTop);

@@ -47,8 +47,8 @@ table {
 /* custom reset */
 a {text-decoration: none;}
 table {width: 100%;}
-img{max-width: 100%;}/*ipad사이즈에서 userlogin 의 title등 %로 된  것을 위해*/
 img, input, label, select { vertical-align: middle; }
+img {max-width: 100%;}
 input + span { vertical-align:middle; }
 label {cursor: pointer;}
 legend, caption {overflow: hidden; font-size:0; width:0; height:0; line-height:0; position:absolute; top: 0; left:-9999px;}

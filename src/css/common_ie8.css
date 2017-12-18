@@ -87,9 +87,15 @@ transform-origin: center;
 .ie8 .faqWrap .ul1 > li .d1:after {content: "+"; width: auto; height: auto; border: none; top: 16px;}
 
 
-.footer {background: #323232; padding: 35px 0 45px;}
+.footer {background: #323232; padding: 5px 0 45px;}
 .footer .container {position: relative;}
 .footer .container div[class*=flt-] {position: relative; float: left; color: #cdcdcd;}
+.footer .f_menu {padding: 15px 0;}
+.footer .f_menu > li {position: relative; display: inline-block; margin-left: 40px;}
+.footer .f_menu > li:before {position: absolute; top: 1px; left: -20px; content: ""; display: inline-block; width: 1px; height: 14px; background: #cdcdcd;}
+.footer .f_menu > li:first-child {margin-left: 215px;}
+.footer .f_menu > li:first-child:before {display: none;}
+.footer .f_menu > li > a {color: #fff; font-size: 15px;}
 .footer .flt-1 {top: 0px; margin: -5px 44px 0 100px; width: 170px;}
 .footer .flt-1 img {position: relative; display: block;}
 .footer .flt-1 .f-gcLogo {left: 5px; margin-top: 40px;}
@@ -219,6 +225,18 @@ transform-origin: center;
 .contact-pop .li-tr .wd-3 {width: 365px;}
 .contact-pop .li-tr .wd-8 {width: 564px;}
 
-
+.privacy-bg, .privacy-bg .cm-s {display: none;}
+.privacy-bg .cm-s {position: absolute; width: 748px; height: 828px; position: absolute; top: 50%; margin-top: -414px; left: 50%; margin-left: -374px; background: #fff;}
+.privacy-bg .cm-s .d-top {height: 50px; background: #448ad0; color: #FFF; font-size: 18px;}
+.privacy-bg .cm-s .d-top strong {display: inline-block; position: relative; top: 14px; left: 15px;}
+.privacy-bg .cm-s .d-top .a-x {position: absolute; display: inline-block; height: 50px; width: 50px; right: 0px; top: 0; background: #448ad0;}
+.privacy-bg .cm-s .d-top .a-x:before, .privacy-bg .cm-s .d-top .a-x:after {background: #fff; height: 30px; left: 24px; top: 10px;}
+.privacy-bg .cm-s .d-cont {height: 778px; overflow: auto; padding: 15px 12px 15px 15px; font-size: 14px; line-height: 1.3; word-break: keep-all;}
+.privacy-bg .cm-s .tablepri {border: 1px solid #000; width: auto; line-height: 1.5em; margin-top: 10px; letter-spacing: -0.2px;}
+.privacy-bg .cm-s .tablepri th, .privacy-bg .cm-s .tablepri td {padding: 0 5px;}
+.privacy-bg .cm-s .privacy {font-weight: bold;}
+.privacy-bg .cm-s .d-cont .title {display: block; margin-top: 10px;}
+.privacy-bg .cm-s .d-cont .title:first-child {margin-top: 0;}
+.term-warp {}
 
 .vid-wrap {position: relative; width: 100%;}
