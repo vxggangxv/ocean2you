@@ -129,6 +129,9 @@ a {color: #2b2b2b;}
 
 @media (min-width: 768px) and (max-width: 1190px) {
 	.vid-wrap {height: 284px;}
+
+	.rBn-box {margin-left: 392px;}
+	.rBn-box > a {width: 110px;}
 	
 	.title {position: relative;}
 	.title .tit-box {text-align: center; padding-top: 30px; color: #fff;}
