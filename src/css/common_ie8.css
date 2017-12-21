@@ -20,11 +20,11 @@ background: rgb(255,255,255); vertical-align: middle;
 
 .header .nav-bar {position: absolute; right: 0;}
 .header .nav-bar .nav {}
-.header .d1 {position: absolute; left: -270px; top: 40px;}
+.header .d1 {position: absolute; left: -245px; top: 40px;}
 .header .d1 .faq-a {display: inline-block; color: #fff; border: 1px solid #fff; font-size: 20px; text-align: center; line-height: 1.1; padding: 6px 10px 4px; word-break: keep-all; font-weight: 300;}
 .header .d1 .faq-a.on, .header.on .d1 .faq-a {color: #44a8ff; border: 1px solid #44a8ff;}
 .header.on .d1 .faq-a {font-weight: 700;}
-.header .nav-bar .nav > li {float: left; height: 97px; padding: 50px 22px 0;}
+.header .nav-bar .nav > li {float: left; height: 97px; padding: 50px 20px 0;}
 .header .nav-bar .nav > li > a {position: relative; font-size: 20px; display: block; color: #fff;}
 .header .nav-bar .nav > li > a:hover {color: #00c6ff;}
 .header .nav-bar .nav > li.lst {background: #44a8ff; padding-left: 15px; padding-right: 15px; letter-spacing: 0;}
@@ -166,8 +166,9 @@ transform-origin: center;
 
 .contact-pop .li-tr .s-lbl {width: 74px; margin-left: 20px;}
 .contact-pop .li-tr .ml-1 {margin-left: 40px;}
-.contact-pop .li-tr input, .contact-pop .li-tr select {-webkit-appearance: none; -moz-appearance: none; appearance: none; border-radius: 0; font-size: 16px;}
+.contact-pop .li-tr input, .contact-pop .li-tr select, .contact-pop .li-tr .wd-8 {-webkit-appearance: none; -moz-appearance: none; appearance: none; border-radius: 0; font-size: 16px; padding: 0;}
 .contact-pop .li-tr input, .contact-pop .li-tr select {height: 42px; border: 1px solid #787878; font-size: 16px;}
+.contact-pop .li-tr select {padding: 10px;}
 .contact-pop .li-tr .wd-1, .contact-pop .li-tr .wd-3, .contact-pop .li-tr .wd-4, .contact-pop .li-tr .wd-7 {text-indent: 5px;}
 .contact-pop .li-tr .wd-2 {text-align: center;}
 .contact-pop .li-tr .wd-1 {width: 165px;}

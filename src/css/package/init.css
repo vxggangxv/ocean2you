@@ -81,7 +81,7 @@
 	.pkg-wrap .sltMenu-intro .ul1 > li .d2 .usePrc .p1 {}
 	.pkg-wrap .sltMenu-intro .ul1 > li strong {font-weight: 700; display: block; margin-bottom: 10px; font-size: 14px;}
 	
-	.pkg-wrap .pkg-3 .p-row {font-size: 17px; text-align: center; padding-top: 25px; margin: 30px auto -20px; line-height: 1.5; border-top: 1px solid #e1e1e1;}
+	.pkg-wrap [class*=pkg-] > .p-row {font-size: 17px; text-align: center; padding-top: 25px; margin: 30px auto -20px; line-height: 1.5; border-top: 1px solid #e1e1e1;}
 	
 	
 	.vari-wrap {padding: 0px 0 80px; letter-spacing: -1px;}
@@ -100,6 +100,11 @@
 	
 	
 }
+
+@media (max-width: 480px) {
+	
+}
+
 @media (max-device-width: 320px) {
 	.pkg-wrap [class*=pkg-] .p0 {font-size: 14.5px;}
 }
@@ -166,7 +171,7 @@
 	.pkg-wrap .sltMenu-intro .ul1 > li .d2 .usePrc .p1 {}
 	.pkg-wrap .sltMenu-intro .ul1 > li strong {font-weight: 700; display: block; margin-bottom: 10px; font-size: 15px; line-height: 1.2; letter-spacing: -0.5px;}
 	
-	.pkg-wrap .pkg-3 .p-row {font-size: 17px; text-align: center; padding-top: 30px; margin: 40px auto -30px; line-height: 1.5; border-top: 1px solid #e1e1e1;}
+	.pkg-wrap [class*=pkg-] > .p-row {font-size: 17px; text-align: center; padding-top: 30px; margin: 40px auto -30px; line-height: 1.5; border-top: 1px solid #e1e1e1;}
 	
 	.vari-wrap {padding: 0px 0 80px; letter-spacing: -1px;}
 	.vari-wrap .container {padding-top: 35px; border-top: 1px solid #e1e1e1;}
@@ -247,7 +252,7 @@
 	.pkg-wrap .sltMenu-intro .ul1 > li .d2 .usePrc .p1 {}
 	.pkg-wrap .sltMenu-intro .ul1 > li strong {font-weight: 700; display: block; margin-bottom: 20px;}
 	
-	.pkg-wrap .pkg-3 .p-row {font-size: 24px; text-align: center; padding-top: 40px; margin: 40px auto -45px; line-height: 1.5; border-top: 1px solid #e1e1e1;}
+	.pkg-wrap [class*=pkg-] > .p-row {font-size: 24px; text-align: center; padding-top: 40px; margin: 40px auto -45px; line-height: 1.5; border-top: 1px solid #e1e1e1;}
 	
 	.vari-wrap {padding: 0px 0 130px; letter-spacing: -1px;}
 	.vari-wrap .container {padding-top: 35px; border-top: 1px solid #e1e1e1;}
@@ -329,7 +334,7 @@
 	.pkg-wrap .sltMenu-intro .ul1 > li .d2 .usePrc .p1 {margin-bottom: 5px;}
 	.pkg-wrap .sltMenu-intro .ul1 > li strong {font-weight: 700; display: block; margin-bottom: 20px;}
 	
-	.pkg-wrap .pkg-3 .p-row {font-size: 24px; text-align: center; padding-top: 40px; margin: 40px auto -50px; line-height: 1.5; border-top: 1px solid #e1e1e1;}
+	.pkg-wrap [class*=pkg-] > .p-row {font-size: 24px; text-align: center; padding-top: 40px; margin: 40px auto -50px; line-height: 1.5; border-top: 1px solid #e1e1e1;}
 	
 	
 	.vari-wrap {padding: 0px 0 130px; letter-spacing: -1px;}
