@@ -24,6 +24,7 @@
 .pkg-wrap [class*=pkg-] h4 {margin-top: 35px; font-size: 22px;}
 .pkg-wrap [class*=pkg-] .p1, .pkg-wrap .ul0 > li .p-txt {color: #7c7c7c;}
 .pkg-wrap [class*=pkg-] .p1 {margin-top: 30px; font-size: 18px; line-height: 1.5;}
+.pkg-wrap .bxBox .d-cap {color: #fff; font-size: 24px; position: absolute; bottom: 10px; left: 8px; font-family: "Nanum Gothic", sans-serif;}
 .pkg-wrap .ul0 {position: relative; margin-top: 80px;}
 .pkg-wrap .ul0 > li {float: left; width: 386px; border-top: 1px solid #44a8ff; margin-left: 60px;}
 .pkg-wrap .ul0 > li:first-child {margin-left: 0;}

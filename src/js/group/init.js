@@ -53,5 +53,12 @@ $(function () {
 		});
 	});
 	
+	// 일정 안내
+	$("#courseBox .courseTab > li").on("click", function() {
+		var idx = $(this).index();
+		$(this).addClass("on").siblings().removeClass("on");
+		$("#courseBox .courseList > li").eq(idx).addClass("on").siblings().removeClass("on");
+	});
+	
 	
 });

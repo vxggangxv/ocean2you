@@ -1,12 +1,11 @@
 $(function() {
 	
 	// 패키지 탭
-	$("#facil-tab li").on('click', function() {
+	/*$("#facil-tab li").on('click', function() {
 		var idx = $(this).index();
 		$(this).addClass('on').siblings().removeClass('on');
 		$("#facil-box > section").eq(idx).addClass('on').siblings().removeClass('on');
-		
-	});
+	});*/
 	
 	// bx슬라이더
 	$("div[id*=bxBox-] .bxS, #room-list .bxBox .bxS").bxSlider({

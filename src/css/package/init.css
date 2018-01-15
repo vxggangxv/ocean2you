@@ -22,6 +22,7 @@
 	.title .pkg-tab {position: relative; margin: 22px auto 0; width: 310px; left: 1.5px;}
 	.title .pkg-tab > li {position: relative; float: left; top: 0; width: 48%; margin: 1%;}
 	.title .pkg-tab > li a {display: block; width: 100%; height: 45px; letter-spacing: -1px; font-size: 16px; border: 2px solid #a8a6a4; font-weight: 400; color: #fff;}
+	.title .pkg-tab > li:first-child a {font-size: 15px;}
 	.title .pkg-tab > li a:after {content: ""; display: inline-block; height: 108%; vertical-align: middle;}
 	.title .pkg-tab > li.on a {border: 2px solid #fff; padding-left: 0;}
 	
@@ -38,6 +39,7 @@
 	.pkg-wrap [class*=pkg-] h4 {margin-top: 20px; font-size: 16px;}
 	.pkg-wrap [class*=pkg-] .p1, .pkg-wrap .ul0 > li .p-txt {color: #7c7c7c;}
 	.pkg-wrap [class*=pkg-] .p1 {margin-top: 10px; font-size: 14px; line-height: 1.4; letter-spacing: -1px;}
+	.pkg-wrap .bxBox .d-cap {color: #fff; font-size: 14px; position: absolute; bottom: 6px; left: 5px; font-family: "Nanum Gothic", sans-serif;}
 	.pkg-wrap .ul0 {position: relative; margin-top: 40px;}
 	.pkg-wrap .ul0 > li {width: 100%; border-top: 1px solid #44a8ff; margin: 25px auto 0;}
 	.pkg-wrap .ul0 > li:first-child {margin-top: 0;}
@@ -92,7 +94,7 @@
 	.vari-wrap .ul1 > li {position: relative; float: left; margin-left: 2%; font-size: 0; width: 49%;}
 	.vari-wrap .ul1 > li:first-child, .vari-wrap .ul1 > li:nth-child(3) {margin-left: 0;}
 	.vari-wrap .ul1 > li:first-child, .vari-wrap .ul1 > li:nth-child(2) {margin-bottom: 2%;}
-	.vari-wrap .ul1 > li a {position: relative; display: block; min-height: 190px; padding: 28px 15px 15px 15px; border: 1px solid #e2e2e2; color: #222; word-break: keep-all;}
+	.vari-wrap .ul1 > li a {position: relative; display: block; min-height: 190px; padding: 28px 12px 15px 12px; border: 1px solid #e2e2e2; color: #222; word-break: keep-all;}
 	.vari-wrap .ul1 > li a .i-scut {display: block; position: absolute; right: 0; top: 0; color: #fff; width: 66px; height: 74px; background: url(http://img.ocean2you.co.kr/renew/i-scut.png) no-repeat right top; text-align: right; padding: 6px 4px 0 0; font-size: 13px; background-size: 90%}
 	.vari-wrap .ul1 > li a h4 {font-size: 15px;}
 	.vari-wrap .ul1 > li a .p1 {font-size: 12px;line-height: 1.5; margin-top: 12px;}
@@ -136,6 +138,7 @@
 	.pkg-wrap [class*=pkg-] h4 {margin-top: 30px; font-size: 17px;}
 	.pkg-wrap [class*=pkg-] .p1, .pkg-wrap .ul0 > li .p-txt {color: #7c7c7c;}
 	.pkg-wrap [class*=pkg-] .p1 {margin-top: 15px; font-size: 15px; line-height: 1.5; letter-spacing: -1px;}
+	.pkg-wrap .bxBox .d-cap {color: #fff; font-size: 20px; position: absolute; bottom: 8px; left: 6px; font-family: "Nanum Gothic", sans-serif;}
 	.pkg-wrap .ul0 {position: relative; margin-top: 70px;}
 	.pkg-wrap .ul0 > li {float: left; width: 31%; border-top: 1px solid #44a8ff; margin-left: 3%;}
 	.pkg-wrap .ul0 > li:first-child {margin-left: 0;}
@@ -215,6 +218,7 @@
 	.pkg-wrap [class*=pkg-] h4 {margin-top: 35px; font-size: 22px;}
 	.pkg-wrap [class*=pkg-] .p1, .pkg-wrap .ul0 > li .p-txt {color: #7c7c7c;}
 	.pkg-wrap [class*=pkg-] .p1 {margin-top: 30px; font-size: 18px; line-height: 1.5;}
+	.pkg-wrap .bxBox .d-cap {color: #fff; font-size: 22px; position: absolute; bottom: 8px; left: 6px; font-family: "Nanum Gothic", sans-serif;}
 	.pkg-wrap .ul0 {position: relative; margin-top: 80px;}
 	.pkg-wrap .ul0 > li {float: left; width: 31%; border-top: 1px solid #44a8ff; margin-left: 3%;}
 	.pkg-wrap .ul0 > li:first-child {margin-left: 0;}
@@ -297,6 +301,7 @@
 	.pkg-wrap [class*=pkg-] h4 {margin-top: 35px; font-size: 22px;}
 	.pkg-wrap [class*=pkg-] .p1, .pkg-wrap .ul0 > li .p-txt {color: #7c7c7c;}
 	.pkg-wrap [class*=pkg-] .p1 {margin-top: 30px; font-size: 18px; line-height: 1.5;}
+	.pkg-wrap .bxBox .d-cap {color: #fff; font-size: 24px; position: absolute; bottom: 10px; left: 8px; font-family: "Nanum Gothic", sans-serif;}
 	.pkg-wrap .ul0 {position: relative; margin-top: 80px;}
 	.pkg-wrap .ul0 > li {float: left; width: 386px; border-top: 1px solid #44a8ff; margin-left: 60px;}
 	.pkg-wrap .ul0 > li:first-child {margin-left: 0;}

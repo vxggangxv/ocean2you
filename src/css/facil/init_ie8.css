@@ -30,7 +30,7 @@
 .facil-wrap .fc-list .txt-box .p2 {font-size: 18px; margin-top: 16px; line-height: 1.6;}
 .facil-wrap .fc-list .txt-box .more-a > * {vertical-align: middle;}
 .facil-wrap .fc-list .txt-box .more-a {width: 142px; height: 35px; font-size: 17px; display: inline-block; margin-top: 20px; padding: 3px 10px 6px; border: 1px solid #44a8ff;}
-.facil-wrap .fc-list .txt-box .more-a .gt {position: relative; top: 2px; width: 8px; margin-left: 2px; left: 10px;}
+.facil-wrap .fc-list .txt-box .more-a .gt {display: inline; position: relative; top: 2px; width: 8px; margin-left: 2px; left: 10px;}
 .facil-wrap .facil-1 .fc-list li.nth-2 .bxBox .txt-box
 , .facil-wrap .facil-1 .fc-list li.nth-4 .bxBox .txt-box {top: 155px;}
 
