@@ -4,9 +4,6 @@ a {color: #2b2b2b;}
 .vid-wrap {background: url(http://img.ocean2you.co.kr/renew/intro/intro_titBg.jpg) no-repeat top center; padding-top: 98px; position: relative; width: 100%; height: 286px; 
 	-webkit-background-size: cover; background-size: cover;}
 
-.rBn-box {position: fixed; top: 376px; left: 50%; margin-left: 626px;}
-.rBn-box > a {display: block; width: 140px;}
-
 @media (max-width: 767px) {
 	.xs-block {display: block;}
 	.xs-hidden {display: none;}
@@ -124,11 +121,9 @@ a {color: #2b2b2b;}
 	.facil-sec .ul-list .li-item:nth-child(3n-1) {margin: 8px 1.5% 0;}
 	.facil-sec .ul-list .li-item figure {position: relative;}
 	.facil-sec .ul-list .li-item figure > img {width: 100%;}
-	.facil-sec .ul-list .li-item figure > figcaption
-	, .facil-sec .ul-list .li-item figure > .s-bg {display: block; width: 100%; position: absolute; bottom: 0; left: 0; height: 24px;}
-	.facil-sec .ul-list .li-item figure > figcaption {text-align: right; padding-right: 5px; color: #fff; font-size: 12px;}
+	.facil-sec .ul-list .li-item figure > figcaption {display: block; width: 100%; position: absolute; bottom: 0; left: 0; padding: 5px 5px 6px 0; line-height: 1.2; background: #000000; background: rgba(0,0,0, .42); text-align: right; color: #fff; font-size: 12px;}
 	.facil-sec .ul-list .li-item figure > figcaption:after {content: ""; display: inline-block; height: 104%; vertical-align: middle;}
-	.facil-sec .ul-list .li-item figure > .s-bg {background: #000; opacity: 0.42; filter: alpha(opacity=42);}
+	/*.facil-sec .ul-list .li-item figure > .s-bg {background: #000; opacity: 0.42; filter: alpha(opacity=42);}*/
 	.facil-sec .p-ps {position: relative; padding-left: 18px; font-size: 12px; color: #848484; margin-top: 18px; letter-spacing: -1px; line-height: 1.4;}
 	.facil-sec .p-ps:before {position: absolute; left: 0;  content: ""; display: inline-block; width: 14px; height: 14px; background: url(http://img.ocean2you.co.kr/renew/group/pic_i.png); background-size: 14px; top: 1px;}
 		
@@ -178,8 +173,10 @@ a {color: #2b2b2b;}
 @media (min-width: 768px) and (max-width: 1190px) {
 	.vid-wrap {height: 284px;}
 
+/*
 	.rBn-box {margin-left: 392px;}
 	.rBn-box > a {width: 110px;}
+*/
 	
 	.title {position: relative;}
 	.title .tit-box {text-align: center; padding-top: 30px; color: #fff;}
@@ -289,11 +286,9 @@ a {color: #2b2b2b;}
 	.facil-sec .ul-list .li-item:nth-child(3n-1) {margin: 8px 1.5% 0;}
 	.facil-sec .ul-list .li-item figure {position: relative;}
 	.facil-sec .ul-list .li-item figure > img {width: 100%;}
-	.facil-sec .ul-list .li-item figure > figcaption
-	, .facil-sec .ul-list .li-item figure > .s-bg {display: block; width: 100%; position: absolute; bottom: 0; left: 0; height: 40px;}
-	.facil-sec .ul-list .li-item figure > figcaption {text-align: right; padding-right: 5px; color: #fff; font-size: 17px;}
+	.facil-sec .ul-list .li-item figure > figcaption {display: block; width: 100%; position: absolute; bottom: 0; left: 0; padding: 5px 5px 6px 0; line-height: 1.2; background: #000000; background: rgba(0,0,0, .42); text-align: right; color: #fff; font-size: 17px;}
 	.facil-sec .ul-list .li-item figure > figcaption:after {content: ""; display: inline-block; height: 105%; vertical-align: middle;}
-	.facil-sec .ul-list .li-item figure > .s-bg {background: #000; opacity: 0.42; filter: alpha(opacity=42);}
+	/*.facil-sec .ul-list .li-item figure > .s-bg {background: #000; opacity: 0.42; filter: alpha(opacity=42);}*/
 	.facil-sec .p-ps {position: relative; padding-left: 23px; font-size: 17px; color: #848484; margin-top: 30px; line-height: 1.4; letter-spacing: -0.5px;}
 	.facil-sec .p-ps:before {position: absolute; left: 0;  content: ""; display: inline-block; width: 17px; height: 17px; background: url(http://img.ocean2you.co.kr/renew/group/pic_i.png); top: 4px;}
 		
@@ -443,11 +438,9 @@ a {color: #2b2b2b;}
 	.facil-sec .ul-list .li-item {position: relative; float: left; margin-left: 28px; margin-top: 30px; width: 276px; height: 247px;}
 	.facil-sec .ul-list .li-item figure {position: relative;}
 	.facil-sec .ul-list .li-item figure > img {width: 100%;}
-	.facil-sec .ul-list .li-item figure > figcaption
-	, .facil-sec .ul-list .li-item figure > .s-bg {display: block; width: 100%; position: absolute; bottom: 0; left: 0; height: 40px;}
-	.facil-sec .ul-list .li-item figure > figcaption {text-align: right; padding-right: 15px; color: #fff;}
+	.facil-sec .ul-list .li-item figure > figcaption {display: block; width: 100%; position: absolute; bottom: 0; left: 0; padding: 5px 15px 6px 0; line-height: 1.2; background: #000000; background: rgba(0,0,0, .42); text-align: right;  color: #fff;}
 	.facil-sec .ul-list .li-item figure > figcaption:after {content: ""; display: inline-block; height: 105%; vertical-align: middle;}
-	.facil-sec .ul-list .li-item figure > .s-bg {background: #000; opacity: 0.42; filter: alpha(opacity=42);}
+	/*.facil-sec .ul-list .li-item figure > .s-bg {background: #000; opacity: 0.42; filter: alpha(opacity=42);}*/
 	.facil-sec .p-ps {position: relative; padding-left: 23px; font-size: 17px; color: #848484; margin-top: 30px; line-height: 1.4; letter-spacing: -0.5px;}
 	.facil-sec .p-ps:before {position: absolute; left: 0;  content: ""; display: inline-block; width: 17px; height: 17px; background: url(http://img.ocean2you.co.kr/renew/group/pic_i.png); top: 4px;}
 	

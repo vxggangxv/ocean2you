@@ -1,4 +1,16 @@
 $(function() {
+	// 단체문의 팝업
+	$(".popOpen").on('click', function () {
+
+		var thisObj = $(this);
+		//var popTop = thisObj.offset().top;
+		var popTop = $(window).scrollTop() + 100;
+
+
+		$('#contact-pop').css("top", popTop);
+		$('#contact-pop, #contact-bg').show();
+
+	});
 	
 	// 모바일 네비탭 클릭 기능
 	$("#mNav-btn").on("click", function() {

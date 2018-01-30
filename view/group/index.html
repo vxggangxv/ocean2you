@@ -22,31 +22,38 @@
 	<meta name="twitter:title" content="오션투유리조트">
 	<!--<link rel="canonical" href="도메인">-->
 	
-	<!--<link rel="stylesheet" href="http://static.ocean2you.co.kr/fonts/nanumbarungothic/nanumbarungothic.css">-->
+<!--	<link rel="stylesheet" href="http://static.ocean2you.co.kr/fonts/nanumbarungothic/nanumbarungothic.css">-->
 	<link rel="stylesheet" href="../../src/fonts/nanumbarungothic/nanumbarungothic.css">
 	<!--<link href="https://cdn.rawgit.com/openhiun/hangul/14c0f6faa2941116bb53001d6a7dcd5e82300c3f/nanumbarungothic.css" rel="stylesheet" type="text/css">-->
 	
 	
-	<!--<link rel="stylesheet" href="http://static.ocean2you.co.kr/css/renew/reset_custom.css">-->
-	<link rel="stylesheet" href="../../src/css/reset_custom.css">
+	<link rel="stylesheet" href="http://static.ocean2you.co.kr/css/renew/reset_custom.css">
+<!--	<link rel="stylesheet" href="../../src/css/reset_custom.css">-->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.12/jquery.bxslider.css">
-	<!--<link rel="stylesheet" href="http://static.ocean2you.co.kr/css/renew/common.css">-->
+<!--	<link rel="stylesheet" href="http://static.ocean2you.co.kr/css/renew/common.css">-->
 	<link rel="stylesheet" href="../../src/css/common.css">
-	<!--<link rel="stylesheet" href="http://static.ocean2you.co.kr/css/renew/group/init.css">-->
-	<link rel="stylesheet" href="../../src/css/group/init.css">
+	<link rel="stylesheet" href="http://static.ocean2you.co.kr/css/renew/group/init.css">
+<!--	<link rel="stylesheet" href="../../src/css/group/init.css">-->
 	
 	<script type="text/javascript" src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
 	<script src="http://static.ocean2you.co.kr/js/renew/jquery.easing.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.12/jquery.bxslider.min.js"></script>
 	<script src="http://static.ocean2you.co.kr/js/renew/common_ocean.js"></script>
-	<!--<script src="http://static.ocean2you.co.kr/js/renew/facil/init.js"></script>-->
-	<script src="../../src/js/group/init.js"></script>
+	<script src="http://static.ocean2you.co.kr/js/renew/group/init.js"></script>
+<!--	<script src="../../src/js/common_ocean.js"></script>-->
+<!--	<script src="../../src/js/group/init.js"></script>-->
 	
-		<!--<link rel="stylesheet" href="http://static.ocean2you.co.kr/css/renew/group/init_ie8.css">-->
-		<!--<link rel="stylesheet" href="http://static.ocean2you.co.kr/css/renew/common_ie8.css">-->
-	<!--[if lt IE 9]>
+		<!--<script src="../../src/js/common_ocean_ie8.js"></script>-->
+<!--
 		<link rel="stylesheet" href="../../src/css/common_ie8.css">
 		<link rel="stylesheet" href="../../src/css/group/init_ie8.css">
+-->
+		
+	<!--[if lt IE 9]>
+		<link rel="stylesheet" href="http://static.ocean2you.co.kr/css/renew/common_ie8.css">
+		<link rel="stylesheet" href="http://static.ocean2you.co.kr/css/renew/group/init_ie8.css">
+
+		<script src="http://static.ocean2you.co.kr/js/renew/common_ocean_ie8.js"></script>
 		<script type="text/javascript" src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
 	<![endif]-->
 	
@@ -140,7 +147,8 @@
 						<p class="p-3 dot">
 							<span class="dot">※</span> 강릉 경기장 및 평창 올림픽 경기장까지 1시간 이내  이동 가능합니다.
 						</p>
-						<p class="area-btn"><a href="javascript:;" class="popOpen">단체 문의하기 <span class="ic-rArrow"></span></a></p>
+						<!--popOpen 클래스 제거-->
+						<p class="area-btn"><a href="javascript:;" onclick="$(window).scrollTop($('#etcSetTop').offset().top - $('#gnb-header').height());">단체 문의하기 <span class="ic-rArrow"></span></a></p>
 					</div>
 				</section>
 				<hr>
@@ -868,14 +876,94 @@
 						</ul>
 					</div>
 				</section>
-				<hr>
+				<hr id="etcSetTop">
+			<!--180124 단체문의팝업 페이지 내 추가 아이디 제거-->
 				<section class="etc-sec">
 					<div class="d-box-1 d-cm">
 						<p class="p-0">오션투유 리조트가 <span class="f-bd">즐거움</span>을 <span class="f-bd">책임</span>집니다.</p>
 						<p class="p-1">모든 것이 완벽한 오션투유 리조트에서 아름다운 추억을 만들어보세요!</p>
-						<!--<p class="area-btn"><a class="a-btn" href="javascript:;" onclick="$(window).scrollTop(0); $('#contact-pop, #contact-bg').show(); setPop();">단체 문의하기 <span class="ic-rArrow"></span></a></p>-->
-						<p class="area-btn"><a class="a-btn popOpen" href="javascript:;">단체 문의하기 <span class="ic-rArrow"></span></a></p>
+						
+						<div class="contact-pop type-2" id="contact-pop" style="z-index: 0;">
+							<div class="d-top i-chk-bef">
+								<span class="s-1">은 </span>필수 입력 사항입니다.
+							</div>
+							<ul class="ul-tb nece">
+								<li class="li-tr">
+									<span class="s-lbl i-chk-aft">예약자</span>
+									<input type="text" class="wd-1">
+									<hr class="show-xs">
+									<span class="s-lbl i-chk-aft ml-1">연락처</span>
+									<input type="text" class="wd-2">
+									<span class="mg-"></span>
+									<input type="text" class="wd-2">
+									<span class="mg-"></span>
+									<input type="text" class="wd-2">
+									<div class="show-xs"></div>
+								</li>
+								<li class="li-tr">
+									<span class="s-lbl i-chk-aft">이메일</span>
+									<input type="text" class="wd-3">
+								</li>
+							</ul>
+							<ul class="ul-tb">
+								<li class="li-tr">
+									<span class="s-lbl">단체명</span>
+									<input type="text" class="wd-1">
+									<hr class="show-xs">
+									<span class="s-lbl ml-1">행사분류</span>
+									<select name="" id="" class="wd-1 wd-1-2">
+										<option value="">수련회</option>
+										<option value="">워크샵/오티</option>
+										<option value="">세미나/단체행사</option>
+										<option value="">학술모임</option>
+										<option value="">각종잔치</option>
+										<option value="">기타</option>
+									</select>
+								</li>
+								<li class="li-tr">
+									<span class="s-lbl">이용일</span>
+									<input type="text" class="wd-4">
+									<select name="" id="" class="wd-1 wd-1-2">
+										<option value="">1박 2일</option>
+										<option value="">2박 3일</option>
+										<option value="">3박 4일</option>
+										<option value="">4박 5일</option>
+										<option value="">5박 이상</option>
+									</select>
+								</li>
+								<li class="li-tr">
+									<span class="s-lbl">인원</span>
+									<span class="s-txt">남자</span>
+									<input type="text" class="wd-5"><span>명</span>
+									<span class="s-txt">여자</span>
+									<input type="text" class="wd-5"><span>명</span>
+									<span class="mg-l"></span>
+									<span class="s-txt">총 인원</span>
+									<input type="text" class="wd-6"><span>명</span>
+								</li>
+								<li class="li-tr">
+									<span class="s-lbl">예산</span>
+									<input type="text" class="wd-7"><span>원</span>
+								</li>
+								<li class="li-tr">
+									<span class="s-lbl ver-t">기타요청</span>
+									<textarea name="" id="" cols="30" rows="10" class="wd-8"></textarea>
+								</li>
+							</ul>
+							
+						</div>
+						<div class="d-check">
+							<input type="checkbox" name="privacy_y" id="privacy_y">
+							<span class="s-txt">
+								<label for="privacy_y" style="cursor:default;">개인정보 제공에 동의합니다.</label>
+								<a href="javascript:;" onclick="$('#privacy-bg, #privacy-bg .privacy-wrap').show(); $('body').css('overflow', 'hidden');">[보기]</a>
+							</span>
+						</div>
+						
+						<!--180124 popOpen 클래스 제거 -->
+						<p class="area-btn"><a class="a-btn" href="javascript:;">단체 문의하기 <span class="ic-rArrow"></span></a></p>
 					</div>
+
 					<hr>
 					<div class="d-box-2 d-cm">
 						<p class="p-0"><span class="hidden-xs">단체 행사 문의에 대한</span> <span class="f-bd">빠른 상담이 필요</span>하신가요?</p>
@@ -888,19 +976,21 @@
 		
 			
 			<!-- 오른쪽 날개 배너 -->
+			<!--180124 popOpen 클래스 제거 -->
 			<div class="rBn-box">
-				<a href=""><img src="http://img.ocean2you.co.kr/renew/group/group_bn.png" alt="단체행사문의하기"></a>
+				<a href="javascript:;" onclick="$(window).scrollTop($('#etcSetTop').offset().top - $('#gnb-header').height());"><img src="http://img.ocean2you.co.kr/renew/group/group_bn.png" alt="단체행사문의하기"></a>
 			</div>
 		</div>
 		
 		
 		<!-- 팝업 배경-->
-		<div class="dropDown-bg" id="contact-bg" style="display: none;"></div>
+<!--		<div class="dropDown-bg" id="contact-bg" style="display: none;"></div>-->
 		<!-- 단체문의 입력폼 -->
+<!--
 		<div class="contact-pop" id="contact-pop" style="display: none;">
 			<div class="d-tit hidden-xs">
 				<p><span class="hide show-sm-gte t-l"></span>오션투유<span class="hidden-xs"> 리조트</span> 단체 행사 문의<span class="hidden-xs">하기</span><span class="hide show-sm-gte t-r"></span></p>
-				<a href="#" class="close a-i-x a-x" onclick="$('#contact-pop, #contact-bg').hide();"></a>
+				<a href="javascript:;" class="close a-i-x a-x" onclick="$('#contact-pop, #contact-bg').hide();"></a>
 			</div>
 			<p class="p-cf hidden-xs">
 				<img class="pic-chk" src="http://img.ocean2you.co.kr/renew/group/pic_chk.png" alt="입력">
@@ -982,6 +1072,7 @@
 				</p>
 			</div>
 		</div>
+-->
 		
 		<!-- 접수 완료 -->
 		<div class="contact-pop2" id="contact-pop2" style="display: none;">

@@ -83,12 +83,17 @@ body {font-family: "Malgun Gothic", "Apple SD Gothic Neo", "Nanum Barun Gothic",
 .mNav-box h2 a:hover, .mNav-box .mNav > li a:hover {color: #44a8ff;}
 
 
-
-
+.rBn-box {position: fixed; top: 376px; left: 50%; margin-left: 626px;}
+.rBn-box > a {display: block; width: 140px;}
+@media (max-width: 1560px) {
+	.rBn-box {left: auto; margin-left: 0; right: 10px;}
+}
 
 /* 퀵 메뉴, FAQ */
 .rWing, #faqWrap-back, .header .d1 .mFaq-a {display: none;}
 @media (max-width: 767px) {
+	.rBn-box {display: none;}
+	
 	.hidden-xs {display: none !important;}
 	.show-xs {display: block !important;}
 
@@ -221,10 +226,10 @@ body {font-family: "Malgun Gothic", "Apple SD Gothic Neo", "Nanum Barun Gothic",
 
 
 	/* 단체예약 문의 팝업 */
-	.contact-pop {position: absolute; top: 144px; /*top: 177px;*/ background: #fff; padding-bottom: 18px;font-size: 14px; z-index: 100; width: 100%;}
+	.contact-pop {position: absolute; top: 144px; /*top: 177px;*/ background: #fff; padding-bottom: 18px;font-size: 14px; z-index: 100; width: 100%; margin-top: 10px;}
 	.contact-pop > h2 {color: #fff; font-size: 26px;}
 	.contact-pop .p-cf {color: #191919; font-size: 20px;}
-	.contact-pop .d-top {position: relative; background: #f2f3f6; border-bottom: 1px solid #8e929b; color: #1c1c1c; height: 36px; line-height: 31px; padding: 0 10px; font-weight: 700;}
+	.contact-pop .d-top {position: relative; text-align: right; padding: 0 10px; font-size: 12px;}
 	.contact-pop .i-chk-bef:before, .contact-pop .i-chk-aft:after {position: relative; content: ""; display: inline-block; width: 8px; height: 11px; background: url(http://img.ocean2you.co.kr/renew/group/i_chk.png) no-repeat; background-size: 8px; vertical-align: middle;}
 	.contact-pop .i-chk-aft:after {margin-right: 0; margin-left: 2px; top: -1px;}
 	.contact-pop .a-x {top: 7px; right: 8px;}
@@ -239,8 +244,7 @@ body {font-family: "Malgun Gothic", "Apple SD Gothic Neo", "Nanum Barun Gothic",
 	.contact-pop .li-tr .mg-l {width: 1px; height: 20px; background: #a0a0a0; margin: 0 7px 0 2px; top: 2px;}
 	.contact-pop .li-tr hr {margin: 6px auto; border-color: #dadada;}
 
-
-	.contact-pop .li-tr .s-lbl {width: 66px; margin-left: 10px;}
+	.contact-pop .li-tr .s-lbl {width: 66px;}
 	.contact-pop .li-tr input, .contact-pop .li-tr select, .contact-pop .li-tr .wd-8 {-webkit-appearance: none; -moz-appearance: none; appearance: none; border-radius: 0;padding: 0;}
 	.contact-pop .li-tr input, .contact-pop .li-tr select {height: 30px; border: 1px solid #787878; font-size: 12.5px;}
 	.contact-pop .li-tr select {background: url(http://img.ocean2you.co.kr/renew/group/i_dArr_m.png) no-repeat 114px 11px;}
@@ -280,6 +284,10 @@ body {font-family: "Malgun Gothic", "Apple SD Gothic Neo", "Nanum Barun Gothic",
 	.contact-pop2 .d-cont .p-1 {font-size: 14px; line-height: 1.5;}
 	.contact-pop2 .d-cont .p-1 .f-bd {font-size: 16px; margin-bottom: 4px; display: inline-block;}
 	
+	.contact-pop.type-2 {position: relative; top: 0; text-align: left; width: 100%; left: auto; margin-left: 0; padding-bottom: 0;}
+	.contact-pop + .d-check {}
+	.contact-pop + .d-check * {display: inline-block; vertical-align: middle; font-size: 13px;}
+	.contact-pop + .d-check > input[type=checkbox] {position: relative; top: 3px;}
 	
 	.privacy-bg, .privacy-bg .cm-s {display: none;}
 	.privacy-bg .cm-s {position: absolute; width: 350px; height: 370px; position: absolute; top: 50%; margin-top: -185px; left: 50%; margin-left: -175px; background: #fff;}
@@ -353,7 +361,7 @@ body {font-family: "Malgun Gothic", "Apple SD Gothic Neo", "Nanum Barun Gothic",
 	.contact-pop .i-chk-bef:before, .contact-pop .i-chk-aft:before {content: "*"; display: inline-block; color: #f00; position: relative; top: 2px; font-weight: 700; margin-right: 3px; vertical-align: middle;}
 	.contact-pop .i-chk-aft:before {top: -1px; font-size: 14px;}
 	.contact-pop .ul-tb {position: relative; width: 100%; font-family: 'Nanum Gothic', sans-serif;}
-	.contact-pop .nece {border-bottom: 2px solid #8e929b; border-top: 1px solid #dadada;}
+	.contact-pop .nece {border-bottom: 1px solid #8e929b; border-top: 1px solid #dadada;}
 	.contact-pop .li-tr:first-child {border-top: 0;}
 	.contact-pop .li-tr {position: relative; padding: 10px 0px; font-size: 0; border-top: 1px solid #dadada; letter-spacing: -0.5px;}
 	.contact-pop .li-tr > span {position: relative; display: inline-block; font-size: 16px; font-weight: 700; vertical-align: middle;}
@@ -366,14 +374,14 @@ body {font-family: "Malgun Gothic", "Apple SD Gothic Neo", "Nanum Barun Gothic",
 	.contact-pop .li-tr .s-lbl {width: 74px; margin-left: 20px;}
 	.contact-pop .li-tr .ml-1 {margin-left: 40px;}
 	.contact-pop .li-tr input, .contact-pop .li-tr select, .contact-pop .li-tr .wd-8 {-webkit-appearance: none; -moz-appearance: none; appearance: none; -ms-appearance: none; -o-appearance: none; border-radius: 0; padding: 0;}
-	.contact-pop .li-tr input, .contact-pop .li-tr select {height: 42px; border: 1px solid #787878; font-size: 16px;}
+	.contact-pop .li-tr input, .contact-pop .li-tr select {height: 28px; border: 1px solid #787878; font-size: 16px;}
 	.contact-pop .li-tr select::-ms-expand {display: none;}
 	.contact-pop .li-tr select {
 		outline : none;
 		overflow : hidden;
 		text-indent : 5px;
 		text-overflow : '';
-		background: url(http://img.ocean2you.co.kr/renew/group/i_dArr.png) no-repeat 174px 16px;
+		background: url(http://img.ocean2you.co.kr/renew/group/i_dArr.png) no-repeat 174px 9px;
 	}
 	.contact-pop .li-tr .wd-1, .contact-pop .li-tr .wd-3, .contact-pop .li-tr .wd-4, .contact-pop .li-tr .wd-7 {text-indent: 5px;}
 	.contact-pop .li-tr .wd-2 {text-align: center;}
@@ -401,6 +409,11 @@ body {font-family: "Malgun Gothic", "Apple SD Gothic Neo", "Nanum Barun Gothic",
 	.contact-pop .d-bottom .fl-r > img {position: relative; top: -1px; width: 24px; margin-right: 8px;}
 	.contact-pop .s-txt label {position: relative; top: -3px;}
 	.contact-pop .s-txt label + a {position: relative; top: -1px;}
+	
+	.contact-pop.type-2 {position: relative; top: 0; text-align: left; width: 100%; left: auto; margin-left: 0;}
+	.contact-pop + .d-check {}
+	.contact-pop + .d-check * {display: inline-block; vertical-align: middle;}
+	.contact-pop + .d-check > input[type=checkbox] {position: relative; top: 3px;}
 
 	/* step2 팝업 */
 	.contact-pop2 {width: 650px; left: 50%; margin-left: -325px; top: 150px; padding-bottom: 30px; position: absolute; z-index: 100; background: #fff;}

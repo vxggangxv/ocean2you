@@ -1,16 +1,4 @@
 $(function () {
-	// 단체문의 팝업
-	$(".popOpen").on('click', function () {
-
-		var thisObj = $(this);
-		//var popTop = thisObj.offset().top;
-		var popTop = $(window).scrollTop() + 100;
-
-
-		$('#contact-pop').css("top", popTop);
-		$('#contact-pop, #contact-bg').show();
-
-	});
 
 	// 객실안내 자세히보기 클릭
 	$('#roomList .d-row-1 .a-btn').on('click', function () {

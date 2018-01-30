@@ -5,8 +5,7 @@
 *.eot
 
 #sftpFile
-sftp-config.json
-sftp-config*.json
+*.json
 
 # ImeageFile
 *.jpg

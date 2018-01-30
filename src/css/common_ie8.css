@@ -167,8 +167,7 @@ transform-origin: center;
 .contact-pop .li-tr .s-lbl {width: 74px; margin-left: 20px;}
 .contact-pop .li-tr .ml-1 {margin-left: 40px;}
 .contact-pop .li-tr input, .contact-pop .li-tr select, .contact-pop .li-tr .wd-8 {-webkit-appearance: none; -moz-appearance: none; appearance: none; border-radius: 0; font-size: 16px; padding: 0;}
-.contact-pop .li-tr input, .contact-pop .li-tr select {height: 42px; border: 1px solid #787878; font-size: 16px;}
-.contact-pop .li-tr select {padding: 10px;}
+.contact-pop .li-tr input, .contact-pop .li-tr select {height: 28px; border: 1px solid #787878; font-size: 16px;}
 .contact-pop .li-tr .wd-1, .contact-pop .li-tr .wd-3, .contact-pop .li-tr .wd-4, .contact-pop .li-tr .wd-7 {text-indent: 5px;}
 .contact-pop .li-tr .wd-2 {text-align: center;}
 .contact-pop .li-tr .wd-1 {width: 165px;}
@@ -195,6 +194,8 @@ transform-origin: center;
 .contact-pop .d-bottom .fl-r > img {position: relative; top: -1px; width: 24px; margin-right: 8px;}
 .contact-pop .s-txt label {position: relative; top: -3px;}
 .contact-pop .s-txt label + a {position: relative; top: -1px;}
+
+.contact-pop.type-2 {position: relative; top: 0; text-align: left; width: 100%; left: auto; margin-left: 0;}
 
 /* step2 팝업 */
 .contact-pop2 {width: 650px; left: 50%; margin-left: -325px; top: 150px; padding-bottom: 30px; position: absolute; z-index: 100; background: #fff;}
