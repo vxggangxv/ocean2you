@@ -44,6 +44,22 @@
 	100% {opacity: 1;}
 }
 
+/* 20180228_날씨추가_다솜 */
+.weath-wrap {display:block; position:relative; overflow:hidden; width:318px; height:68px; margin:0 auto; margin-top:50px; border:2px solid #fff; border-radius:50px;}
+.weath-wrap .weath-box {display:table; position:relative; box-sizing:border-box; width:100%; height:100%; padding:0 18px; border-radius:50px; background:#000; opacity:0.33; filter:alpha(opacity=33);}
+.weath-wrap .weath-box p, .weath-wrap .weath-box span {font-weight:bold; letter-spacing:-0.75px; color:#fff; font-family: 'Nanum Gothic', 'Malgun Gothic', 'Dotum', sans-serif;}
+.weath-wrap .weath-box p {display:table-cell; position:relative; vertical-align:middle; text-align:center;}
+.weath-wrap .weath-box p:before {content:''; display:block; position:absolute; width:1px; height:33px; top:15px; left:0; margin-top:0px; background:#fff; opacity:0.33; filter:alpha(opacity=33);}
+.weath-wrap .weath-box p:first-child:before {content:none;}
+.weath-wrap .weath-box .weath-img {width:56px; padding-right:3px;}
+.weath-wrap .weath-box .weath-txt span {display:inline-block; width:100%; font-size:15px;}
+.weath-wrap .weath-box .weath-txt .day {margin-top:-3px; line-height:16px;}
+.weath-wrap .weath-box .weath-txt .location {line-height:27px;}
+.weath-wrap .weath-box .tem-txt {width:81px; padding-left:10px; text-align:left;}
+.weath-wrap .weath-box .tem-txt span {display:inline-block; letter-spacing:-2px;}
+.weath-wrap .weath-box .tem-txt .tem-num {min-width:40px; font-size:34px; line-height:21px; }
+.weath-wrap .weath-box .tem-txt .tem-cel {position:absolute; font-size:24px; margin-top:2px;}
+
 .intro {position: relative; width: 100%; color: #fff;
 	background: url(http://img.ocean2you.co.kr/renew/intro_bg.jpg) no-repeat ; padding: 160px 0 90px;
 }
@@ -127,6 +143,9 @@
 .tourist .tour-list > li.lst:hover a {background: none;}
 .tourist .tour-list > li:hover h3 {margin-top: 40px;}
 .tourist .tour-list > li:hover .p0 {display: block;}
+.tourist .tour-list > li .more-a {font-size: 17px; display: inline-block; padding: 0px 10px; height: 28px; border: 1px solid #00c6ff; margin-top: 20px; color: #00c6ff;
+	}
+	.tourist .tour-list > li .more-a:after {content: ""; height: 110%; display: inline-block; vertical-align: middle;}
 
 
 .facil {position: relative; padding: 90px 0;

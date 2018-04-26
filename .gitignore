@@ -4,8 +4,9 @@
 *.woff2
 *.eot
 
-#sftpFile
+#sftpFile, zip∆ƒ¿œ
 *.json
+*.zip
 
 # ImeageFile
 *.jpg

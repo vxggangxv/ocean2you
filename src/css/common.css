@@ -1,13 +1,15 @@
 @charset 'utf-8';
 @import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
 @import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+/*@import url(http://static.go.co.kr/css/faq-v1.1.css);*/
 
-body {font-family: "Malgun Gothic", "Apple SD Gothic Neo", "Nanum Barun Gothic", "Nanum Gothic", sans-serif;}
+body {font-family: "Malgun Gothic", "Apple SD Gothic Neo", "NanumBarunGothic", "Nanum Gothic", sans-serif;}
+body, a {color: #2b2b2b;}
 
 #wrap {
 	width: 100%; position: relative;
-	position: relative; color: #2b2b2b; letter-spacing: -0.2px; -moz-text-size-adjust: none; -ms-text-size-adjust: none; text-size-adjust: none;
-	/* font-family: "Nanum Barun Gothic", "Nanum Gothic", "Malgun Gothic", "Apple SD Gothic Neo", sans-serif; */
+	position: relative; letter-spacing: -0.2px; -moz-text-size-adjust: none; -ms-text-size-adjust: none; text-size-adjust: none;
+	/* font-family: "NanumBarunGothic", "Nanum Gothic", "Malgun Gothic", "Apple SD Gothic Neo", sans-serif; */
 
 	font-size: 100%;
     font: inherit;
@@ -23,16 +25,25 @@ body {font-family: "Malgun Gothic", "Apple SD Gothic Neo", "Nanum Barun Gothic",
 
 
 .vid-wrap, .vid-wrap *, #wrap > .footer {box-sizing: border-box;}
-.header, .footer {line-height: 1; font-family: "Nanum Barun Gothic", "Nanum Gothic", "Malgun Gothic", sans-serif;}
+.header, .footer {line-height: 1; font-family: "NanumBarunGothic", "Nanum Gothic", "Malgun Gothic", sans-serif;}
 
 .thColor {color: #00c6ff;}
 .thColor2 {color: #44a8ff;}
 .thColor2-2 {color: #319af6;}
+.c-red {color: #c41919 !important;}
 .f-bd {font-weight: bold;}
 
 .mg-, .mgl, .mg-l {position: relative; display: inline-block;}
+.mt-0 {margin-top: 0 !important;}
 
+body.of-hidden {overflow: hidden;}
 .layer-pop-bg {position: fixed; z-index: 200; top: 0; left: 0; width: 100%; height: 100%; background: url(http://img.go.co.kr/black_rgba58.png) repeat;}
+.wrapper-pop {position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: -1;}
+.wrapper-pop.on {z-index: auto;}
+.dropDownBg {position: fixed; z-index: 100; top: 0; left: 0; width: 100%; height: 100%; background: #000; opacity: 0.5; filter: alpha(50);}
+.container-pop {position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: 100;}
+.container-pop.fixed {position: fixed;}
+.container-pop .pop-contents {z-index: 100; position: relative;}
 
 .vid-wrap {z-index: 100;}
 
@@ -51,9 +62,9 @@ body {font-family: "Malgun Gothic", "Apple SD Gothic Neo", "Nanum Barun Gothic",
 
 
 /*반응형 너비*/
-.container {width: 100%; margin: 0 auto; position: relative;}
-.container:before, .container:after {content: ""; display: block;}
-.container:after {clear: both;}
+.container, .containerF {width: 100%; margin: 0 auto; position: relative;}
+.container:before, .container:after, .containerF:before, .containerF:after {content: ""; display: block;}
+.container:after, .containerF:after {clear: both;}
 
 #goTop {position: fixed; display: block; width: 55px; height: 55px; bottom: 20px; right: 20px; z-index: 1;}
 .header.on {position: fixed; background: rgba(255,255,255, 0.8); box-shadow: 0 1px 8px 2px rgba(0,0,0,.2);}
@@ -80,11 +91,12 @@ body {font-family: "Malgun Gothic", "Apple SD Gothic Neo", "Nanum Barun Gothic",
 .mNav-box .mNav > li {padding: 12px 20px;}
 .mNav-box .mNav > li:first-child {padding-top: 20px;}
 .mNav-box h2 a, .mNav-box .mNav > li a {color: #fff; font-size: 16px;}
+.header .nav-bar .nav > li.on > a, .mNav-box .mNav > li.on a,
 .mNav-box h2 a:hover, .mNav-box .mNav > li a:hover {color: #44a8ff;}
 
 
-.rBn-box {position: fixed; top: 376px; left: 50%; margin-left: 626px;}
-.rBn-box > a {display: block; width: 140px;}
+.rBn-box {z-index: 100; position: fixed; top: 376px; left: 50%; margin-left: 626px;}
+.rBn-box > a {display: block; width: 140px; margin-bottom:10px;}
 @media (max-width: 1560px) {
 	.rBn-box {left: auto; margin-left: 0; right: 10px;}
 }
@@ -101,6 +113,8 @@ body {font-family: "Malgun Gothic", "Apple SD Gothic Neo", "Nanum Barun Gothic",
 	.xs-block {display: block;}
 	#faqWrap-back {display: none !important;}
 	#goTop {width: 40px; height: 40px; right: 10px; bottom: 10px;}
+	.rtBookingBn {position: fixed; display: block; right: 6px; bottom: 65px;background: rgba(38, 154, 255, 0.76); font-size: 14px; color: #fff; line-height: 1.2; text-align: center; box-sizing: border-box; padding: 8px 20px; box-shadow: 1px 2px 2px 2px rgba(0,0,0, 0.2); letter-spacing: -0.5px;}
+	.rtBookingBn img {width: 19px; margin-bottom: 2px;}
 	.header.on, .header.on .nav-bar .nav > li {height: 78px;}
 
 	.header {}
@@ -108,7 +122,7 @@ body {font-family: "Malgun Gothic", "Apple SD Gothic Neo", "Nanum Barun Gothic",
 	.header .logo-box .mg-l {display: inline-block; margin: 0 5px; width: 1px; height: 48px;
 		background: rgba(255,255,255, 0.5); vertical-align: middle;
 	}
-	.header .logo-box {display: block; position: absolute; left: 10px; top: 7px; width: 302px;}
+	.header .logo-box {display: block; position: absolute; left: 10px; top: 12px; width: 302px;}
 
 	.header .nav-bar {position: absolute; right: 0;}
 	.header .nav-bar .nav {display: none;}
@@ -459,7 +473,7 @@ body {font-family: "Malgun Gothic", "Apple SD Gothic Neo", "Nanum Barun Gothic",
 	.header .logo-box .mg-l {display: inline-block; margin: 0 5px; width: 1px; height: 48px;
 		background: rgba(255,255,255, 0.5); vertical-align: middle;
 	}
-	.header .logo-box {display: block; position: absolute; left: 30px; top: 7px; width: 302px;}
+	.header .logo-box {display: block; position: absolute; left: 30px; top: 12px; width: 302px;}
 
 	.header .nav-bar {position: absolute; right: 0;}
 	.header .nav-bar .nav {display: none;}
@@ -495,12 +509,12 @@ body {font-family: "Malgun Gothic", "Apple SD Gothic Neo", "Nanum Barun Gothic",
 	.header .mNav-btn.on span:nth-child(3) {display: none;}
 
 
-	.faqWrap {position: absolute; width: 640px; height: 626px;  border: 2px solid #44a8ff; border-top: 0; left: 50%; margin-left: -320px; top: 50%; margin-top: -313px; background: #fff; letter-spacing: -2px;}
+	/*.faqWrap {position: absolute; width: 640px; border: 2px solid #44a8ff; border-top: 0; left: 50%; margin-left: -320px; top: 50%; margin-top: -313px; background: #fff; letter-spacing: -2px;}
 	.faqWrap {font-family: "Nanum Gothic", sans-serif;}
-	.faqWrap h2 {background: #44a8ff; color: #fff; font-size: 23px; width: 100%; height: 62px; text-align: center; padding-top: 21px; font-family: "Nanum Barun Gothic", sans-serif; letter-spacing: -0.5px;}
+	.faqWrap h2 {background: #44a8ff; color: #fff; font-size: 23px; width: 100%; height: 62px; text-align: center; padding-top: 21px; font-family: "NanumBarunGothic", sans-serif; letter-spacing: -0.5px;}
 	.faqWrap h2 .s1 {color: #f6ff00;}
 	.faqWrap h2 .i-x {position: absolute; top: 16px; right: 16px; }
-	.faqWrap .ul1 {overflow-y: auto; height: 562px;}
+	.faqWrap .ul1 {overflow-y: auto;}
 	.faqWrap .ul1 > li {border-bottom: 1px solid #c8c8c8;}
 	.faqWrap .ul1 > li > div {position: relative; line-height: 1.5; padding: 15px 33px 15px 37px; word-break: keep-all;}
 	.faqWrap .ul1 > li .d1 {color: #2f2f2f; font-size: 19px; cursor: pointer;}
@@ -517,7 +531,7 @@ body {font-family: "Malgun Gothic", "Apple SD Gothic Neo", "Nanum Barun Gothic",
 		-ms-transform: rotate(-45deg);
 		-o-transform: rotate(-45deg);
 		transform: rotate(-45deg);
-	}
+	}*/
 
 
 	.footer {background: #323232; padding: 5px 0 45px 10px;}
@@ -539,7 +553,31 @@ body {font-family: "Malgun Gothic", "Apple SD Gothic Neo", "Nanum Barun Gothic",
 
 }
 
-
+@media (min-width: 992px) {
+	/*.faqWrap {position: absolute; width: 824px; border: 2px solid #44a8ff; border-top: 0; left: 50%; margin-left: -412px; top: 50%; margin-top: -313px; background: #fff; letter-spacing: -1px;}
+	.faqWrap {font-family: "Nanum Gothic", sans-serif;}
+	.faqWrap h2 {background: #44a8ff; color: #fff; font-size: 23px; width: 100%; height: 62px; text-align: center; padding-top: 21px; font-family: "NanumBarunGothic", sans-serif; letter-spacing: -0.5px;}
+	.faqWrap h2 .s1 {color: #f6ff00;}
+	.faqWrap h2 .i-x {position: absolute; top: 16px; right: 16px; }
+	.faqWrap .ul1 {overflow-y: auto;}
+	.faqWrap .ul1 > li {border-bottom: 1px solid #c8c8c8;}
+	.faqWrap .ul1 > li > div {position: relative; line-height: 1.5; padding: 15px 33px 15px 37px; word-break: keep-all;}
+	.faqWrap .ul1 > li .d1 {color: #2f2f2f; font-size: 19px; cursor: pointer;}
+	.faqWrap .ul1 > li .d1.on {color: #44a8ff;}
+	.faqWrap .ul1 > li .d1:hover {color: #44a8ff;}
+	.faqWrap .ul1 > li .d1 .s-tit {display: inline-block; position: relative;}
+	.faqWrap .ul1 > li .d1.on .s-tit:after {content: ""; position: absolute; bottom: 0; left: 0; display: inline-block; width: 100%; height: 1px; background: #44a8ff;}
+	.faqWrap .ul1 > li .d2 {color: #545353; font-size: 18px; background: #f1f1f1; padding-left: 48px; display: none;}
+	.faqWrap .ul1 > li .d2 {border-top: 1px solid #c8c8c8;}
+	.faqWrap .ul1 > li .d1:before, .faqWrap .d2:before {content: "Q."; position: absolute; left: 15px;}
+	.faqWrap .ul1 > li .d2:before {content: "A"; color: #fff; background: #3192e6; border-radius: 50%; width: 24px; height: 24px; text-align: center; display: inline-block; font-size: 16px; text-indent: -2px; box-sizing: border-box;}
+	.faqWrap .ul1 > li .d1:after {content: ""; position: absolute; top: 20px; right: 18px;	 display: inline-block; width: 11px; height: 11px; border: 2px solid #858585; border-top: 0; border-right: 0;
+		-webkit-transform: rotate(-45deg);
+		-ms-transform: rotate(-45deg);
+		-o-transform: rotate(-45deg);
+		transform: rotate(-45deg);
+	}*/
+}
 @media (min-width: 992px) and (max-width: 1431px) {
 
 	.header {}
@@ -548,7 +586,7 @@ body {font-family: "Malgun Gothic", "Apple SD Gothic Neo", "Nanum Barun Gothic",
 	.header .logo-box .mg-l {display: inline-block; margin: 0 5px; width: 1px; height: 48px;
 		background: rgba(255,255,255, 0.5); vertical-align: middle;
 	}
-	.header .logo-box {display: block; position: absolute; left: 10px; top: 7px; width: 302px;}
+	.header .logo-box {display: block; position: absolute; left: 10px; top: 15px; width: 302px;}
 
 	.header .nav-bar {position: absolute; right: 0;}
 	.header .nav-bar .nav {}
@@ -595,31 +633,6 @@ body {font-family: "Malgun Gothic", "Apple SD Gothic Neo", "Nanum Barun Gothic",
 	.header .mNav-btn, .mNav-box {display: none;}
 
 
-	.faqWrap {position: absolute; width: 824px; height: 646px;  border: 2px solid #44a8ff; border-top: 0; left: 50%; margin-left: -412px; top: 50%; margin-top: -313px; background: #fff; letter-spacing: -2px;}
-	.faqWrap {font-family: "Nanum Gothic", sans-serif;}
-	.faqWrap h2 {background: #44a8ff; color: #fff; font-size: 23px; width: 100%; height: 62px; text-align: center; padding-top: 21px; font-family: "Nanum Barun Gothic", sans-serif; letter-spacing: -0.5px;}
-	.faqWrap h2 .s1 {color: #f6ff00;}
-	.faqWrap h2 .i-x {position: absolute; top: 16px; right: 16px; }
-	.faqWrap .ul1 {overflow-y: auto; height: 562px;}
-	.faqWrap .ul1 > li {border-bottom: 1px solid #c8c8c8;}
-	.faqWrap .ul1 > li > div {position: relative; line-height: 1.5; padding: 15px 33px 15px 37px; word-break: keep-all;}
-	.faqWrap .ul1 > li .d1 {color: #2f2f2f; font-size: 19px; cursor: pointer;}
-	.faqWrap .ul1 > li .d1.on {color: #44a8ff;}
-	.faqWrap .ul1 > li .d1:hover {color: #44a8ff;}
-	.faqWrap .ul1 > li .d1 .s-tit {display: inline-block; position: relative;}
-	.faqWrap .ul1 > li .d1.on .s-tit:after {content: ""; position: absolute; bottom: 0; left: 0; display: inline-block; width: 100%; height: 1px; background: #44a8ff;}
-	.faqWrap .ul1 > li .d2 {color: #545353; font-size: 18px; background: #f1f1f1; padding-left: 48px; display: none;}
-	.faqWrap .ul1 > li .d2 {border-top: 1px solid #c8c8c8;}
-	.faqWrap .ul1 > li .d1:before, .faqWrap .d2:before {content: "Q."; position: absolute; left: 15px;}
-	.faqWrap .ul1 > li .d2:before {content: "A"; color: #fff; background: #3192e6; border-radius: 50%; width: 24px; height: 24px; text-align: center; display: inline-block; font-size: 16px; text-indent: -2px; box-sizing: border-box;}
-	.faqWrap .ul1 > li .d1:after {content: ""; position: absolute; top: 20px; right: 18px;	 display: inline-block; width: 11px; height: 11px; border: 2px solid #858585; border-top: 0; border-right: 0;
-		-webkit-transform: rotate(-45deg);
-		-ms-transform: rotate(-45deg);
-		-o-transform: rotate(-45deg);
-		transform: rotate(-45deg);
-	}
-
-
 	.footer {background: #323232; padding: 5px 0 45px;}
 	.footer .container {position: relative; width: 992px;}
 	.footer .container div[class*=flt-] {position: relative; float: left; color: #cdcdcd;}
@@ -660,7 +673,7 @@ body {font-family: "Malgun Gothic", "Apple SD Gothic Neo", "Nanum Barun Gothic",
 	.footer .cf-box {font-family: "Nanum Gothic", sans-serif; color: #fff; width: 100%; margin-bottom: 5px; letter-spacing: -0.5px; min-width: 640px;}
 	.footer .cf-box > .p-0 {display: none;}
 	.footer .cf-in {position: relative; width: 100%; font-size: 0;}
-	.footer .cf-in .callFor {position: relative; text-align: center; display: inline-block; width: 176px; vertical-align: top; margin-top: 15px; margin: 8px 0 20px; border: 1px solid #636363; border-radius: 2px; padding: 0; padding-top: 8px; color: #fff; margin-left: 5px;}
+	.footer .cf-in .callFor {position: relative; text-align: center; display: inline-block; width: 176px; height: 110px; vertical-align: top; margin-top: 15px; margin: 8px 0 20px; border: 1px solid #636363; border-radius: 2px; padding: 0; padding-top: 8px; color: #fff; margin-left: 5px;}
 	.footer .cf-in .callFor.cf1 {margin-left: 0;}
 	.footer .cf-in .callFor.cf0 {display: none;}
 	.footer .cf-in .callFor > span {display: block; width: 100%; line-height: 1.5;}
@@ -694,7 +707,7 @@ body {font-family: "Malgun Gothic", "Apple SD Gothic Neo", "Nanum Barun Gothic",
 	.header .logo-box .mg-l {display: inline-block; margin: 0 5px; width: 1px; height: 48px;
 		background: rgba(255,255,255, 0.5); vertical-align: middle;
 	}
-	.header .logo-box {display: block; position: absolute; left: 5%; top: 7px; width: 302px;}
+	.header .logo-box {display: block; position: absolute; left: 5%; top: 15px; width: 302px;}
 
 	.header .nav-bar {position: absolute; right: 0;}
 	.header .nav-bar .nav {}
@@ -742,33 +755,11 @@ body {font-family: "Malgun Gothic", "Apple SD Gothic Neo", "Nanum Barun Gothic",
 	.header .mNav-btn, .mNav-box {display: none;}
 
 
-	.faqWrap {position: absolute; width: 824px; height: 646px;  border: 2px solid #44a8ff; border-top: 0; left: 50%; margin-left: -412px; top: 50%; margin-top: -313px; background: #fff; letter-spacing: -2px;}
-	.faqWrap {font-family: "Nanum Gothic", sans-serif;}
-	.faqWrap h2 {background: #44a8ff; color: #fff; font-size: 23px; width: 100%; height: 62px; text-align: center; padding-top: 21px; font-family: "Nanum Barun Gothic", sans-serif; letter-spacing: -0.5px;}
-	.faqWrap h2 .s1 {color: #f6ff00;}
-	.faqWrap h2 .i-x {position: absolute; top: 16px; right: 16px; }
-	.faqWrap .ul1 {overflow-y: auto; height: 562px;}
-	.faqWrap .ul1 > li {border-bottom: 1px solid #c8c8c8;}
-	.faqWrap .ul1 > li > div {position: relative; line-height: 1.5; padding: 15px 33px 15px 37px; word-break: keep-all;}
-	.faqWrap .ul1 > li .d1 {color: #2f2f2f; font-size: 19px; cursor: pointer;}
-	.faqWrap .ul1 > li .d1.on {color: #44a8ff;}
-	.faqWrap .ul1 > li .d1:hover {color: #44a8ff;}
-	.faqWrap .ul1 > li .d1 .s-tit {display: inline-block; position: relative;}
-	.faqWrap .ul1 > li .d1.on .s-tit:after {content: ""; position: absolute; bottom: 0; left: 0; display: inline-block; width: 100%; height: 1px; background: #44a8ff;}
-	.faqWrap .ul1 > li .d2 {color: #545353; font-size: 18px; background: #f1f1f1; padding-left: 48px; display: none;}
-	.faqWrap .ul1 > li .d2 {border-top: 1px solid #c8c8c8;}
-	.faqWrap .ul1 > li .d1:before, .faqWrap .d2:before {content: "Q."; position: absolute; left: 15px;}
-	.faqWrap .ul1 > li .d2:before {content: "A"; color: #fff; background: #3192e6; border-radius: 50%; width: 24px; height: 24px; text-align: center; display: inline-block; font-size: 16px; text-indent: -2px; box-sizing: border-box;}
-	.faqWrap .ul1 > li .d1:after {content: ""; position: absolute; top: 20px; right: 18px;	 display: inline-block; width: 11px; height: 11px; border: 2px solid #858585; border-top: 0; border-right: 0;
-		-webkit-transform: rotate(-45deg);
-		-ms-transform: rotate(-45deg);
-		-o-transform: rotate(-45deg);
-		transform: rotate(-45deg);
-	}
+	
 	.ie8 .faqWrap .ul1 > li .d1:after {content: "+"; width: auto; height: auto; border: none;}
 
 
-	.footer {background: #323232; padding: 5px 0 45px;}
+	.footer {background: #323232; padding: 5px 0 70px;}
 	.footer .container {position: relative;}
 	.footer .container div[class*=flt-] {position: relative; float: left; color: #cdcdcd;}
 	.footer .f_menu {padding: 15px 0;}
@@ -786,13 +777,13 @@ body {font-family: "Malgun Gothic", "Apple SD Gothic Neo", "Nanum Barun Gothic",
 	.footer .cf-box {font-family: "Nanum Gothic", sans-serif; color: #fff; width: 100%; margin-bottom: 5px; letter-spacing: -0.5px;}
 	.footer .cf-box > .p-0 {display: none;}
 	.footer .cf-in {position: relative; width: 100%; font-size: 0;}
-	.footer .cf-in .callFor {position: absolute; text-align: center; display: inline-block; margin-top: 15px; margin-left: 4px; border: 1px solid #c5c5c5; border-radius: 2px; padding: 0; padding: 8px 0px 0 0; width: 240px; height: 124px; right: 212px; box-sizing: border-box; z-index: 1; color: #fff;}
+	.footer .cf-in .callFor {position: absolute; text-align: center; display: inline-block; margin-top: 15px; margin-left: 4px; border: 1px solid #c5c5c5; border-radius: 2px; padding: 0; padding: 8px 0px 0 0; width: 240px; height: 140px; right: 212px; box-sizing: border-box; z-index: 1; color: #fff;}
 	/* .footer .callFor {display: inline-block; width: 224px; height: 85px; position: absolute; right: 212px; top: 0; border: 1px solid #c5c5c5; padding: 18px 0px 0 17px; font-size: 18px; color: #fff; box-sizing: border-box; z-index: 1;} */
 	.footer .cf-in .callFor:first-child {margin-left: 0;}
 	.footer .cf-in .callFor > span {display: block; width: 100%; line-height: 1.5;}
 	.footer .cf-in .callFor.cf0, .footer .cf-in .callFor.cf1 {top: -80px;}
 	.footer .cf-in .callFor.cf0, .footer .cf-in .callFor.cf2 {right: 240px;}
-	.footer .cf-in .callFor.cf2, .footer .cf-in .callFor.cf3 {top: 49px;}
+	.footer .cf-in .callFor.cf2, .footer .cf-in .callFor.cf3 {top: 65px;}
 	.footer .cf-in .callFor.cf1, .footer .cf-in .callFor.cf3 {right: 0; width: 235px;}
 	.footer .cf-in .s1, .footer .cf-in .s3  {font-size: 17px; font-weight: 700; letter-spacing: 0;}
 	.footer .cf-in .s1 {margin-top: 2px;}
@@ -803,7 +794,6 @@ body {font-family: "Malgun Gothic", "Apple SD Gothic Neo", "Nanum Barun Gothic",
 	.footer .cf-in .callFor > .s1-2:last-child {margin-top: 2px; margin-bottom: 6px; font-size: 14px; letter-spacing: 0;}
 	.footer .cf-in .callFor.cf0 {font-size: 16px; line-height: 1.4; border: 0;}
 	.footer .cf-in .callFor.cf0 .f-bd {font-size: 28px;}
-
 
 
 	/* 퀵 매뉴 */

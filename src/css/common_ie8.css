@@ -16,7 +16,7 @@ border-bottom: 1px solid rgb(255,255,255);}
 .header .logo-box .mg-l {display: inline-block; margin: 0 5px; width: 1px; height: 48px;
 background: rgb(255,255,255); vertical-align: middle;
 }
-.header .logo-box {position: absolute; left: 5%; top: 7px; width: 302px;}
+.header .logo-box {position: absolute; left: 5%; top: 15px; width: 302px;}
 
 .header .nav-bar {position: absolute; right: 0;}
 .header .nav-bar .nav {}
@@ -87,7 +87,7 @@ transform-origin: center;
 .ie8 .faqWrap .ul1 > li .d1:after {content: "+"; width: auto; height: auto; border: none; top: 16px;}
 
 
-.footer {background: #323232; padding: 5px 0 45px;}
+.footer {background: #323232; padding: 5px 0 70px;}
 .footer .container {position: relative;}
 .footer .container div[class*=flt-] {position: relative; float: left; color: #cdcdcd;}
 .footer .f_menu {padding: 15px 0;}
@@ -96,24 +96,23 @@ transform-origin: center;
 .footer .f_menu > li:first-child {margin-left: 215px;}
 .footer .f_menu > li:first-child:before {display: none;}
 .footer .f_menu > li > a {color: #fff; font-size: 15px;}
-.footer .flt-1 {top: 0px; margin: -5px 44px 0 100px; width: 170px;}
+.footer .flt-1 {top: 0px; margin: -5px 44px 0 00px; width: 170px;}
 .footer .flt-1 img {position: relative; display: block;}
 .footer .flt-1 .f-gcLogo {left: 5px; margin-top: 40px;}
 .footer .flt-2 {top: 10px; width: 1100px;}
 .footer .flt-2 address {line-height: 1.5; font-size: 15px;}
 .footer .flt-2 address .i-l {position: relative; display: inline-block; top: 1px; width: 1px; height: 12px; background: #cdcdcd; margin: 0 11px;}
-
 .footer .cf-box {font-family: "Nanum Gothic", sans-serif; color: #fff; width: 100%; margin-bottom: 5px; letter-spacing: -0.5px;}
 .footer .cf-box > .p-0 {display: none;}
 .footer .cf-in {position: relative; width: 100%; font-size: 0;}
-.footer .cf-in .callFor {text-align: center; display: inline-block; width: 174px; vertical-align: top; margin-top: 15px; margin-left: 4px; border: 1px solid #636363; border-radius: 2px; padding: 0; padding-top: 8px; width: 234px; height: 124px;}
-.footer .callFor {display: inline-block; width: 224px; height: 85px; position: absolute; right: 212px; top: 0; border: 1px solid #c5c5c5; padding: 18px 0px 0 17px; font-size: 18px; color: #fff; box-sizing: border-box; z-index: 1;}
+.footer .cf-in .callFor {position: absolute; text-align: center; display: inline-block; margin-top: 15px; margin-left: 4px; border: 1px solid #c5c5c5; border-radius: 2px; padding: 0; padding: 8px 0px 0 0; width: 240px; height: 140px; right: 212px; box-sizing: border-box; z-index: 1; color: #fff;}
+/* .footer .callFor {display: inline-block; width: 224px; height: 85px; position: absolute; right: 212px; top: 0; border: 1px solid #c5c5c5; padding: 18px 0px 0 17px; font-size: 18px; color: #fff; box-sizing: border-box; z-index: 1;} */
 .footer .cf-in .callFor:first-child {margin-left: 0;}
 .footer .cf-in .callFor > span {display: block; width: 100%; line-height: 1.5;}
 .footer .cf-in .callFor.cf0, .footer .cf-in .callFor.cf1 {top: -80px;}
-.footer .cf-in .callFor.cf0, .footer .cf-in .callFor.cf2 {right: 235px;}
-.footer .cf-in .callFor.cf2, .footer .cf-in .callFor.cf3 {top: 49px;}
-.footer .cf-in .callFor.cf1, .footer .cf-in .callFor.cf3 {right: 0; width: 230px;}
+.footer .cf-in .callFor.cf0, .footer .cf-in .callFor.cf2 {right: 240px;}
+.footer .cf-in .callFor.cf2, .footer .cf-in .callFor.cf3 {top: 65px;}
+.footer .cf-in .callFor.cf1, .footer .cf-in .callFor.cf3 {right: 0; width: 235px;}
 .footer .cf-in .s1, .footer .cf-in .s3  {font-size: 17px; font-weight: 700; letter-spacing: 0;}
 .footer .cf-in .s1 {margin-top: 2px;}
 .footer .cf-in .s3 {margin-top: 3px; font-size: 18px; font-family: "Noto Sans KR", "Nanum Gothic", sans-serif; font-weight: 500;}
@@ -123,7 +122,6 @@ transform-origin: center;
 .footer .cf-in .callFor > .s1-2:last-child {margin-top: 2px; margin-bottom: 6px; font-size: 14px; letter-spacing: 0;}
 .footer .cf-in .callFor.cf0 {font-size: 16px; line-height: 1.4; border: 0;}
 .footer .cf-in .callFor.cf0 .f-bd {font-size: 28px;}
-
 
 
 /* 퀵 매뉴 */

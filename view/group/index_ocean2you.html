@@ -22,8 +22,8 @@
 	<meta name="twitter:title" content="오션투유리조트">
 	<!--<link rel="canonical" href="도메인">-->
 	
-	<!--<link rel="stylesheet" href="http://static.ocean2you.co.kr/fonts/nanumbarungothic/nanumbarungothic.css">-->
-	<!--<link rel="stylesheet" href="../../src/fonts/nanumbarungothic/nanumbarungothic.css">-->
+<!--	<link rel="stylesheet" href="http://static.ocean2you.co.kr/fonts/nanumbarungothic/nanumbarungothic.css">-->
+	<link rel="stylesheet" href="../../src/fonts/nanumbarungothic/nanumbarungothic.css">
 	<!--<link href="https://cdn.rawgit.com/openhiun/hangul/14c0f6faa2941116bb53001d6a7dcd5e82300c3f/nanumbarungothic.css" rel="stylesheet" type="text/css">-->
 	
 	
@@ -31,17 +31,19 @@
 <!--	<link rel="stylesheet" href="../../src/css/reset_custom.css">-->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.12/jquery.bxslider.css">
 	<link rel="stylesheet" href="http://static.ocean2you.co.kr/css/renew/common.css">
-	<!--<link rel="stylesheet" href="../../src/css/common.css">-->
-	<!--<link rel="stylesheet" href="http://static.ocean2you.co.kr/css/renew/group/init.css">-->
-	<link rel="stylesheet" href="../../static/css/renew/group/init.css">
+	<link rel="stylesheet" href="http://static.ocean2you.co.kr/css/renew/group/init.css">
+<!--
+	<link rel="stylesheet" href="../../src/css/common.css">
+	<link rel="stylesheet" href="../../src/css/group/init.css">
+-->
 	
 	<script type="text/javascript" src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
 	<script src="http://static.ocean2you.co.kr/js/renew/jquery.easing.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.12/jquery.bxslider.min.js"></script>
 	<script src="http://static.ocean2you.co.kr/js/renew/common_ocean.js"></script>
-	<!--<script src="http://static.ocean2you.co.kr/js/renew/group/init.js"></script>-->
+	<script src="http://static.ocean2you.co.kr/js/renew/group/init.js"></script>
 <!--	<script src="../../src/js/common_ocean.js"></script>-->
-	<script src="../../static/js/group/init.js"></script>
+<!--	<script src="../../src/js/group/init.js"></script>-->
 	
 		<!--<script src="../../src/js/common_ocean_ie8.js"></script>-->
 <!--
@@ -141,14 +143,19 @@
 							가능하여 뛰어난 접근성을 자랑합니다. 
 						</p>
 						<hr class="sun">
+						<!--180319 수정내용-->
 						<p class="p-3 dot">
-							<span class="dot">※</span> 올림픽 선수단 및 IOC(올림픽조직위원회) 에서 많은 문의가 오고있습니다.
+							오션투유리조트는 250객실의 대형리조트이며
+							2,000명 이상을 수용 가능 합니다. 
 						</p>
+<!--
 						<p class="p-3 dot">
 							<span class="dot">※</span> 강릉 경기장 및 평창 올림픽 경기장까지 1시간 이내  이동 가능합니다.
 						</p>
-						<!--popOpen 클래스 제거-->
-						<p class="area-btn"><a href="javascript:;" onclick="$(window).scrollTop($('#etcSetTop').offset().top - $('#gnb-header').height());">단체 문의하기 <span class="ic-rArrow"></span></a></p>
+-->
+						<!--180319 type-1 클래스 추가-->
+						<p class="area-btn type-1"><a href="javascript:;" onclick="$(window).scrollTop($('#etcSetTop').offset().top - $('#gnb-header').height());">단체 문의하기 <span class="ic-rArrow"></span></a></p>
+						<!--End-->
 					</div>
 				</section>
 				<hr>
@@ -882,7 +889,10 @@
 					<div class="d-box-1 d-cm">
 						<p class="p-0">오션투유 리조트가 <span class="f-bd">즐거움</span>을 <span class="f-bd">책임</span>집니다.</p>
 						<p class="p-1">모든 것이 완벽한 오션투유 리조트에서 아름다운 추억을 만들어보세요!</p>
-						
+						<!--180319 추가-->
+						<p class="p-1 mt-0 c-red">오션투유리조트는 250객실의 대형리조트이며
+							2,000명 이상을 수용 가능 합니다. </p>
+						<!--End-->
 						<div class="contact-pop type-2" id="contact-pop" style="z-index: 0;">
 							<div class="d-top i-chk-bef">
 								<span class="s-1">은 </span>필수 입력 사항입니다.
@@ -961,7 +971,7 @@
 						</div>
 						
 						<!--180124 popOpen 클래스 제거 -->
-						<p class="area-btn"><a class="a-btn" href="javascript:void(0);" onclick="popupOpen('.group-popup');" >단체 문의하기 <span class="ic-rArrow"></span></a></p>
+						<p class="area-btn"><a class="a-btn" href="javascript:;">단체 문의하기 <span class="ic-rArrow"></span></a></p>
 					</div>
 
 					<hr>
@@ -972,34 +982,8 @@
 					</div>
 				</section>
 				
-				<!-- 20180320 접수완료 레이어 팝업 -->
-				<div class="group-popup">
-					<div class="popup-wrap">
-						<div class="popup-container">
-							<div class="popup-cust">
-								<p class="f-bd"><span class="fc-blue">홍길동</span> 고객님!</p>
-								<p>오션투유 방문을 계획해 주셔서 감사합니다.</p>
-								<p class="popup-txt pd-tb">문의사항이 정상 접수 되었습니다.</p>
-								<p class="popup-txt">
-									문의에 대한 답변은 <span class="fc-blue">2018년 03월 21일 17시</span> 까지 <br>
-									남겨주신 연락처 또는 이메일로 빠르게 안내해 드리겠습니다.
-								</p>
-							</div>
-							<p class="info-txt">
-								단체문의 관련 통화는 1년 365일 언제나 가능합니다.<br>
-								다만, 견적전달은 영업일에만 가능합니다.
-							</p>
-							<a class="btn-close" href="javascript:void(0);" onclick="popupClose('.group-popup');" >확 인</a>
-						</div>
-					</div>
-				</div>
-				
 			</div>
 		
-			<a href="javascript:faq_move();" class="rtBookingBn" id="rtBookingBn" style="display: block;">
-				<img src="http://img.ocean2you.co.kr/renew/i_cal_2.png" alt="달력"><br>
-				실시간<br>예약
-			</a>
 			
 			<!-- 오른쪽 날개 배너 -->
 			<!--180124 popOpen 클래스 제거 -->

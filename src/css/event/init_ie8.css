@@ -16,7 +16,12 @@
 .event-wrap .bxBox .bxS > li {width: 1180px; height: 493px;}
 .event-wrap .bxBox .li-1 {background: url(http://img.ocean2you.co.kr/renew/event/event_01.jpg) no-repeat;}
 .event-wrap .bxBox .li-2 {background: url(http://img.ocean2you.co.kr/renew/event/event_02.jpg) no-repeat;}
-
+/* 20180306_이벤트페이지 배너추가_다솜 */
+.event-wrap .bxBox .li-3 {background: url(http://img.ocean2you.co.kr/renew/event/event_03.jpg) no-repeat;}
+.event-wrap .bxBox .li-4 {background: url(http://img.ocean2you.co.kr/renew/event/event_04.jpg) no-repeat;}
+.event-wrap .tulip .bxBox .li-1 {background: url(http://img.ocean2you.co.kr/renew/event/event_tulip01.jpg) no-repeat; background-size: cover;}
+.event-wrap .tulip .bxBox .li-2 {background: url(http://img.ocean2you.co.kr/renew/event/event_tulip02.jpg) no-repeat; background-size: cover;}
+.event-wrap .midnight .bxBox iframe {width: 100%; height: 664px;}
 
 .event-wrap .evt01-tb {position: relative; text-align: left; margin-top: 54px; letter-spacing: -1px; line-height: 1.2;}
 .event-wrap .evt01-tb > li {float: left; width: 100%; border: 1px solid #bfbfbf; margin-top: -1px;}
@@ -35,6 +40,27 @@
 , .event-wrap .evt01-tb .l-td:nth-child(3)
 , .event-wrap .evt01-tb .l-td:nth-child(5)
 , .event-wrap .evt01-tb .l-td:nth-child(6) {border-right: 0;}
+
+.event-wrap .evt01-tb .l-td.nth-2
+, .event-wrap .evt01-tb .l-td.nth-3
+, .event-wrap .evt01-tb .l-td.nth-5
+, .event-wrap .evt01-tb .l-td.nth-6 {border-right: 0;}
+.event-wrap .lh-01 {line-height: 2.4 !important;}
+.event-wrap .lh-02 {line-height: 1.2 !important;}
+.event-wrap .br-r-01 {border-right: 0 !important;}
+
+.event-wrap .kite .l-td.nth-6 .s-txt {font-size: 16px; position: relative; top: 4px;}
+
+/* 20180306_이벤트페이지 추가 및 디자인 수정_다솜 */
+.fac-mt {margin-top: 60px; padding-top: 60px; border-top: 1px solid #ccc;}
+	.fac-mt-b {margin-bottom: 60px; padding-bottom: 60px; border-bottom: 1px solid #ccc;}
+.event-wrap .evt02-tb .l-td {color: #5d5d5d; font-size: 0; width: 33.33%;}
+.event-wrap .evt02-tb .l-td:nth-child(4) {line-height:1.2; border-right:1px solid #bfbfbf;}
+.event-wrap .evt02-tb .l-td:nth-child(2), .event-wrap .evt02-tb .l-td:nth-child(3), .event-wrap .evt02-tb .l-td:nth-child(5), .event-wrap .evt02-tb .l-td:nth-child(6) {border-right:0;}
+.event-wrap .evt02-tb .l-td.type03, .event-wrap .evt01-tb .l-td:nth-child(5) .s-lbl {line-height:2.4;}
+.event-wrap .evt02-tb .l-td.type02, .event-wrap .evt02-tb .l-td:nth-child(5) .s-txt {line-height:1.2;}
+.event-wrap .evt02-tb .l-td > span {font-size: 18px;}
+.event-wrap .evt02-tb .l-td.type02 > span {height:auto;}
 
 
 .event-wrap .fc-list .txt-box {position: absolute; left: 0; top: 140px; width: 100%; color: #fff;}

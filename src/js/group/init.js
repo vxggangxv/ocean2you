@@ -48,5 +48,6 @@ $(function () {
 		$("#courseBox .courseList > li").eq(idx).addClass("on").siblings().removeClass("on");
 	});
 	
-	
+	// 단체문의 Q&A 
+	toggleOn("#qna-list > li", "sib");
 });

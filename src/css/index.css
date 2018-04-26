@@ -12,6 +12,7 @@
 , .facil .bxList .bxBox .in-txt .more-a
 {color: #fff;}
 
+
 @media (max-width: 767px) {
 	.vid-wrap {position: relative; width: 100%; height: 100%; background: url('http://img.ocean2you.co.kr/renew/main_bg.jpg') no-repeat center center; background-size: cover;}
 
@@ -23,15 +24,19 @@
 	.main > * {position: relative;}
 	
 	.main .txt-box {position: absolute; display: block; width: 100%; text-align: center;
-		top: 50%; margin-top: -114px; color: #fff;}
+		top: 50%; margin-top: -175px; color: #fff;}
 	.main .txt-box .p0 {font-size: 16px; line-height: 1.5;}
 	.main .txt-box .mg- {display: block; height: 1px; width: 78px; margin: 15px auto 0; background: #fff;}
 	.main .txt-box .p1 {margin: 25px auto 35px;}
 	.main .txt-box .p1 img {width: 260px;}
-	.main .txt-box .more-a {display: block; margin: 0 auto; 
+	.main .txt-box .more-a {position: relative; display: block; margin: 0 auto; 
 		font-size: 20px; border: 4px solid #fff;
 		width: 178px; height: 48px;}
 	.main .txt-box .more-a:after {content: ""; height: 110%; display: inline-block; vertical-align: middle;}
+	.main .txt-box .more-a .gt {position: relative; top: -2px; left: 10px; width: 9px;}
+	.main .txt-box .booking-a {margin-top: 15px; border-color: #44a8ff; background: #44a8ff; font-size: 16px;}
+	.main .txt-box .booking-a:after {height: 106%;}
+	.main .txt-box .booking-a .cal {position: relative; width: 22px; top: -2px; margin-right: 5px;}
 	
 	.main #scr-box {position: absolute; left: 50%; margin-left: -14px; bottom: 10px;}
 	.main #scr-box > img {position: relative; top: 0; display: block; margin: 3px auto;}
@@ -55,7 +60,24 @@
 		100% {opacity: 1;}
 	}
 	
+	.rtBookingBn {}
 	
+	/* 20180228_날씨추가_다솜 */
+	.weath-wrap {display:block; position:relative; overflow:hidden; width:280px; height:60px; margin:0 auto; margin-top:20px; border:2px solid rgba(255, 255, 255, 0.33); border-radius:50px;}
+	.weath-wrap .weath-box {display:table; position:relative; width:100%; height:100%; padding:0 15px; border-radius:50px -webkit-background:rgba(0, 0, 0, 0.33); background:rgba(0, 0, 0, 0.33);}
+	.weath-wrap .weath-box p, .weath-wrap .weath-box span {font-weight:bold; letter-spacing:-0.75px; color:#fff; font-family: 'Nanum Gothic', 'Malgun Gothic', 'Dotum', sans-serif;}
+	.weath-wrap .weath-box p {display:table-cell; position:relative; vertical-align:middle; text-align:center;}
+	.weath-wrap .weath-box p:before {content:''; display:block; position:absolute; width:1px; height:33px; top:50%; left:0; margin-top:-17px; background:rgba(255, 255, 255, 0.33);}
+	.weath-wrap .weath-box p:first-child:before {content:none;}
+	.weath-wrap .weath-box .weath-img {width:51px; padding-right:3px;}
+	.weath-wrap .weath-box .weath-txt span {display:inline-block; width:100%; font-size:13px;}
+	.weath-wrap .weath-box .weath-txt .day {margin-top:-3px; line-height:14px;}
+	.weath-wrap .weath-box .weath-txt .location {line-height:22px;}
+	.weath-wrap .weath-box .tem-txt {width:75px; padding-left:8px; text-align:left;}
+	.weath-wrap .weath-box .tem-txt span {display:inline-block; letter-spacing:-2px;}
+	.weath-wrap .weath-box .tem-txt .tem-num {min-width:35px; font-size:30px; line-height:21px; }
+	.weath-wrap .weath-box .tem-txt .tem-cel {position:absolute; font-size:20px; top:50%; margin-top:-8px;}
+
 	.intro {position: relative; width: 100%; color: #fff;
 		background: url(http://img.ocean2you.co.kr/renew/intro_bg.jpg) no-repeat ; padding: 50px 0;
 		background-size: 100% 100%;
@@ -141,6 +163,9 @@
 	.tourist .tour-list > li.lst:hover a {background: none;}
 	.tourist .tour-list > li:hover h3 {margin-top: 35px;}
 	.tourist .tour-list > li:hover .p0 {display: block;}
+	.tourist .tour-list > li .more-a {font-size: 13px; display: inline-block; padding: 0px 8px; height: 26px; border: 1px solid #00c6ff; margin-top: 10px; color: #00c6ff;
+	}
+	.tourist .tour-list > li .more-a:after {content: ""; height: 115%; display: inline-block; vertical-align: middle;}
 	
 	
 	.facil {position: relative; padding: 60px 0;
@@ -199,6 +224,40 @@
 	.wayto .map-box .mapExp .p1 {position: relative; font-size: 14px; line-height: 1.6; margin-top: 8px; padding-left: 10px;}
 	.wayto .map-box .mapExp .p1:before {content: '-'; display: inline-block; position: absolute; left: 0;}
 	.wayto .map-box .mapExp .wayBtn {position: relative; display: inline-block; width: 52px; top: -1px; margin-left: 4px;}
+	
+	/* 튤립 사과문 공지팝업 */
+	.pop-tulip {text-align: center; top: 70px;}
+	.pop-tulip .pop-img {width: 310px;}
+}
+
+@media (max-device-width:320px){
+	/* 날씨 추가 후 320 화면에 맞추기 위한 간격 조정 */
+	.main .txt-box {margin-top: -130px;}
+	.main #scr-box {display:none}
+	.main .txt-box .mg- {margin: 10px auto 0;}
+	.main .txt-box .p1 {margin: 15px auto 25px;}
+	
+}
+
+@media (min-width: 768px){
+	/* 20180228_날씨추가_다솜 */
+	.weath-wrap {display:block; position:relative; overflow:hidden; width:318px; height:68px; margin:0 auto; margin-top:50px; border:2px solid rgba(255, 255, 255, 0.33); border-radius:50px;}
+	.weath-wrap .weath-box {display:table; position:relative; box-sizing:border-box; width:100%; height:100%; padding:0 18px; border-radius:50px; background:rgba(0, 0, 0, 0.33);}
+	.weath-wrap .weath-box p, .weath-wrap .weath-box span {font-weight:bold; letter-spacing:-0.75px; color:#fff; font-family: 'Nanum Gothic', 'Malgun Gothic', 'Dotum', sans-serif;}
+	.weath-wrap .weath-box p {display:table-cell; position:relative; vertical-align:middle; text-align:center;}
+	.weath-wrap .weath-box p:before {content:''; display:block; position:absolute; width:1px; height:33px; top:15px; left:0; margin-top:0px; background:rgba(255, 255, 255, 0.33);}
+	.weath-wrap .weath-box p:first-child:before {content:none;}
+	.weath-wrap .weath-box .weath-img {width:56px; padding-right:3px;}
+	.weath-wrap .weath-box .weath-txt span {display:inline-block; width:100%; font-size:15px;}
+	.weath-wrap .weath-box .weath-txt .day {margin-top:-3px; line-height:16px;}
+	.weath-wrap .weath-box .weath-txt .location {line-height:27px;}
+	.weath-wrap .weath-box .tem-txt {width:81px; padding-left:10px; text-align:left;}
+	.weath-wrap .weath-box .tem-txt span {display:inline-block; letter-spacing:-2px;}
+	.weath-wrap .weath-box .tem-txt .tem-num {min-width:40px; font-size:34px; line-height:21px; }
+	.weath-wrap .weath-box .tem-txt .tem-cel {position:absolute; font-size:24px; margin-top:2px;}
+	
+	/* 튤립 사과문 공지팝업 */
+	.pop-tulip {text-align: center; top: 70px;}
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
@@ -212,7 +271,7 @@
 	.main > * {position: relative;}
 	
 	.main .txt-box {position: absolute; display: block; width: 100%; text-align: center;
-		top: 50%; margin-top: -228px;}
+		top: 50%; margin-top: -235px;}
 	.main .txt-box {color: #fff;}
 	.main .txt-box .p0 {font-size: 20px; line-height: 1.5;}
 	.main .txt-box .mg- {display: block; height: 1px; width: 78px; margin: 25px auto 0; background: #fff;}
@@ -222,6 +281,7 @@
 		font-size: 24px; border: 4px solid #fff;
 		width: 208px; height: 54px;}
 	.main .txt-box .more-a:after {content: ""; height: 110%; display: inline-block; vertical-align: middle;}
+	.main .txt-box .more-a .gt {position: relative; top: -1px; left: 12px;}
 	
 	
 	.main #scr-box {position: absolute; left: 50%; margin-left: -14px; bottom: 10px;}
@@ -336,6 +396,9 @@
 	.tourist .tour-list > li.lst:hover a {background: none;}
 	.tourist .tour-list > li:hover h3 {margin-top: 20px;}
 	.tourist .tour-list > li:hover .p0 {display: block;}
+	.tourist .tour-list > li .more-a {font-size: 16px; display: inline-block; padding: 0px 10px; height: 28px; border: 1px solid #00c6ff; margin-top: 10px; color: #00c6ff;
+	}
+	.tourist .tour-list > li .more-a:after {content: ""; height: 110%; display: inline-block; vertical-align: middle;}
 	
 	
 	.facil {position: relative; padding: 70px 0;
@@ -413,7 +476,7 @@
 	.main > * {position: relative;}
 	
 	.main .txt-box {position: absolute; display: block; width: 100%; text-align: center;
-		top: 50%; margin-top: -168px;}
+		top: 50%; margin-top: -175px;}
 	.main .txt-box {color: #fff;}
 	.main .txt-box .p0 {font-size: 26px; line-height: 1.5;}
 	.main .txt-box .mg- {display: block; height: 1px; width: 98px; margin: 35px auto; background: #fff;}
@@ -422,6 +485,7 @@
 		font-size: 24px; border: 4px solid #fff;
 		width: 208px; height: 54px;}
 	.main .txt-box .more-a:after {content: ""; height: 110%; display: inline-block; vertical-align: middle;}
+	.main .txt-box .more-a .gt {position: relative; top: -1px; left: 12px;}
 	
 	.main #scr-box {position: absolute; left: 50%; margin-left: -14px; bottom: 10px;}
 	.main #scr-box > img {position: relative; top: 0; display: block; margin: 3px auto;}
@@ -529,6 +593,9 @@
 	.tourist .tour-list > li.lst:hover a {background: none;}
 	.tourist .tour-list > li:hover h3 {margin-top: 20px;}
 	.tourist .tour-list > li:hover .p0 {display: block;}
+	.tourist .tour-list > li .more-a {font-size: 16px; display: inline-block; padding: 0px 10px; height: 28px; border: 1px solid #00c6ff; margin-top: 10px; color: #00c6ff;
+	}
+	.tourist .tour-list > li .more-a:after {content: ""; height: 110%; display: inline-block; vertical-align: middle;}
 	
 	
 	.facil {position: relative; padding: 90px 0;
@@ -599,7 +666,7 @@
 	.main > * {position: relative;}
 	
 	.main .txt-box {position: absolute; display: block; width: 100%; text-align: center;
-		top: 50%; margin-top: -168px;}
+		top: 50%; margin-top: -175px;}
 	.main .txt-box {color: #fff;}
 	.main .txt-box .p0 {font-size: 26px; line-height: 1.5;}
 	.main .txt-box .mg- {display: block; height: 1px; width: 98px; margin: 35px auto; background: #fff;}
@@ -714,6 +781,9 @@
 	.tourist .tour-list > li.lst:hover a {background: none;}
 	.tourist .tour-list > li:hover h3 {margin-top: 40px;}
 	.tourist .tour-list > li:hover .p0 {display: block;}
+	.tourist .tour-list > li .more-a {font-size: 17px; display: inline-block; padding: 0px 10px; height: 28px; border: 1px solid #00c6ff; margin-top: 20px; color: #00c6ff;
+	}
+	.tourist .tour-list > li .more-a:after {content: ""; height: 110%; display: inline-block; vertical-align: middle;}
 	
 	
 	.facil {position: relative; padding: 90px 0;

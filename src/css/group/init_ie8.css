@@ -25,7 +25,7 @@ hr {border: 0; border-top: 1px solid #dedede; margin: 56px auto;}
 .intro-sec .p-1 {font-size: 29px; font-weight: 700; font-family: "Nanum Gothic", sans-serif; line-height: 1.3;}
 .intro-sec .p-1 strong {font-size: 30px; color: #242424; margin-bottom: 4px; display: inline-block;}
 .intro-sec .p-2 {width: 42%; font-size: 19px; color: #595959; line-height: 1.5; margin-top: 8px;}
-.intro-sec .area-btn {margin-top: 30px;}
+.intro-sec .area-btn {margin-top: 30px}
 .intro-sec .area-btn > a {position: relative; display: inline-block; width: 42%; height: 57px; background: #319af6; color: #fff; font-size: 18px; text-align: center;}
 .intro-sec .area-btn > a:after {content: ""; display: inline-block; height: 105%; vertical-align: middle;}
 .intro-sec .area-btn > a .ic-rArrow:after {border-color: #fff; width: 9px; height: 9px; top: -1px; left: 20px;}
@@ -109,10 +109,11 @@ section[class*=-sec] h3 + p {font-size: 18px; color: #454545; text-align: center
 .facil-sec .p-ps {position: relative; padding-left: 23px; font-size: 17px; color: #848484; margin-top: 30px; line-height: 1.4; letter-spacing: -0.5px;}
 .facil-sec .p-ps:before {position: absolute; left: 0;  content: ""; display: inline-block; width: 17px; height: 17px; background: url(http://img.ocean2you.co.kr/renew/group/pic_i.png); top: 4px;}
 
-.etc-sec {position: relative; margin-bottom: 50px;}
+.etc-sec {position: relative; margin-bottom: 50px; padding-top:50px}
 .etc-sec .d-cm {position: relative; text-align: center; line-height: 1.3;}
 .etc-sec .d-cm .p-0 {font-size: 40px; color: #00b2dd;}
 .etc-sec .d-cm .p-1 {font-size: 18px; color: #636363; line-height: 1.5; margin-top: 10px;}
+.etc-sec .d-box-2 .p-0 {font-size: 32px;}
 .etc-sec .d-cm .area-btn {font-size: 20px; margin-top: 26px;}
 .etc-sec .d-cm .area-btn .a-btn {position: relative; display: inline-block; width: 356px; height: 70px; background: #00b2dd; color: #fff;}
 .etc-sec .d-cm .area-btn .a-btn:after {content: ""; display: inline-block; height: 105%; vertical-align: middle;}
@@ -140,3 +141,54 @@ section[class*=-sec] h3 + p {font-size: 18px; color: #454545; text-align: center
 .enjoy-sec .courseList > li {position: relative; display: none; text-align: center;}
 .enjoy-sec .courseList > li > img {width: 100%; margin: 80px auto 0;}
 .enjoy-sec .courseList > li.on {display: block;}
+
+
+/* 20180320_접수완료 레이어 팝업_다솜 */
+.group-popup {z-index:9999; display:none; position:fixed; box-sizing:border-box; width:100%; height:100%; top:0; left:0; background:rgba(0, 0, 0, 0.5); filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#60000000,endColorstr=#60000000);}
+.group-popup .popup-wrap {position:relative; max-width:600px; margin:0 auto; top:50%; margin-top:-200px;}
+.group-popup .popup-container {position:relative; box-sizing:border-box; padding:25px 25px 35px; text-align:center; border:1px solid #c5c5c5; background:#fff;}
+.group-popup .popup-container .fc-blue {color:#2876e6}
+.group-popup .popup-container .popup-container {}
+.group-popup .popup-container .popup-cust {padding:5px 0 14px; border-bottom:1px solid #c5c5c5;}
+.group-popup .popup-container .popup-cust p {font-size:24px; line-height:35px; letter-spacing:-1px; color:#131313;}
+.group-popup .popup-container .popup-cust .f-bd {}
+.group-popup .popup-container .popup-cust .f-bd span {font-size:24px; line-height:35px; font-weight:bold;}
+.group-popup .popup-container .popup-cust .popup-txt {font-size:20px;}
+.group-popup .popup-container .popup-cust .popup-txt.pd-tb {padding:6px 0;}
+.group-popup .popup-container .info-txt {padding:15px 0 19px; font-size:16px; line-height:23px; color:#707070;}
+.group-popup .popup-container .btn-close {display:inline-block; min-width:200px; height:50px; font-size:18px; line-height:50px; font-weight:bold; color:#fff; background:#f75c07;}
+
+/*단체예약 Q&A*/
+.qna-group {position: relative; padding: 35px 0; background: #f9f9f9; color: #474747;}
+.qna-group h2 {text-align: center; font-size: 34px;}
+.qna-group h2 > span {display: inline-block;}
+.qna-group h2 .tit {padding: 0 15px;}
+.qna-group h2 .titBg {width: 112px; height: 16px; background: url(http://img.ocean2you.co.kr/renew/group/faqTitBg.png) repeat-x;}
+.qna-list {width: 768px; margin: 25px auto 0;}
+.qna-list > li {position: relative; border-bottom: 1px solid #ccc; letter-spacing: -0.5px;}
+.qna-list > li > div {position: relative; line-height: 1.5; word-break: keep-all; font-family: "Nanum Gothic", sans-serif;}
+.qna-list > li .f-q {padding-left: 92px; padding-right: 54px; font-size: 22px;}
+.qna-list > li .f-q > * {display: inline-block;}
+.qna-list > li .f-q .q-con {position: absolute; left: 40px; font-weight: 700;}
+.qna-list > li .f-q .arr {position: absolute; right: 40px; top: 10px;}
+.qna-list > li .f-q .arr:after {top: -2px; border-color: #bbb; border-width: 2px; width: 12px; height: 12px;}
+.qna-list > li .f-a {background: #fff; height: 0; padding: 0; overflow: hidden; font-size: 19px;}
+.qna-list > li.on .f-q {color: #0293c4;}
+.qna-list > li.on .f-q .arr:after {
+	top: 3px; border-color: #0293c4;
+	-webkit-transform: rotate(135deg);
+	-ms-transform: rotate(135deg);
+	-o-transform: rotate(135deg);
+	transform: rotate(135deg);
+}
+.qna-list > li > div, .qna-list > li.on .f-a {padding: 12px 40px;}
+.qna-list > li.on .f-a {height: auto; border-top: 1px solid #eee;}
+
+/*단체문의 Q&A*/
+.qna-group {padding: 50px 0 55px;}
+.qna-group h2 .titBg {width: 200px;}
+.qna-list {width: 864px; margin: 40px auto 0;}	
+
+/* 20180404_단체문의 텍스트 추가_다솜 */
+.etc-sec .d-cm .c-blue {word-break: keep-all; font-size:22px; color:#0012ff}
+.etc-sec .d-cm .c-lightred {word-break: keep-all; margin-left:72px; color:#ff0000}

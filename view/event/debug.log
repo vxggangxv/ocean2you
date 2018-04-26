@@ -1,0 +1,115 @@
+[0323/171229.918:ERROR:process_reader_win.cc(242)] ReadMemory at 0x13f9a0000 of 64 bytes failed: ReadProcessMemory 또는 WriteProcessMemory의 일부 작업만을 마쳤습니다. (0x12B)
+[0323/171229.918:WARNING:pe_image_reader.cc(302)] could not read dos header from C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+[0323/171229.918:ERROR:process_reader_win.cc(242)] ReadMemory at 0x777a0000 of 64 bytes failed: ReadProcessMemory 또는 WriteProcessMemory의 일부 작업만을 마쳤습니다. (0x12B)
+[0323/171229.918:WARNING:pe_image_reader.cc(302)] could not read dos header from C:\Windows\SYSTEM32\ntdll.dll
+[0323/171229.918:ERROR:process_reader_win.cc(242)] ReadMemory at 0x77680000 of 64 bytes failed: ReadProcessMemory 또는 WriteProcessMemory의 일부 작업만을 마쳤습니다. (0x12B)
+[0323/171229.919:WARNING:pe_image_reader.cc(302)] could not read dos header from C:\Windows\system32\kernel32.dll
+[0323/171229.919:ERROR:process_reader_win.cc(242)] ReadMemory at 0x7fefd6f0000 of 64 bytes failed: ReadProcessMemory 또는 WriteProcessMemory의 일부 작업만을 마쳤습니다. (0x12B)
+[0323/171229.919:WARNING:pe_image_reader.cc(302)] could not read dos header from C:\Windows\system32\KERNELBASE.dll
+[0323/171229.919:ERROR:process_reader_win.cc(242)] ReadMemory at 0x7fee9b50000 of 64 bytes failed: ReadProcessMemory 또는 WriteProcessMemory의 일부 작업만을 마쳤습니다. (0x12B)
+[0323/171229.919:WARNING:pe_image_reader.cc(302)] could not read dos header from C:\Program Files (x86)\Google\Chrome\Application\65.0.3325.181\chrome_elf.dll
+[0323/171229.919:ERROR:process_reader_win.cc(242)] ReadMemory at 0x7fefbfd0000 of 64 bytes failed: ReadProcessMemory 또는 WriteProcessMemory의 일부 작업만을 마쳤습니다. (0x12B)
+[0323/171229.919:WARNING:pe_image_reader.cc(302)] could not read dos header from C:\Windows\system32\VERSION.dll
+[0323/171229.919:ERROR:process_reader_win.cc(242)] ReadMemory at 0x7feff060000 of 64 bytes failed: ReadProcessMemory 또는 WriteProcessMemory의 일부 작업만을 마쳤습니다. (0x12B)
+[0323/171229.919:WARNING:pe_image_reader.cc(302)] could not read dos header from C:\Windows\system32\msvcrt.dll
+[0323/171229.919:ERROR:process_reader_win.cc(242)] ReadMemory at 0x7fefdd10000 of 64 bytes failed: ReadProcessMemory 또는 WriteProcessMemory의 일부 작업만을 마쳤습니다. (0x12B)
+[0323/171229.919:WARNING:pe_image_reader.cc(302)] could not read dos header from C:\Windows\system32\ADVAPI32.dll
+[0323/171229.919:ERROR:process_reader_win.cc(242)] ReadMemory at 0x7feff2b0000 of 64 bytes failed: ReadProcessMemory 또는 WriteProcessMemory의 일부 작업만을 마쳤습니다. (0x12B)
+[0323/171229.919:WARNING:pe_image_reader.cc(302)] could not read dos header from C:\Windows\SYSTEM32\sechost.dll
+[0323/171229.919:ERROR:process_reader_win.cc(242)] ReadMemory at 0x7feff300000 of 64 bytes failed: ReadProcessMemory 또는 WriteProcessMemory의 일부 작업만을 마쳤습니다. (0x12B)
+[0323/171229.919:WARNING:pe_image_reader.cc(302)] could not read dos header from C:\Windows\system32\RPCRT4.dll
+[0323/171229.919:ERROR:process_reader_win.cc(242)] ReadMemory at 0x90000 of 64 bytes failed: ReadProcessMemory 또는 WriteProcessMemory의 일부 작업만을 마쳤습니다. (0x12B)
+[0323/171229.919:WARNING:pe_image_reader.cc(302)] could not read dos header from C:\Windows\system32\PSAPI.DLL
+[0323/171229.919:ERROR:process_reader_win.cc(242)] ReadMemory at 0x7fefddf0000 of 64 bytes failed: ReadProcessMemory 또는 WriteProcessMemory의 일부 작업만을 마쳤습니다. (0x12B)
+[0323/171229.919:WARNING:pe_image_reader.cc(302)] could not read dos header from C:\Windows\system32\SHELL32.dll
+[0323/171229.919:ERROR:process_reader_win.cc(242)] ReadMemory at 0x7fefee20000 of 64 bytes failed: ReadProcessMemory 또는 WriteProcessMemory의 일부 작업만을 마쳤습니다. (0x12B)
+[0323/171229.919:WARNING:pe_image_reader.cc(302)] could not read dos header from C:\Windows\system32\SHLWAPI.dll
+[0323/171229.919:ERROR:process_reader_win.cc(242)] ReadMemory at 0x7fefdac0000 of 64 bytes failed: ReadProcessMemory 또는 WriteProcessMemory의 일부 작업만을 마쳤습니다. (0x12B)
+[0323/171229.919:WARNING:pe_image_reader.cc(302)] could not read dos header from C:\Windows\system32\GDI32.dll
+[0323/171229.919:ERROR:process_reader_win.cc(242)] ReadMemory at 0x77580000 of 64 bytes failed: ReadProcessMemory 또는 WriteProcessMemory의 일부 작업만을 마쳤습니다. (0x12B)
+[0323/171229.919:WARNING:pe_image_reader.cc(302)] could not read dos header from C:\Windows\system32\USER32.dll
+[0323/171229.919:ERROR:process_reader_win.cc(242)] ReadMemory at 0x7fefeea0000 of 64 bytes failed: ReadProcessMemory 또는 WriteProcessMemory의 일부 작업만을 마쳤습니다. (0x12B)
+[0323/171229.919:WARNING:pe_image_reader.cc(302)] could not read dos header from C:\Windows\system32\LPK.dll
+[0323/171229.919:ERROR:process_reader_win.cc(242)] ReadMemory at 0x7fefd910000 of 64 bytes failed: ReadProcessMemory 또는 WriteProcessMemory의 일부 작업만을 마쳤습니다. (0x12B)
+[0323/171229.919:WARNING:pe_image_reader.cc(302)] could not read dos header from C:\Windows\system32\USP10.dll
+[0323/171229.919:ERROR:process_reader_win.cc(242)] ReadMemory at 0x7fefb040000 of 64 bytes failed: ReadProcessMemory 또는 WriteProcessMemory의 일부 작업만을 마쳤습니다. (0x12B)
+[0323/171229.919:WARNING:pe_image_reader.cc(302)] could not read dos header from C:\Windows\system32\WINMM.dll
+[0323/171229.919:ERROR:process_reader_win.cc(242)] ReadMemory at 0x7fefd4b0000 of 64 bytes failed: ReadProcessMemory 또는 WriteProcessMemory의 일부 작업만을 마쳤습니다. (0x12B)
+[0323/171229.919:WARNING:pe_image_reader.cc(302)] could not read dos header from C:\Windows\system32\USERENV.dll
+[0323/171229.919:ERROR:process_reader_win.cc(242)] ReadMemory at 0x7fefd480000 of 64 bytes failed: ReadProcessMemory 또는 WriteProcessMemory의 일부 작업만을 마쳤습니다. (0x12B)
+[0323/171229.919:WARNING:pe_image_reader.cc(302)] could not read dos header from C:\Windows\system32\profapi.dll
+[0323/171229.919:ERROR:process_reader_win.cc(242)] ReadMemory at 0x7fef9c70000 of 64 bytes failed: ReadProcessMemory 또는 WriteProcessMemory의 일부 작업만을 마쳤습니다. (0x12B)
+[0323/171229.919:WARNING:pe_image_reader.cc(302)] could not read dos header from C:\Windows\system32\WINHTTP.dll
+[0323/171229.919:ERROR:process_reader_win.cc(242)] ReadMemory at 0x7fef9a50000 of 64 bytes failed: ReadProcessMemory 또는 WriteProcessMemory의 일부 작업만을 마쳤습니다. (0x12B)
+[0323/171229.919:WARNING:pe_image_reader.cc(302)] could not read dos header from C:\Windows\system32\webio.dll
+[0323/171229.919:ERROR:process_reader_win.cc(242)] ReadMemory at 0x7fef7fb0000 of 64 bytes failed: ReadProcessMemory 또는 WriteProcessMemory의 일부 작업만을 마쳤습니다. (0x12B)
+[0323/171229.919:WARNING:pe_image_reader.cc(302)] could not read dos header from C:\Windows\system32\api-ms-win-core-synch-l1-2-0.DLL
+[0323/171229.919:ERROR:process_reader_win.cc(242)] ReadMemory at 0x7feff2d0000 of 64 bytes failed: ReadProcessMemory 또는 WriteProcessMemory의 일부 작업만을 마쳤습니다. (0x12B)
+[0323/171229.919:WARNING:pe_image_reader.cc(302)] could not read dos header from C:\Windows\system32\IMM32.DLL
+[0323/171229.920:ERROR:process_reader_win.cc(242)] ReadMemory at 0x7feff100000 of 64 bytes failed: ReadProcessMemory 또는 WriteProcessMemory의 일부 작업만을 마쳤습니다. (0x12B)
+[0323/171229.920:WARNING:pe_image_reader.cc(302)] could not read dos header from C:\Windows\system32\MSCTF.dll
+[0323/171229.920:ERROR:process_reader_win.cc(242)] ReadMemory at 0x7fed5b00000 of 64 bytes failed: ReadProcessMemory 또는 WriteProcessMemory의 일부 작업만을 마쳤습니다. (0x12B)
+[0323/171229.920:WARNING:pe_image_reader.cc(302)] could not read dos header from C:\Program Files (x86)\Google\Chrome\Application\65.0.3325.181\chrome_child.dll
+[0323/171229.920:ERROR:process_reader_win.cc(242)] ReadMemory at 0x7feff210000 of 64 bytes failed: ReadProcessMemory 또는 WriteProcessMemory의 일부 작업만을 마쳤습니다. (0x12B)
+[0323/171229.920:WARNING:pe_image_reader.cc(302)] could not read dos header from C:\Windows\system32\COMDLG32.dll
+[0323/171229.920:ERROR:process_reader_win.cc(242)] ReadMemory at 0x7fefccc0000 of 64 bytes failed: ReadProcessMemory 또는 WriteProcessMemory의 일부 작업만을 마쳤습니다. (0x12B)
+[0323/171229.920:WARNING:pe_image_reader.cc(302)] could not read dos header from C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.7601.18837_none_fa3b1e3d17594757\COMCTL32.dll
+[0323/171229.920:ERROR:process_reader_win.cc(242)] ReadMemory at 0x7fefec20000 of 64 bytes failed: ReadProcessMemory 또는 WriteProcessMemory의 일부 작업만을 마쳤습니다. (0x12B)
+[0323/171229.920:WARNING:pe_image_reader.cc(302)] could not read dos header from C:\Windows\system32\ole32.dll
+[0323/171229.920:ERROR:process_reader_win.cc(242)] ReadMemory at 0x7fefd830000 of 64 bytes failed: ReadProcessMemory 또는 WriteProcessMemory의 일부 작업만을 마쳤습니다. (0x12B)
+[0323/171229.920:WARNING:pe_image_reader.cc(302)] could not read dos header from C:\Windows\system32\OLEAUT32.dll
+[0323/171229.920:ERROR:process_reader_win.cc(242)] ReadMemory at 0x7feff430000 of 64 bytes failed: ReadProcessMemory 또는 WriteProcessMemory의 일부 작업만을 마쳤습니다. (0x12B)
+[0323/171229.920:WARNING:pe_image_reader.cc(302)] could not read dos header from C:\Windows\system32\WS2_32.dll
+[0323/171229.920:ERROR:process_reader_win.cc(242)] ReadMemory at 0x7feff480000 of 64 bytes failed: ReadProcessMemory 또는 WriteProcessMemory의 일부 작업만을 마쳤습니다. (0x12B)
+[0323/171229.920:WARNING:pe_image_reader.cc(302)] could not read dos header from C:\Windows\system32\NSI.dll
+[0323/171229.920:ERROR:process_reader_win.cc(242)] ReadMemory at 0x7fefd250000 of 64 bytes failed: ReadProcessMemory 또는 WriteProcessMemory의 일부 작업만을 마쳤습니다. (0x12B)
+[0323/171229.920:WARNING:pe_image_reader.cc(302)] could not read dos header from C:\Windows\system32\Secur32.dll
+[0323/171229.920:ERROR:process_reader_win.cc(242)] ReadMemory at 0x7fefd280000 of 64 bytes failed: ReadProcessMemory 또는 WriteProcessMemory의 일부 작업만을 마쳤습니다. (0x12B)
+[0323/171229.920:WARNING:pe_image_reader.cc(302)] could not read dos header from C:\Windows\system32\SSPICLI.DLL
+[0323/171229.920:ERROR:process_reader_win.cc(242)] ReadMemory at 0x7fefd7f0000 of 64 bytes failed: ReadProcessMemory 또는 WriteProcessMemory의 일부 작업만을 마쳤습니다. (0x12B)
+[0323/171229.920:WARNING:pe_image_reader.cc(302)] could not read dos header from C:\Windows\system32\WINTRUST.dll
+[0323/171229.920:ERROR:process_reader_win.cc(242)] ReadMemory at 0x7fefd580000 of 64 bytes failed: ReadProcessMemory 또는 WriteProcessMemory의 일부 작업만을 마쳤습니다. (0x12B)
+[0323/171229.920:WARNING:pe_image_reader.cc(302)] could not read dos header from C:\Windows\system32\CRYPT32.dll
+[0323/171229.920:ERROR:process_reader_win.cc(242)] ReadMemory at 0x7fefd470000 of 64 bytes failed: ReadProcessMemory 또는 WriteProcessMemory의 일부 작업만을 마쳤습니다. (0x12B)
+[0323/171229.920:WARNING:pe_image_reader.cc(302)] could not read dos header from C:\Windows\system32\MSASN1.dll
+[0323/171229.920:ERROR:process_reader_win.cc(242)] ReadMemory at 0x7fef96f0000 of 64 bytes failed: ReadProcessMemory 또는 WriteProcessMemory의 일부 작업만을 마쳤습니다. (0x12B)
+[0323/171229.920:WARNING:pe_image_reader.cc(302)] could not read dos header from C:\Windows\system32\dbghelp.dll
+[0323/171229.920:ERROR:process_reader_win.cc(242)] ReadMemory at 0x7fef6820000 of 64 bytes failed: ReadProcessMemory 또는 WriteProcessMemory의 일부 작업만을 마쳤습니다. (0x12B)
+[0323/171229.920:WARNING:pe_image_reader.cc(302)] could not read dos header from C:\Windows\system32\WINSPOOL.DRV
+[0323/171229.920:ERROR:process_reader_win.cc(242)] ReadMemory at 0x7fefaa40000 of 64 bytes failed: ReadProcessMemory 또는 WriteProcessMemory의 일부 작업만을 마쳤습니다. (0x12B)
+[0323/171229.920:WARNING:pe_image_reader.cc(302)] could not read dos header from C:\Windows\system32\dhcpcsvc.DLL
+[0323/171229.920:ERROR:process_reader_win.cc(242)] ReadMemory at 0x7fefacd0000 of 64 bytes failed: ReadProcessMemory 또는 WriteProcessMemory의 일부 작업만을 마쳤습니다. (0x12B)
+[0323/171229.920:WARNING:pe_image_reader.cc(302)] could not read dos header from C:\Windows\system32\IPHLPAPI.DLL
+[0323/171229.920:ERROR:process_reader_win.cc(242)] ReadMemory at 0x7fefac80000 of 64 bytes failed: ReadProcessMemory 또는 WriteProcessMemory의 일부 작업만을 마쳤습니다. (0x12B)
+[0323/171229.920:WARNING:pe_image_reader.cc(302)] could not read dos header from C:\Windows\system32\WINNSI.DLL
+[0323/171229.920:ERROR:process_reader_win.cc(242)] ReadMemory at 0x7fefeeb0000 of 64 bytes failed: ReadProcessMemory 또는 WriteProcessMemory의 일부 작업만을 마쳤습니다. (0x12B)
+[0323/171229.920:WARNING:pe_image_reader.cc(302)] could not read dos header from C:\Windows\system32\urlmon.dll
+[0323/171229.920:ERROR:process_reader_win.cc(242)] ReadMemory at 0x7fefd7d0000 of 64 bytes failed: ReadProcessMemory 또는 WriteProcessMemory의 일부 작업만을 마쳤습니다. (0x12B)
+[0323/171229.920:WARNING:pe_image_reader.cc(302)] could not read dos header from C:\Windows\system32\api-ms-win-downlevel-ole32-l1-1-0.dll
+[0323/171229.920:ERROR:process_reader_win.cc(242)] ReadMemory at 0x7fefd570000 of 64 bytes failed: ReadProcessMemory 또는 WriteProcessMemory의 일부 작업만을 마쳤습니다. (0x12B)
+[0323/171229.920:WARNING:pe_image_reader.cc(302)] could not read dos header from C:\Windows\system32\api-ms-win-downlevel-shlwapi-l1-1-0.dll
+[0323/171229.920:ERROR:process_reader_win.cc(242)] ReadMemory at 0x7fefd4a0000 of 64 bytes failed: ReadProcessMemory 또는 WriteProcessMemory의 일부 작업만을 마쳤습니다. (0x12B)
+[0323/171229.920:WARNING:pe_image_reader.cc(302)] could not read dos header from C:\Windows\system32\api-ms-win-downlevel-advapi32-l1-1-0.dll
+[0323/171229.920:ERROR:process_reader_win.cc(242)] ReadMemory at 0x7fefd490000 of 64 bytes failed: ReadProcessMemory 또는 WriteProcessMemory의 일부 작업만을 마쳤습니다. (0x12B)
+[0323/171229.920:WARNING:pe_image_reader.cc(302)] could not read dos header from C:\Windows\system32\api-ms-win-downlevel-user32-l1-1-0.dll
+[0323/171229.920:ERROR:process_reader_win.cc(242)] ReadMemory at 0x7fefd7a0000 of 64 bytes failed: ReadProcessMemory 또는 WriteProcessMemory의 일부 작업만을 마쳤습니다. (0x12B)
+[0323/171229.920:WARNING:pe_image_reader.cc(302)] could not read dos header from C:\Windows\system32\api-ms-win-downlevel-version-l1-1-0.dll
+[0323/171229.920:ERROR:process_reader_win.cc(242)] ReadMemory at 0x7fefd7e0000 of 64 bytes failed: ReadProcessMemory 또는 WriteProcessMemory의 일부 작업만을 마쳤습니다. (0x12B)
+[0323/171229.920:WARNING:pe_image_reader.cc(302)] could not read dos header from C:\Windows\system32\api-ms-win-downlevel-normaliz-l1-1-0.dll
+[0323/171229.920:ERROR:process_reader_win.cc(242)] ReadMemory at 0x77950000 of 64 bytes failed: ReadProcessMemory 또는 WriteProcessMemory의 일부 작업만을 마쳤습니다. (0x12B)
+[0323/171229.920:WARNING:pe_image_reader.cc(302)] could not read dos header from C:\Windows\system32\normaliz.DLL
+[0323/171229.920:ERROR:process_reader_win.cc(242)] ReadMemory at 0x7feff7c0000 of 64 bytes failed: ReadProcessMemory 또는 WriteProcessMemory의 일부 작업만을 마쳤습니다. (0x12B)
+[0323/171229.920:WARNING:pe_image_reader.cc(302)] could not read dos header from C:\Windows\system32\iertutil.dll
+[0323/171229.920:ERROR:process_reader_win.cc(242)] ReadMemory at 0x7feff490000 of 64 bytes failed: ReadProcessMemory 또는 WriteProcessMemory의 일부 작업만을 마쳤습니다. (0x12B)
+[0323/171229.920:WARNING:pe_image_reader.cc(302)] could not read dos header from C:\Windows\system32\WININET.dll
+[0323/171229.920:ERROR:process_reader_win.cc(242)] ReadMemory at 0x7fee99b0000 of 64 bytes failed: ReadProcessMemory 또는 WriteProcessMemory의 일부 작업만을 마쳤습니다. (0x12B)
+[0323/171229.921:WARNING:pe_image_reader.cc(302)] could not read dos header from C:\Windows\system32\DWrite.dll
+[0323/171229.921:ERROR:process_reader_win.cc(242)] ReadMemory at 0x7fef6ae0000 of 64 bytes failed: ReadProcessMemory 또는 WriteProcessMemory의 일부 작업만을 마쳤습니다. (0x12B)
+[0323/171229.921:WARNING:pe_image_reader.cc(302)] could not read dos header from C:\Windows\system32\dxgi.dll
+[0323/171229.921:ERROR:process_reader_win.cc(242)] ReadMemory at 0x7fefcc40000 of 64 bytes failed: ReadProcessMemory 또는 WriteProcessMemory의 일부 작업만을 마쳤습니다. (0x12B)
+[0323/171229.921:WARNING:pe_image_reader.cc(302)] could not read dos header from C:\Windows\system32\dwmapi.dll
+[0323/171229.921:ERROR:process_reader_win.cc(242)] ReadMemory at 0x7fefd310000 of 64 bytes failed: ReadProcessMemory 또는 WriteProcessMemory의 일부 작업만을 마쳤습니다. (0x12B)
+[0323/171229.921:WARNING:pe_image_reader.cc(302)] could not read dos header from C:\Windows\system32\cryptbase.dll
+[0323/171229.937:ERROR:process_reader_win.cc(242)] ReadMemory at 0x29c000 of 81920 bytes failed: ReadProcessMemory 또는 WriteProcessMemory의 일부 작업만을 마쳤습니다. (0x12B)
+[0323/171229.937:ERROR:crash_report_exception_handler.cc(116)] WriteEverything failed
+[0323/171229.939:ERROR:scoped_process_suspend.cc(40)] NtResumeProcess: 기존 프로세스에 액세스하려고 했습니다. (0xc000010a)

@@ -194,3 +194,7 @@
 	
 	
 }
+
+@media (min-width: 1561px) {
+	.rBn-box {margin-left: 660px;}
+}
