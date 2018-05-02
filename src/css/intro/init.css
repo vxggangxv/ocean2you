@@ -29,7 +29,7 @@
 	.resort .p1 {}
 	.resort .p2 {margin-top: 10px;}
 	.resort .btn-area {position: relative; text-align: center; margin: 35px auto 0;}
-	.resort .rv-a {position: relative; display: block; width: 256px; margin: 0 auto; height: 46px; font-size: 16px; font-family: "Nanum Gothic", sans-serif; text-align: center; background: #44a8ff; border: 1px solid #44a8ff; color: #fff; line-height: 46px; border-radius: 4px; box-sizing: border-box;}
+	.resort .rv-a {position: relative; display: block; width: 256px; margin: 0 auto; height: 46px; font-size: 16px; font-family: "Nanum Gothic", sans-serif; text-align: center; background: #44a8ff; border: 1px solid #44a8ff; color: #fff; line-height: 42px; border-radius: 4px; box-sizing: border-box;}
 	.resort .rv-a.a1 {
 		border: 1px solid #44a8ff; color: #44a8ff; margin-bottom: 10px;
 		background: #fefeff; /* Old browsers */
@@ -71,7 +71,7 @@
 	.resort .p1 {}
 	.resort .p2 {margin-top: 10px;}
 	.resort .btn-area {position: relative; text-align: center; margin: 35px auto 0; width: 768px;}
-	.resort .rv-a {position: relative; display: inline-block; margin: 0 5px; width: 216px; height: 46px; font-size: 16px; font-family: "Nanum Gothic", sans-serif; text-align: center; background: #44a8ff; color: #fff; line-height: 46px; border-radius: 4px;}
+	.resort .rv-a {position: relative; display: inline-block; margin: 0 5px; width: 216px; height: 46px; font-size: 16px; font-family: "Nanum Gothic", sans-serif; text-align: center; background: #44a8ff; color: #fff; line-height: 42px; border-radius: 4px;}
 	.resort .rv-a.a1 {
 		border: 1px solid #44a8ff; color: #44a8ff;
 		background: #fefeff; /* Old browsers */
@@ -117,7 +117,7 @@
 	.resort .p1 {}
 	.resort .p2 {margin-top: 14px;}
 	.resort .btn-area {position: relative; text-align: center; margin: 65px auto 0; width: 768px;}
-	.resort .rv-a {position: relative; display: inline-block; margin: 0 15px; width: 306px; height: 64px; font-size: 20px; font-family: "Nanum Gothic", sans-serif; text-align: center; background: #44a8ff; color: #fff; line-height: 64px; border-radius: 4px; font-weight: 700;}
+	.resort .rv-a {position: relative; display: inline-block; margin: 0 15px; width: 306px; height: 64px; font-size: 20px; font-family: "Nanum Gothic", sans-serif; text-align: center; background: #44a8ff; color: #fff; line-height: 57px; border-radius: 4px; font-weight: 700;}
 	.resort .rv-a.a1 {
 		border: 1px solid #44a8ff; color: #44a8ff;
 		background: #fefeff; /* Old browsers */
@@ -164,7 +164,7 @@
 	.resort .p1 {}
 	.resort .p2 {margin-top: 14px;}
 	.resort .btn-area {position: relative; text-align: center; margin: 65px auto 0; width: 768px;}
-	.resort .rv-a {position: relative; display: inline-block; margin: 0 15px; width: 306px; height: 64px; font-size: 20px; font-family: "Nanum Gothic", sans-serif; text-align: center; background: #44a8ff; color: #fff; line-height: 64px; border-radius: 4px; font-weight: 700;}
+	.resort .rv-a {position: relative; display: inline-block; margin: 0 15px; width: 306px; height: 64px; font-size: 20px; font-family: "Nanum Gothic", sans-serif; text-align: center; background: #44a8ff; color: #fff; line-height: 57px; border-radius: 4px; font-weight: 700;}
 	.resort .rv-a.a1 {
 		border: 1px solid #44a8ff; color: #44a8ff;
 		background: #fefeff; /* Old browsers */
