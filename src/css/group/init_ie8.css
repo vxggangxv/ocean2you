@@ -119,8 +119,11 @@ section[class*=-sec] h3 + p {font-size: 18px; color: #454545; text-align: center
 .etc-sec .d-cm .area-btn .a-btn:after {content: ""; display: inline-block; height: 105%; vertical-align: middle;}
 .etc-sec .d-cm .area-btn .a-btn .ic-rArrow:after {border-color: #fff; width: 10px; height: 10px; top: 0; left: 2px; margin-right: -15px;}
 .etc-sec .d-box-2 .area-btn {margin-top: 20px;}
-.etc-sec .d-box-2 .area-btn .a-btn {display: inline; font-size: 34px; font-weight: 700; color: #00b2dd; background: 0; cursor: default;}
+.etc-sec .d-box-2 .area-btn .a-btn {display: inline; font-size: 34px; font-weight: 700; color: #00b2dd; background: 0; cursor: default; vertical-align: middle;}
 .etc-sec .d-box-2 .area-btn .pic-call {position: relative; display: inline-block; width: 35px; height: 35px; background: url(http://img.ocean2you.co.kr/renew/group/pic_call.png); vertical-align: middle; top: -4px; margin-left: -20px; left: -4px;}
+.etc-sec .d-box-2 .area-btn .a-btn > .txt {position: relative; font-size: 21px; color: #333; font-weight: 400; top: -5px;}
+.etc-sec .d-box-2 .p-2 {font-size: 28px; font-weight: 700; margin-top: 10px; color: #00b2dd;}
+
 
 /* 시설안내 표 */
 .facil-sec .facil-tb {margin-top: 15px;}

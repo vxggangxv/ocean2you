@@ -32,16 +32,16 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.12/jquery.bxslider.css">
 	<link rel="stylesheet" href="http://static.ocean2you.co.kr/css/renew/common.css">
 	<!--<link rel="stylesheet" href="../../src/css/common.css">-->
-	<!--<link rel="stylesheet" href="http://static.ocean2you.co.kr/css/renew/group/init.css">-->
-	<link rel="stylesheet" href="../../static/css/renew/group/init.css">
+	<link rel="stylesheet" href="http://static.ocean2you.co.kr/css/renew/group/init.css">
+<!--	<link rel="stylesheet" href="../../src/css/group/init.css">-->
 	
 	<script type="text/javascript" src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
 	<script src="http://static.ocean2you.co.kr/js/renew/jquery.easing.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.12/jquery.bxslider.min.js"></script>
 	<script src="http://static.ocean2you.co.kr/js/renew/common_ocean.js"></script>
-	<!--<script src="http://static.ocean2you.co.kr/js/renew/group/init.js"></script>-->
+	<script src="http://static.ocean2you.co.kr/js/renew/group/init.js"></script>
 <!--	<script src="../../src/js/common_ocean.js"></script>-->
-	<script src="../../static/js/group/init.js"></script>
+<!--	<script src="../../static/js/group/init.js"></script>-->
 	
 		<!--<script src="../../src/js/common_ocean_ie8.js"></script>-->
 <!--
@@ -968,7 +968,9 @@
 					<div class="d-box-2 d-cm">
 						<p class="p-0"><span class="hidden-xs">단체 행사 문의에 대한</span> <span class="f-bd">빠른 상담이 필요</span>하신가요?</p>
 						<p class="p-1">단체 예약 전용 번호로 연락 주시면 담당자가 빠르게 안내해 드리겠습니다. </p>
-						<p class="area-btn"><a href="tel:010-8844-0409" class="a-btn"><span class="pic-call"></span> 010-8844-0409</a></p>
+						<!--180612 내용추가-->
+						<p class="area-btn"><a href="tel:010-9094-0396" class="a-btn"><span class="pic-call"></span> 010-9094-0396 <span class="txt">(주중/주말 24시간 상담가능)</span></a></p>
+						<p class="p-2"><img class="pic-sms" src="http://img.ocean2you.co.kr/renew/group/pic_sms.jpg" alt="이메일"> help@ocean2you.co.kr</p>
 					</div>
 				</section>
 				
@@ -996,10 +998,12 @@
 				
 			</div>
 		
+<!--
 			<a href="javascript:faq_move();" class="rtBookingBn" id="rtBookingBn" style="display: block;">
 				<img src="http://img.ocean2you.co.kr/renew/i_cal_2.png" alt="달력"><br>
 				실시간<br>예약
 			</a>
+-->
 			
 			<!-- 오른쪽 날개 배너 -->
 			<!--180124 popOpen 클래스 제거 -->
@@ -1122,7 +1126,13 @@
 
 		<footer class="footer">
 			<div class="container">
-				
+
+				<ul class="f_menu">
+					<!--171218 레이어팝업노출-->
+					<li><a href="javascript:;" onclick="$('#privacy-bg, #privacy-bg .term-wrap').show(); $('body').css('overflow', 'hidden');">이용약관</a></li>
+					<li><a href="javascript:;" onclick="$('#privacy-bg, #privacy-bg .privacy-wrap').show(); $('body').css('overflow', 'hidden');">개인정보처리방침</a></li>
+				</ul>
+
 				<div class="flt-1 clr">
 					<img class="f-logo" src="http://img.ocean2you.co.kr/renew/f_logo.png" alt="오션투유리조트">
 				</div>
@@ -1130,11 +1140,12 @@
 					<address>
 						<p class="nth-1">
 							오션투유리조트 설악비치 호텔앤콘도<br>
-							주소 : 강원 고성군 죽왕면 삼포해변길 9<span class="i-l"></span>TEL. 070-7688-2438<br>
-							사업자등록번호 : 332-85-00016<span class="i-l"></span>통신판매업 : 제 2009-4290040-30-2-0033호						
+							주소 : 강원 고성군 죽왕면 삼포해변길 9
+							<!-- <span class="i-l"></span>TEL. 070-7688-2438 -->
+							<br>
+							사업자등록번호 : 332-85-00016<span class="i-l"></span>통신판매업 : 제 2009-4290040-30-2-0033호
 						</p>
 					</address>
-					<!-- 171127 예약문의 변경 -->
 					<div class="cf-box">
 						<p class="p-0">&lt;고객센터 안내&gt;</p>
 						<div class="cf-in">
@@ -1149,28 +1160,25 @@
 								<span class="mg-"></span>
 								<span class="s1-2"><span class="xs-hidden">&#40;</span>확정, 변경, 취소<span class="xs-hidden">&#41;</span><span class="xs-block"></span>/이벤트 문의</span>
 								<span class="s3"><img src="http://img.ocean2you.co.kr/renew/i_call.png" alt="전화아이콘"> 1666-1243</span>
-								<span class="s1-2">연결가능시간 09:00~18:00</span>
+								<span class="s1-2">주중 09:30 ~ 25:00<br>주말 09:30 ~ 24:00</span>
 							</a>
-							<a class="callFor cf2" href="tel:010-8844-0409">
+							<a class="callFor cf2" href="tel:033-631-3811">
 								<span class="s1">프론트</span>
 								<span class="mg-"></span>
 								<span class="s1-2"><span class="xs-hidden">&#40;</span>체크인, 체크아웃<span class="xs-block"></span>시설이용문의<span class="xs-hidden">&#41;</span></span>
 								<span class="s3"><img src="http://img.ocean2you.co.kr/renew/i_call.png" alt="전화아이콘"> 033-631-3811</span>
-								<span class="s1-2">연결가능시간 06:00~02:00</span>
+								<span class="s1-2">주중/주말 06시 ~ 02시</span>
 							</a>
-							<a class="callFor cf3" href="tel:010-8844-0409">
+							<a class="callFor cf3" href="tel:010-9094-0396">
 								<span class="s1">단체문의</span>
 								<span class="mg-"></span>
 								<span class="s1-2"><span class="xs-hidden">&#40;</span>워크샵, 학생단체,<span class="xs-block"></span> 산업단체 등<span class="xs-hidden">&#41;</span></span>
-								<span class="s3"><img src="http://img.ocean2you.co.kr/renew/i_call.png" alt="전화아이콘"> 010-8844-0409</span>
-								<span class="s1-2">연결가능시간 09:00~18:00</span>
+								<span class="s3"><img src="http://img.ocean2you.co.kr/renew/i_call.png" alt="전화아이콘"> 010-9094-0396</span>
+								<span class="s1-2">주중/주말 24시간 상담가능</span>
 							</a>
 						</div>
 					</div>
-					
-					
 				</div>
-				
 				<div class="clr"></div>
 				<div class="flt-1 clr">
 					<img class="f-gcLogo" src="http://img.ocean2you.co.kr/renew/f_gcLogo.png" alt="오션투유리조트">
@@ -1183,7 +1191,7 @@
 							사업자등록번호 : 332-85-00016<span class="i-l"></span>통신판매업 : 제 2009-4290040-30-2-0033호<br>
 							여행업등록번호 : 제2015-02호<span class="i-l"></span>여행영업보증서 : 국내여행 제100-000-2015 0144 5816호<br>
 						</p>
-						* 바로네트웍스는 오션투유리조트의 공식 온라인 총판사 입니다. 
+						* 바로네트웍스는 오션투유리조트의 공식 온라인 총판사 입니다.
 						<br><br>
 						<p class="nth-2">
 							Copyright 2016 OCEAN2YOU CONE. ALL RIGHTS RESERVED
@@ -1193,6 +1201,7 @@
 				</div>
 			</div>
 		</footer>
+
 		
 		<a href="javascript:;" id="goTop"><img src="http://img.ocean2you.co.kr/renew/goTop.jpg" alt="위로"></a>
 	</div>
