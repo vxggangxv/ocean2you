@@ -113,7 +113,7 @@ transform-origin: center;
 .footer .cf-in .callFor.cf0, .footer .cf-in .callFor.cf2 {right: 240px;}
 .footer .cf-in .callFor.cf2, .footer .cf-in .callFor.cf3 {top: 65px;}
 .footer .cf-in .callFor.cf1, .footer .cf-in .callFor.cf3 {right: 0; width: 235px;}
-.footer .cf-in .s1, .footer .cf-in .s3  {font-size: 17px; font-weight: 700; letter-spacing: 0;}
+.footer .cf-in .s1, .footer .cf-in .s3, .footer .cf-in .s4  {font-size: 17px; font-weight: 700; letter-spacing: 0;}
 .footer .cf-in .s1 {margin-top: 2px;}
 .footer .cf-in .s3 {margin-top: 3px; font-size: 18px; font-family: "Noto Sans KR", "Nanum Gothic", sans-serif; font-weight: 500;}
 .footer .cf-in .s3 > img {width: auto; position: relative; top: -1px;}

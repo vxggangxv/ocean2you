@@ -7,9 +7,11 @@
 .title .tit-box h2 {font-size: 27px; letter-spacing:-2.5px}
 .title .tit-box .mg- {display: block; height: 1px; width: 60px; margin: 22px auto 14px; background: #fff;}
 /* 20180425 tab수정 */
-.title .facil-tab {position: relative; width: 1220px; margin: 47px auto 0; left: 1.5px;}
-.title .facil-tab > li {position: relative; float: left; top: 0; width:16.666%; border: 2px solid transparent; border-left: 1px solid #a8a6a4; margin-left: -1px; padding-left: 1px;}
+/*.title .facil-tab {position: relative; width: 1220px; margin: 47px auto 0; left: 1.5px;}
+.title .facil-tab > li {position: relative; float: left; top: 0; width:16.666%; border: 2px solid transparent; border-left: 1px solid #a8a6a4; margin-left: -1px; padding-left: 1px;}*/
+.title .facil-tab > li {position: relative; float: left; top: 0; width: 19%; border: 2px solid transparent; border-left: 1px solid #a8a6a4; margin-left: -1px; padding-left: 1px;}
 .title .facil-tab > li.nth-1 {border-left: none; margin-left: 0;}
+.title .facil-tab > li.nth-2 {width: 24%;}
 /*.title .facil-tab > li.on {border: 2px solid #fff; z-index: 1; padding-left: 0;}
 .title .facil-tab > li.nth-1.on {padding-right: 1px;}*/
 .title .facil-tab > li a {display: block; width: 100%; height: 46px; font-size: 16px; font-weight: 400; color: #fff;}

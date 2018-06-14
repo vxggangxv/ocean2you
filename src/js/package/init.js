@@ -1,11 +1,14 @@
 $(function() {
 	
 	// 패키지 탭
-	$("#pkg-tab li").on('click', function() {
+	$("#pkg-tab li, #pkg-b-tab li").on('click', function() {
 		var idx = $(this).index();
-		$(this).addClass('on').siblings().removeClass('on');
+		//$(this).addClass('on').siblings().removeClass('on');
 		$("#pkg-box > section").eq(idx).addClass('on').siblings().removeClass('on');
-		
+        
+		$("#pkg-tab li").eq(idx).addClass('on').siblings().removeClass('on');
+		$("#pkg-b-tab li").eq(idx).addClass('on').siblings().removeClass('on');
+		$(window).scrollTop(0);
 	});
 	
 	// bx슬라이더
