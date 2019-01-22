@@ -31,25 +31,23 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.12/jquery.bxslider.css">
 	<link rel="stylesheet" href="http://static.ocean2you.co.kr/css/renew/common.css">
 	<link rel="stylesheet" href="http://static.ocean2you.co.kr/css/renew/package/init.css">
-<!--	<link rel="stylesheet" href="../../src/css/common.css">-->
-<!--	<link rel="stylesheet" href="../../static/css/renew/package/init.css">-->
-<!--	<link rel="stylesheet" href="../../src/css/package/init.css">-->
+<!--	<link rel="stylesheet" href="../../static/css/common.css">-->
+	<!--<link rel="stylesheet" href="../../static/css/renew/package/init.css">-->
 	
 	<script type="text/javascript" src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
 	<script src="http://static.ocean2you.co.kr/js/renew/jquery.easing.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.12/jquery.bxslider.min.js"></script>
 	<script src="http://static.ocean2you.co.kr/js/renew/common_ocean.js"></script>
 	<script src="http://static.ocean2you.co.kr/js/renew/package/init.js"></script>
-<!--	<script src="../../static/js/package/init.js"></script>-->
-<!--	<script src="../../src/js/package/init.js"></script>-->
+	<!--<script src="../../static/js/renew/package/init.js"></script>-->
 	
 	<!--
-		<link rel="stylesheet" href="http://static.ocean2you.co.kr/css/renew/package/init_ie8.css">
+	<link rel="stylesheet" href="../../static/css/renew/package/init_ie8.css">
 		-->
 		
 	<!--[if lt IE 9]>
 		<link rel="stylesheet" href="http://static.ocean2you.co.kr/css/renew/common_ie8.css">
-	<link rel="stylesheet" href="../../static/css/renew/package/init_ie8.css">
+		<link rel="stylesheet" href="http://static.ocean2you.co.kr/css/renew/package/init_ie8.css">
 		<script type="text/javascript" src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
 	<![endif]-->
 	
@@ -65,47 +63,55 @@
 			
 			<header class="header" id="gnb-header">
 				<div class="container">
-					<a href="http://ocean2you.co.kr" class="logo-box">
-						<img class="logo" src="http://img.ocean2you.co.kr/renew/logo.png" alt="오션투유 리조트">
-						<!--
-						<span class="mg-l"></span>
-						<img class="gcLogo" src="http://img.ocean2you.co.kr/renew/oc2_gcLogo.png" alt="고코투어">
-						-->
+				    <!-- 180711 로고 텍스트 추가 -->
+					<a href="#none" class="logo-box">
+						<img class="logo" src="http://img.ocean2you.co.kr/renew/logo.png" alt="오션투유리조트">
+						<p class="logo-txt">
+						    오션투유리조트
+                            <span>속초설악비치 호텔앤콘도</span>
+						</p>
+						<!--변경내용170912 고코로고 제거-->
+						<!--<span class="mg-l"></span>
+						<img class="gcLogo" src="http://img.ocean2you.co.kr/renew/oc2_gcLogo.png" alt="고코투어">-->
 					</a>
-					
+
 					<button class="mNav-btn" id="mNav-btn" type="button">
 						<span></span>
 						<span></span>
 						<span></span>
 					</button>
-					<nav class="nav-bar">						
-						<div class="d1">
+
+					<!--171023 faq버튼 추가-->
+					<nav class="nav-bar">
+		                <!-- 180711 이벤트 당첨안내 메뉴주석처리  -->
+						<!--<div class="d1">
 							<a class="faq-a" id="faq-a" href="#">고코투어 이벤트 당첨안내</a>
 							<a class="mFaq-a" id="mFaq-a" href="#"><span><img src="http://img.ocean2you.co.kr/renew/m_icon.png">이벤트 안내</span></a>
-						</div>
+						</div>-->
 						<ul class="nav clr">
-							<li class="fst"><a href="http://ocean2you.co.kr/intro/">오션투유소개</a></li>
-							<li><a href="http://ocean2you.co.kr/facil/">객실안내</a></li>
-							<li><a href="http://ocean2you.co.kr/amenities/">부대시설안내</a></li>
-							<li><a href="http://ocean2you.co.kr/event/">이벤트/축제</a></li>
-							<li><a href="http://ocean2you.co.kr/?go_scroll=tourist">관광지</a></li>
-							<li><a href="http://ocean2you.co.kr/?go_scroll=wayto">오시는길</a></li>
-							<li><a href="http://ocean2you.co.kr/group/">단체문의</a></li>
-							<li class="lst" onclick="location.href='http://ocean2you.co.kr/view/';" style="cursor:pointer"><a href="javascript:;">예약/예약확인</a></li>
+							<li class="fst"><a href="">오션투유소개</a></li>
+							<li><a href="">객실안내</a></li>
+							<li><a href="">부대시설안내</a></li>
+							<li><a href="">이벤트/축제</a></li>
+							<li><a href="">관광지</a></li>
+							<li><a href="">오시는길</a></li>
+							<li><a href="">단체문의</a></li>
+							<li class="lst"><a href="">예약/예약확인</a></li>
 						</ul>
 					</nav>
 				</div>
 				<nav class="mNav-box" id="mNav-box">
-					<h2><a href="http://ocean2you.co.kr">HOME</a></h2>
+					<h2><a href="">HOME</a></h2>
 					<ul class="mNav">
-						<li class="fst"><a href="http://ocean2you.co.kr/intro/">오션투유소개</a></li>
-						<li><a href="http://ocean2you.co.kr/facil/">객실안내</a></li>
-						<li><a href="http://ocean2you.co.kr/amenities/">부대시설안내</a></li>
-						<li><a href="http://ocean2you.co.kr/event/">이벤트/축제</a></li>
-						<li><a href="http://ocean2you.co.kr/?go_scroll=tourist">주변관광지</a></li>
-						<li><a href="http://ocean2you.co.kr/?go_scroll=wayto">오시는길</a></li>
-						<li><a href="http://ocean2you.co.kr/group/">단체행사문의</a></li>
-						<li class="lst" onclick="location.href='http://ocean2you.co.kr/view/';" style="cursor:pointer"><a href="javascript:;">예약/예약확인</a></li>
+						<li class="fst"><a href="">오션투유소개</a></li>
+						<li><a href="">객실안내</a></li>
+						<li><a href="">부대시설안내</a></li>
+						<li><a href="">이벤트/축제</a></li>
+						<li><a href="">주변관광지</a></li>
+						<li><a href="">오시는길</a></li>
+						<li><a href="">단체행사문의</a></li>
+						<li><a href="">예약/예약확인</a></li>
+						<!--<li><a href="">이벤트 당첨안내</a></li>-->
 					</ul>
 				</nav>
 			</header>
@@ -115,15 +121,18 @@
                     <h2>오션투유 부대시설 안내</h2>
                     <div class="mg-"></div>
                     <div class="titTxt"><img src="http://img.ocean2you.co.kr/renew/package/pkg_title.png" alt="오션투유 리조트소개"></div>
-                    <!-- 1800614 수정 -->
+                    <!-- 180425 class 추가 수정 및 내용 추가 -->
+                    <!-- 180723 메뉴 추가 및 클래스 추가 -->
                     <ul class="pkg-tab tab-wid clr" id="pkg-tab">
-                        <li class="nth-1"><a href="javascript:;">한식당 다연<span></span>(조식운영)</a></li>
-                        <li class="nth-2 on"><a href="javascript:;">오션숯불갈비&amp;<br class="show-xs">바베큐</a></li>
-                        <li class="nth-3"><a href="javascript:;">속초횟집</a></li>
-                        <li class="nth-4"><a href="javascript:;">전동바이크</a></li>
-                        <li class="nth-5"><a href="javascript:;">룸서비스</a></li>
+                        <li class="nth-1"><a href="javascript:;">조식뷔페 다연</a></li>
+                        <li class="nth-2"><a href="javascript:;" class="line-two">오션숯불갈비&amp;<span></span>바베큐</a></li>
+                        <li class="nth-4"><a href="javascript:;">속초횟집</a></li>
+                        <li class="nth-5"><a href="javascript:;">전동바이크</a></li>
+                        <li class="nth-6"><a href="javascript:;">룸서비스</a></li>
+                        <li class="nth-7"><a href="javascript:;" class="line-two">반데라바베큐<span></span>플레이츠</a></a></li>
+                        <li class="nth-8"><a href="javascript:;" class="line-two">오션투유 <span></span>노래방</a></a></li>
                         <!-- 동절기 이후 다시 쓸 가능성 있음 -->
-                        <!-- <li class="nth-4"><a href="javascript:;">조개 잡기 패키지</a></li> -->
+                        <!-- <li class="nth-"><a href="javascript:;">조개 잡기 패키지</a></li> -->
                     </ul>
 
                 </div>
@@ -136,7 +145,118 @@
             <!-- 180425 section 전체 class 'pkg-' 숫자 수정 -->
 			<div class="container" id="pkg-box">
 			
+				<!--<section class="pkg-1 on">
+					
+					<h3>조식 패키지</h3>
+					<p class="p0">다채로운 전채요리부터 달콤한 디저트 코너까지 한자리에서 만끽할 수 있는 조식 뷔페 패키지 안내</p>
+					<div class="mg-"></div>
+					<div class="bxBox" id="bxBox-2">
+						<ul class="bxS">
+							<li><img src="http://img.ocean2you.co.kr/renew/package/pkg_brf_01.jpg" alt="조식 패키지"></li>
+							<li><img src="http://img.ocean2you.co.kr/renew/package/pkg_brf_02.jpg" alt="조식 패키지"></li>
+							<li><img src="http://img.ocean2you.co.kr/renew/package/pkg_brf_03.jpg" alt="조식 패키지"></li>
+							<li><img src="http://img.ocean2you.co.kr/renew/package/pkg_brf_04.jpg" alt="조식 패키지"></li>
+							<li><img src="http://img.ocean2you.co.kr/renew/package/pkg_brf_05.jpg" alt="조식 패키지"></li>
+							<li><img src="http://img.ocean2you.co.kr/renew/package/pkg_brf_06.jpg" alt="조식 패키지"></li>
+							<li><img src="http://img.ocean2you.co.kr/renew/package/pkg_brf_07.jpg" alt="조식 패키지"></li>
+							<li><img src="http://img.ocean2you.co.kr/renew/package/pkg_brf_08.jpg" alt="조식 패키지"></li>
+							<li><img src="http://img.ocean2you.co.kr/renew/package/pkg_brf_09.jpg" alt="조식 패키지"></li>
+							<li><img src="http://img.ocean2you.co.kr/renew/package/pkg_brf_10.jpg" alt="조식 패키지"></li>
+							<li><img src="http://img.ocean2you.co.kr/renew/package/pkg_brf_11.jpg" alt="조식 패키지"></li>
+						</ul>
+					</div>
+					
+					<h4>한식당 다연 조식 패키지 상세안내</h4>
+					
+					<p class="p1">
+						오션투유리조트 설악비치 호텔앤콘도에서는 소시지, 스크램블, 베이컨, 감자튀김, 샐러드, 시리얼 등 25종의 메뉴로 구성된 아메리칸 뷔페를 운영하고있습니다.<br>
+						특급호텔 30년 근무 경력의 조리장들이 질 좋은 제철 식재료를 선별하여 요리 하나하나 최고의 맛을 자랑합니다.<br>
+						오션투유리조트 한식당 다연에서 맛의 향연을 만끽해보세요.<br>
+					</p>
+					
+					
+					<ul class="ul0 clr">
+						<li class="nth-1 clr">
+							<h5>운영시간</h5>
+							<p class="p-txt">조식운영시간: 07:30~10:30</p>
+							<p class="p-txt">조식운영시간: 07:30~10:30</p>
+							<p class="p-txt i-d">주중: 07:30 ~ 20:00</p>
+							<p class="p-txt i-d">주말: 07:30 ~ 21:00</p>
+							<p class="p-txt i-s">추가 메뉴 선택 가능하며, 추가비용이 발생합니다.</p>
+						</li>
+						<li class="nth-2">
+							<h5>위치안내</h5>
+							<p class="p-txt i-d">오션투유리조트 내 1층</p>
+						</li>
+						<li class="nth-3">
+							<h5>선택메뉴 및 가격 안내</h5>
+							<p class="p-txt i-d">광어미역국 12,000 원</p>
+							<p class="p-txt i-d">우거지갈비탕 8,000원</p>
+							<p class="p-txt i-d">황태해장국 8,000원</p>
+							<p style="border-top: 1px solid #EAEAEA;margin-top:10px;margin-bottom:10px"></p>
+							<p class="p-txt i-d">계절 모둠 회 大 70,000원</p>
+							<p class="p-txt i-d">계절 모둠 회 中 50,000원</p>
+							<p class="p-txt i-d">계절 모둠 회 小 30,000원</p>
+							<p style="border-top: 1px solid #EAEAEA;margin-top:10px;margin-bottom:10px"></p>
+							<p class="p-txt i-d">계절 모둠 물회 2인 20,000원</p>
+							<p class="p-txt i-d">계절 모둠 물회 3인 30,000원</p>
+							<p class="p-txt i-d">계절 모둠 물회 4인 40,000원</p>
+						</li>
+					</ul>
+					<div class="sltMenu-intro">
+						<h5>선택 메뉴 안내</h5>
+						<ul class="ul1">
+							<li class="li1 clr">
+								<div class="d1"><img src="http://img.ocean2you.co.kr/renew/package/brfMenu_01.jpg" alt="시카코바베큐플레이츠"></div>
+								<div class="d2">
+									<strong>반데라바베큐플레이츠 <span class="s1">(다연 또는 바베큐장에서 이용 및 룸서비스 가능)</span></strong>
+									<p class="p-txt">
+										폭립, 삼겹살을 특급호텔 30년 경력의 주방장의 지위하에 정통 차콜 그릴에서  
+										약 2시간 동안, 약 200도의 온도로 쿠킹하며 사과나무로 훈연하여 만들어낸 바베큐입니다.<br>
+										( 모닝빵, 코오슬로, 바베큐 소스, 파인애플 조림 등이 같이 곁들여져 있습니다.)
+									</p>
+									<p class="p-txt i-s">바베큐 장 및 한식당 다연에서 주문 가능 합니다.</p>
+									<div class="usePrc">
+										<p class="p1"><span class="s-w">￦</span> 이용가격</p>
+										<p class="p-txt"><span class="s-txt">시카코 바베큐플레이츠 <span class="f-bd">19,000</span>원</span></p>
+									</div>
+								</div>
+							</li>
+							<li class="li2 clr">
+								<div class="d1"><img src="http://img.ocean2you.co.kr/renew/package/brfMenu_02.jpg" alt="계절 모둠 회"></div>
+								<div class="d2">
+									<strong>계절 모둠 회 <span class="s1">(다연 또는 바베큐장에서 이용 및 룸서비스 가능)</span></strong>
+									<p class="p-txt">
+										특급호텔 30년 경력의 주방장이 직접 싱싱한 제철 활어를 공수해 제공하는 회 메뉴 입니다.<br>
+										오션투유 리조트에서 신선함이 살아있는 최상의 맛을 느껴보세요.
+									</p>
+									<div class="usePrc">
+										<p class="p1"><s class="s-w">￦</s> 이용가격</p>
+										<p class="p-txt"><span class="s-txt">계절 모둠 회 大 <span class="f-bd">70,000</span>원</span> <span class="s-txt">계절 모둠 회 中 <span class="f-bd">50,000</span>원</span> <span class="s-txt">계절 모둠 회 小 <span class="f-bd">30,000</span>원</span></p>
+									</div>
+								</div>
+							</li>
+							<li class="li3 clr">
+								<div class="d1"><img src="http://img.ocean2you.co.kr/renew/package/brfMenu_03.jpg" alt="계절 모둠 물회"></div>
+								<div class="d2">
+									<strong>계절 모둠 물회 <span class="s1">(다연 또는 바베큐장에서 이용 및 룸서비스 가능)</span></strong>
+									<p class="p-txt">
+										특급호텔 30년 경력의 주방장의 특급 비법소스와 싱싱한 제철 활어를 공수하여 주문 즉시
+										조리하며, 신선함은 물론, 감칠맛이 더욱 뛰어난 물회 메뉴입니다. 
+									</p>
+									<div class="usePrc">
+										<p class="p1"><span class="s-w">￦</span> 이용가격</p>
+										<p class="p-txt"><span class="s-txt">계절 모둠 물회 2인 <span class="f-bd">20,000</span>원</span> <span class="s-txt">계절 모둠 물회 3인 <span class="f-bd">30,000</span>원</span> <span class="s-txt">계절 모둠 물회 4인 <span class="f-bd">40,000</span>원</span> </p>
+									</div>
+								</div>
+							</li>
+						</ul>
+					</div>
+					
+					<a href="javascript:;" class="rv-a"><span class="s0">예약하기</span><img src="http://img.ocean2you.co.kr/renew/i_gt.png" alt="" class="gt"></a>
+				</section>-->
 				
+				<!-- 180501 한식당 다연 내용 전체 수정 -->
 				<section class="pkg-1">
 					<h3>조식 패키지</h3>	
 					<p class="p0"><span class="xs-block">다채로운 전채요리부터 달콤한 디저트 코너까지 </span>한자리에서 만끽할 수 있는 조식 뷔페 패키지 안내</p>
@@ -201,42 +321,42 @@
 				    
 				</section>
 				
-				
-				<!-- 180614 수정 -->
-				<section class="pkg-2 on">
-					<h3>오션숯불갈비 &amp; 바베큐</h3>	
-					<p class="p0"><span class="xs-block">지글지글 담백하고 맛있게</span> 숯불향을 입힌 숯불갈비와 즐거운 바베큐장</p>
-					<div class="mg-"></div>
-					<div class="bxBox" id="bxBox-2">
-						<ul class="bxS">
-							<li><img src="http://img.ocean2you.co.kr/renew/package/pkg_ribF_01.jpg" alt="오션투유바베큐"></li>
-							<li><img src="http://img.ocean2you.co.kr/renew/package/pkg_ribF_02.jpg" alt="오션투유바베큐"></li>
-							<li><img src="http://img.ocean2you.co.kr/renew/package/pkg_ribF_03.jpg" alt="오션투유바베큐"></li>
-						</ul>
-					</div>
-					<h4>오션숯불갈비 &amp; 바베큐장 상세안내</h4>
-					<!-- 180425 텍스트 내용 변경 -->
-					<p class="p1">
-                    	오션투유리조트 설악비치 호텔앤콘도에서는 삼포해변을 바라보며 즐기실 수 있는 바베큐장을 운영하고 있습니다.<br>
-						오션투유리조트에 흩어지는 바다내음, 숯불내음, 그리고 사랑하는 사람에게 건내는 '쌈' 한주먹에는 웃음이 있습니다.<br>
-                    	해안선을 따라 쏟아지는 별빛이 반짝거리는 바베큐장에서 잊지 못할 즐거운 추억을 만들어 보십시오.
+				<section class="pkg-2">
+                    <h3>오션숯불갈비 &amp; 바베큐</h3>	
+                    <p class="p0"><span class="xs-block">지글지글 담백하고 맛있게</span> 숯불향을 입힌 숯불갈비와 즐거운 바베큐장</p>
+                    <div class="mg-"></div>
+                    <div class="bxBox" id="bxBox-2">
+                        <div class="bx-wrapper" style="max-width: 100%;"><div class="bx-viewport" aria-live="polite" style="width: 100%; overflow: hidden; position: relative; height: 640px;"><ul class="bxS" style="width: 3215%; position: relative; transition-duration: 0s; transform: translate3d(-1280px, 0px, 0px);"><li style="float: left; list-style: none; position: relative; width: 1280px;" class="bx-clone" aria-hidden="true"><img src="http://img.ocean2you.co.kr/renew/package/pkg_ribF_03.jpg" alt="오션투유바베큐"></li>
+                            <li style="float: left; list-style: none; position: relative; width: 1280px;" aria-hidden="false"><img src="http://img.ocean2you.co.kr/renew/package/pkg_ribF_01.jpg" alt="오션투유바베큐"></li>
+                            <li aria-hidden="true" style="float: left; list-style: none; position: relative; width: 1280px;"><img src="http://img.ocean2you.co.kr/renew/package/pkg_ribF_02.jpg" alt="오션투유바베큐"></li>
+                            <li style="float: left; list-style: none; position: relative; width: 1280px;" aria-hidden="true"><img src="http://img.ocean2you.co.kr/renew/package/pkg_ribF_03.jpg" alt="오션투유바베큐"></li>
+                        <li style="float: left; list-style: none; position: relative; width: 1280px;" class="bx-clone" aria-hidden="true"><img src="http://img.ocean2you.co.kr/renew/package/pkg_ribF_01.jpg" alt="오션투유바베큐"></li></ul></div><div class="bx-controls bx-has-controls-direction bx-has-controls-auto bx-has-pager"><div class="bx-controls-direction"><a class="bx-prev" href=""><img src="http://img.ocean2you.co.kr/btn_prev2.png" alt="이전"></a><a class="bx-next" href=""><img src="http://img.ocean2you.co.kr/btn_next2.png" alt="다음"></a></div><div class="bx-controls-auto"><div class="bx-controls-auto-item"><a class="bx-start" href="">Start</a></div><div class="bx-controls-auto-item"><a class="bx-stop active" href="">Stop</a></div></div><div class="bx-pager bx-default-pager"><div class="bx-pager-item"><a href="" data-slide-index="0" class="bx-pager-link active">1</a></div><div class="bx-pager-item"><a href="" data-slide-index="1" class="bx-pager-link">2</a></div><div class="bx-pager-item"><a href="" data-slide-index="2" class="bx-pager-link">3</a></div></div></div></div>
+                    </div>
+                    <h4>오션숯불갈비 &amp; 바베큐장 상세안내</h4>
+                    <!-- 180425 텍스트 내용 변경 -->
+                    <p class="p1">
+                        오션투유리조트 설악비치 호텔앤콘도에서는 삼포해변을 바라보며 즐기실 수 있는 바베큐장을 운영하고 있습니다.<br>
+                        오션투유리조트에 흩어지는 바다내음, 숯불내음, 그리고 사랑하는 사람에게 건내는 '쌈' 한주먹에는 웃음이 있습니다.<br>
+                        해안선을 따라 쏟아지는 별빛이 반짝거리는 바베큐장에서 잊지 못할 즐거운 추억을 만들어 보십시오.
                     </p>
-                    
-					<div class="ul-box clr">
-					    <h5>운영시간 (선택)</h5>
-					    <ul class="ul0-1">
-					        <li class="i-s">[1부] 16:00 ~ 17:50 / [2부] 18:00 ~ 19:50 / [3부] 20:00 ~ 21:50</li>
-					    </ul>
-					</div>
-					
-					<div class="ul-box clr">
+
+                    <div class="ul-box clr">
+                        <h5>운영시간</h5>
+                        <ul class="ul0-1">
+                            <!--<li class="i-s">[1부] 16:00 ~ 17:50 / [2부] 18:00 ~ 19:50 / [3부] 20:00 ~ 21:50</li>-->
+                            <li class="i-s">16시 오픈하며, 22시까지 운영합니다.</li>
+                            <li class="i-s">22시까지의 이용인원이 많은경우 종료시간이 연장될수도 있습니다.</li>
+                        </ul>
+                    </div>
+
+                    <div class="ul-box clr">
                         <h5>오션숯불갈비 판매메뉴</h5>
                         <ul class="ul0-1 li-left clr">
                             <li class="i-s fir-li">
                                 고기패키지형
-                                <p class="i-d">커플셋트 : 25,000원<br>(2인분, 목살200g+삼겹살200g+새우2마리)</p>
+                                <p class="i-d">커플셋트 : 25,000원<br>(2~3인분, 목살200g+삼겹살200g+새우2마리)</p>
                                 <!-- 20180426 태그 및 클래스 추가 -->
-                                <p class="i-d">패밀리셋트 : 50,000원<br>(4인분, 목살400g+삼겹살400g+돼지갈비400g+<span class="show-xs show-xxs"></span>새우4마리)</p>
+                                <p class="i-d">패밀리셋트 : 60,000원<br>(4~6인분, 목살400g+삼겹살400g+돼지갈비200g+막창200g+<span class="show-xs show-xxs"></span>새우4마리)</p>
                             </li>
                             <li class="i-s mid-li">
                                 고기단품류
@@ -249,6 +369,125 @@
                                 식사류
                                 <p class="i-d">공기밥 : 1,500원</p>
                                 <p class="i-d">조개된장찌개 : 5,000원</p>
+                            </li>
+                            <li class="i-s fir-li" style="padding-top:25px;">
+                                셀프샐러드바
+                                <p class="i-d">고기를 인원수에 맞춰 주문하시면 샐러드바는 무료이용</p>
+                                <p class="i-d">구성 : 상추, 깻잎, 버섯, 고추, 마늘, 양파, 감자, 쌈무, 된장, 기름장, 김치</p>
+                            </li>
+                            <li class="i-s mid-li" style="padding-top:25px;">
+                                음료 및 주류
+                                <!--<p class="i-d">음료 및 주류도 구매 가능합니다.</p>-->
+                                <p class="i-d">주류 : 소주, 맥주, 양주, 와인, 사케 등 구매가능</p>
+                                <p class="i-d">음료 : 콜라, 사이다, 환타 등 음료 구매가능</p>
+                            </li>
+                            <li class="i-s last-li" style="padding-top:25px;">
+                                바베큐플레이츠
+                                <p class="i-d">19,000원 (룸으로 배달 및 포장가능합니다.)</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <!--<div class="ul-box clr wd-full">
+                        <h5>바베큐장 이용요금</h5>
+                        <ul class="ul0-1">
+                            <li class="i-s">1시간 50분의 4인기준 이용요금은 25,000원 입니다. (현장 예약시 30,000원)</li>
+                            <li class="i-s">기준인원 초과시에는, 1인 5,000원에 이용가능합니다.</li>
+                            <li class="i-s">이용시간을 연장하고자 하는 경우, 30분당 5천원 이용가능합니다.</li>
+                            <li class="i-s">테이블, 숯, 그릴, 가위, 집게가 제공되며, 숯 또는 그릴 추가시에는 각 5천원의 추가요금이 발생합니다.</li>
+                        </ul>
+                    </div>-->
+
+                    <div class="ul-box clr wd-full">
+                        <h5>오션숯불갈비&amp;바베큐장 이용안내</h5>
+                        <ul class="ul0-1">
+                            <!--
+                            <li class="i-s">바베큐장은 1층 라바짜 옆에 위치해 있습니다.</li>
+                            <li class="i-s">오션숯불갈비 이용시, 외부 음식은 반입 금지입니다.</li>
+                            <li class="i-s">예약된 시간이 아닌 경우, 다른 예약손님을 위해서 시간연장이 불가 할 수 있습니다.</li>
+                            <li class="i-s">바베큐장에서 드실 음식은 직접준비해야 하지만, 일부음식은 현장에서도 구매 가능합니다.</li>
+                            <li class="i-s">이용시작시간으로 부터 2시간동안 이용이 가능합니다. (이용시간 연장시 테이블당 30분에 5천원 추가요금)</li>
+                            <li class="i-s">기상 악화시 또는 실외테이블 모두 예약된 경우, 실내 바베큐장으로 운영됩니다. (실내 바베큐장은 화재예방을 위해 전기그릴이 제공됩니다.)</li>
+                            -->
+
+                            <li class="i-s">오션숯불갈비&amp;바베큐장은 1층 라바짜 옆에 위치해 있습니다.</li>
+                            <li class="i-s">오션숯불갈비&amp;바베큐장 이용시 외부 음식은 반입금지 입니다.</li>
+                            <li class="i-s">오션숯불갈비&amp;바베큐장 이용권을 판매하는 것이며, 예약개념은 아닙니다.(선착순 입장)</li>
+                            <li class="i-s">이용인원이 많은 경우, 일부 대기시간이 발생될 수 있습니다.</li>
+                            <li class="i-s">이용시간은 입장후 2시간입니다. 시간연장이 필요한 경우 30분에 5천원의 추가요금이 있습니다.(현장결제)</li>
+                            <li class="i-s">대기 이용자가 많은 경우, 시간연장이 불가할 수 있습니다.</li>
+                            <li class="i-s">기상 악화시 또는 동절기에는 실내 바베큐장에서 운영됩니다. (실내 바베큐장은 화재예방을 위해 전기그릴이 제공됩니다.)</li>
+                        </ul>
+                    </div>
+                    <div class="ul-box clr wd-full">
+                        <h5>바베큐장 자리대여 안내</h5>
+                        <ul class="ul0-1">
+                            <li class="i-s">바베큐장 자리 대여만도 가능합니다.(현장문의)</li>
+                            <li class="i-s">바베큐장 자리 대여시에 숯+그릴+가위+집게가 제공됩니다.</li>
+                            <li class="i-s">바베큐장 자리 대여시에는, 드실 음식은 직접준비해 오셔야 합니다.</li>
+                            <li class="i-s">바베큐장 자리 대여시에는, 샐러드바 이용이 불가합니다.</li>
+                            <li class="i-s">샐러드바를 이용하고자 하는 경우, 1인당 3,000원의 추가요금이 있습니다.</li>
+                        </ul>
+                    </div>
+
+                </section>
+				
+				<!-- 180425 오션숯불갈비 추가 -->
+				<section class="pkg-3">
+					<h3>오션숯불갈비</h3>	
+					<p class="p0"><span class="xs-block">지글지글 담백하고 맛있게</span> 숯불향을 입힌 숯불갈비</p>
+					<div class="mg-"></div>
+					
+					<div class="bxBox pkg-img-list">
+						<ul class="bxS clr">
+							<li class="nth-1">
+								<img src="http://img.ocean2you.co.kr/renew/package/pkg_rib_01.jpg" alt="오션숯불갈비 패키지1">
+							</li>
+							<li class="nth-2">
+								<img src="http://img.ocean2you.co.kr/renew/package/pkg_rib_02.jpg" alt="오션숯불갈비 패키지2">
+							</li>
+							<li class="nth-3">
+								<img src="http://img.ocean2you.co.kr/renew/package/pkg_rib_03.jpg" alt="오션숯불갈비 패키지3">
+							</li>
+							<li class="nth-4">
+								<img src="http://img.ocean2you.co.kr/renew/package/pkg_rib_04.jpg" alt="오션숯불갈비 패키지4">
+							</li>
+						</ul>
+					</div>
+					
+					<h4>오션숯불갈비 상세안내</h4>
+					
+					<p class="p1">
+                         오션투유리조트에 흩어지는 바다내음, 숯불내음, 그리고 정.<br>
+                         사랑하는 사람에게 건내는 '쌈' 한주먹에는 웃음이 있습니다. 당신의 즐거운 웃음이 있습니다.
+                    </p>
+                    
+					<div class="ul-box clr">
+					    <h5>오션숯불갈비 운영시간</h5>
+					    <ul class="ul0-1">
+					        <li class="i-s">18시 ~ 20시</li>
+					    </ul>
+					</div>
+					
+					<div class="ul-box clr">
+                        <h5>오션숯불갈비 판매메뉴</h5>
+                        <ul class="ul0-1 li-left clr">
+                            <li class="i-s fir-li">
+                                고기패키지형
+                                <p class="i-d">커플셋트 : 25,000원<br>(2인분, 목살200g+삼겹살200g+새우2마리)</p>
+                                 20180426 태그 및 클래스 추가 
+                                <p class="i-d">패밀리셋트 : 60,000원<br>(6인분, 목살200g+삼겹살200g+돼지갈비200g+<span class="show-xs show-xxs"></span>막창200g+훈제오리100g+새우4마리)</p>
+                            </li>
+                            <li class="i-s mid-li">
+                                고기단품류
+                                <p class="i-d">삼겹살 : 12,000원 (1인분, 200g)</p>
+                                <p class="i-d">목살 : 12,000원 (1인분, 200g)</p>
+                                <p class="i-d">돼지갈비 : 12,000원 (1인분, 200g)</p>
+                                <p class="i-d">막창 : 13,000원 (1인분, 200g)</p>
+                            </li>
+                            <li class="i-s last-li">
+                                식사류
+                                <p class="i-d">공기밥 : 1,000원</p>
+                                <p class="i-d">조개된장찌개 : 3,000원</p>
                             </li>
                             <li class="i-s fir-li">
                                 셀프샐러드바
@@ -265,28 +504,16 @@
                             </li>
                         </ul>
                     </div>
-					<div class="ul-box clr wd-full">
-					    <h5>바베큐장 이용요금</h5>
-					    <ul class="ul0-1">
-					        <li class="i-s">1시간 50분의 4인기준 이용요금은 25,000원 입니다. (현장 예약시 30,000원)</li>
-					        <li class="i-s">기준인원 초과시에는, 1인 5,000원에 이용가능합니다.</li>
-					        <li class="i-s">이용시간을 연장하고자 하는 경우, 30분당 5천원 이용가능합니다.</li>
-					        <li class="i-s">테이블, 숯, 그릴, 가위, 집게가 제공되며, 숯 또는 그릴 추가시에는 각 5천원의 추가요금이 발생합니다.</li>
-					    </ul>
-					</div>
 					
-					<div class="ul-box clr wd-full">
-					    <h5>바베큐장 이용안내</h5>
+					<div class="ul-box clr">
+					    <h5>오션숯불갈비 이용안내</h5>
 					    <ul class="ul0-1">
-					        <li class="i-s">바베큐장은 1층 라바짜 옆에 위치해 있습니다.</li>
+					        <li class="i-s">이용시작시간으로 부터 2시간동안 이용이 가능합니다. (이용시간 연장시 테이블당 30분에 5천원 추가요금)</li>
+					        <li class="i-s">숯 또는 그릴추가시에는 각 5천원의 추가요금이 발생합니다.</li>
 					        <li class="i-s">오션숯불갈비 이용시, 외부 음식은 반입 금지입니다.</li>
-					        <li class="i-s">예약된 시간이 아닌 경우, 다른 예약손님을 위해서 시간연장이 불가 할 수 있습니다.</li>
-					        <li class="i-s">바베큐장에서 드실 음식은 직접준비해야 하지만, 일부음식은 현장에서도 구매 가능합니다.</li>
-							<li class="i-s">이용시작시간으로 부터 2시간동안 이용이 가능합니다. (이용시간 연장시 테이블당 30분에 5천원 추가요금)</li>
-							<li class="i-s">기상 악화시 또는 실외테이블 모두 예약된 경우, 실내 바베큐장으로 운영됩니다. (실내 바베큐장은 화재예방을 위해 전기그릴이 제공됩니다.)</li>
 					    </ul>
 					</div>
-					
+				    
 				</section>
 				
 				<!-- 180425 속초횟집 추가 -->
@@ -311,7 +538,8 @@
 					<p class="p1">
                         속초횟집에는 웅장한 동해가 보입니다.<br>
                         동해의 신선함이 보이고, 동해의 바다향이 보이고, 동해의 푸르름이 보입니다.<br>
-                        속초횟집은, 청정 동해안에서 직접 잡아 현장에서 즉석으로 준비해드리고 있습니다.
+                        속초횟집은, 청정 동해안에서 직접 잡아 현장에서 즉석으로 준비해드리고 있습니다.<br>
+                        횟감은 청정바다 강원 고성군 현지 어민인 활어회 조리장인이 가진항에서 직접 경매로 낙찰 받아 제공하고 있습니다.
                     </p>
 					
 					<div class="ul-box clr">
@@ -323,7 +551,7 @@
 					</div>
 					
 					<div class="ul-box clr">
-					    <h5>속초횟집 운영시간</h5>
+					    <h5>속초횟집 판매메뉴</h5>
 					    <ul class="ul0-1 li-left clr">
 					        <li class="i-s fir-li">
                                 회종류
@@ -462,6 +690,7 @@
 					<p class="p1">
 						오션투유리조트 설악비치 호텔앤콘도에서는 고객님들이 조금 더 편안한 휴식을 즐기실 수 있도록 룸서비스를 운영하고 있습니다.<br>
 						훈연의 향부터 다른 전통 반데라 바베큐 부터 특급 호텔 30년 경력의 셰프가 직접 싱싱한 활어를 공수하여 제공하는 모듬 회, 주문 즉시 조리하는 비법 소스로 맛을 낸 모듬 물회까지! 오션투유 리조트 내에, 고객님의 원하는 장소롤 배달하여 드립니다.<br>
+						횟감은 청정바다 강원 고성군 현지 어민인 활어회 조리장인이 가진항에서 직접 경매로 낙찰 받아 제공하고 있습니다.<br>
 						편안한 휴식을 즐기며 오션투유 리조트만의 격이 다른 서비스를 경험 해보세요.
 					</p>
 					
@@ -490,6 +719,7 @@
 									<strong>계절 모둠 회 <span class="s1">(다연 또는 바베큐장에서 이용 및 룸서비스 가능)</span></strong>
 									<p class="p-txt">
 										특급호텔 30년 경력의 주방장이 직접 싱싱한 제철 활어를 공수해 제공하는 회 메뉴 입니다.<br>
+										횟감은 청정바다 강원 고성군 현지 어민인 활어회 조리장인이 가진항에서 직접 경매로 낙찰 받아 제공하고 있습니다.<br>
 										오션투유 리조트에서 신선함이 살아있는 최상의 맛을 느껴보세요.
 									</p>
 									<div class="usePrc">
@@ -503,8 +733,8 @@
 								<div class="d2">
 									<strong>계절 모둠 물회 <span class="s1">(다연 또는 바베큐장에서 이용 및 룸서비스 가능)</span></strong>
 									<p class="p-txt">
-										특급호텔 30년 경력의 주방장의 특급 비법소스와 싱싱한 제철 활어를 공수하여 주문 즉시
-										조리하며, 신선함은 물론, 감칠맛이 더욱 뛰어난 물회 메뉴입니다. 
+										특급호텔 30년 경력의 주방장의 특급 비법소스와 싱싱한 제철 활어를 공수하여 주문 즉시 조리하며, 신선함은 물론, 감칠맛이 더욱 뛰어난 물회 메뉴입니다.<br>
+										횟감은 청정바다 강원 고성군 현지 어민인 활어회 조리장인이 가진항에서 직접 경매로 낙찰 받아 제공하고 있습니다.
 									</p>
 									<div class="usePrc">
 										<p class="p1"><span class="s-w">￦</span> 이용가격</p>
@@ -518,74 +748,191 @@
 					<!--171204 예약하기 버튼 위치 변경-->
 					<a href="javascript:;" class="rv-a"><span class="s0">예약하기</span><img src="http://img.ocean2you.co.kr/renew/i_gt.png" alt="" class="gt"></a>
 				</section>
+				
+				<!-- 180713 반데라바베큐 플레이츠 추가 -->
+				<section class="pkg-7">
+					<h3>반데라 리얼바베큐 플레이츠</h3>	
+					<p class="p0">훈연의 향이 가득한 반데라 리얼바베큐 플레이츠를 동해의 삼포해변에서 즐기실 수 있습니다</p>
+					<div class="mg-"></div>
+					<div class="bxBox" id="bxBox-3">
+						<ul class="bxS">
+							<li><img src="http://img.ocean2you.co.kr/renew/package/pkg_bdr_01.jpg" alt="반데라바베큐1"></li>
+							<li><img src="http://img.ocean2you.co.kr/renew/package/pkg_bdr_02.jpg" alt="반데라바베큐2"></li>
+							<li><img src="http://img.ocean2you.co.kr/renew/package/pkg_bdr_03.jpg" alt="반데라바베큐3"></li>
+							<li><img src="http://img.ocean2you.co.kr/renew/package/pkg_bdr_04.jpg" alt="반데라바베큐4"></li>
+						</ul>
+					</div>
+					
+					<h4>반데라 리얼바베큐 플레이츠 상세안내</h4>
+					<p class="p1">
+						정통 바베큐집의 조리법 그대로 챠콜(숯)과 나무 (사과나무, 벚나무, 포도나무, 배나무, 복숭아나무, 참나무, 히코리나무, 머스킷나무 등)를 훈연하여 부드러운 바베큐의 
+                        식감과 육즙을 즐기실 수 있는 미국 남부식 바베큐 전문점입니다.<br>
+                        챠콜(숯)바베큐 그릴 전문 업체인 웨버그릴사의 직경 98cm에 이르는 초대형 그릴, 렌치캐틀을 직접 수입하여, 챠콜(숯)을 통해 발생되는 100~250도씨의 직 간접열로 
+                        오랜시간에 걸쳐 정성스럽게 훈연한 정통 바베큐, 반데라 리얼 바베큐 플레이츠를 만나보세요
+					</p>
+					
+					<ul class="ul0 clr">
+                        <li class="nth-1 clr on">
+                            <h5>운영시간</h5>
+                            <p class="p-txt"><em>연중무휴 운영</em>18:00 ~ 20:00 까지</p>
+                            <p class="p-txt"><em>사전예약</em>평일 : 18:00시 까지<span class="line"></span>주말/연휴 : 20:00 까지</p>
+                        </li>
+                        <li class="nth-2">
+                            <h5>기간/장소안내</h5>
+                            <p class="p-txt i-d">02월~11월 (야외 운영)</p>
+                            <p class="p-txt i-d">12월~01월 (2층 실내 운영)</p>
+                        </li>
+                        <li class="nth-3">
+                            <h5>가격 및 이용안내</h5>
+                            <p class="p-txt i-m">반데라 바베큐플레이츠 19,000원</p>
+                            <p class="p-txt i-d">
+                                한식당 다연, 바베큐장 이용 또는 숙박시 <br>
+                                룸서비스로 이용 가능 <br>
+                                (오션투유리조트 프론트에 주문 070-4694-0928)
+                            </p>
+                        </li>
+                    </ul>
+
+					<a href="javascript:;" class="rv-a"><span class="s0">사전 예약하기</span><img src="http://img.ocean2you.co.kr/renew/i_gt.png" alt="" class="gt"></a>
+				</section>
+				
+				<!-- 180723 오션투유 노래방 추가 -->
+				<section class="pkg-8">
+					<h3>속초 오션투유노래방 고성점</h3>	
+					<p class="p0">쿵짝♪ 쿵짝♪ 신나는 노래, 흥겨운 댄스</p>
+					<div class="mg-"></div>
+					<div class="bxBox" id="bxBox-4">
+						<ul class="bxS">
+							<li><img src="http://img.ocean2you.co.kr/renew/package/pkg_karaoke_01.jpg" alt="오션투유노래방1"></li>
+							<li><img src="http://img.ocean2you.co.kr/renew/package/pkg_karaoke_02.jpg" alt="오션투유노래방2"></li>
+							<li><img src="http://img.ocean2you.co.kr/renew/package/pkg_karaoke_03.jpg" alt="오션투유노래방3"></li>
+						</ul>
+					</div>
+					
+					<h4>속초 오션투유노래방 고성점 상세안내</h4>
+					<p class="p1">
+						속초 오션투유노래방 고성점에는 메아리가 들립니다. <br>
+                        소중한 사람들과 노래하고 춤추다 보면 "우린 지금 행복하다"는 메아리가 들립니다. <br>
+                        최신식 기계로 최상의 사운드를 약속하며, 오션투유내 판매되는 모든 음식을 주문하여 이용하실 수 있습니다.
+					</p>
+					
+					<div class="ul-box clr wd-full">
+					    <h5>운영시간 및 위치안내</h5>
+					    <ul class="ul0-1">
+					        <li><em>연중무휴 운영</em><span class="line"></span>운영시간은 18시 ~ 24시 입니다.</li>
+					        <li class="i-s">이용고객이 많은 경우, 마감시간이 연장될 수 있습니다.</li>
+					        <li>
+                               <span class="sub-tit">위치안내</span>
+                               오션투유 리조트 지하 1층 위치
+                            </li>
+					    </ul>
+					</div>
+					
+					<div class="ul-box clr wd-full">
+					    <h5>요금 및 이용안내</h5>
+					    <ul class="ul0-1 li-left-2">
+					        <li>
+					            <em>단품</em><br>
+                                <p class="i-d">패밀리 룸(4인~5인)<span class="line"></span>1시간 25,000원</p>
+                                <p class="i-d">그룹 룸 (6~7인)<span class="line"></span>1시간 35,000원</p>
+                                <p class="i-d">대행 룸(8인~12인)<span class="line"></span>1시간 45,000원</p>
+                                <p class="i-d">홀 대여(20인 이상)<span class="line"></span>1시간 100,000원</p>
+					        </li>
+					        <li>
+					            <em>패키지</em><br>
+                                <p class="i-d">패밀리 룸 셋트<span class="line"></span>1시간 69,000<br>(노래방 1시간+주류5병(소주or맥주)+바베큐플레이츠)</p>
+                                <p class="i-d">그룹 룸 셋트<span class="line"></span>1시간 79,000원<br>(노래방 1시간+주류5병(소주or맥주)+바베큐플레이츠)</p>
+					        </li>
+					        
+					        <li class="clr-li">
+					            <p class="i-s">현장에서 시간 연장이 가능합니다.</p>
+                                <p class="i-s">주료(소주, 맥주, 양주, 와인, 사케, 보드카 등 다양한 주류 구매가 가능합니다.</p>
+                                <p class="i-s">마른안주(마른안주,오징어,먹태 등) 및 바베큐플레이츠 및 각종 자연산 회도 주문 가능합니다.</p>
+                            </li>
+                            
+					        
+					    </ul>
+					</div>
+
+					<a href="javascript:;" class="rv-a"><span class="s0">사전 예약하기</span><img src="http://img.ocean2you.co.kr/renew/i_gt.png" alt="" class="gt"></a>
+				</section>
 			</div>
 		
 		</div>
 		
 		<!-- 180425 하단 탭 추가 -->
+		<!-- 180713 메뉴 추가 및 태그 수정 -->
+        <!-- 180723 메뉴 추가 및 클래스 추가 -->
 		<div class="pkg-b-tab-box">
-		    <ul class="pkg-b-tab clr" id="pkg-b-tab">
-                <li class="nth-1 on"><a href="javascript:;">한식당 다연<span></span>(조식운영)</a></li>
-                <li class="nth-2"><a href="javascript:;">오션숯불갈비&amp;<br class="show-xs">바베큐</a></li>
-                <li class="nth-3"><a href="javascript:;">속초횟집</a></li>
-                <li class="nth-4"><a href="javascript:;">전동바이크</a></li>
-                <li class="nth-5"><a href="javascript:;">룸서비스</a></li>
-		    </ul>
-		</div>
+            <ul class="pkg-b-tab clr" id="pkg-b-tab">
+                <li class="nth-1"><a href="javascript:;">조식뷔페 다연</a></li>
+                <li class="nth-2"><a href="javascript:;" class="line-two">오션숯불갈비&amp;<span></span>바베큐</a></li>
+                <li class="nth-4"><a href="javascript:;">속초횟집</a></li>
+                <li class="nth-5"><a href="javascript:;">전동바이크</a></li>
+                <li class="nth-6"><a href="javascript:;">룸서비스</a></li>
+                <li class="nth-7"><a href="javascript:;" class="line-two">반데라바베큐 <span></span>플레이츠</a></li>
+                <li class="nth-8"><a href="javascript:;" class="line-two">오션투유 <span></span>노래방</a></li>
+            </ul>
+        </div>
 		
 		<!--171020 다양한 패키지 상품-->
 		<div class="vari-wrap" id="vari-wrap">
 			<div class="container">
-				<h3><h3>오션투유 리조트에서만 경험할 수 있는 즐거움을 느껴보세요!</h3></h3>
-				<ul class="ul1 clr packtab">
-					<li>
-						<a href="#">
-							<span class="i-scut">바로<br>가기</span>
-							<h4>한식당 다연</h4>
-							<p class="p1">특급호텔 30년 근무 경력의 조리장들이 선사하는 품질높은 아메리칸뷔페</p>
-							<img class="variImg" src="http://img.ocean2you.co.kr/renew/package/pkg_01.jpg" alt="조식패키지">
-						</a>
-					</li> 
-					<li>
-						<a href="#">
-							<span class="i-scut">바로<br>가기</span>
-							<h4>바베큐장</h4>
-							<!--<p class="p1">소나무숲 향과 파도소리에 낭만이 가득한 아외에서 즐기는 바베큐파티</p>-->
-							<!--<p class="p1">소나무숲 향과 파도소리에 낭만이 가득한 <span class="show-md show-sm show-xs"></span>바베큐파티</p>-->
-							<p class="p1">해안선을 따라 쏟아지는<br>별빛을 <span class="show-md show-sm show-xs"></span>바라보며 즐기는 바베큐파티</p>
-							<img class="variImg" src="http://img.ocean2you.co.kr/renew/package/pkg_02.jpg" alt="바베큐패키지">
-						</a>
-					</li>
-                   <!-- 180501 li 추가 -->
+                <h3>오션투유 리조트에서만 경험할 수 있는 즐거움을 느껴보세요!</h3>
+                <ul class="ul1 clr packtab">
+                    <li>
+                        <a href="javascript:;">
+                            <span class="i-scut">바로<br>가기</span>
+                            <h4>조식뷔페 다연</h4>
+                            <p class="p1">특급호텔 30년 근무 경력의 조리장들이 선사하는 품질높은 아메리칸뷔페</p>
+                            <img class="variImg" src="http://img.ocean2you.co.kr/renew/package/pkg_01.jpg" alt="조식뷔페 다연">
+                        </a>
+                    </li> 
+                    <li>
+                        <a href="javascript:;">
+                            <span class="i-scut">바로<br>가기</span>
+                            <h4>바베큐장</h4>
+                            <p class="p1">해안선을 따라 쏟아지는<br>별빛을 바라보며 즐기는 <span class="xs-block">바베큐파티</span></p>
+                            <img class="variImg" src="http://img.ocean2you.co.kr/renew/package/pkg_02.jpg" alt="바베큐장">
+                        </a>
+                    </li>
                     <li></li>
                     <li></li>
-					<li>
-						<a href="#">
-							<span class="i-scut">바로<br>가기</span>
-							<h4>전동바이크</h4>
-							<p class="p1">탁 트인 해안도로를 따라 달릴때 보이고 들리는 속초만의 아름다운 풍경</p>
-							<img class="variImg" src="http://img.ocean2you.co.kr/renew/package/pkg_03.jpg" alt="전동바이크">
-						</a>
-					</li>
-					<!--171122 룸서비스로 변경-->
-					<li>
-						<a href="#">
-							<span class="i-scut">바로<br>가기</span>
-							<h4>룸서비스</h4>
-							<p class="p1">특급 호텔 30년 경력의 셰프가 선사하는 격이 다른 룸서비스</p>
-							<img class="variImg" src="http://img.ocean2you.co.kr/renew/package/pkg_05.jpg" alt="조개잡기패키지">
-						</a>
-					</li>
-				</ul>
-			</div>
+                    <li>
+                        <a href="javascript:;">
+                            <span class="i-scut">바로<br>가기</span>
+                            <h4>전동바이크</h4>
+                            <p class="p1">탁 트인 해안도로를 따라 달릴때 보이고 들리는 속초만의 아름다운 풍경</p>
+                            <img class="variImg" src="http://img.ocean2you.co.kr/renew/package/pkg_03.jpg" alt="전동바이크">
+                        </a>
+                    </li>
+                    <!-- 동절기 이후 다시 쓸 가능성 있음 -->
+                    <!-- <li>
+                        <a href="javascript:;">
+                            <span class="i-scut">바로<br>가기</span>
+                            <h4>조개잡기</h4>
+                            <p class="p1">에메랄드빛 삼포해변에서 즐기는 신나는 조개잡기 체험</p>
+                            <img class="variImg" src="http://img.ocean2you.co.kr/renew/package/pkg_04.jpg" alt="조개잡기">
+                        </a>
+                    </li> -->
+                    <li>
+                        <a href="javascript:;">
+                            <span class="i-scut">바로<br>가기</span>
+                            <h4>룸서비스</h4>
+                            <p class="p1">특급 호텔 30년 경력의 셰프가 선사하는 격이 다른 <span class="xs-block">룸서비스</span></p>
+                            <img class="variImg" src="http://img.ocean2you.co.kr/renew/package/pkg_05.jpg" alt="룸서비스">
+                        </a>
+                    </li>
+                </ul>
+            </div>
 		</div>
 		
 		<!--171122 룸서비스로 변경-->
-		<aside class="rWing" id="rWing" style="position: absolute; top: 656px;">
+		<aside class="rWing" id="rWing" style="position: fixed; top: 256px;">
             <div class="q-menu">
                 <ul class="packtab">
-                    <li class="on"><a href="javascript:;"><img src="http://img.ocean2you.co.kr/renew/i_quick_01.png" alt="조식"><span class="s-txt">한식당 다연<br>바로보기</span></a></li>
-                    <li class=""><a href="javascript:;"><img src="http://img.ocean2you.co.kr/renew/i_quick_02.png" alt="BBQ"><span class="s-txt">바베큐장<br>바로보기</span></a></li>
+                    <li class="on"><a href="javascript:;"><img src="http://img.ocean2you.co.kr/renew/i_quick_01.png" alt="조식"><span class="s-txt">조식뷔페 다연<br>바로보기</span></a></li>
+                    <li><a href="javascript:;"><img src="http://img.ocean2you.co.kr/renew/i_quick_02.png" alt="BBQ"><span class="s-txt">바베큐장<br>바로보기</span></a></li>
                     <li></li>
                     <li></li>
                     <li class=""><a href="javascript:;"><img src="http://img.ocean2you.co.kr/renew/i_quick_03.png" alt="전동바이크"><span class="s-txt">전동바이크<br>바로보기</span></a></li>
@@ -598,16 +945,18 @@
         </aside>
         
 <script type="text/javascript">
-/*$(function() {
-	$("#pkg-tab > li").removeClass("on");		
+$(function() {
+    $("#pkg-tab > li").removeClass("on");		
 		
-		var num_id = "1";
+    var num_id = "1";
 
-		$(".nth-"+num_id).addClass("on");		
-		$(".pkg-"+num_id).addClass("on");	
-		
-		$('html, body').animate({scrollTop : $("#package_top").offset().top}, 400);
-	
+    $(".nth-"+num_id).addClass("on");		
+    $(".pkg-"+num_id).addClass("on");	
+
+    $('html, body').animate({scrollTop : $("#package_top").offset().top}, 400);
+    
+    //180716 스크립트 숨김
+    /*
 	$(".packtab li").on('click', function() {
 
 		var idx = $(this).index();
@@ -623,7 +972,7 @@
 
 		$('html, body').animate({scrollTop : $("#package_top").offset().top}, 400);
 		
-	});
+	});*/
 
 	
 	$(window).scroll(function() {
@@ -640,12 +989,12 @@
 			$("#right_banner").css({"position":"absolute", "top":"auto"});
 		}
 	});
-});*/
+});
 </script>
 
 		<footer class="footer">
 			<div class="container">
-									<ul class="f_menu">
+					<ul class="f_menu">
 						<!--171218 레이어팝업노출-->
 						<li><a href="javascript:;" onclick="$('#privacy-bg, #privacy-bg .term-wrap').show(); $('body').css('overflow', 'hidden');">이용약관</a></li>
 						<li><a href="javascript:;" onclick="$('#privacy-bg, #privacy-bg .privacy-wrap').show(); $('body').css('overflow', 'hidden');">개인정보처리방침</a></li>
@@ -655,8 +1004,9 @@
 				</div>
 				<div class="flt-2 clr">
 					<address>
-						<p class="nth-1">
-							오션투유리조트 설악비치 호텔앤콘도<br>
+						<p class="nth-1 on">
+							<!--180528 사업자명 변경-->
+							(주)이스턴월드<br>
 							주소 : 강원 고성군 죽왕면 삼포해변길 9<br>
 							사업자등록번호 : 332-85-00016<span class="i-l"></span>통신판매업 : 제 2009-4290040-30-2-0033호						</p>
 					</address>
@@ -675,7 +1025,8 @@
 								<span class="mg-"></span>
 								<span class="s1-2"><span class="xs-hidden">(</span>확정, 변경, 취소<span class="xs-hidden">)</span><span class="xs-block"></span>/이벤트 문의</span>
 								<span class="s3"><img src="http://img.ocean2you.co.kr/renew/i_call.png" alt="전화아이콘"> 1666-1243</span>
-								<span class="s1-2">주중 09~18시<span class="hidden-xs"> </span>/<span class="hidden-xs"> </span>주말 09~17시</span>
+								<!--<span class="s1-2">주중 09~18시<span class="hidden-xs"> </span>/<span class="hidden-xs"> </span>주말 09~17시</span>-->
+								<span class="s1-2">주중 09:30 ~ 25:00<br>주말 09:30 ~ 24:00</span>
 							</a>
 							<a class="callFor cf2">
 								<span class="s1">프론트</span>
@@ -688,8 +1039,9 @@
 								<span class="s1">단체문의</span>
 								<span class="mg-"></span>
 								<span class="s1-2"><span class="xs-hidden">(</span>워크샵, 학생단체,<span class="xs-block"></span> 산업단체 등<span class="xs-hidden">)</span></span>
-								<span class="s3"><img src="http://img.ocean2you.co.kr/renew/i_call.png" alt="전화아이콘"> 010-8844-0409</span>
-								<span class="s1-2">주중/주말 24시간 상담가능</span>
+								<span class="s3"><img src="http://img.ocean2you.co.kr/renew/i_call.png" alt="전화아이콘"> 010-9094-0396</span>
+								<!-- <span class="s1-2">주중/주말 24시간 상담가능</span> -->
+								<span class="s4"><img class="i-mail" src="http://img.ocean2you.co.kr/renew/group/icon_mail.jpg" alt="메일"> help@ocean2you.co.kr</span>
 							</a>
 						</div>
 					</div>
@@ -702,15 +1054,16 @@
 				</div>
 				<div class="flt-2 clr">
 					<address>
-						<p class="nth-1 mt">
+						<p class="nth-1 mt on">
 							(주)바로네트웍스<br>
 							주소 : 서울특별시 강남구 테헤란로82길 15, 3층(대치동, 디아이타워)<br>
 							사업자등록번호 : 332-85-00016<span class="i-l"></span>통신판매업 : 제 2009-4290040-30-2-0033호<br>
 							여행업등록번호 : 제2015-02호<span class="i-l"></span>여행영업보증서 : 국내여행 제100-000-2015 0144 5816호<br>
 						</p>
-						* 바로네트웍스는 오션투유리조트의 공식 온라인 총판사 입니다. 
+						<!--180528 텍스트 수정-->
+						* 바로네트웍스는 오션투유리조트의 공식 온라인 총판으로서 온라인 예약 및 결제를 대행합니다.
 						<br><br>
-						<p class="nth-2 on">
+						<p class="nth-2">
 							Copyright 2016  OCEAN2YOU CONE. ALL RIGHTS RESERVED
 						</p>
 

@@ -28,9 +28,9 @@
 	<link rel="stylesheet" href="http://static.ocean2you.co.kr/css/renew/reset_custom.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.12/jquery.bxslider.css">
 	<link rel="stylesheet" href="http://static.ocean2you.co.kr/css/renew/common.css">
-	<link rel="stylesheet" href="http://static.ocean2you.co.kr/css/renew/amenities/init.css">
-<!--	<link rel="stylesheet" href="../../src/css/renew/amenities/init.css">-->
-<!--	<link rel="stylesheet" href="../../src/css/amenities/init.css">-->
+<!--	<link rel="stylesheet" href="http://static.ocean2you.co.kr/css/renew/amenities/init.css">-->
+<!--	<link rel="stylesheet" href="../../static/css/renew/amenities/init.css">-->
+	<link rel="stylesheet" href="../../static/css/amenities/init.css">
 	
 	<script type="text/javascript" src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
 	<script src="http://static.ocean2you.co.kr/js/renew/jquery.easing.min.js"></script>
@@ -39,11 +39,11 @@
 	<script src="http://static.ocean2you.co.kr/js/renew/facil/init.js"></script>
 	<!--<script src="../../static/js/facil/init.js"></script>-->
 	<!--
-		<link rel="stylesheet" href="http://static.ocean2you.co.kr/css/renew/amenities/init_ie8.css">
+	    <link rel="stylesheet" href="../../static/css/renew/amenities/init_ie8.css">
 		-->
 	<!--[if lt IE 9]>
 		<link rel="stylesheet" href="http://static.ocean2you.co.kr/css/renew/common_ie8.css">
-	<link rel="stylesheet" href="../../static/css/renew/amenities/init_ie8.css">
+		<link rel="stylesheet" href="http://static.ocean2you.co.kr/css/renew/amenities/init_ie8.css">
 		<script type="text/javascript" src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
 	<![endif]-->
 	
@@ -57,8 +57,13 @@
 		<div class="vid-wrap">
 			<header class="header" id="gnb-header">
 				<div class="container">
-					<a href="" class="logo-box">
+				    <!-- 180711 로고 텍스트 추가 -->
+					<a href="#none" class="logo-box">
 						<img class="logo" src="http://img.ocean2you.co.kr/renew/logo.png" alt="오션투유리조트">
+						<p class="logo-txt">
+						    오션투유리조트
+                            <span>속초설악비치 호텔앤콘도</span>
+						</p>
 						<!--변경내용170912 고코로고 제거-->
 						<!--<span class="mg-l"></span>
 						<img class="gcLogo" src="http://img.ocean2you.co.kr/renew/oc2_gcLogo.png" alt="고코투어">-->
@@ -72,14 +77,15 @@
 
 					<!--171023 faq버튼 추가-->
 					<nav class="nav-bar">
-						<div class="d1">
+		                <!-- 180711 이벤트 당첨안내 메뉴주석처리  -->
+						<!--<div class="d1">
 							<a class="faq-a" id="faq-a" href="#">고코투어 이벤트 당첨안내</a>
 							<a class="mFaq-a" id="mFaq-a" href="#"><span><img src="http://img.ocean2you.co.kr/renew/m_icon.png">이벤트 안내</span></a>
-						</div>
+						</div>-->
 						<ul class="nav clr">
 							<li class="fst"><a href="">오션투유소개</a></li>
-							<li><a href="">객실안내</a></li>
-							<li><a href="">부대시설안내</a></li>
+							<li><a href="">패키지안내</a></li>
+							<li><a href="">시설안내</a></li>
 							<li><a href="">이벤트/축제</a></li>
 							<li><a href="">관광지</a></li>
 							<li><a href="">오시는길</a></li>
@@ -92,8 +98,8 @@
 					<h2><a href="">HOME</a></h2>
 					<ul class="mNav">
 						<li class="fst"><a href="">오션투유소개</a></li>
-						<li><a href="">객실안내</a></li>
-						<li><a href="">부대시설안내</a></li>
+						<li><a href="">패키지안내</a></li>
+						<li><a href="">시설안내</a></li>
 						<li><a href="">이벤트/축제</a></li>
 						<li><a href="">주변관광지</a></li>
 						<li><a href="">오시는길</a></li>
@@ -107,17 +113,24 @@
 			<section class="title">
 			
 				<div class="container tit-box">
-					<h2>부대시설안내</h2>
+					<h2>부대시설 안내</h2>
 					<div class="mg-"></div>
 					<div class="titTxt"><img src="http://img.ocean2you.co.kr/renew/facil/facil_title.png" alt="시설소개"></div>
-					<!-- 180614 수정 -->
-					<ul class="facil-tab clr" id="facil-tab">
-                        <li class="nth-1"><a href="#none">한식당 다연<span></span>(조식운영)</a></li>
-                        <li class="nth-2"><a href="#none">오션숯불갈비&amp;<br class="show-xs">바베큐장</a></li>
-                        <li class="nth-3"><a href="#none">속초횟집</a></li>
-                        <li class="nth-4"><a href="#none">전동바이크</a></li>
-                        <li class="nth-5"><a href="#none">룸서비스</a></li>
-					</ul>
+					<!-- 180425 메뉴 추가 -->
+                    <!-- 180713 메뉴 추가 및 태그 변경 -->
+                    <!-- 180725 메뉴 추가, 수정 및 태그 추가 -->
+                    <ul class="facil-tab clr" id="facil-tab">
+                        <li class="nth-1"><a href="http://ocean2you.co.kr/package/?pack_go=1">조식뷔페 다연</a></li>
+                        <!-- span태그가 있는 부모요소 a태그에 클래스 추가 -->
+                        <li class="nth-2"><a href="http://ocean2you.co.kr/package/?pack_go=2" class="line-two">오션숯불갈비&amp;<span></span>바베큐</a></li>
+                        <li class="nth-4"><a href="http://ocean2you.co.kr/package/?pack_go=4">속초횟집</a></li>
+                        <li class="nth-5"><a href="http://ocean2you.co.kr/package/?pack_go=5">전동바이크</a></li>
+                        <li class="nth-6"><a href="http://ocean2you.co.kr/package/?pack_go=6">룸서비스</a></li>
+                        <li class="nth-7"><a href="http://ocean2you.co.kr/package/?pack_go=7" class="line-two">반데라바베큐 <span></span>플레이츠</a></li>
+                        <li class="nth-8"><a href="http://ocean2you.co.kr/package/?pack_go=8" class="line-two">오션투유 <span></span>노래방</a></li>
+                        <!-- 동절기 이후 다시 쓸 가능성 있음 -->
+                        <!-- <li class="nth-"><a href="javascript:;">조개 잡기 패키지</a></li> -->
+                    </ul>
 					
 				</div>
 								
@@ -182,23 +195,60 @@
 							</div>
 						</li>-->
 						
+						<li class="nth-2">
+							<h4>바베큐장</h4>
+							<div class="bxBox">
+								<ul class="bxS">
+									<!--<li>
+										<img src="http://img.ocean2you.co.kr/renew/facil/facil_bbq_03.jpg" alt="바베큐장">
+										<div class="txt-box">
+											<p class="p1">실내 바베큐장</p>
+											<p class="p2">
+												<span class="xs-block">리조트 2층에 위치한 전망 좋고</span> 아늑한 분위기의 실내 바베큐장으로<br>
+												오션투유 리조트에서 즐거운 바베큐 파티를 즐겨보세요
+											</p>
+											<a href="" class="more-a"><span class="s0">자세히보기</span><img src="http://img.ocean2you.co.kr/renew/i_gt.png" alt="" class="gt"></a>
+										</div>
+									</li>-->
+									<li>
+										<img src="http://img.ocean2you.co.kr/renew/facil/facil_bbq_02.jpg" alt="바베큐장">
+										<div class="txt-box">
+											<p class="p1">야외 바베큐장</p>
+											<p class="p2">
+												<span class="xs-block">소나무 숲 향기와 파도소리를 느끼며</span> 즐기실 수 있는 야외 바베큐장으로<br>
+												오션투유 리조트에서 즐거운 바베큐 파티를 즐겨보세요
+											</p>
+											<a href="" class="more-a"><span class="s0">자세히보기</span><img src="http://img.ocean2you.co.kr/renew/i_gt.png" alt="" class="gt"></a>
+										</div>
+									</li>
+								</ul>
+								<!--<ul class="bxS">
+									<li><img src="http://img.ocean2you.co.kr/renew/facil/facil_bbq_01.jpg" alt="바베큐장"></li>
+									<li><img src="http://img.ocean2you.co.kr/renew/facil/facil_bbq_02.jpg" alt="바베큐장"></li>
+									<li><img src="http://img.ocean2you.co.kr/renew/facil/facil_bbq_03.jpg" alt="바베큐장"></li>
+									<li><img src="http://img.ocean2you.co.kr/renew/facil/facil_bbq_04.jpg" alt="바베큐장"></li>
+									<li><img src="http://img.ocean2you.co.kr/renew/facil/facil_bbq_05.jpg" alt="바베큐장"></li>
+								</ul>-->
+								<!-- <figure><img src="http://img.ocean2you.co.kr/renew/facil/facil_bbq_03.jpg" alt="바베큐장"></figure> -->
+								
+							</div>
+						</li>
 						
-						<!-- 180614 오션숯불갈비&바베큐장 -->
+						<!-- 180425 오션숯불갈비 추가 -->
 						<li class="nth-3">
-							<h4>오션숯불갈비 &amp; 바베큐장</h4>
+							<h4>오션숯불갈비</h4>
 							<div class="bxBox" id="bxBox-3">
 								<ul class="bxS">
-									<li><img src="http://img.ocean2you.co.kr/renew/facil/facil_bbq_02.jpg" alt="바베큐장"></li>
 									<li><img src="http://img.ocean2you.co.kr/renew/facil/facil_rib_01.jpg" alt="오션숯불갈비"></li>
 									<li><img src="http://img.ocean2you.co.kr/renew/facil/facil_rib_02.jpg" alt="오션숯불갈비"></li>
 									<li><img src="http://img.ocean2you.co.kr/renew/facil/facil_rib_03.jpg" alt="오션숯불갈비"></li>
 									<li><img src="http://img.ocean2you.co.kr/renew/facil/facil_rib_04.jpg" alt="오션숯불갈비"></li>
 								</ul>
 								<div class="txt-box">
-									<p class="p1">오션숯불갈비 &amp; 바베큐장</p>
+									<p class="p1">오션숯불갈비</p>
 									<p class="p2">
-										<span class="xs-block">소나무 숲 향기와 파도소리를 느끼며</span> 즐기실 수 있는 야외 바베큐장으로<br>
-										오션투유 리조트에서 즐거운 바베큐 파티를 즐겨보세요
+										<span class="hidden-xs">오션투유리조트에 </span>흩어지는 바다내음, 숯불내음, 그리고 정.<br>
+										<span class="xs-block">사랑하는 사람에게 건내는 '쌈' 한주먹에는 웃음이 있습니다. </span>당신의 즐거운 웃음이 있습니다.
 									</p>
 									<a href="" class="more-a"><span class="s0">자세히보기</span><img src="http://img.ocean2you.co.kr/renew/i_gt.png" alt="" class="gt"></a>
 								</div>
@@ -312,7 +362,7 @@
 									<div class="txt-box">
 								        <!-- 180425 p1, p2 내용 수정 -->
 										<p class="p1">GS편의점으로 변경 공사 중</p>
-										<p class="p2"><span class="xs-block">이용에 불편을 드려서 죄송합니다.</span> (5월 중순 오픈 예정)</p>
+										<p class="p2"><span class="xs-block">1층에 위치하고 있어 더욱 편리한 </span>오션투유 편의점</p>
 										<!--<p class="p2"><span class="xs-block">1층에 위치하고 있어</span> 더욱 편리한 오션투유 편의점</p>-->
 									</div>
 								</div>
@@ -334,6 +384,18 @@
 											오션투유 노래방에서 하루를 마무리 해보세요.</p>
 									</div>
 								</div>
+								
+								<!-- 180711 반데라바베큐 추가 -->
+								<div class="d4">
+									<img src="http://img.ocean2you.co.kr/renew/facil/facil_bbq_01.jpg" alt="반데라 리얼바베큐 플레이츠">
+									<div class="txt-box">
+										<p class="p1">반데라 리얼바베큐 플레이츠</p>
+										<p class="p2"><span class="xs-block">미국 텍사스 전통 훈연법을 </span>그대로 느끼는 최고의 바베큐!<br>
+											한식당 다연, 바베큐장이나 룸서비스로도 이용하실 수 있습니다.</p>
+								        <a href="http://www.banderabbq.co.kr" target="_blank" class="more-a"><span class="s0">자세히보기</span><img src="http://img.ocean2you.co.kr/renew/i_gt.png" alt="" class="gt"></a>
+									</div>
+								</div>
+								
 							</div>
 						</li>
 					</ul>

@@ -3,6 +3,7 @@
 *.woff
 *.woff2
 *.eot
+*.otf
 
 #sftpFile, zip∆ƒ¿œ
 *.json

@@ -23,7 +23,7 @@
 	<!--<link rel="canonical" href="도메인">-->
 	
 <!--	<link rel="stylesheet" href="http://static.ocean2you.co.kr/fonts/nanumbarungothic/nanumbarungothic.css"> -->
-<!--	<link rel="stylesheet" href="../../src/fonts/nanumbarungothic/nanumbarungothic.css"> -->
+<!--	<link rel="stylesheet" href="../../static/fonts/nanumbarungothic/nanumbarungothic.css"> -->
 	<link rel="stylesheet" href="http://ocean2you.co.kr/fonts/nanumbarungothic/nanumbarungothic.css"> 
 	
 	
@@ -31,9 +31,11 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.12/jquery.bxslider.css">
 	<link rel="stylesheet" href="http://static.ocean2you.co.kr/css/renew/common.css">
 	<link rel="stylesheet" href="http://static.ocean2you.co.kr/css/renew/event/init.css">
+
 <!--
-	<link rel="stylesheet" href="../../src/css/common.css">
-	<link rel="stylesheet" href="../../src/css/event/init.css">-->
+	<link rel="stylesheet" href="../../static/css/common.css">
+	<link rel="stylesheet" href="../../static/css/event/init.css">
+-->
 	<!--<link rel="stylesheet" href="../../static/css/renew/event/init.css">-->
 
 	
@@ -42,7 +44,7 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.12/jquery.bxslider.min.js"></script>
 	<script src="http://static.ocean2you.co.kr/js/renew/common_ocean.js"></script>
 	<script src="http://static.ocean2you.co.kr/js/renew/event/init.js"></script>
-	<!--<script src="../../src/js/event/init.js"></script>-->
+	<!--<script src="../../static/js/event/init.js"></script>-->
 	
 	<!--[if lt IE 9]>
 		<link rel="stylesheet" href="http://static.ocean2you.co.kr/css/renew/common_ie8.css">
@@ -124,12 +126,62 @@
 		<div class="event-wrap" id="setTop">
 			<div class="container" id="evt-box">
 				
-				<!-- 180515 라벤더 축제 -->
+				<!--180621 오션투유연나리기-->
+				<section class="facil-1 ocKite fac-mt-b">
+					<ul class="fc-list">
+						<li class="nth-1">
+							<h3 class="ftfm-mg">2018 가족여행과 함께하는 <br class="show-xs">고성 오션투유 삼포해수욕장 연날리기 축제</h3>
+							<div class="bxBox" id="bxBox-3">
+								<ul class="bxS">
+									<li class="li-1"></li>
+									<li class="li-2"></li>
+								</ul>
+								
+							</div>
+						</li>
+					</ul>
+					
+					<ul class="evt01-tb clr">
+						<li class="l-th ftfm-mg nth-1">
+							 2018 가족여행과 함께하는 고성 오션투유 삼포해수욕장 연날리기 축제
+						</li>
+						<li class="l-td nth-2">
+							<span class="s-lbl">기간</span>
+							<span class="s-txt">매주 일요일</span>
+						</li>
+						<li class="l-td nth-3">
+							<span class="s-lbl">주최</span>
+							<span class="s-txt">오션투유리조트</span>
+						</li>
+						<li class="l-td nth-4">
+							<span class="s-lbl">요금</span>
+							<span class="s-txt">무료</span>
+						</li>
+						<li class="l-td nth-5 lh-01">
+							<span class="s-lbl">시간</span>
+							<span class="s-txt">12:00 ~ 16:00</span>
+						</li>
+						<li class="l-td nth-6 lh-02">
+							<span class="s-lbl lh-01">위치</span>
+							<span class="s-txt">
+								※연 세트 프론트에서 제공<br>
+								※소망연날리기체험장: 삼포해수욕장
+							</span>
+						</li>
+						<li class="l-td nth-7 lh-01">
+							<span class="s-lbl">상세보기</span>
+							<span class="s-txt" style="cursor:pointer;" onclick="">▷소망 연날리기 축제</span>
+						</li>
+					</ul>
+					
+				</section>
+				
+				<!-- 라벤더 축제 -->
 				<section class="facil-1 lavender">
 					<ul class="fc-list">
 						<li class="nth-1">
 							<h3 class="ftfm-mg">2018 고성 라벤더 축제</h3>
-							<div class="bxBox" id="bxBox-1">
+							<div class="bxBox" id="bxBox-2">
 								<ul class="bxS">
 									<li class="li-1"></li>
 									<li class="li-2"></li>
@@ -228,7 +280,31 @@
 						<li class="nth-1">
 							<h3 class="ftfm-mg">2018 Midnight Picnic Festival</h3>
 							<div class="bxBox">
-								<iframe src="https://www.youtube.com/embed/n0foR1sU99Y?autoplay=1" frameborder="0" allowfullscreen></iframe>
+								<!--<iframe src="https://www.youtube.com/embed/n0foR1sU99Y?autoplay=1" frameborder="0" allowfullscreen></iframe>-->
+								<div id="ytplayer"></div>
+								<script>
+									var tag = document.createElement('script');
+									tag.src = "https://www.youtube.com/player_api";
+									var firstScriptTag = document.getElementsByTagName('script')[0];
+									firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+									var player;
+
+									function onYouTubePlayerAPIReady() {
+										player = new YT.Player('ytplayer', {
+											height: '360',
+											width: '640',
+											videoId: 'n0foR1sU99Y',
+											events: {
+												'onReady': onPlayerReady
+											}
+										});
+									}
+									function onPlayerReady(event) {
+										event.target.setVolume(20);
+										event.target.playVideo();
+									}
+								</script>
 							</div>
 						</li>
 					</ul>
